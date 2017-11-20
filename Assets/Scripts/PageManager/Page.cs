@@ -23,14 +23,71 @@ public class Page : MonoBehaviour
         instance = this;
     }
 
-    public void OnClickChangePage(string name)
+    PageType page; 
+    public void ChangeTutorialPage()
+    {
+        if (!UserData.IsShowedGameTutorial)
+        {
+            page = PageType.Tutorial;
+        }
+        else
+        {
+            page = PageType.MapPage;
+        }
+        PageManager.Show(page);
+    }
+   
+    public void ChangeMapPage()
+    {
+        page = PageType.MapPage;
+        PageManager.Show(page);
+    }
+
+    public void ChangeLibraryPage()
+    {
+        page = PageType.Library;
+        PageManager.Show(page);
+    }
+
+    public void ChangeBonusPage()
+    {
+        page = PageType.BonusPage;
+        PageManager.Show(page);
+    }
+
+    public void ChangePhotoPage()
+    {
+        page = PageType.PhotoFrame;
+        PageManager.Show(page);
+    }
+
+    public void ChangeYokaiGetPage()
+    {
+        if (UserData.IsShowedYokaiTutorial && PageData.yokaiID != -1)
+        {
+            page = PageType.YokaiGetPage;
+        }
+        else if (UserData.IsShowItemTutorial && PageData.itemID != -1)
+        {
+            page = PageType.YokaiGetPage;
+        }
+        //else if (ApplicationData.YokaiData.Exists(s => s.isBoss == true)) {
+        //    type = PageType.YokaiGetPage;
+        //} 
+        else
+        {
+            page = PageType.YokaiGetTutorialPage;
+        }
+        PageManager.Show(page);
+    }
+   /* public void ClickChangePage(string name)
     {
 
         PageType type = PageType.TitlePage;
-        if (name == "A") {
+        if (name == "Title") {
             type = PageType.TitlePage;
         }
-        else if (name == "B")
+        else if (name == "map")
         {
             if(!UserData.IsShowedGameTutorial)
             {
@@ -41,20 +98,17 @@ public class Page : MonoBehaviour
                 type = PageType.MapPage;
             }
 
-        }
-        else if (name == "C") {
-            type = PageType.MapPage;
         } 
-        else if (name == "D") {
+        else if (name == "library") {
             type = PageType.Library;
         }
-        else if (name == "BonusPage") {
+        else if (name == "bonus") {
             type = PageType.BonusPage;
         } 
-        else if (name == "PhotoFrame") {
+        else if (name == "photo") {
             type = PageType.PhotoFrame;
         } 
-        else if (name == "E") {
+        else if (name == "yokaiGet") {
             if (UserData.IsShowedYokaiTutorial && PageData.yokaiID != -1)
             {
                 type = PageType.YokaiGetPage;
@@ -76,4 +130,5 @@ public class Page : MonoBehaviour
         PageManager.Show(type);
 
     }
+   */
 }

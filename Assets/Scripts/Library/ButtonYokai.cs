@@ -56,7 +56,7 @@ public class ButtonYokai : Page {
 
     public void BackMapPage()
     {
-        Page.instance.OnClickChangePage("C");
+        Page.instance.ChangeMapPage();
     }
 
     public void BackLibrary()

@@ -53,7 +53,7 @@ public class TutorialManager : Page
             {
                 count = page.Length-1;
                 UserData.IsShowedGameTutorial = true;
-                this.OnClickChangePage("C");
+                this.ChangeMapPage();
             }
             for (int i = 0; i < page.Length; i++)
             {

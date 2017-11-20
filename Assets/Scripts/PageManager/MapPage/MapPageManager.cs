@@ -170,7 +170,7 @@ public class MapPageManager : Page
     {
         //test.text = UserData.IsShowedYokaiTutorial.ToString() + "  " + PageData.yokaiID.ToString();
         _backToMappage = true;
-        OnClickChangePage ("E");
+        ChangeYokaiGetPage();
         getYokai.gameObject.SetActive (false);
         SetMapPage (0, 0, -6, RenderMode.ScreenSpaceCamera);
     }
