@@ -1,0 +1,115 @@
+diff --git a/Assets/Scripts/PageManager/MapPage/iBeaconDetect.cs b/Assets/Scripts/PageManager/MapPage/iBeaconDetect.cs
+index e773c25..ca7037b 100644
+--- a/Assets/Scripts/PageManager/MapPage/iBeaconDetect.cs
++++ b/Assets/Scripts/PageManager/MapPage/iBeaconDetect.cs
+@@ -29,29 +29,6 @@ internal class iBeaconDetect : MonoBehaviour
+ 
+     private Text _bluetoothText;
+ 
+-    /*** Beacon Properties ***/
+-    // Beacontype
+-    [SerializeField] //to access in editor, avoiding public varible declaration
+-    private Text txt_actualType;
+-    private string s_Region;
+-
+-    private string s_UUID;
+-
+-    private string s_Major;
+-
+-    private string s_Minor;
+-
+-    /** Input **/
+-    // beacontype
+-    [SerializeField]
+-    private Dropdown InputDropdown;
+-    private BeaconType bt_PendingType;
+-    private BeaconType bt_Type;
+-
+-    [SerializeField]
+-    private InputField input_UUID;
+-    [SerializeField]
+-    private InputField input_Major;
+ 
+     private BroadcastMode bm_Mode;
+ 
+@@ -81,9 +58,6 @@ internal class iBeaconDetect : MonoBehaviour
+     // Receive
+     private List<Beacon> mybeacons = new List<Beacon> ();
+ 
+-    List<GameObject> displayInfo = new List<GameObject> ();
+-
+-    //
+     [SerializeField]
+     GameObject GetYokai;
+     [SerializeField]
+@@ -101,11 +75,6 @@ internal class iBeaconDetect : MonoBehaviour
+     [SerializeField]
+     GameObject btnGetYokai;
+ 
+-    [SerializeField]
+-    Sprite imgFire;
+-
+-    [SerializeField]
+-    Sprite imgPaper;
+ 
+     void Awake ()
+     {
+@@ -141,8 +110,6 @@ internal class iBeaconDetect : MonoBehaviour
+                 break;
+             }
+         };
+-        f_ScrollViewContentRectWidth = ((RectTransform)go_FoundBeacon.transform).rect.width;
+-        f_ScrollViewContentRectHeight = ((RectTransform)go_FoundBeacon.transform).rect.height;
+         BluetoothState.Init ();
+ 
+         _camera = GameObject.FindGameObjectWithTag ("MainCamera");//
+@@ -150,16 +117,6 @@ internal class iBeaconDetect : MonoBehaviour
+         MapImage = GameObject.Find ("Map").transform.Find ("Map_Image").gameObject;
+     }
+ 
+-    IEnumerator Complete ()
+-    {
+-        yield return new WaitForSeconds (1);
+-        foreach (var ibeaconData in ApplicationData.IBeaconData) {
+-            if (ibeaconData.IsShowOnMap () == false) {
+-                MapManager.GetIBeaconIcon (ibeaconData.index).SetActive (false);
+-            }
+-        }
+-    }
+-
+     void OnDetectBeacon ()
+     {
+         MapImage.GetComponent<lb_drag> ().enabled = false;
+@@ -193,30 +150,19 @@ internal class iBeaconDetect : MonoBehaviour
+         if (!IsBeaconActive) {
+             iBeaconReceiver.BeaconRangeChangedEvent += OnBeaconRangeChanged;
+ 
+-            if (s_Region == null || s_Region == "") {
+-                // return;
+-            }
+-            bt_Type = BeaconType.iBeacon;
+             var regions = new List<iBeaconRegion> ();
+             foreach (var beacon in ApplicationData.IBeaconData) {
+                 Debug.Log (beacon.uuid);
+                 regions.Add (new iBeaconRegion ("vn.javis.yokaiget" + beacon.index.ToString (), new Beacon (beacon.uuid, Convert.ToInt32 (beacon.major_id), Convert.ToInt32 (beacon.minor_id))));
+             }
+             iBeaconReceiver.regions = regions.ToArray ();
+-            // !!! Bluetooth has to be turned on !!! TODO
+             Debug.Log ("ibeacon before scan");
+             iBeaconReceiver.Scan ();
+-            _stateButton.image.color = Color.green;
+             Debug.Log ("Listening for beacons");
+             bs_State = BroadcastState.active;
+         } else {
+-            _stateButton.image.color = Color.white;
+-            if (bm_Mode == BroadcastMode.receive) {// Stop for receive
+-                iBeaconReceiver.Stop ();
+-                iBeaconReceiver.BeaconRangeChangedEvent -= OnBeaconRangeChanged;
+-            } else { // Stop for send
+-                iBeaconServer.StopTransmit ();
+-            }
++            iBeaconReceiver.Stop ();
++            iBeaconReceiver.BeaconRangeChangedEvent -= OnBeaconRangeChanged;
+             bs_State = BroadcastState.inactive;
+         }
+     }

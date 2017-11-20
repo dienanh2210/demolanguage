@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 81f9338436586674e8aab397bbfb7658
+timeCreated: 1510549058
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: A-OTF Reisho 101 Std
+  fontNames:
+  - A-OTF Reisho 101 Std
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
