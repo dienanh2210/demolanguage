@@ -657,6 +657,7 @@ MonoBehaviour:
   - {fileID: 662274954}
   - {fileID: 430499020}
   - {fileID: 854158030}
+  - {fileID: 852297078}
   greenFireIcon: {fileID: 21300000, guid: d1d9d5beebde0124093c9bbe9e8b4acb, type: 3}
   redFireIcon: {fileID: 21300000, guid: ac0f75f9d62b1c642bd7f63e8a1a9125, type: 3}
   pageIcon: {fileID: 21300000, guid: 9e5a6c9fc51bb12408b4ad3c6784894b, type: 3}
