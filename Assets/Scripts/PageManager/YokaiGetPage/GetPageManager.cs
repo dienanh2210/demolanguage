@@ -55,6 +55,7 @@ public class GetPageManager : Page
     void OnEnable ()
     {
         Reset ();
+        Camera.main.fieldOfView = 60;
         MapPageManager.instance.SetMapPage (0, 0, -6, RenderMode.ScreenSpaceCamera);
         mapEffect = GameObject.FindGameObjectWithTag ("MapEffect");
         sprFire = mapEffect.transform.GetChild (0).transform.GetChild (0).gameObject;
