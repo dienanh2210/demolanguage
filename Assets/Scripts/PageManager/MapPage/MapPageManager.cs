@@ -166,6 +166,31 @@ public class MapPageManager : Page
         CircleController._success = false;
     }
 
+    public void ChangeLibraryPage()
+    {
+        PageManager.Show(PageType.Library);
+    }
+
+    public void ChangeBonusPage()
+    {
+        PageManager.Show(PageType.BonusPage);
+    }
+    public void ChangeYokaiGetPage()
+    {
+        if (UserData.IsShowedYokaiTutorial && PageData.yokaiID != -1)
+        {
+            PageManager.Show(PageType.YokaiGetPage);
+        }
+        else if (UserData.IsShowItemTutorial && PageData.itemID != -1)
+        {
+            PageManager.Show(PageType.YokaiGetPage);
+        }
+        else
+        {
+            PageManager.Show(PageType.YokaiGetTutorialPage);
+        }
+      
+    }
     public void btnGetYokai_Click ()
     {
         //test.text = UserData.IsShowedYokaiTutorial.ToString() + "  " + PageData.yokaiID.ToString();

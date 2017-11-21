@@ -53,7 +53,7 @@ public class TutorialManager : Page
             {
                 count = page.Length-1;
                 UserData.IsShowedGameTutorial = true;
-                this.ChangeMapPage();
+                PageManager.Show(PageType.MapPage);
             }
             for (int i = 0; i < page.Length; i++)
             {
@@ -68,4 +68,5 @@ public class TutorialManager : Page
             }
         }
     }
+   
 }

@@ -1674,8 +1674,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114447511173010406}
-        m_MethodName: OnClickChangePage
-        m_Mode: 5
+        m_MethodName: ChangePhotoPage
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

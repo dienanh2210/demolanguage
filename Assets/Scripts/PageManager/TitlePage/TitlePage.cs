@@ -40,6 +40,18 @@ public class TitlePage : Page
     {
         BluetoothState.EnableBluetooth ();
     }
+    
+    public void ChangeTutorialPage()
+    {
+        if (!UserData.IsShowedGameTutorial)
+        {
+            PageManager.Show(PageType.Tutorial);
+        }
+        else
+        {
+            PageManager.Show(PageType.MapPage);
+        }
+    }
 
     void DisalbeButton(string name)
     {

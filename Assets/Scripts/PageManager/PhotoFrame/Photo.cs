@@ -16,8 +16,11 @@ public class Photo : Page {
 
 　　[DllImport("__Internal")]
 　　private static extern void _GetTexture(byte[] textureByte, int length);
-    
-    
+
+    public void ChangeBonusPage()
+    {
+        PageManager.Show(PageType.BonusPage);
+    }
 
     void DidImageWriteToAlbum(string errorDescription)
     {
