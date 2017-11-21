@@ -120,7 +120,7 @@ public class YokaiGetTutorialManager : Page{
         if (yCount==yokai.Length) {
             yCount = 0;
             UserData.IsShowedYokaiTutorial = true;
-            OnClickChangePage ("E");
+            PageManager.Show(PageType.YokaiGetPage);
             Invoke ("ActiveYokaiGetPage", 1);
             return;
         }
@@ -145,7 +145,7 @@ public class YokaiGetTutorialManager : Page{
         if (iCount==item.Length) {
             iCount = 0;
             UserData.IsShowItemTutorial = true;
-            OnClickChangePage ("E");
+            PageManager.Show(PageType.YokaiGetPage);
             Invoke ("ActiveYokaiGetPage", 1);
         }
         for (int i = 0; i < item.Length; i++) {

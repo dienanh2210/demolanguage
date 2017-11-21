@@ -65,6 +65,14 @@ public class BonusPage : Page {
         }
     }
 
+    public void ChangePhotoPage()
+    {
+        PageManager.Show(PageType.PhotoFrame);
+    }
+    public void ChangeMapPage()
+    {
+        PageManager.Show(PageType.MapPage);
+    }
     // Use this for initialization
     public void Click ()
     {

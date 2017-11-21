@@ -32,6 +32,7 @@ public class PageManager : MonoBehaviour
 
     public static void Show (PageType pageType)
     {
+        
         if (pageType != PageType.TitlePage)
 //            && pageType != PageType.YokaiGetPage
 //            && pageType != PageType.YokaiGetTutorialPage)
@@ -63,6 +64,7 @@ public class PageManager : MonoBehaviour
 
         instance.currentPage = page;
     }
+
 }
 
 
@@ -85,3 +87,5 @@ public enum PageType
     YokaiGetPage,
     YokaiGetTutorialPage
 }
+
+

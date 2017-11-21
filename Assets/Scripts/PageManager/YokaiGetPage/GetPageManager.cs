@@ -205,7 +205,10 @@ public class GetPageManager : Page
             });
         }
     }
-
+    public void ChangeMapPage()
+    {
+        PageManager.Show(PageType.MapPage);
+    }
     public void ShowEnding (string message)
     {
         Debug.Log ("ShowEnding");
