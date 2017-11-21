@@ -90,15 +90,9 @@ public class YokaiGetTutorialManager : Page{
     void OnDisable(){
         objYokai.SetActive (false);
         objItem.SetActive (false);
-        backgroundCam.GetComponent<CameraAsBackground> ().CameraStop ();
         mapEffect.transform.GetChild(0).gameObject.SetActive (false);
         MirrorFlipCamera.instance.flipHorizontal = false;
-        GameObject txtGz = GameObject.Find ("TextCanvas").transform.Find ("txtGz").gameObject;
-        txtGz.SetActive (false);
-        txtGz.transform.localPosition = new Vector3 (0,645,0);
-        GameObject txtGzItem = GameObject.Find ("TextCanvas").transform.Find ("txtGzItem").gameObject;
-        txtGzItem.SetActive (false);
-        txtGzItem.transform.localPosition = new Vector3 (0,645,0);
+       
     }
 
     public void CircleScale(){
@@ -141,9 +135,9 @@ public class YokaiGetTutorialManager : Page{
 
     void ActiveYokaiGetPage(){
         Debug.Log (GameObject.FindGameObjectWithTag("main")); 
-        // backgroundCam.transform.SetParent (GameObject.FindGameObjectWithTag("main").transform);
-        // GameObject.FindGameObjectWithTag ("main").transform.GetChild (0).gameObject.SetActive (false);
-        // backgroundCam.GetComponent<RectTransform> ().localScale = new Vector3 (1,1,1);
+         backgroundCam.transform.SetParent (GameObject.FindGameObjectWithTag("main").transform);
+         GameObject.FindGameObjectWithTag ("main").transform.GetChild (0).gameObject.SetActive (false);
+         backgroundCam.GetComponent<RectTransform> ().localScale = new Vector3 (1,1,1);
     }
 
     public void OnClickItem(){
