@@ -95,10 +95,10 @@ public class YokaiGetTutorialManager : Page{
         MirrorFlipCamera.instance.flipHorizontal = false;
         GameObject txtGz = GameObject.Find ("TextCanvas").transform.Find ("txtGz").gameObject;
         txtGz.SetActive (false);
-        txtGz.transform.localPosition = new Vector3 (0,645,1000);
+        txtGz.transform.localPosition = new Vector3 (0,645,0);
         GameObject txtGzItem = GameObject.Find ("TextCanvas").transform.Find ("txtGzItem").gameObject;
         txtGzItem.SetActive (false);
-        txtGzItem.transform.localPosition = new Vector3 (0,645,1000);
+        txtGzItem.transform.localPosition = new Vector3 (0,645,0);
     }
 
     public void CircleScale(){

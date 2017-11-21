@@ -92,7 +92,7 @@ public class ClickablePlane : MonoBehaviour,  IPointerClickHandler{
             sprBackLight.GetComponent<Image> ().DOFade (1f, .5f).SetEase (Ease.Linear);
         }).SetLoops (-1);
 
-        txtGz.transform.localPosition = new Vector3 (0, 563, 1000);
+        txtGz.transform.localPosition = new Vector3 (0, 563, 0);
         txtGz.GetComponent<Transform> ().DOScale (new Vector3 (1.3f, 1.3f, 1.3f), .3f).SetEase (Ease.Linear).OnComplete (() => {
             txtGz.GetComponent<Transform> ().DOScale (new Vector3 (1f, 1f, 1f), .5f).SetEase (Ease.Linear);
         });
