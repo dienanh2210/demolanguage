@@ -54,6 +54,7 @@ public class GetPageManager : Page
 
     void OnEnable ()
     {
+        Reset ();
         MapPageManager.instance.SetMapPage (0, 0, -6, RenderMode.ScreenSpaceCamera);
         mapEffect = GameObject.FindGameObjectWithTag ("MapEffect");
         sprFire = mapEffect.transform.GetChild (0).transform.GetChild (0).gameObject;
@@ -88,7 +89,6 @@ public class GetPageManager : Page
 
         StartCoroutine (TurnTheRawImage());
 
-//        MirrorFlipCamera.instance.flipHorizontal = true;
 
         #region Map
 
@@ -114,13 +114,14 @@ public class GetPageManager : Page
     }
 
     IEnumerator TurnTheRawImage(){
-        yield return new WaitForSeconds (1);
+        yield return new WaitForSeconds (.5f);
         if (GameObject.FindGameObjectWithTag ("main").transform.childCount >= 2) {
             backgroundCam.SetActive (false);
         } else {
-            backgroundCam.SetActive (true);
             backgroundCam.GetComponent<CameraAsBackground> ().CameraStart ();
-            Debug.Log ("abc");
+            yield return new WaitForSeconds (.25f);
+            backgroundCam.SetActive (true);
+
         }
 
     }
@@ -140,19 +141,20 @@ public class GetPageManager : Page
         YokaiData yokai;
         if (PageData.IsItem) {
             yokai = ApplicationData.GetYokaiDataFromItemId (PageData.itemID);
-            model.GetComponentsInChildren<MeshRenderer> (true) [1].material = Resources.Load ("Materials/YokaiMaterials/" + yokai.name, typeof (Material)) as Material;
+            model.GetComponentsInChildren<MeshRenderer> (true) [1].material = lstMaterial.Find (x => x.name == yokai.name);
+            Debug.Log (yokai.name);
             model.GetComponentsInChildren<MeshRenderer> (true) [1].material.color = Color.black;
             sprFire.GetComponent<MeshRenderer> ().material = itemMat;
             sprFire.transform.localScale = new Vector3 (.4f,.2f,.4f);
         } else {
             yokai = ApplicationData.GetYokaiData (PageData.yokaiID);
-            model.GetComponentsInChildren<MeshRenderer> (true) [0].material = Resources.Load ("Materials/YokaiMaterials/" + yokai.name, typeof (Material)) as Material;
             model.GetComponentsInChildren<MeshRenderer> (true) [0].material = lstMaterial.Find (x => x.name == yokai.name);
             sprFire.transform.localScale = new Vector3 (.2f,.2f,.4f);
         }
 
         if (ApplicationData.GetYokaiData (PageData.yokaiID).isBoss) {
-            model.GetComponentsInChildren<MeshRenderer> (true) [0].material = Resources.Load ("Materials/YokaiMaterials/Boss", typeof (Material)) as Material;
+//            model.GetComponentsInChildren<MeshRenderer> (true) [0].material = Resources.Load ("Materials/YokaiMaterials/Boss", typeof (Material)) as Material;
+            model.GetComponentsInChildren<MeshRenderer> (true) [0].material = lstMaterial.Find (x => x.name == "syuten-douji");
         }
 
         model.transform.LookAt (Camera.main.transform);
@@ -161,8 +163,6 @@ public class GetPageManager : Page
 
     void OnDisable ()
     {
-        backgroundCam.GetComponent<CameraAsBackground> ().CameraStop ();
-
         mapEffect.transform.GetChild (0).gameObject.SetActive (false);
 
         Reset ();
@@ -224,7 +224,12 @@ public class GetPageManager : Page
     {
         imgBall.transform.localPosition = new Vector3 (0, -406, 0);
         imgBall.transform.localScale = new Vector3 (2, 2, 2);
-
+        GameObject txtGz = GameObject.Find ("TextCanvas").transform.Find ("txtGz").gameObject;
+        txtGz.SetActive (false);
+        txtGz.transform.localPosition = new Vector3 (0,645,0);
+        GameObject txtGzItem = GameObject.Find ("TextCanvas").transform.Find ("txtGzItem").gameObject;
+        txtGzItem.SetActive (false);
+        txtGzItem.transform.localPosition = new Vector3 (0,645,0);
     }
 
     public void Fail ()

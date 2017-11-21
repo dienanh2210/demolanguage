@@ -81,6 +81,7 @@ public class MapPageManager : Page
         if (iBeaconDetect.IsBeaconActive) {
             iBeaconDetect.btn_StartStop ();
         }
+        OffMap_Click();
     }
 
     void Update ()
