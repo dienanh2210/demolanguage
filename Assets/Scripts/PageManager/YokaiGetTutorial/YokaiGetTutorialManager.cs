@@ -105,11 +105,11 @@ public class YokaiGetTutorialManager : Page{
 
         //on map
         if (isDown) {
-            mapEffect.GetComponentsInChildren<Transform> (true) [2].DOLocalMoveZ (-.5f, .5f).SetEase (Ease.Linear).OnComplete (() => {
+            mapEffect.GetComponentsInChildren<Transform> (true) [2].DOLocalMoveZ (-.7f, .5f).SetEase (Ease.Linear).OnComplete (() => {
                 FireEffect (!isDown);
             });
         } else {
-            mapEffect.GetComponentsInChildren<Transform> (true) [2].DOLocalMoveZ (.3f, .5f).SetEase (Ease.Linear).OnComplete (() => {
+            mapEffect.GetComponentsInChildren<Transform> (true) [2].DOLocalMoveZ (.1f, .5f).SetEase (Ease.Linear).OnComplete (() => {
                 FireEffect (!isDown);
             });
         }
@@ -121,6 +121,7 @@ public class YokaiGetTutorialManager : Page{
             yCount = 0;
             UserData.IsShowedYokaiTutorial = true;
             PageManager.Show(PageType.YokaiGetPage);
+            objYokai.SetActive (false);
             Invoke ("ActiveYokaiGetPage", 1);
             return;
         }
@@ -146,6 +147,7 @@ public class YokaiGetTutorialManager : Page{
             iCount = 0;
             UserData.IsShowItemTutorial = true;
             PageManager.Show(PageType.YokaiGetPage);
+            objItem.SetActive (false);
             Invoke ("ActiveYokaiGetPage", 1);
         }
         for (int i = 0; i < item.Length; i++) {
