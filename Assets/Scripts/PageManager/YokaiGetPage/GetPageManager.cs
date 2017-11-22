@@ -67,6 +67,10 @@ public class GetPageManager : Page
             sprFire.GetComponent<MeshRenderer> ().material = redFire;
         }
 
+        if (PageData.IsItem) {
+            sprFire.GetComponent<MeshRenderer> ().material = itemMat;
+            sprFire.transform.localScale = new Vector3 (.4f,.2f,.4f);
+        }
 
         FireEffect (true);
 
@@ -144,8 +148,7 @@ public class GetPageManager : Page
             yokai = ApplicationData.GetYokaiDataFromItemId (PageData.itemID);
             model.GetComponentsInChildren<MeshRenderer> (true) [1].material = lstMaterial.Find (x => x.name == yokai.name);
             model.GetComponentsInChildren<MeshRenderer> (true) [1].material.color = Color.black;
-            sprFire.GetComponent<MeshRenderer> ().material = itemMat;
-            sprFire.transform.localScale = new Vector3 (.4f,.2f,.4f);
+
         } else {
             yokai = ApplicationData.GetYokaiData (PageData.yokaiID);
             model.GetComponentsInChildren<MeshRenderer> (true) [0].material = lstMaterial.Find (x => x.name == yokai.name);

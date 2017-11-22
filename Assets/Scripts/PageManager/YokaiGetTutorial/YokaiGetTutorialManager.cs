@@ -121,6 +121,7 @@ public class YokaiGetTutorialManager : Page{
             yCount = 0;
             UserData.IsShowedYokaiTutorial = true;
             PageManager.Show(PageType.YokaiGetPage);
+            objYokai.SetActive (false);
             Invoke ("ActiveYokaiGetPage", 1);
             return;
         }
@@ -146,6 +147,7 @@ public class YokaiGetTutorialManager : Page{
             iCount = 0;
             UserData.IsShowItemTutorial = true;
             PageManager.Show(PageType.YokaiGetPage);
+            objItem.SetActive (false);
             Invoke ("ActiveYokaiGetPage", 1);
         }
         for (int i = 0; i < item.Length; i++) {
