@@ -23,7 +23,7 @@ public class ClickablePlane : MonoBehaviour,  IPointerClickHandler{
         sprBall.transform.DOLocalMoveY (-132, .5f).SetEase (Ease.Linear);
         sprBall.transform.DOScale (new Vector3 (1, 1, 1), .5f).SetEase (Ease.Linear);
         Invoke ("SetVariable", .5f);
-        if (this.transform.localScale.x > .8f) {
+        if (this.transform.localScale.x > .6f) {
             Debug.Log ("fail");
             Invoke ("CatchingObject", .5f);
         }else{
@@ -49,7 +49,7 @@ public class ClickablePlane : MonoBehaviour,  IPointerClickHandler{
     }
 
     public void CircleScale(){
-        this.transform.DOScale (new Vector3 (.6f, .6f, .6f), 1f).SetEase (Ease.Linear).SetLoops (-1);
+        this.transform.DOScale (new Vector3 (.3f, .3f, .3f), 1f).SetEase (Ease.Linear).SetLoops (-1);
 
     }
 

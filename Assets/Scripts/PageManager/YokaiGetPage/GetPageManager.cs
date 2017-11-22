@@ -54,6 +54,7 @@ public class GetPageManager : Page
 
     void OnEnable ()
     {
+        
         Reset ();
         Camera.main.fieldOfView = 60;
         MapPageManager.instance.SetMapPage (0, 0, -6, RenderMode.ScreenSpaceCamera);
@@ -135,7 +136,6 @@ public class GetPageManager : Page
 
         worldObj = new GameObject ("World Object");
         Vector3 v3Up = new Vector3 (Camera.main.transform.up.x, 0.6f, Camera.main.transform.up.z);
-
         Vector3 v3Pos = Camera.main.transform.position + v3Up * 7 + Camera.main.transform.forward * 7;
         model = Instantiate (prefab, v3Pos, Quaternion.Euler (0, 0, 0), worldObj.transform);
 
@@ -143,7 +143,6 @@ public class GetPageManager : Page
         if (PageData.IsItem) {
             yokai = ApplicationData.GetYokaiDataFromItemId (PageData.itemID);
             model.GetComponentsInChildren<MeshRenderer> (true) [1].material = lstMaterial.Find (x => x.name == yokai.name);
-            Debug.Log (yokai.name);
             model.GetComponentsInChildren<MeshRenderer> (true) [1].material.color = Color.black;
             sprFire.GetComponent<MeshRenderer> ().material = itemMat;
             sprFire.transform.localScale = new Vector3 (.4f,.2f,.4f);
