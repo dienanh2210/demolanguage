@@ -11,9 +11,12 @@ public class TitlePage : Page
     List<Sprite> lstSprite;
 
     [SerializeField]
-    GameObject dialog;
+    GameObject dialog,PopupRed;
     [SerializeField]
     TextPic txtTerm;
+    [SerializeField]
+    Text txtRed;
+
 
     string iosID;
     string androidID;
@@ -34,6 +37,22 @@ public class TitlePage : Page
         {
             dialog.SetActive(false);
         }
+    }
+
+    private void Start()
+    {
+        if (!UserData.IsShowedGuideNote)
+        {
+            PopupRed.SetActive(true);
+            txtRed.text = ApplicationData.GetLocaleText(LocaleType.Guide);
+            UserData.IsShowedGuideNote = true;
+            
+        }
+        else
+        {
+            PopupRed.SetActive(false);
+        }
+        
     }
 
     public void EnableBluetooth ()
@@ -103,5 +122,11 @@ public class TitlePage : Page
         //Application.OpenURL("itms-apps://itunes.apple.com/app/"+iosID);
         Application.OpenURL("esashinavi://");
 #endif
+    }
+
+    public void OpenPopupGuide()
+    {
+        PopupRed.SetActive(true);
+        txtRed.text = ApplicationData.GetLocaleText(LocaleType.Guide);
     }
 }
