@@ -105,11 +105,11 @@ public class YokaiGetTutorialManager : Page{
 
         //on map
         if (isDown) {
-            mapEffect.GetComponentsInChildren<Transform> (true) [2].DOLocalMoveZ (-.5f, .5f).SetEase (Ease.Linear).OnComplete (() => {
+            mapEffect.GetComponentsInChildren<Transform> (true) [2].DOLocalMoveZ (-.7f, .5f).SetEase (Ease.Linear).OnComplete (() => {
                 FireEffect (!isDown);
             });
         } else {
-            mapEffect.GetComponentsInChildren<Transform> (true) [2].DOLocalMoveZ (.3f, .5f).SetEase (Ease.Linear).OnComplete (() => {
+            mapEffect.GetComponentsInChildren<Transform> (true) [2].DOLocalMoveZ (.1f, .5f).SetEase (Ease.Linear).OnComplete (() => {
                 FireEffect (!isDown);
             });
         }
