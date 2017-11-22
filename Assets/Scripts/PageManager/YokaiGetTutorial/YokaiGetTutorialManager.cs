@@ -96,8 +96,8 @@ public class YokaiGetTutorialManager : Page{
     }
 
     public void CircleScale(){
-        sprYCircle.transform.DOScale (new Vector3 (.6f, .6f, .6f), 1f).SetEase (Ease.Linear).SetLoops (-1);
-        sprICircle.transform.DOScale (new Vector3 (.6f, .6f, .6f), 1f).SetEase (Ease.Linear).SetLoops (-1);
+        sprYCircle.transform.DOScale (new Vector3 (.3f, .3f, .3f), 1f).SetEase (Ease.Linear).SetLoops (-1);
+        sprICircle.transform.DOScale (new Vector3 (.3f, .3f, .3f), 1f).SetEase (Ease.Linear).SetLoops (-1);
        
     }
 
@@ -159,7 +159,7 @@ public class YokaiGetTutorialManager : Page{
       
     void Update(){
         if (objYokai.activeSelf) {
-            if (sprYCircle.transform.localScale.x <= 0.7) {
+            if (sprYCircle.transform.localScale.x <= 0.4) {
                 sprYCircle.GetComponent<Image> ().DOFade (0,0.00001f);
 
             } else {
@@ -167,14 +167,14 @@ public class YokaiGetTutorialManager : Page{
             }
         }
         else if (objItem.activeSelf) {
-            if (sprICircle.transform.localScale.x <= 0.7) {
+            if (sprICircle.transform.localScale.x <= 0.4) {
                 sprICircle.GetComponent<Image> ().DOFade (0,0.00001f);
             } else {
                 sprICircle.GetComponent<Image> ().DOFade (1, 0.00001f);
             }
         }
 
-        if (sprICircle.transform.localScale.x <= .8f || sprYCircle.transform.localScale.x <= .8f) {
+        if (sprICircle.transform.localScale.x <= .6f || sprYCircle.transform.localScale.x <= .6f) {
             sprICircle.GetComponent<Image> ().sprite = red;
             sprYCircle.GetComponent<Image> ().sprite = red;
         } else {
