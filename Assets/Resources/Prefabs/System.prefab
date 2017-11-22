@@ -97,8 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0766d85bbcaf6f4cb589e5de2a4de66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _content: {fileID: 0}
-  _map: {fileID: 0}
 --- !u!114 &114692530981892234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -130,7 +128,7 @@ MonoBehaviour:
   - key: 2
     localContents:
     - languageType: 0
-      text: "\u300C\u30A8\u30EA\u30A2\u2460\u2461\u306E\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3066\u304F\u308C\u3066\u3042\u308A\u304C\u3068\u3046\u3002\u304A\u793C\u306B\u30D5\u30A9\u30C8\u30D5\u30EC\u30FC\u30E0\u3092\u6E21\u3059\u3067\u3054\u3056\u308B\u3002\u307B\u3046\u3073\u5E16\u3092\u898B\u3066\u307F\u308B\u306E\u3067\u3054\u3056\u308B\u30FB\u30FB\u30FB\u300D"
+      text: "<size=60>\u25C7\u6CE8\u610F\u25C7</size>\n\n1.\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\n\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\u3002\n\n1.\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\n\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\u3002\n\n1.\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\n\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\u3002\n\n1.\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\n\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\u3002\n\n1.\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\n\u6CE8\u610F\u66F8\u304D\u304C\u5165\u308A\u307E\u3059\u3002\u30C0\u30DF\u30FC\u6587\u7AE0\u3067\u3059\u3002"
   - key: 3
     localContents:
     - languageType: 0
@@ -453,23 +451,18 @@ MonoBehaviour:
   - id: 1
     name: nurari-hyon
     image: {fileID: 21300000, guid: 3b2bc075fad72e64d98e0aed5e562bf2, type: 3}
-    item_id: 5
   - id: 2
     name: me-hitotsu-bou
     image: {fileID: 21300000, guid: 3b2bc075fad72e64d98e0aed5e562bf2, type: 3}
-    item_id: 7
   - id: 3
     name: zashiki-warashi
     image: {fileID: 21300000, guid: 3b2bc075fad72e64d98e0aed5e562bf2, type: 3}
-    item_id: 4
   - id: 4
     name: oni-baba
     image: {fileID: 21300000, guid: 3b2bc075fad72e64d98e0aed5e562bf2, type: 3}
-    item_id: 11
   - id: 5
     name: nue
     image: {fileID: 21300000, guid: 3b2bc075fad72e64d98e0aed5e562bf2, type: 3}
-    item_id: 19
   iBeaconData:
   - index: 1
     iBeaconType: 0

@@ -141,6 +141,7 @@ public enum LocaleType
 {
     None,
     TermLimitedYokai,
+    Guide,
     MiddleEnding1,
     MiddleEnding2,
     LastEnding,

@@ -1,7 +1,11 @@
 fileFormatVersion: 2
-guid: 997d1dfe6126d8044844fd08ea3969bb
+guid: af8218d0e65590b44949c3eda978484b
+timeCreated: 1511333295
+licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: "\u5996\u602A\u63A2\u3057AR_bt1 (1)_0"
+    21300002: "\u5996\u602A\u63A2\u3057AR_bt1 (1)_1"
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -33,12 +37,12 @@ TextureImporter:
     aniso: -1
     mipBias: -1
     wrapU: 1
-    wrapV: -1
+    wrapV: 1
     wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,8 +76,8 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
-    maxTextureSize: 2048
+  - buildTarget: Android
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -81,18 +85,37 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
-    maxTextureSize: 256
-    resizeAlgorithm: 0
-    textureFormat: 47
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "\u5996\u602A\u63A2\u3057AR_bt1 (1)_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 344
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\u5996\u602A\u63A2\u3057AR_bt1 (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 344
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
