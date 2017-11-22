@@ -73,6 +73,18 @@ public class UserData : MonoBehaviour
         }
     }
 
+    public static bool IsShowedGuideNote
+    {
+        get
+        {
+            return userInfo.IsShowedGuideNote;
+        }
+        set
+        {
+            userInfo.IsShowedGuideNote = value;
+        }
+    }
+
     public static bool IsShowedMessageForMiddleEndingBeforeBoss {
         get {
             return userInfo.isShowedMessageForMiddleEndingBeforeBoss;
@@ -235,6 +247,7 @@ public struct UserInfo
     public bool isShowedGameTutorial;
     public bool isShowedYokaiTutorial;
     public bool isShowedItemTutorial;
+    public bool IsShowedGuideNote;
 }
 
 public struct UserYokai
