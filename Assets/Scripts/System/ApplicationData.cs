@@ -107,6 +107,9 @@ public class ApplicationData : MonoBehaviour
     List<YokaiData> yokaiData = new List<YokaiData> ();
 
     [SerializeField]
+    List<SuccessImageData> successImageData = new List<SuccessImageData>();
+
+    [SerializeField]
     List<ItemData> itemData = new List<ItemData> ();
 
     [SerializeField]
@@ -161,6 +164,14 @@ public struct LocaleData
 {
     public LocaleType key;
     public List<Locale> localContents;
+
+}
+
+
+[Serializable]
+public struct SuccessImageData
+{
+    public ImageText imageContents;
 }
 
 [Serializable]
@@ -293,5 +304,14 @@ public struct Locale
     public LanguageType languageType;
     [Multiline]
     public string text;
+}
+
+
+[Serializable]
+public struct ImageText
+{
+    public LanguageType type;
+    public Sprite yokaiText;
+    public Sprite itemText;
 }
 
