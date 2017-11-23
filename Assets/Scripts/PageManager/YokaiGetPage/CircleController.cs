@@ -312,6 +312,7 @@ public class CircleController : MonoBehaviour
         if (!PageData.IsItem) {
             txtGz = TextController.transform.GetChild (2).gameObject;
             txtGz.SetActive (true);
+            txtGz.GetComponent<Image> ().sprite = ApplicationData.GetSuccessImage (ApplicationData.SelectedLanguage).yokaiText;
             txtGz.GetComponent<Transform> ().DOScale (new Vector3 (1.6f, 1.6f, 1.6f), .3f).SetEase (Ease.Linear).OnComplete (() => {
                 txtGz.GetComponent<Transform> ().DOScale (new Vector3 (1.4f, 1.4f, 1.4f), .5f).SetEase (Ease.Linear);
             });
@@ -319,6 +320,7 @@ public class CircleController : MonoBehaviour
         } else {
             txtGz = TextController.transform.GetChild (3).gameObject;
             txtGz.SetActive (true);
+            txtGz.GetComponent<Image> ().sprite = ApplicationData.GetSuccessImage (ApplicationData.SelectedLanguage).itemText;
             txtGz.GetComponent<Transform> ().DOScale (new Vector3 (1.6f, 1.6f, 1.6f), .3f).SetEase (Ease.Linear).OnComplete (() => {
                 txtGz.GetComponent<Transform> ().DOScale (new Vector3 (1.4f, 1.4f, 1.4f), .5f).SetEase (Ease.Linear);
             });

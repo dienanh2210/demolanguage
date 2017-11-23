@@ -26,9 +26,9 @@ public class ApplicationData : MonoBehaviour
     }
 
 
-    public static SuccessImageData getSuccessImage(LanguageType languageType)
+    public static SuccessImageData GetSuccessImage(LanguageType languageType)
     {
-        return applicationData.successImageData.Find ((obj) => obj.imageContents.type == languageType);
+        return applicationData.successImageData.Find ((obj) => obj.type == languageType);
     }
 
     public static YokaiData GetYokaiData (int yokai_id)
@@ -177,7 +177,9 @@ public struct LocaleData
 [Serializable]
 public struct SuccessImageData
 {
-    public ImageText imageContents;
+    public LanguageType type;
+    public Sprite yokaiText;
+    public Sprite itemText;
 }
 
 [Serializable]
@@ -312,12 +314,4 @@ public struct Locale
     public string text;
 }
 
-
-[Serializable]
-public struct ImageText
-{
-    public LanguageType type;
-    public Sprite yokaiText;
-    public Sprite itemText;
-}
 
