@@ -102,6 +102,7 @@ public class GetPageManager : Page
         yokaiCam.transform.GetChild (0).gameObject.SetActive (true);
         map = GameObject.FindGameObjectWithTag ("Map");
         map.transform.GetChild (1).gameObject.SetActive (true);
+        map.transform.position = new Vector3(100000, 0,0);
         map.transform.GetChild (1).gameObject.GetComponent<PinchZoom> ().enabled = false;
         map.transform.GetChild (1).gameObject.GetComponent<lb_drag> ().enabled = false;
         //map.transform.GetChild(1).gameObject.transform.localPosition = new Vector3(0,0,-9);
@@ -167,7 +168,8 @@ public class GetPageManager : Page
     void OnDisable ()
     {
         mapEffect.transform.GetChild (0).gameObject.SetActive (false);
-
+        map = GameObject.FindGameObjectWithTag ("Map");
+        map.transform.position = new Vector3(0, 0,0);
         Reset ();
         DOTween.Clear ();
 
