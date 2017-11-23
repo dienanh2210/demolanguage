@@ -25,6 +25,12 @@ public class ApplicationData : MonoBehaviour
         }
     }
 
+
+    public static SuccessImageData getSuccessImage(LanguageType languageType)
+    {
+        return applicationData.successImageData.Find ((obj) => obj.imageContents.type == languageType);
+    }
+
     public static YokaiData GetYokaiData (int yokai_id)
     {
         return applicationData.yokaiData.Find ((obj) => obj.id == yokai_id);
