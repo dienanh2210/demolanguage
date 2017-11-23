@@ -141,7 +141,6 @@ public enum LocaleType
 {
     None,
     TermLimitedYokai,
-    Guide,
     MiddleEnding1,
     MiddleEnding2,
     LastEnding,
@@ -153,7 +152,8 @@ public enum LocaleType
     MiddleBossCrawMessage3,
     MiddleEndingAfterBoss,
     LastEndingAfterBoss,
-    WaitNextDetect
+    WaitNextDetect,
+    Guide
 }
 
 [Serializable]
