@@ -67,18 +67,18 @@ public class lb_drag : MonoBehaviour
     }
     void OnMouseDrag()
     {
-        if (Input.GetMouseButton(0))
-        {
-            Diference = MousePos() - Origin;
-            //Debug.Log(Diference.magnitude);
-            if (Diference.magnitude >= 10)
-            {
-                Diference = Diference.normalized;
+        //if (Input.GetMouseButton(0))
+        //{
+        //    Diference = MousePos() - Origin;
+        //    //Debug.Log(Diference.magnitude);
+        //    if (Diference.magnitude >= 10)
+        //    {
+        //        Diference = Diference.normalized;
 
-                toadonew = this.transform.position + new Vector3(Diference.x, 0, Diference.y) / 2.5f;// * 1.5f
-                Origin = MousePos();
-            }
+        //        toadonew = this.transform.position + new Vector3(Diference.x, 0, Diference.y) / 2.5f;// * 1.5f
+        //        Origin = MousePos();
+        //    }
 
-        }
+        //}
     }
 }

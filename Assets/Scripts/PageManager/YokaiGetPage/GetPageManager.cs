@@ -104,7 +104,7 @@ public class GetPageManager : Page
         map.transform.GetChild (1).gameObject.SetActive (true);
         map.transform.position = new Vector3(100000, 0,0);
         map.transform.GetChild (1).gameObject.GetComponent<PinchZoom> ().enabled = false;
-        map.transform.GetChild (1).gameObject.GetComponent<lb_drag> ().enabled = false;
+        //map.transform.GetChild (1).gameObject.GetComponent<lb_drag> ().enabled = false;
         //map.transform.GetChild(1).gameObject.transform.localPosition = new Vector3(0,0,-9);
         #endregion
 
@@ -178,7 +178,7 @@ public class GetPageManager : Page
         }
 
         map.transform.GetChild (1).gameObject.GetComponent<PinchZoom> ().enabled = true;
-        map.transform.GetChild (1).gameObject.GetComponent<lb_drag> ().enabled = true;
+        //map.transform.GetChild (1).gameObject.GetComponent<lb_drag> ().enabled = true;
         imgBall.SetActive (false);
         yokaiCam.transform.GetChild (0).gameObject.SetActive (false);
         map.transform.GetChild (1).gameObject.SetActive (false);

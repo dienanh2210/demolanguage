@@ -597,6 +597,8 @@ GameObject:
   m_Component:
   - component: {fileID: 342330562}
   - component: {fileID: 342330563}
+  - component: {fileID: 342330565}
+  - component: {fileID: 342330564}
   m_Layer: 0
   m_Name: Map
   m_TagString: Map
@@ -661,6 +663,47 @@ MonoBehaviour:
   greenFireIcon: {fileID: 21300000, guid: d1d9d5beebde0124093c9bbe9e8b4acb, type: 3}
   redFireIcon: {fileID: 21300000, guid: ac0f75f9d62b1c642bd7f63e8a1a9125, type: 3}
   pageIcon: {fileID: 21300000, guid: 9e5a6c9fc51bb12408b4ad3c6784894b, type: 3}
+--- !u!114 &342330564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 342330561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fe0f62e9c5bb14d98ea3ee7ce170a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredFingerCount: 1
+  MaxSimultaneousGestures: 1
+  ResetMode: 0
+  Raycaster: {fileID: 0}
+  ClusterManager: {fileID: 0}
+  Delegate: {fileID: 0}
+  UseSendMessage: 1
+  EventMessageName: 
+  EventMessageTarget: {fileID: 0}
+  SendMessageToSelection: 0
+  IsExclusive: 0
+  MoveTolerance: 5
+  ApplySameDirectionConstraint: 0
+--- !u!114 &342330565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 342330561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf945d278a7402a4cb9cd26aec5c0fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cameras: []
+  IgnoreLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  RayThickness: 0
+  VisualizeRaycasts: 1
 --- !u!1 &361762331
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,9 +2549,8 @@ GameObject:
   - component: {fileID: 927063642}
   - component: {fileID: 927063641}
   - component: {fileID: 927063640}
-  - component: {fileID: 927063639}
   - component: {fileID: 927063637}
-  - component: {fileID: 927063636}
+  - component: {fileID: 927063638}
   m_Layer: 9
   m_Name: Map_Image
   m_TagString: Untagged
@@ -2556,19 +2598,6 @@ Transform:
   m_Father: {fileID: 342330562}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &927063636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 927063634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d45e7078fc24ec647bc16aae337a5408, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  point: []
-  img_thanh: []
 --- !u!114 &927063637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2583,7 +2612,7 @@ MonoBehaviour:
   perspectiveZoomSpeed: 0.5
   orthoZoomSpeed: 0.5
   cam: {fileID: 0}
---- !u!114 &927063639
+--- !u!114 &927063638
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -2591,9 +2620,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 927063634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 336be0983d7c92040a7f807ebc8fdee2, type: 3}
+  m_Script: {fileID: 11500000, guid: 713811bb29949d44692415bb6a7a80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DragPlaneCollider: {fileID: 0}
+  DragPlaneOffset: 0
+  RaycastCamera: {fileID: 0}
 --- !u!23 &927063640
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3144,7 +3176,7 @@ RectTransform:
   m_GameObject: {fileID: 1089804963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 94}
-  m_LocalScale: {x: 0.060140654, y: 0.060140654, z: 0.060140654}
+  m_LocalScale: {x: 0.06014065, y: 0.06014065, z: 0.06014065}
   m_Children:
   - {fileID: 1881415335}
   - {fileID: 1659282987}
@@ -4077,8 +4109,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1650390823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 540, y: 960, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 320, y: 568, z: 0}
+  m_LocalScale: {x: 0.59166664, y: 0.59166664, z: 0.59166664}
   m_Children:
   - {fileID: 47315138}
   - {fileID: 1948267636}
@@ -4463,8 +4495,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1842633802}
+  - component: {fileID: 1842633803}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: FingerGestures
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4483,6 +4516,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1842633803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1842633801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49ed014673f07847be2bb1995e31a70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  makePersistent: 1
+  detectUnityRemote: 1
+  mouseInputProviderPrefab: {fileID: 114007344936500128, guid: 542d6082b8b18fe4abf0a7c655bca8a2,
+    type: 2}
+  touchInputProviderPrefab: {fileID: 114023253438620162, guid: 8a836fbbbf81f904499c0a3d04b7a73f,
+    type: 2}
+  adjustPixelScaleForRetinaDisplay: 1
+  retinaPixelScale: 0.5
 --- !u!1 &1881415334
 GameObject:
   m_ObjectHideFlags: 0
