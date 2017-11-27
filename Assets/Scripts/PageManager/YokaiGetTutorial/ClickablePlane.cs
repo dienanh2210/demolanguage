@@ -81,11 +81,12 @@ public class ClickablePlane : MonoBehaviour,  IPointerClickHandler{
         if (YokaiGetTutorialManager.instance.objYokai.activeSelf) {
             txtGz = GameObject.Find ("TextCanvas").transform.Find ("txtGz").gameObject;
             txtGz.SetActive (true);
-
+            txtGz.GetComponent<Image> ().sprite = ApplicationData.GetSuccessImage (ApplicationData.SelectedLanguage).yokaiText;
         }
         if (YokaiGetTutorialManager.instance.objItem.activeSelf) {
             txtGz = GameObject.Find ("TextCanvas").transform.Find ("txtGzItem").gameObject;
             txtGz.SetActive (true);
+            txtGz.GetComponent<Image> ().sprite = ApplicationData.GetSuccessImage (ApplicationData.SelectedLanguage).itemText;
         }
         sprBackLight.SetActive (true);
         sprBackLight.GetComponent<Image> ().DOFade (.3f, .5f).SetEase (Ease.Linear).OnComplete (() => {
