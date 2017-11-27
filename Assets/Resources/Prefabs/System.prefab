@@ -453,6 +453,22 @@ MonoBehaviour:
     necessary_item_id: 0
     isBoss: 1
     isTermLimited: 0
+  successImageData:
+  - type: 0
+    yokaiText: {fileID: 21300000, guid: 3ea3e07af26993047a0b1bd215d10ac1, type: 3}
+    itemText: {fileID: 21300000, guid: 474862120169a004da4f3cb3ed2e5f9a, type: 3}
+  - type: 1
+    yokaiText: {fileID: 0}
+    itemText: {fileID: 0}
+  - type: 2
+    yokaiText: {fileID: 0}
+    itemText: {fileID: 0}
+  - type: 3
+    yokaiText: {fileID: 0}
+    itemText: {fileID: 0}
+  - type: 4
+    yokaiText: {fileID: 0}
+    itemText: {fileID: 0}
   itemData:
   - id: 1
     name: nurari-hyon
