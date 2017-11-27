@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 114818793637116392}
   m_Layer: 10
   m_Name: YokaiGetPage
-  m_TagString: Untagged
+  m_TagString: YokaiGetPage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
