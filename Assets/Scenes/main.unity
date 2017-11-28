@@ -2506,7 +2506,6 @@ GameObject:
   - component: {fileID: 927063642}
   - component: {fileID: 927063641}
   - component: {fileID: 927063640}
-  - component: {fileID: 927063639}
   - component: {fileID: 927063637}
   - component: {fileID: 927063636}
   m_Layer: 9
@@ -2567,8 +2566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45e7078fc24ec647bc16aae337a5408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  point: []
-  img_thanh: []
 --- !u!114 &927063637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2583,17 +2580,6 @@ MonoBehaviour:
   perspectiveZoomSpeed: 0.5
   orthoZoomSpeed: 0.5
   cam: {fileID: 0}
---- !u!114 &927063639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 927063634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 336be0983d7c92040a7f807ebc8fdee2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &927063640
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3144,7 +3130,7 @@ RectTransform:
   m_GameObject: {fileID: 1089804963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 94}
-  m_LocalScale: {x: 0.06014065, y: 0.06014065, z: 0.06014065}
+  m_LocalScale: {x: 0.060140654, y: 0.060140654, z: 0.060140654}
   m_Children:
   - {fileID: 1881415335}
   - {fileID: 1659282987}
@@ -4077,8 +4063,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1650390823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 240, y: 400, z: 0}
-  m_LocalScale: {x: 0.41666666, y: 0.41666666, z: 0.41666666}
+  m_LocalPosition: {x: 540, y: 960, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 47315138}
   - {fileID: 1948267636}
