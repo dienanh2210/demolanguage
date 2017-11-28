@@ -219,7 +219,6 @@ public class CircleController : MonoBehaviour
 
         //if (ApplicationData.GetYokaiData (PlayerPrefs.GetInt ("yokaiID")).IsNeedItem () && !ApplicationData.GetYokaiData (PlayerPrefs.GetInt ("yokaiID")).HasItem ()) {
         if (ApplicationData.GetYokaiData (PageData.yokaiID).IsNeedItem () && !ApplicationData.GetYokaiData (PageData.yokaiID).HasItem ()) {
-            Debug.Log ("Boss first time");
             this.gameObject.SetActive (true);
             this.transform.localScale = new Vector3 (8.5f, 8.5f, 8.5f);
             CircleScale ();
@@ -229,6 +228,7 @@ public class CircleController : MonoBehaviour
 
             GameObject.FindGameObjectWithTag ("Model").transform.GetChild (2).gameObject.transform.localPosition = new Vector3 (0, -4f, .2f);
             GameObject.FindGameObjectWithTag ("Model").transform.GetChild (2).gameObject.transform.localScale = new Vector3 (2, 2, 2);
+            GameObject.FindGameObjectWithTag ("YokaiGetPage").transform.Find ("Button").GetComponent<Button> ().enabled = true;
             isBallFlying = false;
         } else {
             Catching ();
