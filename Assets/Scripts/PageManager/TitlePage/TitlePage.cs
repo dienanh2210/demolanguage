@@ -52,7 +52,7 @@ public class TitlePage : Page
         {
             PopupRed.SetActive(false);
         }
-        
+        DisalbeButton("btJapanese");
     }
 
     public void EnableBluetooth ()
@@ -84,6 +84,7 @@ public class TitlePage : Page
         {
             item.image.sprite = lstSprite[2];
             item.GetComponentInChildren<Text>().color = myGray;
+            item.interactable = false;
         }
     }
 
