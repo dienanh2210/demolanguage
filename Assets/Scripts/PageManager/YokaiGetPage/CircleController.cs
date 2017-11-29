@@ -59,7 +59,7 @@ public class CircleController : MonoBehaviour
         if (Physics.Raycast (cam.transform.position + new Vector3 (0, .8f, 0), cam.forward, out hit, 20, mask)) {
             Debug.Log (hit.collider.gameObject.name);
             if (!onFocus) {
-                DOTween.Clear ();
+//                DOTween.Clear ();
                 CircleScale ();
                 onFocus = true;
                 canThrow = true;
@@ -90,6 +90,7 @@ public class CircleController : MonoBehaviour
 
     void MovingBall ()
     {
+        GameObject.FindGameObjectWithTag ("YokaiGetPage").transform.Find ("Button").GetComponent<Button> ().enabled = false;
         Debug.Log ("GetPageManager.throwCount " + GetPageManager.throwCount);
         isBallFlying = true;
         throwCount++;
@@ -218,7 +219,6 @@ public class CircleController : MonoBehaviour
 
         //if (ApplicationData.GetYokaiData (PlayerPrefs.GetInt ("yokaiID")).IsNeedItem () && !ApplicationData.GetYokaiData (PlayerPrefs.GetInt ("yokaiID")).HasItem ()) {
         if (ApplicationData.GetYokaiData (PageData.yokaiID).IsNeedItem () && !ApplicationData.GetYokaiData (PageData.yokaiID).HasItem ()) {
-            Debug.Log ("Boss first time");
             this.gameObject.SetActive (true);
             this.transform.localScale = new Vector3 (8.5f, 8.5f, 8.5f);
             CircleScale ();
@@ -228,6 +228,7 @@ public class CircleController : MonoBehaviour
 
             GameObject.FindGameObjectWithTag ("Model").transform.GetChild (2).gameObject.transform.localPosition = new Vector3 (0, -4f, .2f);
             GameObject.FindGameObjectWithTag ("Model").transform.GetChild (2).gameObject.transform.localScale = new Vector3 (2, 2, 2);
+            GameObject.FindGameObjectWithTag ("YokaiGetPage").transform.Find ("Button").GetComponent<Button> ().enabled = true;
             isBallFlying = false;
         } else {
             Catching ();
@@ -250,6 +251,7 @@ public class CircleController : MonoBehaviour
             GameObject.FindGameObjectWithTag ("Model").transform.GetChild (2).gameObject.transform.localPosition = new Vector3 (0, -4f, .2f);
             GameObject.FindGameObjectWithTag ("Model").transform.GetChild (2).gameObject.transform.localScale = new Vector3 (2, 2, 2);
             isBallFlying = false;
+            GameObject.FindGameObjectWithTag ("YokaiGetPage").transform.Find ("Button").GetComponent<Button> ().enabled = true;
         } else {
 
 
@@ -340,8 +342,10 @@ public class CircleController : MonoBehaviour
         GetPageManager.GetInstance ().model.GetComponentsInChildren<MeshRenderer> (true) [0].material.DOFade (0, .1875f).SetEase (Ease.Linear).OnComplete (() => {
             GetPageManager.GetInstance ().model.GetComponentsInChildren<MeshRenderer> (true) [0].gameObject.SetActive (false);
             GameObject.FindGameObjectWithTag ("Model").transform.Find("Ball").gameObject.SetActive (false);
+            GameObject.FindGameObjectWithTag ("YokaiGetPage").transform.Find ("Button").GetComponent<Button> ().enabled = true;
         });
         isBallFlying = false;
+
     }
 
     void MoveSprite ()
