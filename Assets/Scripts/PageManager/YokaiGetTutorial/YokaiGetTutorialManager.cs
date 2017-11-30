@@ -67,10 +67,10 @@ public class YokaiGetTutorialManager : Page{
 
         if (objYokai.activeSelf) {
             kindOfObject.GetComponent<MeshRenderer> ().material = fireMat;
-            kindOfObject.transform.localScale = new Vector3 (.2f,.2f,.4f);
+            kindOfObject.transform.localScale = new Vector3 (.1f,.1f,.2f);
         }else if (objItem.activeSelf) {
             kindOfObject.GetComponent<MeshRenderer> ().material = itemMat;
-            kindOfObject.transform.localScale = new Vector3 (.4f,.2f,.4f);
+            kindOfObject.transform.localScale = new Vector3 (.2f,.1f,.2f);
         }
 
         FireEffect (true);
