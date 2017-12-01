@@ -63,6 +63,7 @@ public class YokaiGetTutorialManager : Page{
         map.transform.GetChild (1).gameObject.SetActive (true);
         map.transform.GetChild (1).gameObject.GetComponent<PinchZoom> ().enabled = false;
         map.transform.GetChild (1).gameObject.GetComponent<lb_drag> ().enabled = false;
+        map.transform.GetChild(1).GetComponent<MeshCollider>().enabled = false;
         #endregion
 
         if (objYokai.activeSelf) {

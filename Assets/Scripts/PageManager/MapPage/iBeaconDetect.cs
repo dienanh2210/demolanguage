@@ -120,6 +120,7 @@ internal class iBeaconDetect : MonoBehaviour
     void OnDetectBeacon ()
     {
         MapImage.GetComponent<lb_drag> ().enabled = false;
+        MapImage.GetComponent<MeshCollider>().enabled = false;
         MapImage.GetComponent<PinchZoom> ().enabled = false;
         var dis = posCamera - MapManager.GetIBeaconIcon (_dataID).transform.position;
         dis.y = 0;
@@ -219,10 +220,7 @@ internal class iBeaconDetect : MonoBehaviour
                 UserData.DetectIBeacon (b.minor.ToString (), b.major.ToString(), b.UUID.ToUpper());
                 _dataID = beaconData.index;
                 GetYokai.SetActive (true);
-                if (GetYokai.activeSelf)
-                {
-                    StartCoroutine(Vibrate());
-                }
+                StartCoroutine(Vibrate());
                 btnSuccess.SetActive (false);
                 btnGetYokai.SetActive (true);
                 // StartCoroutine(Complete());

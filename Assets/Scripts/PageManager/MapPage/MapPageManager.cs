@@ -159,6 +159,7 @@ public class MapPageManager : Page
     {
         getYokai.gameObject.SetActive (false);
         map.GetComponent<lb_drag> ().enabled = true;
+        map.GetComponent<MeshCollider>().enabled = true;
         map.GetComponent<PinchZoom> ().enabled = true;
 
         if (!CircleController._success) {
