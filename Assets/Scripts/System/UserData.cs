@@ -187,6 +187,18 @@ public class UserData : MonoBehaviour
         userInfo.items.Add (new UserItem { item_id = item_id, ibeacon_id = ibeacon_id });
     }
 
+    public static int GetLatestYokaiId()
+    {
+        if (userInfo.yokais.Count > 0)
+        {
+            return userInfo.yokais.Count - 1;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+
     void Awake ()
     {
         instance = this;
