@@ -186,6 +186,15 @@ internal class iBeaconDetect : MonoBehaviour
         DisplayOnBeaconFound ();
     }
 
+    IEnumerator Vibrate()
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            Handheld.Vibrate();
+            yield return new WaitForSeconds(0.25f);
+        }
+    }
+
     private void DisplayOnBeaconFound ()
     {
         RectTransform rt_Content = (RectTransform)go_ScrollViewContent.transform;
@@ -210,6 +219,10 @@ internal class iBeaconDetect : MonoBehaviour
                 UserData.DetectIBeacon (b.minor.ToString (), b.major.ToString(), b.UUID.ToUpper());
                 _dataID = beaconData.index;
                 GetYokai.SetActive (true);
+                if (GetYokai.activeSelf)
+                {
+                    StartCoroutine(Vibrate());
+                }
                 btnSuccess.SetActive (false);
                 btnGetYokai.SetActive (true);
                 // StartCoroutine(Complete());
