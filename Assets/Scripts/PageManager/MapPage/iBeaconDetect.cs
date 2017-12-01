@@ -120,6 +120,7 @@ internal class iBeaconDetect : MonoBehaviour
     void OnDetectBeacon ()
     {
         MapImage.GetComponent<lb_drag> ().enabled = false;
+        MapImage.GetComponent<MeshCollider>().enabled = false;
         MapImage.GetComponent<PinchZoom> ().enabled = false;
         var dis = posCamera - MapManager.GetIBeaconIcon (_dataID).transform.position;
         dis.y = 0;
