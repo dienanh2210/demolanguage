@@ -6,20 +6,40 @@ using UnityEngine.UI;
 public class PhotoFrame : Page {
 
     private RawImage image;
-    private WebCamTexture cam;
+    private WebCamTexture Tex;
+    WebCamDevice FrontCam, BackCam , CurrentCam;
     private AspectRatioFitter arf;
+    bool front = false;
 
     public void SwitchCamera()
     {
-        WebCamDevice[] devices = WebCamTexture.devices;
-        cam.Stop();
-        cam.deviceName = (cam.deviceName == devices[0].name) ? devices[1].name : devices[0].name;
-        cam.Play();
-        image.texture = cam;
+        if (CurrentCam.name == FrontCam.name)
+        {
+            front = true;
+            CurrentCam = BackCam;
+            Tex.Stop();
+            Tex = new WebCamTexture(CurrentCam.name, Screen.width, Screen.height, 30);
+            Tex.Play();
+            image.texture = Tex;
+            
+
+        }
+        else
+        {
+            front = false;
+            CurrentCam = FrontCam;
+            Tex.Stop();
+            Tex = new WebCamTexture(CurrentCam.name, Screen.width, Screen.height, 30);
+            Tex.Play();
+            image.texture = Tex;
+        }
     }
+
+
 
     private void OnEnable()
     {
+        front = false;
         arf = GetComponent<AspectRatioFitter>();
         image = GetComponent<RawImage>();
 
@@ -37,36 +57,40 @@ public class PhotoFrame : Page {
         {
             if (!devices[i].isFrontFacing)
             {
-                cam = new WebCamTexture(devices[i].name, Screen.width, Screen.height);
+                FrontCam = devices[i];
+                CurrentCam = devices[i];
+                Tex = new WebCamTexture(CurrentCam.name, Screen.width, Screen.height, 30);
+            }
+            else
+            {
+                BackCam = devices[i];
             }
         }
-
-        if (cam == null)
-        {
-            Debug.Log("Unable to find back camera !");
-            return;
-        }
-        
-        cam.deviceName = devices[0].name;
-        cam.Play();
-        image.texture = cam;
+        Tex.Play();
+        image.texture = Tex;
     }
 
-    void Update()
+    void Flip(bool front)
     {
-
-        float cwNeeded = -cam.videoRotationAngle;
-        if (cam.videoVerticallyMirrored)
+        float cwNeeded = -Tex.videoRotationAngle;
+        if (Tex.videoVerticallyMirrored)
         {
             cwNeeded += 180f;
         }
 
-        image.rectTransform.localEulerAngles = new Vector3(0f, 0f, cwNeeded);
+        if (front)
+        {
+            image.rectTransform.localEulerAngles = new Vector3(0f, 180f, cwNeeded);
+        }
+        else
+        {
+            image.rectTransform.localEulerAngles = new Vector3(0f, 0f, cwNeeded);
+        }
 
-        float videoRatio = (float)cam.width / (float)cam.height;
+        float videoRatio = (float)Tex.width / (float)Tex.height;
         arf.aspectRatio = videoRatio;
 
-        if (cam.videoVerticallyMirrored)
+        if (Tex.videoVerticallyMirrored)
         {
             image.uvRect = new Rect(1, 0, -1, 1);
         }
@@ -76,11 +100,16 @@ public class PhotoFrame : Page {
         }
     }
 
+    private void FixedUpdate()
+    {
+        Flip(front);
+    }
+   
     private void OnDisable()
     {
-        if (cam.isPlaying)
+        if (Tex.isPlaying)
         {
-            cam.Stop();
+            Tex.Stop();
         }
     }
 }
