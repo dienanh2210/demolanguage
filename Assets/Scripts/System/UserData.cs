@@ -191,7 +191,7 @@ public class UserData : MonoBehaviour
     {
         if (userInfo.yokais.Count > 0)
         {
-            return userInfo.yokais.Count - 1;
+            return userInfo.yokais[userInfo.yokais.Count - 1].yokai_id;
         }
         else
         {

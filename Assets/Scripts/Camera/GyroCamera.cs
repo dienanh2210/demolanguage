@@ -12,11 +12,6 @@ public class GyroCamera : MonoBehaviour {
     private GameObject worldObj;
     private float startY;
 
-    private void OnEnable()
-    {
-        DebugConsole.Log("May choi hay nghi? " + SystemInfo.supportsGyroscope);
-    }
-
     void Start(){
         gyroSupported = SystemInfo.supportsGyroscope;
 
