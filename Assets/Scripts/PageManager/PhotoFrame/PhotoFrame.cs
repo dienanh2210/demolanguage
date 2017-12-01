@@ -8,8 +8,15 @@ public class PhotoFrame : Page {
     private RawImage image;
     private WebCamTexture cam;
     private AspectRatioFitter arf;
-   
-    
+
+    public void SwitchCamera()
+    {
+        WebCamDevice[] devices = WebCamTexture.devices;
+        cam.Stop();
+        cam.deviceName = (cam.deviceName == devices[0].name) ? devices[1].name : devices[0].name;
+        cam.Play();
+        image.texture = cam;
+    }
 
     private void OnEnable()
     {
@@ -31,9 +38,7 @@ public class PhotoFrame : Page {
             if (!devices[i].isFrontFacing)
             {
                 cam = new WebCamTexture(devices[i].name, Screen.width, Screen.height);
-
             }
-
         }
 
         if (cam == null)
@@ -41,7 +46,8 @@ public class PhotoFrame : Page {
             Debug.Log("Unable to find back camera !");
             return;
         }
-
+        
+        cam.deviceName = devices[0].name;
         cam.Play();
         image.texture = cam;
     }
