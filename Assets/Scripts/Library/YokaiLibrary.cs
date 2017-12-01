@@ -46,6 +46,14 @@ public class YokaiLibrary : MonoBehaviour
                         if (check)
                         {
                             i.transform.GetChild(0).GetComponent<Image>().color = Color.white;
+                            if (UserData.GetLatestYokaiId() == ApplicationData.YokaiData[n].id)
+                            {
+                                i.transform.GetChild(1).gameObject.SetActive(true);
+                            }
+                            else
+                            {
+                                i.transform.GetChild(1).gameObject.SetActive(false);
+                            }
                         }
                         else
                         {
@@ -65,6 +73,14 @@ public class YokaiLibrary : MonoBehaviour
                             if (check)
                             {
                                 i.transform.GetChild(0).GetComponent<Image>().color = Color.white;
+                                if (UserData.GetLatestYokaiId() == ApplicationData.YokaiData[n].id)
+                                {
+                                    i.transform.GetChild(1).gameObject.SetActive(true);
+                                }
+                                else
+                                {
+                                    i.transform.GetChild(1).gameObject.SetActive(false);
+                                }
                             }
                             else
                             {
