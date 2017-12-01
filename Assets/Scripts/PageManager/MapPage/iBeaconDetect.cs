@@ -219,10 +219,7 @@ internal class iBeaconDetect : MonoBehaviour
                 UserData.DetectIBeacon (b.minor.ToString (), b.major.ToString(), b.UUID.ToUpper());
                 _dataID = beaconData.index;
                 GetYokai.SetActive (true);
-                if (GetYokai.activeSelf)
-                {
-                    StartCoroutine(Vibrate());
-                }
+                StartCoroutine(Vibrate());
                 btnSuccess.SetActive (false);
                 btnGetYokai.SetActive (true);
                 // StartCoroutine(Complete());
