@@ -49,6 +49,10 @@ public class YokaiLibrary : MonoBehaviour
                             if (UserData.GetLatestYokaiId() == ApplicationData.YokaiData[n].id)
                             {
                                 i.transform.GetChild(1).gameObject.SetActive(true);
+                                if(i.transform.GetChild(2)!=null)
+                                {
+                                    i.transform.GetChild(2).gameObject.SetActive(false);
+                                }
                             }
                             else
                             {
@@ -76,6 +80,10 @@ public class YokaiLibrary : MonoBehaviour
                                 if (UserData.GetLatestYokaiId() == ApplicationData.YokaiData[n].id)
                                 {
                                     i.transform.GetChild(1).gameObject.SetActive(true);
+                                    if (i.transform.GetChild(2) != null)
+                                    {
+                                        i.transform.GetChild(2).gameObject.SetActive(false);
+                                    }
                                 }
                                 else
                                 {
