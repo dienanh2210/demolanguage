@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -27,8 +29,6 @@ public class YokaiLibrary : MonoBehaviour
 
             bool check = UserData.IsGotYokai(ApplicationData.YokaiData[n].id);
 
-            //if (n == 1)
-            //    check = true;
             if (!ApplicationData.YokaiData[n].CanShowOnYokaiList())
             {
                 i.gameObject.SetActive(false);
@@ -46,10 +46,17 @@ public class YokaiLibrary : MonoBehaviour
                         if (check)
                         {
                             i.transform.GetChild(0).GetComponent<Image>().color = Color.white;
+                            if (i.transform.GetChild(0).GetComponent<Image>().color == Color.white)
+                            {
+                                if (ApplicationData.YokaiData[n].isTermLimited)
+                                {
+                                    i.transform.GetChild(2).gameObject.SetActive(false);
+                                }
+                            }
                             if (UserData.GetLatestYokaiId() == ApplicationData.YokaiData[n].id)
                             {
                                 i.transform.GetChild(1).gameObject.SetActive(true);
-                                if (i.transform.childCount > 2)
+                                if (ApplicationData.YokaiData[n].isTermLimited)
                                 {
                                     i.transform.GetChild(2).gameObject.SetActive(false);
                                 }
@@ -77,13 +84,10 @@ public class YokaiLibrary : MonoBehaviour
                             if (check)
                             {
                                 i.transform.GetChild(0).GetComponent<Image>().color = Color.white;
+                               
                                 if (UserData.GetLatestYokaiId() == ApplicationData.YokaiData[n].id)
                                 {
-                                    i.transform.GetChild(1).gameObject.SetActive(true);
-                                    if (i.transform.childCount > 2)
-                                    {   
-                                        i.transform.GetChild(2).gameObject.SetActive(false); 
-                                    }
+                                    i.transform.GetChild(1).gameObject.SetActive(true);                                   
                                 }
                                 else
                                 {
