@@ -38,33 +38,24 @@ public class YokaiLibrary : MonoBehaviour
                 i.gameObject.SetActive(true);
                 if (i.name.Remove(0, 6) == ApplicationData.YokaiData[n].id.ToString())
                 {
-
+                    if (ApplicationData.YokaiData[n].isTermLimited)
+                    {
+                        i.transform.GetChild(2).gameObject.SetActive(true);
+                    }
                     if (!CheckId(ApplicationData.YokaiData[n].necessary_item_id))
                     {
                         i.transform.GetChild(0).GetComponent<Image>().sprite = ApplicationData.YokaiData[n].image;
-
+                        if (UserData.GetLatestYokaiId () == ApplicationData.YokaiData [n].id) {
+                            i.transform.GetChild (1).gameObject.SetActive (true);
+                            if (ApplicationData.YokaiData [n].isTermLimited) {
+                                i.transform.GetChild (2).gameObject.SetActive (false);
+                            }
+                        } else {
+                            i.transform.GetChild (1).gameObject.SetActive (false);
+                        }
                         if (check)
                         {
                             i.transform.GetChild(0).GetComponent<Image>().color = Color.white;
-                            if (i.transform.GetChild(0).GetComponent<Image>().color == Color.white)
-                            {
-                                if (ApplicationData.YokaiData[n].isTermLimited)
-                                {
-                                    i.transform.GetChild(2).gameObject.SetActive(false);
-                                }
-                            }
-                            if (UserData.GetLatestYokaiId() == ApplicationData.YokaiData[n].id)
-                            {
-                                i.transform.GetChild(1).gameObject.SetActive(true);
-                                if (ApplicationData.YokaiData[n].isTermLimited)
-                                {
-                                    i.transform.GetChild(2).gameObject.SetActive(false);
-                                }
-                            }
-                            else
-                            {
-                                i.transform.GetChild(1).gameObject.SetActive(false);
-                            }
                         }
                         else
                         {
@@ -81,18 +72,19 @@ public class YokaiLibrary : MonoBehaviour
                         else if(ApplicationData.YokaiData[n].HasItem() && ApplicationData.YokaiData[n].IsNeedItem())
                         {
                             i.transform.GetChild(0).GetComponent<Image>().sprite = ApplicationData.YokaiData[n].image;
+                            if (UserData.GetLatestYokaiId() == ApplicationData.YokaiData[n].id)
+                            {
+                                i.transform.GetChild(1).gameObject.SetActive(true);
+                                if (ApplicationData.YokaiData [n].isTermLimited) {
+                                    i.transform.GetChild (2).gameObject.SetActive (false);
+                                }
+                            } else
+                            {
+                                i.transform.GetChild(1).gameObject.SetActive(false);
+                            }
                             if (check)
                             {
                                 i.transform.GetChild(0).GetComponent<Image>().color = Color.white;
-                               
-                                if (UserData.GetLatestYokaiId() == ApplicationData.YokaiData[n].id)
-                                {
-                                    i.transform.GetChild(1).gameObject.SetActive(true);                                   
-                                }
-                                else
-                                {
-                                    i.transform.GetChild(1).gameObject.SetActive(false);
-                                }
                             }
                             else
                             {
