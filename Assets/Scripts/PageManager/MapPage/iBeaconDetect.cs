@@ -238,7 +238,7 @@ internal class iBeaconDetect : MonoBehaviour
                 if (beaconData.iBeaconType == IBeaconType.Yokai) {
                     titleDialog.text = "妖 怪 を 見 つけました。封 印 しますか?";
                 } else if (beaconData.iBeaconType == IBeaconType.Item) {
-                    titleDialog.text = "アイテム を 見 つけました。封 印 しますか?";
+                    titleDialog.text = "アイテム を 見 つけました。獲 得 しますか?";
                 }
 
                 OnDetectBeacon ();

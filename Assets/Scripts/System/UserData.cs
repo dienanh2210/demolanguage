@@ -180,23 +180,19 @@ public class UserData : MonoBehaviour
     public static void SuccessGetYokai (int yokai_id, int ibeacon_id)
     {
         userInfo.yokais.Add (new UserYokai () { yokai_id = yokai_id, ibeacon_id = ibeacon_id });
+        userInfo.lastGetYokaiIdForLibrary = yokai_id;
     }
 
     public static void SuccessGetItem (int item_id, int ibeacon_id)
     {
         userInfo.items.Add (new UserItem { item_id = item_id, ibeacon_id = ibeacon_id });
+        var yokai = ApplicationData.YokaiData.Find((obj) => obj.necessary_item_id == item_id);
+        userInfo.lastGetYokaiIdForLibrary = yokai.id;
     }
 
     public static int GetLatestYokaiId()
     {
-        if (userInfo.yokais.Count > 0)
-        {
-            return userInfo.yokais[userInfo.yokais.Count - 1].yokai_id;
-        }
-        else
-        {
-            return 0;
-        }
+        return userInfo.lastGetYokaiIdForLibrary;
     }
 
     void Awake ()
@@ -260,6 +256,7 @@ public struct UserInfo
     public bool isShowedYokaiTutorial;
     public bool isShowedItemTutorial;
     public bool IsShowedGuideNote;
+    public int lastGetYokaiIdForLibrary;
 }
 
 public struct UserYokai
