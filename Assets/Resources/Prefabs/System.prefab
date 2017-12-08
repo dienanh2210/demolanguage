@@ -202,7 +202,7 @@ MonoBehaviour:
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
-      text: "\u4EBA\u306B\u5371\u5BB3\u3092\u52A0\u3048\u3001\u98DF\u3079\u308B\u3053\u3068\u3082\u3042\u308B\u3002\r\n\u8D64\u8272\u306E\u9B3C\u3092\u8D64\u9B3C\u3068\u547C\u3076\u3002"
+      text: "\u4EBA\u306B\u5371\u5BB3\u3092\u52A0\u3048\u3001\u98DF\u3079\u308B\u3053\u3068\u3082\u3042\u308B\u3002\r"
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
