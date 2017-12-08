@@ -98,7 +98,7 @@ public class ClickablePlane : MonoBehaviour,  IPointerClickHandler{
             txtGz.GetComponent<Transform> ().DOScale (new Vector3 (1f, 1f, 1f), .5f).SetEase (Ease.Linear);
         });
 
-        Invoke ("DisplayButton",1);
+//        Invoke ("DisplayButton",1);
     }
 
     void DisplayButton(){
