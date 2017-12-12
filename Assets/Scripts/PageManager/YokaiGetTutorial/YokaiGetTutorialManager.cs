@@ -15,7 +15,7 @@ public class YokaiGetTutorialManager : Page{
     [SerializeField]
     private GameObject[] yokai = new GameObject[5];
     [SerializeField]
-    private GameObject[] item = new GameObject[2];
+    private GameObject[] item = new GameObject[1];
     GameObject mapEffect;
     GameObject map;
     GameObject yokaiCam;
