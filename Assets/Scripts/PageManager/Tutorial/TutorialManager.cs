@@ -12,6 +12,8 @@ public class TutorialManager : Page
     [SerializeField]
     private GameObject[] txt = new GameObject[4];
 
+    public static bool isBonusPage = false;
+
     private void Start()
     {
         foreach (Transform i in this.transform)
@@ -53,7 +55,15 @@ public class TutorialManager : Page
             {
                 count = page.Length-1;
                 UserData.IsShowedGameTutorial = true;
-                PageManager.Show(PageType.MapPage);
+                if (isBonusPage)
+                {
+                    PageManager.Show(PageType.BonusPage);
+                }
+                else
+                {
+                    PageManager.Show(PageType.MapPage);
+                }
+                
             }
             for (int i = 0; i < page.Length; i++)
             {
