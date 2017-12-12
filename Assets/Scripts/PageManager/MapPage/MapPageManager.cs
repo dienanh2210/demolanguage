@@ -30,6 +30,8 @@ public class MapPageManager : Page
     GameObject MiddleEnding;
     [SerializeField]
     GameObject LastEnding;
+    [SerializeField]
+    GameObject DialogGuidePlay;
     int _next;
 
 
@@ -290,5 +292,11 @@ public class MapPageManager : Page
             UserData.SuccessGetYokai (y.id, -1);
         }
         MapManager.SetupIcon ();
+    }
+
+    public void btnGuidePlay_Click()
+    {
+        DialogGuidePlay.SetActive(true);
+        DialogGuidePlay.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.HowToPlay);
     }
 }
