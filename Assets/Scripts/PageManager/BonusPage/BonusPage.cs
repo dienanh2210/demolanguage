@@ -86,6 +86,8 @@ public class BonusPage : Page {
         {
             PageManager.Show(PageType.Tutorial);
             TutorialManager.isBonusPage = true;
+            TutorialManager.count = 0;
+            TutorialManager.Instance.ResetPage();
         }
     #endregion
 

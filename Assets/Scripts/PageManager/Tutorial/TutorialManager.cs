@@ -13,9 +13,11 @@ public class TutorialManager : Page
     private GameObject[] txt = new GameObject[4];
 
     public static bool isBonusPage = false;
+    public static TutorialManager Instance;
 
     private void Start()
     {
+        Instance = this;
         foreach (Transform i in this.transform)
         {
             string name = i.name.Remove(0, 5);
@@ -33,7 +35,7 @@ public class TutorialManager : Page
         }
     }
 
-    int count = 0;
+    public static int count = 0;
 
     void Update()
     {
@@ -79,4 +81,19 @@ public class TutorialManager : Page
         }
     }
    
+    public void ResetPage()
+    {
+        count = 0;
+        for (int i = 0; i < page.Length; i++)
+        {
+            if (i == count)
+            {
+                page[i].SetActive(true);
+            }
+            else
+            {
+                page[i].SetActive(false);
+            }
+        }
+    }
 }
