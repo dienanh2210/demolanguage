@@ -297,6 +297,6 @@ public class MapPageManager : Page
     public void btnGuidePlay_Click()
     {
         DialogGuidePlay.SetActive(true);
-        DialogGuidePlay.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.HowToPlay);
+        DialogGuidePlay.transform.GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.HowToPlay);
     }
 }
