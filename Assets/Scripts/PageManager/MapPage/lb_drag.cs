@@ -46,11 +46,20 @@ public class lb_drag : MonoBehaviour
             //}
             if (this.transform.position != toadonew)
             {
-               // this.transform.position = Vector3.SmoothDamp(this.transform.position, toadonew, ref velocity, 0.10f);//0.10
-
+                // this.transform.position = Vector3.SmoothDamp(this.transform.position, toadonew, ref velocity, 0.10f);//0.10
             }
         }
+
+
         this.transform.position = Vector3.SmoothDamp(this.transform.position, curPosition, ref velocity, 0.11f);//0.10}
+
+        float widthRel = this.transform.localScale.y / (Screen.width) / 2; //relative width
+        float heightRel = this.transform.localScale.x / (Screen.height) / 2; //relative height
+
+        Vector3 viewPos = Camera.main.WorldToViewportPoint(this.transform.position);//
+        viewPos.x = Mathf.Clamp(viewPos.x, widthRel + 0.1f, 0.9f + widthRel);// right -left
+        viewPos.y = Mathf.Clamp(viewPos.y, heightRel + 0.31f, 0.68f + heightRel);//top - bottom
+        this.transform.position = Camera.main.ViewportToWorldPoint(viewPos);
 
     }
     Vector3 MousePos()
@@ -63,7 +72,6 @@ public class lb_drag : MonoBehaviour
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
 
         offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
-
     }
 
     void OnMouseDrag()
