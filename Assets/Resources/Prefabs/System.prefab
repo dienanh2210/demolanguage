@@ -256,7 +256,7 @@ MonoBehaviour:
     isTermLimited: 0
   - id: 6
     name: rokuro-kubi
-    kana: "\u308D\u304F\u308D\u9996"
+    kana: "\u308D\u304F\u308D\u304F\u3073"
     localNames:
     - languageType: 0
       text: "\u308D\u304F\u308D\u9996"
