@@ -260,6 +260,7 @@ public struct YokaiData
 {
     public int id;
     public string name;
+    public string kana;
     public List<Locale> localNames;
     public Sprite image;
     public Sprite nameImage;
