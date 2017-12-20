@@ -14,6 +14,8 @@ public class YokaiDetail : MonoBehaviour
     [SerializeField]
     GameObject _name;
     [SerializeField]
+    GameObject _kana;
+    [SerializeField]
     GameObject _description;
 
     [SerializeField]
@@ -74,7 +76,19 @@ public class YokaiDetail : MonoBehaviour
             if (ApplicationData.YokaiData.Exists (s => s.id == UserData.GetUserInfo ().yokais.Last ().yokai_id)) {
                 var d = ApplicationData.YokaiData.Where (s => s.id == UserData.GetUserInfo ().yokais.Last ().yokai_id).First ();
                 _image.GetComponent<Image> ().sprite = d.image;
-                _name.GetComponent<Text> ().text = d.localNames [0].text;
+                if (d.kana != "")
+                {
+                    this.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(1f, 0.5f);
+                    _name.GetComponent<Text>().text = d.localNames[0].text;
+                    _kana.GetComponent<Text>().text = d.kana;
+
+                }
+                else
+                {
+                    this.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(0.5f, 0.5f);
+                    _name.GetComponent<Text>().text = d.localNames[0].text;
+                    _kana.GetComponent<Text>().text = d.kana;
+                }
                 _description.GetComponent<Text> ().text = d.localContents [0].text;
             }
         }
