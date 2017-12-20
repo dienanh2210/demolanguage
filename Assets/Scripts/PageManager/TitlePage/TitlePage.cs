@@ -30,7 +30,7 @@ public class TitlePage : Page
     #region Init
     void OnEnable (){
         PageData.Initialize ();
-        androidID = "com.google.android.youtube";
+        androidID = "com.fujiwaranosato.EsashiNavi";
         iosID = "youtube-watch-listen-stream/id544007664?mt=8";
 
         if (ApplicationLogic.IsShowTermLimitedYokai())
@@ -79,30 +79,21 @@ public class TitlePage : Page
         }
         void LaunchIntent()
         {
-            bool fail = false;
-            //string bundleId = "com.google.android.youtube"; // your target bundle id
             AndroidJavaClass up = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
             AndroidJavaObject ca = up.GetStatic<AndroidJavaObject>("currentActivity");
             AndroidJavaObject packageManager = ca.Call<AndroidJavaObject>("getPackageManager");
 
             AndroidJavaObject launchIntent = null;
-            try
-            {
-                launchIntent = packageManager.Call<AndroidJavaObject>("getLaunchIntentForPackage", androidID);
-            }
-            catch (System.Exception e)
-            {
-                fail = true;
-            }
+            launchIntent = packageManager.Call<AndroidJavaObject>("getLaunchIntentForPackage", androidID);
 
-            if (fail)
-            { //open app in store
+            if (launchIntent == null)
+            { 
+                //open app in store
                 Application.OpenURL("market://details?id=" + androidID);
             }
-            else //open the app
+            else 
             {
-                launchIntent.Call<AndroidJavaObject>("setAction", "com.google.android.youtube.do");
-
+                //open the app
                 ca.Call("startActivity", launchIntent);
             }
 
