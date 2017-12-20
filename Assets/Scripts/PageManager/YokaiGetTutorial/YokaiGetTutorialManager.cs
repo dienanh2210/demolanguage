@@ -95,8 +95,7 @@ public class YokaiGetTutorialManager : Page{
     }
 
     public void CircleScale(){
-        sprYCircle.transform.DOScale (new Vector3 (.3f, .3f, .3f), 1f).SetEase (Ease.Linear).SetLoops (-1);
-              
+        sprYCircle.transform.DOScale (new Vector3 (.3f, .3f, .3f), 1f).SetEase (Ease.Linear).SetLoops (-1);              
     }
 
     void FireEffect(bool isDown){
@@ -161,23 +160,18 @@ public class YokaiGetTutorialManager : Page{
         if (objYokai.activeSelf) {
             if (sprYCircle.transform.localScale.x <= 0.4) {
                 sprYCircle.GetComponent<Image> ().DOFade (0,0.00001f);
-
             } else {
                 sprYCircle.GetComponent<Image> ().DOFade (1, 0.00001f);
             }
         }
 
-
-        if (sprYCircle.transform.localScale.x <= .6f) {
-           
+        if (sprYCircle.transform.localScale.x <= .6f) {           
             sprYCircle.GetComponent<Image> ().sprite = red;
-        } else {
-            
+        } else {            
             sprYCircle.GetComponent<Image> ().sprite = blue;
         }
 
-        if (ClickablePlane.isClick) {
-            
+        if (ClickablePlane.isClick) {            
             DOTween.Pause (sprYCircle);
         }
     }
