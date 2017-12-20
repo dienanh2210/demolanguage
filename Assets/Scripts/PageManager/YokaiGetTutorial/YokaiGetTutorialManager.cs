@@ -7,7 +7,6 @@ using UnityEngine.EventSystems;
 public class YokaiGetTutorialManager : Page{
     public static YokaiGetTutorialManager instance;
     public GameObject sprYCircle;
-    public GameObject sprICircle;
     public GameObject backgroundCam;
     public Sprite red, blue;
     public Material fireMat,itemMat;
@@ -48,7 +47,6 @@ public class YokaiGetTutorialManager : Page{
             backgroundCam.transform.SetParent (GameObject.FindGameObjectWithTag("ParentTutorial").transform);
         }
         sprYCircle.transform.localScale = new Vector3 (1.2f, 1.2f,1.2f);
-        sprICircle.transform.localScale = new Vector3 (1.2f, 1.2f,1.2f);
 
         #region Enable the map effect
         mapEffect = GameObject.FindGameObjectWithTag("MapEffect");
@@ -98,8 +96,7 @@ public class YokaiGetTutorialManager : Page{
 
     public void CircleScale(){
         sprYCircle.transform.DOScale (new Vector3 (.3f, .3f, .3f), 1f).SetEase (Ease.Linear).SetLoops (-1);
-        sprICircle.transform.DOScale (new Vector3 (.3f, .3f, .3f), 1f).SetEase (Ease.Linear).SetLoops (-1);
-       
+              
     }
 
     void FireEffect(bool isDown){
@@ -169,24 +166,18 @@ public class YokaiGetTutorialManager : Page{
                 sprYCircle.GetComponent<Image> ().DOFade (1, 0.00001f);
             }
         }
-        else if (objItem.activeSelf) {
-            if (sprICircle.transform.localScale.x <= 0.4) {
-                sprICircle.GetComponent<Image> ().DOFade (0,0.00001f);
-            } else {
-                sprICircle.GetComponent<Image> ().DOFade (1, 0.00001f);
-            }
-        }
 
-        if (sprICircle.transform.localScale.x <= .6f || sprYCircle.transform.localScale.x <= .6f) {
-            sprICircle.GetComponent<Image> ().sprite = red;
+
+        if (sprYCircle.transform.localScale.x <= .6f) {
+           
             sprYCircle.GetComponent<Image> ().sprite = red;
         } else {
-            sprICircle.GetComponent<Image> ().sprite = blue;
+            
             sprYCircle.GetComponent<Image> ().sprite = blue;
         }
 
         if (ClickablePlane.isClick) {
-            DOTween.Pause (sprICircle);
+            
             DOTween.Pause (sprYCircle);
         }
     }
