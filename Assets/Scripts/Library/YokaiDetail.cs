@@ -42,26 +42,24 @@ public class YokaiDetail : MonoBehaviour
     {
 
         this.transform.GetChild (0).GetComponent<Image> ().sprite = ApplicationData.YokaiData [ButtonYokai.yokaiName - 1].image;
-        GameObject detail = this.transform.GetChild(0).transform.GetChild(0).gameObject;
+        
         for (int j = 0; j < ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].localNames.Count; j++)
         {
             if (ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].kana != "")
             {
-                detail.transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(1f, 0.5f);
-                detail.transform.GetChild(1).GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].localNames[j].text.ToString();
-                detail.transform.GetChild(2).GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].kana.ToString();
-
+                
+               _name.GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].localNames[j].text.ToString();
+               _kana.GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].kana.ToString();
             }
             else
-            {
-                detail.transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(0.5f, 0.5f);
-                detail.transform.GetChild(1).GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].localNames[j].text.ToString();
-                detail.transform.GetChild(2).GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].kana.ToString();
+            {  
+               _name.GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].localNames[j].text.ToString();
+               _kana.GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].kana.ToString();
             }
         }
 
         for (int a = 0; a < ApplicationData.YokaiData [a].localContents.Count; a++) {
-            detail.transform.GetChild (3).GetComponent<Text> ().text = ApplicationData.YokaiData [ButtonYokai.yokaiName - 1].localContents [a].text.ToString ();
+          _description.GetComponent<Text> ().text = ApplicationData.YokaiData [ButtonYokai.yokaiName - 1].localContents [a].text.ToString ();
 
         }
     }
@@ -78,14 +76,14 @@ public class YokaiDetail : MonoBehaviour
                 _image.GetComponent<Image> ().sprite = d.image;
                 if (d.kana != "")
                 {
-                    this.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(1f, 0.5f);
+                    
                     _name.GetComponent<Text>().text = d.localNames[0].text;
                     _kana.GetComponent<Text>().text = d.kana;
 
                 }
                 else
                 {
-                    this.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(0.5f, 0.5f);
+                    
                     _name.GetComponent<Text>().text = d.localNames[0].text;
                     _kana.GetComponent<Text>().text = d.kana;
                 }
