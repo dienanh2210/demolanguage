@@ -27,71 +27,63 @@ public class YokaiDetail : MonoBehaviour
     [SerializeField]
     GameObject _backLibrary;
 
-    private void Start ()
+    private void Start()
     {
         instane = this;
-
     }
 
-    void OnEnable ()
+    void OnEnable()
     {
-        Display ();
+        Display();
     }
     // Use this for initialization
-    public void Detail ()
+    public void Detail()
     {
+        var yokai = ApplicationData.YokaiData.Where(s => s.id == ButtonYokai.yokaiName).First();
+        this.transform.GetChild(0).GetComponent<Image>().sprite = yokai.image;
 
-        this.transform.GetChild (0).GetComponent<Image> ().sprite = ApplicationData.YokaiData [ButtonYokai.yokaiName - 1].image;
-        GameObject detail = this.transform.GetChild(0).transform.GetChild(0).gameObject;
-        for (int j = 0; j < ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].localNames.Count; j++)
+        if (yokai.kana != "")
         {
-            if (ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].kana != "")
-            {
-                detail.transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(1f, 0.5f);
-                detail.transform.GetChild(1).GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].localNames[j].text.ToString();
-                detail.transform.GetChild(2).GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].kana.ToString();
-
-            }
-            else
-            {
-                detail.transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(0.5f, 0.5f);
-                detail.transform.GetChild(1).GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].localNames[j].text.ToString();
-                detail.transform.GetChild(2).GetComponent<Text>().text = ApplicationData.YokaiData[ButtonYokai.yokaiName - 1].kana.ToString();
-            }
+            _name.GetComponent<Text>().text = yokai.localNames[0].text.ToString();
+            _kana.GetComponent<Text>().text = yokai.kana.ToString();
+        }
+        else
+        {
+            _name.GetComponent<Text>().text = yokai.localNames[0].text.ToString();
+            _kana.GetComponent<Text>().text = yokai.kana.ToString();
         }
 
-        for (int a = 0; a < ApplicationData.YokaiData [a].localContents.Count; a++) {
-            detail.transform.GetChild (3).GetComponent<Text> ().text = ApplicationData.YokaiData [ButtonYokai.yokaiName - 1].localContents [a].text.ToString ();
-
+        for (int a = 0; a < ApplicationData.YokaiData[a].localContents.Count; a++)
+        {
+            _description.GetComponent<Text>().text = yokai.localContents[a].text.ToString();
         }
     }
 
-    void Display ()
+    void Display()
     {
-        if (PageData.isShowYokaiDetail) {
-            _library.SetActive (false);
-            _detail.SetActive (true);
-            _backLibrary.SetActive (true);
+        if (PageData.isShowYokaiDetail)
+        {
+            _library.SetActive(false);
+            _detail.SetActive(true);
+            _backLibrary.SetActive(true);
 
-            if (ApplicationData.YokaiData.Exists (s => s.id == UserData.GetUserInfo ().yokais.Last ().yokai_id)) {
-                var d = ApplicationData.YokaiData.Where (s => s.id == UserData.GetUserInfo ().yokais.Last ().yokai_id).First ();
-                _image.GetComponent<Image> ().sprite = d.image;
+            if (ApplicationData.YokaiData.Exists(s => s.id == UserData.GetUserInfo().yokais.Last().yokai_id))
+            {
+                var d = ApplicationData.YokaiData.Where(s => s.id == UserData.GetUserInfo().yokais.Last().yokai_id).First();
+                _image.GetComponent<Image>().sprite = d.image;
                 if (d.kana != "")
                 {
-                    this.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(1f, 0.5f);
                     _name.GetComponent<Text>().text = d.localNames[0].text;
                     _kana.GetComponent<Text>().text = d.kana;
-
                 }
                 else
                 {
-                    this.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<RectTransform>().pivot = new Vector2(0.5f, 0.5f);
                     _name.GetComponent<Text>().text = d.localNames[0].text;
                     _kana.GetComponent<Text>().text = d.kana;
                 }
-                _description.GetComponent<Text> ().text = d.localContents [0].text;
+                _description.GetComponent<Text>().text = d.localContents[0].text;
             }
         }
-        PageData.Initialize ();
+        PageData.Initialize();
     }
 }
