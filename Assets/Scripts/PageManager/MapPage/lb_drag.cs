@@ -113,14 +113,6 @@ public class lb_drag : MonoBehaviour
             this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, bottom);
         }
 
-        //float widthRel = this.transform.localScale.x / (Screen.width); //relative width
-        //float heightRel = this.transform.localScale.y / (Screen.height); //relative height
-
-        //Vector3 viewPos = Camera.main.WorldToViewportPoint(this.transform.position);//
-        //viewPos.x = Mathf.Clamp(viewPos.x, widthRel + 0.1f, 0.9f + widthRel);// right -left
-        //viewPos.y = Mathf.Clamp(viewPos.y, heightRel + 0.31f, 0.68f + heightRel);//top - bottom
-        //this.transform.position = Camera.main.ViewportToWorldPoint(viewPos);//ViewportToWorldPoint
-
     }
     Vector3 MousePos()
     {
