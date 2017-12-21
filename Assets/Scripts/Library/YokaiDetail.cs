@@ -30,7 +30,6 @@ public class YokaiDetail : MonoBehaviour
     private void Start()
     {
         instane = this;
-
     }
 
     void OnEnable()
@@ -45,25 +44,18 @@ public class YokaiDetail : MonoBehaviour
 
         if (yokai.kana != "")
         {
-            //_name.transform.parent.GetComponent<HorizontalLayoutGroup>().enabled = false;
             _name.GetComponent<Text>().text = yokai.localNames[0].text.ToString();
             _kana.GetComponent<Text>().text = yokai.kana.ToString();
-            //_name.transform.parent.GetComponent<HorizontalLayoutGroup>().enabled = true;
-
         }
         else
         {
-            //_name.transform.parent.GetComponent<HorizontalLayoutGroup>().enabled = false;
             _name.GetComponent<Text>().text = yokai.localNames[0].text.ToString();
             _kana.GetComponent<Text>().text = yokai.kana.ToString();
-            //_name.transform.parent.GetComponent<HorizontalLayoutGroup>().enabled = true;
-
         }
 
         for (int a = 0; a < ApplicationData.YokaiData[a].localContents.Count; a++)
         {
             _description.GetComponent<Text>().text = yokai.localContents[a].text.ToString();
-
         }
     }
 
@@ -81,22 +73,15 @@ public class YokaiDetail : MonoBehaviour
                 _image.GetComponent<Image>().sprite = d.image;
                 if (d.kana != "")
                 {
-                    //_name.transform.parent.GetComponent<HorizontalLayoutGroup>().enabled = false;
                     _name.GetComponent<Text>().text = d.localNames[0].text;
                     _kana.GetComponent<Text>().text = d.kana;
-                    //_name.transform.parent.GetComponent<HorizontalLayoutGroup>().enabled = true;
-
                 }
                 else
                 {
-                    //_name.transform.parent.GetComponent<HorizontalLayoutGroup>().enabled = false;
                     _name.GetComponent<Text>().text = d.localNames[0].text;
                     _kana.GetComponent<Text>().text = d.kana;
-                    //_name.transform.parent.GetComponent<HorizontalLayoutGroup>().enabled = true;
-
                 }
                 _description.GetComponent<Text>().text = d.localContents[0].text;
-
             }
         }
         PageData.Initialize();
