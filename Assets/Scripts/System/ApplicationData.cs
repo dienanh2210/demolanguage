@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
 public class ApplicationData : MonoBehaviour
 {
@@ -16,6 +17,20 @@ public class ApplicationData : MonoBehaviour
         } else {
             Debug.LogError ("cant find locale");
             return "";
+        }
+    }
+
+    public static Sprite GetLocaleImage(LocaleType key)
+    {
+        var locale = applicationData.localeData.Find((obj) => obj.key == key);
+        if (locale.key != LocaleType.None)
+        {
+            return locale.localContents.First().image;
+        }
+        else
+        {
+            Debug.LogError("cant find locale");
+            return null;
         }
     }
 
@@ -110,6 +125,9 @@ public class ApplicationData : MonoBehaviour
     List<LocaleData> localeData = new List<LocaleData> ();
 
     [SerializeField]
+    List<Locale> local = new List<Locale>();
+
+    [SerializeField]
     List<YokaiData> yokaiData = new List<YokaiData> ();
 
     [SerializeField]
@@ -164,7 +182,10 @@ public enum LocaleType
     WaitNextDetect,
     Guide,
     HowToPlay,
-    TapOnPrologue
+    TapOnPrologue,
+    ButtonBack,
+    TitleYokaiLibrary,
+    IconLimitedYokai
 }
 
 [Serializable]
@@ -174,7 +195,6 @@ public struct LocaleData
     public List<Locale> localContents;
 
 }
-
 
 [Serializable]
 public struct SuccessImageData
@@ -315,6 +335,7 @@ public struct Locale
     public LanguageType languageType;
     [Multiline]
     public string text;
+    public Sprite image;
 }
 
 
