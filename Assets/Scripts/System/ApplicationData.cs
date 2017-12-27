@@ -163,7 +163,8 @@ public enum LocaleType
     LastEndingAfterBoss,
     WaitNextDetect,
     Guide,
-    HowToPlay
+    HowToPlay,
+    TapOnPrologue
 }
 
 [Serializable]
