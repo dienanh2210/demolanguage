@@ -218,6 +218,21 @@ MonoBehaviour:
     - languageType: 0
       text: 
       image: {fileID: 21300000, guid: d290cf1c3c058224798efa1bf79e8547, type: 3}
+  - key: 20
+    localContents:
+    - languageType: 0
+      text: "\u904A\u3073\u65B9"
+      image: {fileID: 0}
+  - key: 21
+    localContents:
+    - languageType: 0
+      text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+  - key: 22
+    localContents:
+    - languageType: 0
+      text: "\u307B\u3046\u3073\u5E16"
+      image: {fileID: 0}
   local: []
   yokaiData:
   - id: 1

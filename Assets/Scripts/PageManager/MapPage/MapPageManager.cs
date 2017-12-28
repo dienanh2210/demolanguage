@@ -33,7 +33,12 @@ public class MapPageManager : Page
     [SerializeField]
     GameObject DialogGuidePlay;
     int _next;
-
+    [SerializeField]
+    GameObject btnShowYokaiLibrary;
+    [SerializeField]
+    GameObject btnShowRewardList;
+    [SerializeField]
+    GameObject btnGuidePlay;
 
     //public Text test;
     iBeaconDetect iBeaconDetect;
@@ -68,6 +73,10 @@ public class MapPageManager : Page
         MapManager.SetupIcon ();
 
         StartCoroutine (_EnableBeacon());
+
+        btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonYokaiLibrary);
+        btnShowRewardList.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBonus);
+        btnGuidePlay.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonHowToPlay);
     }
 
     IEnumerator _EnableBeacon ()

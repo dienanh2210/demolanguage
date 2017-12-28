@@ -185,7 +185,10 @@ public enum LocaleType
     TapOnPrologue,
     ButtonBack,
     TitleYokaiLibrary,
-    IconLimitedYokai
+    IconLimitedYokai,
+    ButtonHowToPlay,
+    ButtonYokaiLibrary,
+    ButtonBonus
 }
 
 [Serializable]
