@@ -233,6 +233,51 @@ MonoBehaviour:
     - languageType: 0
       text: "\u307B\u3046\u3073\u5E16"
       image: {fileID: 0}
+  - key: 23
+    localContents:
+    - languageType: 0
+      text: "\u5207\u308A\u66FF\u3048"
+      image: {fileID: 0}
+  - key: 24
+    localContents:
+    - languageType: 0
+      text: "\u307B\u3046\u3073 \u5E16"
+      image: {fileID: 0}
+  - key: 25
+    localContents:
+    - languageType: 0
+      text: "\u30D5\u30A9\u30C8\u30D5\u30EC\u30FC\u30E0"
+      image: {fileID: 0}
+  - key: 26
+    localContents:
+    - languageType: 0
+      text: "\u5F15 \u63DB \u5238"
+      image: {fileID: 0}
+  - key: 27
+    localContents:
+    - languageType: 0
+      text: "\u30D7\u30ED\u30ED\u30FC\u30B0"
+      image: {fileID: 0}
+  - key: 28
+    localContents:
+    - languageType: 0
+      text: "\u5F15 \u63DB \u5238"
+      image: {fileID: 0}
+  - key: 29
+    localContents:
+    - languageType: 0
+      text: "\u203B\u3053\u3061\u3089\u306E\u30DC\u30BF\u30F3\u306F\n <color=red>\u30B9\u30BF\u30C3\u30D5\u5C02\u7528</color>\u3067\u3059\u3002 "
+      image: {fileID: 0}
+  - key: 30
+    localContents:
+    - languageType: 0
+      text: "\u304A\u5BA2\u69D8\u306F\u30BF\u30C3\u30D7\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044\u3002"
+      image: {fileID: 0}
+  - key: 31
+    localContents:
+    - languageType: 0
+      text: "\u30B9\u30BF\u30C3\u30D5\u7528\u30DC\u30BF\u30F3"
+      image: {fileID: 0}
   local: []
   yokaiData:
   - id: 1
