@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 222481745824774560}
   - component: {fileID: 114509305306608344}
   m_Layer: 5
-  m_Name: txtContent (1)
+  m_Name: txtTicketNoticeDontTap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -711,7 +711,7 @@ GameObject:
   - component: {fileID: 222436337191257354}
   - component: {fileID: 114848350364826230}
   m_Layer: 5
-  m_Name: txtContent
+  m_Name: txtTicketNoticeForStaff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1298,7 +1298,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5F15 \u63DB \u5238"
+  m_Text: 
 --- !u!114 &114280156392467230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1463,6 +1463,16 @@ MonoBehaviour:
   buttonTicket: {fileID: 1113845035660390}
   btShowPhoto: {fileID: 1639122900478742}
   btShowTicket: {fileID: 1740906933216262}
+  txtBack: {fileID: 114950509982892238}
+  txtTitle: {fileID: 114719853621509954}
+  txtbtPhoto: {fileID: 114934856167574434}
+  txtbtTicket: {fileID: 114277574868186370}
+  txtbtTutorial: {fileID: 114673886821763962}
+  txtTicketBack: {fileID: 114476142550570254}
+  txtTicketTitle: {fileID: 114505000383717066}
+  txtTicketNoticeForStaff: {fileID: 114848350364826230}
+  txtTicketNoticeDontTap: {fileID: 114509305306608344}
+  txtbtTicketStaff: {fileID: 114842763926697522}
 --- !u!114 &114455718383154172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1522,7 +1532,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u623B \u308B"
+  m_Text: 
 --- !u!114 &114493779970479656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1615,7 +1625,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5F15 \u63DB \u5238"
+  m_Text: 
 --- !u!114 &114506487436589518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1675,7 +1685,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u304A\u5BA2\u69D8\u306F\u30BF\u30C3\u30D7\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044\u3002"
+  m_Text: 
 --- !u!114 &114539516822679172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2040,7 +2050,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30D7 \u30ED \u30ED \u30FC \u30B0"
+  m_Text: 
 --- !u!114 &114682929276880752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2152,7 +2162,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u307B\u3046\u3073 \u5E16"
+  m_Text: 
 --- !u!114 &114727916181389026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2379,7 +2389,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B9\u30BF\u30C3\u30D5\u7528\u30DC\u30BF\u30F3"
+  m_Text: 
 --- !u!114 &114848350364826230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2412,7 +2422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.63
-  m_Text: "\u203B\u3053\u3061\u3089\u306E\u30DC\u30BF\u30F3\u306F\n <color=red>\u30B9\u30BF\u30C3\u30D5\u5C02\u7528</color>\u3067\u3059\u3002"
+  m_Text: 
 --- !u!114 &114889870994843456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2553,7 +2563,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30D5\u30A9\u30C8\u30D5\u30EC\u30FC\u30E0"
+  m_Text: 
 --- !u!114 &114950509982892238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2586,7 +2596,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u623B \u308B"
+  m_Text: 
 --- !u!114 &114985386369309598
 MonoBehaviour:
   m_ObjectHideFlags: 1

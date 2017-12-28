@@ -188,7 +188,17 @@ public enum LocaleType
     IconLimitedYokai,
     ButtonHowToPlay,
     ButtonYokaiLibrary,
-    ButtonBonus
+    ButtonBonus,
+    ButtonSwitchCamera,
+    TitleBonusPage,
+    ButtonPhotoFrame,
+    ButtonTicket,
+    ButtonPrologue,
+    TitleTicketPage,
+    TicketNoticeForStaff,
+    TicketNoticeDontTap,
+    ButtonTicketStaff
+    
 }
 
 [Serializable]
