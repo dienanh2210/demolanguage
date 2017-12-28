@@ -2053,7 +2053,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u904A\u3073\u65B9"
+  m_Text: 
 --- !u!114 &114255780650647246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3703,7 +3703,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5C01 \u5370 \u5E16"
+  m_Text: 
 --- !u!114 &114776637111165086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3776,6 +3776,9 @@ MonoBehaviour:
   MiddleEnding: {fileID: 1539014278192516}
   LastEnding: {fileID: 1056919401320208}
   DialogGuidePlay: {fileID: 1512850993802974}
+  btnShowYokaiLibrary: {fileID: 1745957927307274}
+  btnShowRewardList: {fileID: 1257785624529616}
+  btnGuidePlay: {fileID: 1247587678607868}
 --- !u!114 &114786415359080692
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3835,7 +3838,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u307B\u3046\u3073 \u5E16"
+  m_Text: 
 --- !u!114 &114804624785226628
 MonoBehaviour:
   m_ObjectHideFlags: 1
