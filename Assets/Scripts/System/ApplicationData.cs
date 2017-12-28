@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Linq;
+
 
 public class ApplicationData : MonoBehaviour
 {
@@ -25,7 +25,7 @@ public class ApplicationData : MonoBehaviour
         var locale = applicationData.localeData.Find((obj) => obj.key == key);
         if (locale.key != LocaleType.None)
         {
-            return locale.localContents.First().image;
+            return locale.localContents.Find((obj) => obj.languageType == SelectedLanguage).image;
         }
         else
         {
