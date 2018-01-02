@@ -17,7 +17,7 @@ public class TitlePage : Page
     [SerializeField]
     TextPic txtTerm;
     [SerializeField]
-    Text txtRed;
+    Text txtRed, txtSelectLanguage, txtShowApp, txtCaution;
 
     string iosID;
     string androidID;
@@ -44,6 +44,11 @@ public class TitlePage : Page
         {
             dialog.SetActive(false);
         }
+
+        txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
+        txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
+        txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
+
     }
     private void Start()
     {
