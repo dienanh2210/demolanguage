@@ -39,6 +39,8 @@ public class MapPageManager : Page
     GameObject btnShowRewardList;
     [SerializeField]
     GameObject btnGuidePlay;
+    [SerializeField]
+    GameObject btnClose;
 
     //public Text test;
     iBeaconDetect iBeaconDetect;
@@ -77,6 +79,7 @@ public class MapPageManager : Page
         btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonYokaiLibrary);
         btnShowRewardList.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBonus);
         btnGuidePlay.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonHowToPlay);
+        btnClose.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonClose);
     }
 
     IEnumerator _EnableBeacon ()
