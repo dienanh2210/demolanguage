@@ -63,7 +63,7 @@ public class TitlePage : Page
         {
             PopupRed.SetActive(false);
         }
-        //DisalbeButton("btJapanese");
+
     }
 #endregion
 
