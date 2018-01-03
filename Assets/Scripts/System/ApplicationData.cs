@@ -197,8 +197,11 @@ public enum LocaleType
     TitleTicketPage,
     TicketNoticeForStaff,
     TicketNoticeDontTap,
-    ButtonTicketStaff
-    
+    ButtonTicketStaff,
+    SelectLanguage,
+    ButtonOpenEsashiApp,
+    ButtonOpenCautionDialog
+
 }
 
 [Serializable]

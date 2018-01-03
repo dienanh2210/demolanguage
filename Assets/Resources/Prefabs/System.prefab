@@ -126,65 +126,254 @@ MonoBehaviour:
     - languageType: 0
       text: "\u25C7\u671F\u9593\u9650\u5B9A\u5996\u602A\u51FA\u6CA1\u4E2D\u25C7\n\u671F\u9593\u9650\u5B9A\u306E\u5996\u602A\u304C\n\u5730\u56F3\u4E0A\u306E-green_fire\u306E\n\u5834\u6240\u306B\u51FA\u6CA1\u3057\u307E\u3059\u3002\n\u3053\u306E\u6A5F\u4F1A\u306B\u3001\u5C01\u5370\u3057\u3088\u3046\u3002"
       image: {fileID: 0}
+    - languageType: 1
+      text: "\u25C7 Limited-time youkai appearing \u25C7\r\nA limited-time youkai\r\n-green_fire
+        on the map\r\nI will appear at the place.\r\nLet's seal this occasion."
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u25C7\u6709\u9650\u7684\u6642\u9593youkai\u51FA\u73FE\u25C7\r\n\u6709\u9650\u7684\u6642\u9593youkai\r\n-green_fire\u5728\u5730\u5716\u4E0A\r\n\u6211\u6703\u51FA\u73FE\u5728\u9019\u500B\u5730\u65B9\u3002\r\n\u6211\u5011\u4F86\u5BC6\u5C01\u9019\u500B\u5834\u5408\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u25C7\u6709\u9650\u7684\u65F6\u95F4youkai\u51FA\u73B0\u25C7\r\n\u6709\u9650\u7684\u65F6\u95F4youkai\r\n-green_fire\u5728\u5730\u56FE\u4E0A\r\n\u6211\u4F1A\u51FA\u73B0\u5728\u8FD9\u4E2A\u5730\u65B9\u3002\r\n\u6211\u4EEC\u6765\u5BC6\u5C01\u8FD9\u4E2A\u573A\u5408\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u25C7\u0E40\u0E27\u0E25\u0E32\u0E17\u0E35\u0E48 youkai \u0E21\u0E35\u0E40\u0E27\u0E25\u0E32
+        \u0E08\u0E33\u0E01\u0E31\u0E14 \u0E17\u0E35\u0E48\u0E1B\u0E23\u0E32\u0E01\u0E0F\u25C7\r\nyoukai
+        \u0E40\u0E27\u0E25\u0E32 \u0E08\u0E33\u0E01\u0E31\u0E14\r\n-green_fire \u0E1A\u0E19\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\r\n\u0E09\u0E31\u0E19\u0E08\u0E30\u0E21\u0E32\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\r\n\u0E21\u0E32\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E43\u0E19\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E19\u0E35\u0E49"
+      image: {fileID: 0}
   - key: 2
     localContents:
     - languageType: 0
       text: "\u300C\u30A8\u30EA\u30A2\u2460\u2461\u306E\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3066\u304F\u308C\u3066\u3042\u308A\u304C\u3068\u3046\u3002\u304A\u793C\u306B\u30D5\u30A9\u30C8\u30D5\u30EC\u30FC\u30E0\u3092\u6E21\u3059\u3067\u3054\u3056\u308B\u3002\u307B\u3046\u3073\u5E16\u3092\u898B\u3066\u307F\u308B\u306E\u3067\u3054\u3056\u308B\u30FB\u30FB\u30FB\u300D"
+      image: {fileID: 0}
+    - languageType: 1
+      text: "\"Thank you for sealing the youkai of the area \u2460 \u2461. I will
+        give you a photo frame in return thank you for seeing the broomage book ...\""
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u201C\u8B1D\u8B1D\u4F60\u628A\u9019\u500B\u5340\u57DF\u7684\u5BC6\u5C01\u5C01\u4E0A\u2460\u2461\uFF0C\u6211\u6703\u7D66\u4F60\u4E00\u500B\u76F8\u6846\u8B1D\u8B1D\u4F60\u770B\u5230\u9019\u672C\u66F8...\u201D"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u201C\u8C22\u8C22\u4F60\u628A\u8FD9\u4E2A\u533A\u57DF\u7684\u5BC6\u5C01\u5C01\u4E0A\u2460\u2461\uFF0C\u6211\u4F1A\u7ED9\u4F60\u4E00\u4E2A\u76F8\u6846\u8C22\u8C22\u4F60\u770B\u5230\u8FD9\u672C\u4E66...\u201D"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\"\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01
+        youkai \u0E02\u0E2D\u0E07\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48\u2460\u2461\u0E09\u0E31\u0E19\u0E08\u0E30\u0E43\u0E2B\u0E49\u0E01\u0E23\u0E2D\u0E1A\u0E23\u0E39\u0E1B\u0E01\u0E25\u0E31\u0E1A\u0E02\u0E2D\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E14\u0E39\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D
+        broomage ... \""
       image: {fileID: 0}
   - key: 3
     localContents:
     - languageType: 0
       text: "\u300C\u304A\u3084\u3001\u653F\u5E81\u306B\u9152\u5451\u7AE5\u5B50\u304C\u73FE\u308C\u305F\u3067\u3054\u3056\u308B\u3002\u4ECA\u3059\u3050\u5C01\u5370\u3057\u306B\u884C\u304F\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
       image: {fileID: 0}
+    - languageType: 1
+      text: '"Oh, the drinking baby has appeared at the government agency, so we are
+        going to seal it now."'
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u201C\u54E6\uFF0C\u90A3\u500B\u53EF\u611B\u7684\u5B69\u5B50\u5DF2\u7D93\u51FA\u73FE\u5728\u653F\u5E9C\u6A5F\u69CB\u4E86\uFF0C\u6240\u4EE5\u6211\u5011\u73FE\u5728\u8981\u5C01\u5370\u4E86\u3002\u201D"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u201C\u54E6\uFF0C\u90A3\u4E2A\u53EF\u7231\u7684\u5B69\u5B50\u5DF2\u7ECF\u51FA\u73B0\u5728\u653F\u5E9C\u673A\u6784\u4E86\uFF0C\u6240\u4EE5\u6211\u4EEC\u73B0\u5728\u8981\u5C01\u5370\u4E86\u3002\u201D"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\"\u0E42\u0E2D\u0E49\u0E40\u0E14\u0E47\u0E01\u0E14\u0E37\u0E48\u0E21\u0E44\u0E14\u0E49\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E31\u0E27\u0E17\u0E35\u0E48\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E23\u0E31\u0E10\u0E14\u0E31\u0E07\u0E19\u0E31\u0E49\u0E19\u0E40\u0E23\u0E32\u0E08\u0E30\u0E44\u0E1B\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E43\u0E19\u0E02\u0E13\u0E30\u0E19\u0E35\u0E49.\""
+      image: {fileID: 0}
   - key: 4
     localContents:
     - languageType: 0
       text: "\u300C\u518D\u3073\u653F\u5E81\u306B\u9152\u5451\u7AE5\u5B50\u304C\u73FE\u308C\u305F\u3067\u3054\u3056\u308B\u3002\u4ECA\u5EA6\u3053\u305D\u5C01\u5370\u3059\u308B\u3067\u3054\u3056\u308B\u3002\u300D"
+      image: {fileID: 0}
+    - languageType: 1
+      text: '"Again, a drunken little child has appeared in the political agency again,
+        it is a sealed seal.'
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u201C\u518D\u6B21\uFF0C\u4E00\u500B\u9189\u9152\u7684\u5C0F\u5B69\u518D\u6B21\u51FA\u73FE\u5728\u653F\u6CBB\u6A5F\u69CB\uFF0C\u9019\u662F\u4E00\u500B\u5C01\u5370\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u201C\u518D\u6B21\uFF0C\u4E00\u4E2A\u9189\u9152\u7684\u5C0F\u5B69\u518D\u6B21\u51FA\u73B0\u5728\u653F\u6CBB\u673A\u6784\uFF0C\u8FD9\u662F\u4E00\u4E2A\u5C01\u5370\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\"\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E40\u0E14\u0E47\u0E01\u0E02\u0E35\u0E49\u0E40\u0E21\u0E32\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E31\u0E27\u0E43\u0E19\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E17\u0E32\u0E07\u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E21\u0E31\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E23\u0E32\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E17\u0E35\u0E48\u0E1B\u0E34\u0E14\u0E2A\u0E19\u0E34\u0E17"
       image: {fileID: 0}
   - key: 5
     localContents:
     - languageType: 0
       text: "\u3053\u306E\u5996\u602A\u306F\u3001\u518D\u3073\u300C\u5996\u602A\u5C01\u5370\u5E16\u300D\u306B\r\u5C01\u5370\u3055\u308C\u308B\u4E8B\u3092\u6050\u308C\u3066\u3001\u5C01\u5370\u3055\u308C\u305F\u9801\u3092\r\u96A0\u3057\u3066\u3057\u307E\u3063\u305F\u306E\u3067\u3054\u3056\u308B\u3002"
       image: {fileID: 0}
+    - languageType: 1
+      text: "This youkai again becomes \"Yokai Sealing Book\"\r\nAfraid of being sealed,
+        I will seal the sealed page\r\nI hid it."
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u9019youkai\u53C8\u6210\u70BA\u201CYokai\u5BC6\u5C01\u66F8\u201D\r\n\u5BB3\u6015\u88AB\u5C01\uFF0C\u6211\u6703\u5C01\u5370\u5C01\u9762\r\n\u6211\u628A\u5B83\u85CF\u8D77\u4F86\u4E86"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u8FD9youkai\u53C8\u6210\u4E3A\u201CYokai\u5BC6\u5C01\u4E66\u201D\r\n\u5BB3\u6015\u88AB\u5C01\uFF0C\u6211\u4F1A\u5C01\u5370\u5C01\u9762\r\n\u6211\u628A\u5B83\u85CF\u8D77\u6765\u4E86"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E19\u0E35\u0E49 youkai \u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E01\u0E25\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19
+        \"\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01
+        Yokai\"\r\n\u0E01\u0E25\u0E31\u0E27\u0E16\u0E39\u0E01\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E09\u0E31\u0E19\u0E08\u0E30\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E2B\u0E19\u0E49\u0E32\r\n\u0E09\u0E31\u0E19\u0E0B\u0E48\u0E2D\u0E19\u0E21\u0E31\u0E19\u0E44\u0E27\u0E49"
+      image: {fileID: 0}
   - key: 6
     localContents:
     - languageType: 0
       text: "\u8FD1\u304F\u306B\u3042\u308B-item\u306B\u884C\u3063\u3066\r\u9801\u3092\u63A2\u3059\u306E\u3067\u3054\u3056\u308B\u3002"
+      image: {fileID: 0}
+    - languageType: 1
+      text: 'Go to the nearby -item
+
+        I search for a page.'
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u53BB\u9644\u8FD1-item\n\u6211\u641C\u7D22\u4E00\u500B\u9801\u9762\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u53BB\u9644\u8FD1-item\n\u6211\u641C\u7D22\u4E00\u4E2A\u9875\u9762\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E44\u0E1B\u0E17\u0E35\u0E48\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E43\u0E01\u0E25\u0E49\u0E40\u0E04\u0E35\u0E22\u0E07
+        -item\n\u0E09\u0E31\u0E19\u0E04\u0E49\u0E19\u0E2B\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E40\u0E27\u0E47\u0E1A"
       image: {fileID: 0}
   - key: 7
     localContents:
     - languageType: 0
       text: "\u3053\u306E\u9801\u304C\u7121\u3044\u3068\u5C01\u5370\u3067\u304D\u306A\u3044\u5996\u602A\u304C\r\u8FD1\u304F\u306B\u3044\u308B\u306E\u3067\u3054\u3056\u308B\u3002\r\u305D\u308C\u307E\u3067\u5927\u4E8B\u306B\u6301\u3063\u3066\u308B\u306E\u3067\u3054\u3056\u308B\u3002"
       image: {fileID: 0}
+    - languageType: 1
+      text: "If you do not have this page youkai you can not seal\r\nIt is near because
+        it is near.\r\nUntil then, I have important things."
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u5982\u679C\u4F60\u6C92\u6709\u9019\u500B\u7DB2\u9801youkai\u4F60\u4E0D\u80FD\u5BC6\u5C01\r\n\u56E0\u70BA\u9760\u8FD1\u6240\u4EE5\u8FD1\u3002\r\n\u5728\u90A3\u4E4B\u524D\uFF0C\u6211\u6709\u91CD\u8981\u7684\u4E8B\u60C5\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5982\u679C\u4F60\u6CA1\u6709\u8FD9\u4E2A\u7F51\u9875youkai\u4F60\u4E0D\u80FD\u5BC6\u5C01\r\n\u56E0\u4E3A\u9760\u8FD1\u6240\u4EE5\u8FD1\u3002\r\n\u5728\u90A3\u4E4B\u524D\uFF0C\u6211\u6709\u91CD\u8981\u7684\u4E8B\u60C5\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E21\u0E35\u0E2B\u0E19\u0E49\u0E32\u0E19\u0E35\u0E49\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E44\u0E14\u0E49\r\n\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E01\u0E25\u0E49\u0E40\u0E1E\u0E23\u0E32\u0E30\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E01\u0E25\u0E49\r\n\u0E08\u0E19\u0E41\u0E25\u0E49\u0E27\u0E09\u0E31\u0E19\u0E21\u0E35\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2A\u0E33\u0E04\u0E31\u0E0D"
+      image: {fileID: 0}
   - key: 8
     localContents:
     - languageType: 0
       text: "\u300C\u843D\u3061\u7740\u3044\u3066\u5C01\u5370\u3059\u308B\u3067\u3054\u3056\u308B\u300D"
+      image: {fileID: 0}
+    - languageType: 1
+      text: '"Calm down and seal it"'
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u201C\u51B7\u975C\u4E0B\u4F86\u201D"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u201C\u51B7\u9759\u4E0B\u6765\u201D"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\"\u0E2A\u0E07\u0E1A\u0E25\u0E07\u0E41\u0E25\u0E30\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E44\u0E27\u0E49\""
       image: {fileID: 0}
   - key: 9
     localContents:
     - languageType: 0
       text: "\u300C\u3093\uFF01\uFF1F\u300D"
       image: {fileID: 0}
+    - languageType: 1
+      text: "\"Hmm!?\"\r\n"
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u201C\u6211\uFF01\uFF1F\u201D"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u201C\u6211\uFF01\uFF1F\u201D"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\"\u0E1C\u0E21 !?\""
+      image: {fileID: 0}
   - key: 10
     localContents:
     - languageType: 0
       text: "\u300C\u5C01\u5370\u3067\u304D\u306A\u3044\u3067\u3054\u3056\u308B\uFF01\u300D"
       image: {fileID: 0}
+    - languageType: 1
+      text: '"I can not seal it!"'
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u201C\u6211\u4E0D\u80FD\u628A\u5B83\u5C01\u8D77\u4F86\uFF01\u201D"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u201C\u6211\u4E0D\u80FD\u628A\u5B83\u5C01\u8D77\u6765\uFF01\u201D"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\"\u0E09\u0E31\u0E19\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E44\u0E14\u0E49!\""
+      image: {fileID: 0}
   - key: 11
     localContents:
     - languageType: 0
-      text: "\u9152\u5451\u7AE5\u5B50\u306E\u5996\u529B\u306F\u5F37\u529B\u3067\u3001\u9003\u3052\u3089\u308C\u3066\u3057\u307E\u3063\u305F\u2015\u2015\u3002\r\r\u300C\u30A8\u30EA\u30A2\u306E\u2462\u2463\u306E\u5996\u602A\u3092\u5C01\u5370\u3059\u308C\u3070\u3082\u3063\u3068\u5F37\u304F\u306A\u308C\u308B\u306E\u3067\u3054\u3056\u308B\u3002\r\u7D9A\u3051\u3066\u5996\u602A\u3092\u5C01\u5370\u3059\u308B\u306E\u3067\u3054\u3056\u308B\u3002\u300D"
+      text: "\u9152\u5451\u7AE5\u5B50\u306E\u5996\u529B\u306F\u5F37\u529B\u3067\u3001\u9003\u3052\u3089\u308C\u3066\u3057\u307E\u3063\u305F\u2015\u2015\u3002\r\n\r\n\u300C\u30A8\u30EA\u30A2\u306E\u2462
+        \u2463\u306E\u5996\u602A\u3092\u5C01\u5370\u3059\u308C\u3070\u3082\u3063\u3068\u5F37\u304F\u306A\u308C\u308B\u306E\u3067\u3054\u3056\u308B\u3002\r\n\u7D9A\u3051\u3066\u5996\u602A\u3092\u5C01\u5370\u3059\u308B\u306E\u3067\u3054\u3056\u308B\u3002\u300D"
+      image: {fileID: 0}
+    - languageType: 1
+      text: "Daishijiji 's musical power was powerful and escaped.\r\n\r\n\"If you
+        seal the youkai of area \u2462 \u2463, you can become stronger.\r\nContinue
+        to seal youkai. \""
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u5927\u4E16\u7D00\u7684\u97F3\u6A02\u529B\u91CF\u662F\u5F37\u5927\u7684\uFF0C\u9003\u812B\u4E86\u3002\r\n\r\n\u201C\u5982\u679C\u4F60\u628A\u5340\u57DF\u2462\u7684\u5BC6\u5C01\u5C01\u4F4F\uFF0C\u4F60\u53EF\u4EE5\u8B8A\u5F97\u66F4\u5F37\u58EF\u3002\r\n\u7E7C\u7E8C\u5BC6\u5C01youkai\u3002\u201C"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5927\u4E16\u7EAA\u7684\u97F3\u4E50\u529B\u91CF\u662F\u5F3A\u5927\u7684\uFF0C\u9003\u8131\u4E86\u3002\r\n\r\n\u201C\u5982\u679C\u4F60\u628A\u533A\u57DF\u2462\u7684\u5BC6\u5C01\u5C01\u4F4F\uFF0C\u4F60\u53EF\u4EE5\u53D8\u5F97\u66F4\u5F3A\u58EE\u3002\r\n\u7EE7\u7EED\u5BC6\u5C01youkai\u3002\u201C"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E1E\u0E25\u0E31\u0E07\u0E14\u0E19\u0E15\u0E23\u0E35\u0E02\u0E2D\u0E07
+        Daishijiji \u0E21\u0E35\u0E1E\u0E25\u0E31\u0E07\u0E41\u0E25\u0E30\u0E2B\u0E25\u0E1A\u0E2B\u0E19\u0E35\r\n\r\n\"\u0E16\u0E49\u0E32\u0E04\u0E38\u0E13\u0E1C\u0E19\u0E36\u0E01
+        youkai \u0E02\u0E2D\u0E07\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48\u2462\u2463\u0E04\u0E38\u0E13\u0E08\u0E30\u0E41\u0E02\u0E47\u0E07\u0E41\u0E23\u0E07\u0E02\u0E36\u0E49\u0E19\r\n\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32
+        youkai \""
       image: {fileID: 0}
   - key: 12
     localContents:
     - languageType: 0
       text: "\u300C\u9B54\u754C\u306E\u5165\u308A\u53E3\u300D\u3092\u958B\u3053\u3046\u3068\u3057\u3066\u305F\u9152\u5451\u7AE5\u5B50\u3092\u5012\u3057\u3001\u5996\u602A\u5C01\u5370\u5E16\u3092\r\u5B8C\u6210\u3055\u305B\u308B\u3053\u3068\u304C\u3067\u304D\u305F\u3002\u300C\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3066\u304F\u308C\u3066\u3042\u308A\u304C\u3068\u3046\u3002\u304A\u793C\u306B\u5F15\u63DB\u5238\u3092\u6E21\u3059\u3067\u3054\u3056\u308B\u3002\u307B\u3046\u3073\u5E16\u3092\u898B\u3066\u307F\u308B\u306E\u3067\u3054\u3056\u308B\u3002\u5F15\u63DB\u5238\u3092\u3001\u30B9\u30BF\u30C3\u30D5\u306B\u898B\u305B\u308B\u3068\u826F\u3044\u3053\u3068\u304C\u3042\u308B\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
       image: {fileID: 0}
+    - languageType: 1
+      text: "We defeated Sake drinking boys, who tried to open \"entrance to the world
+        of Makai\", and cast a monster seal seal\r\nI was able to complete it. \"Thank
+        you for sealing youkai. Thank you for giving away a voucher.To see the broomage
+        book, there is something good if you show the voucher to the staff.\""
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u6211\u5011\u64CA\u6557\u4E86\u5617\u9152\u7684\u7537\u5B69\uFF0C\u8A66\u5716\u6253\u958B\u201CMakai\u4E16\u754C\u7684\u5165\u53E3\u201D\uFF0C\u4E26\u6295\u4E0B\u4E86\u4E00\u500B\u602A\u7269\u6D77\u8C79\u5370\u7AE0\r\n\u6211\u80FD\u5920\u5B8C\u6210\u5B83\u3002
+        \u201C\u8B1D\u8B1D\u4F60\u7D66\u6211\u958B\u5C01\uFF0C\u8B1D\u8B1D\u4F60\u8D08\u9001\u4E00\u5F35\u512A\u60E0\u5238\u3002\u8981\u770B\u6E05\u6383\u66F8\uFF0C\u5411\u54E1\u5DE5\u51FA\u793A\u512A\u60E0\u5238\u662F\u4EF6\u597D\u4E8B\u3002\u201D"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u6211\u4EEC\u51FB\u8D25\u4E86\u5C1D\u9152\u7684\u7537\u5B69\uFF0C\u8BD5\u56FE\u6253\u5F00\u201CMakai\u4E16\u754C\u7684\u5165\u53E3\u201D\uFF0C\u5E76\u6295\u4E0B\u4E86\u4E00\u4E2A\u602A\u7269\u6D77\u8C79\u5370\u7AE0\r\n\u6211\u80FD\u591F\u5B8C\u6210\u5B83\u3002
+        \u201C\u8C22\u8C22\u4F60\u7ED9\u6211\u5F00\u5C01\uFF0C\u8C22\u8C22\u4F60\u8D60\u9001\u4E00\u5F20\u4F18\u60E0\u5238\u3002\u770B\u5230\u8FD9\u672C\u597D\u4E66\uFF0C\u5411\u5458\u5DE5\u51FA\u793A\u4F18\u60E0\u5238\u662F\u4EF6\u597D\u4E8B\u3002\u201D"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E40\u0E23\u0E32\u0E1E\u0E48\u0E32\u0E22\u0E41\u0E1E\u0E49\u0E40\u0E14\u0E47\u0E01\u0E14\u0E37\u0E48\u0E21\u0E40\u0E2B\u0E25\u0E49\u0E32
+        Sake \u0E1C\u0E39\u0E49\u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E40\u0E1B\u0E34\u0E14
+        \"\u0E17\u0E32\u0E07\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E42\u0E25\u0E01\u0E02\u0E2D\u0E07
+        Makai\" \u0E41\u0E25\u0E30\u0E42\u0E22\u0E19\u0E15\u0E23\u0E32\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E02\u0E2D\u0E07\u0E21\u0E2D\u0E19\u0E2A\u0E40\u0E15\u0E2D\u0E23\u0E4C\r\n\u0E09\u0E31\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E17\u0E33\u0E21\u0E31\u0E19\u0E44\u0E14\u0E49
+        \u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01
+        youkai \u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E43\u0E2B\u0E49\u0E1A\u0E31\u0E15\u0E23\u0E01\u0E33\u0E19\u0E31\u0E25\u0E2B\u0E32\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E14\u0E39\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D
+        broomage \u0E21\u0E35\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E14\u0E35\u0E17\u0E35\u0E48\u0E08\u0E30\u0E41\u0E2A\u0E14\u0E07\u0E1A\u0E31\u0E15\u0E23\u0E01\u0E33\u0E19\u0E31\u0E25\u0E43\u0E2B\u0E49\u0E01\u0E31\u0E1A\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19"
+      image: {fileID: 0}
   - key: 13
     localContents:
     - languageType: 0
       text: "\u300C\u4E00\u5EA6\u9003\u304C\u3057\u305F\u5996\u602A\u306F5\u5206\u305F\u305F\u306A\u3044\u3068\u3001\u5C01\u5370\u3067\u304D\u306A\u3044\u306E\u3067\u3054\u3056\u308B\u300D"
+      image: {fileID: 0}
+    - languageType: 1
+      text: '"Once you''ve escaped a youkai five minutes, you can not seal it,"'
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u201C\u4E00\u65E6\u4F60\u4E94\u5206\u9418\u4E4B\u5167\u9003\u96E2\u4E86\u4F60\uFF0C\u4F60\u5C31\u7121\u6CD5\u5C01\u9396\u5B83\u201D"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u201C\u4E00\u65E6\u4F60\u4E94\u5206\u949F\u4E4B\u5185\u9003\u79BB\u4E86\u4F60\uFF0C\u4F60\u5C31\u65E0\u6CD5\u5C01\u9501\u5B83\u201D"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\"\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E04\u0E38\u0E13\u0E2B\u0E19\u0E35
+        youkai \u0E2B\u0E49\u0E32\u0E19\u0E32\u0E17\u0E35\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E21\u0E31\u0E19\""
       image: {fileID: 0}
   - key: 14
     localContents:
@@ -193,25 +382,120 @@ MonoBehaviour:
         Plus\u3001iPhone6s\u3001iPhone6s Plus, iPhone6, iPhone6Plus\n\u30FBGalaxy
         S6\u3001Galaxy S6 Edge\u3001\nGalaxy S7\u3001Galaxy S7 Edge,\n\n\u203B\u4E0A\u8A18\u306E\u6761\u4EF6\u3092\u6E80\u305F\u3057\u3066\u3044\u3066\u3082\u3001\n\u6A5F\u7A2E\u306B\u3088\u3063\u3066\u306F\u6B63\u5E38\u306B\n\u52D5\u4F5C\u3057\u306A\u3044\u3053\u3068\u304C\u3054\u3056\u3044\u307E\u3059\u3002\n\n[\u3054\u6CE8\u610F]\n\u30FB\u672C\u30A2\u30D7\u30EA\u306F\u30D3\u30FC\u30B3\u30F3\u691C\u51FA\u6A5F\u80FD\u3092\u4F7F\u7528\u3059\u308B\n\u305F\u3081\u3001\u4F4D\u7F6E\u60C5\u5831(GPS)\u3001Bluetooth\u3092\nON\u306B\u3057\u3066\u3054\u5229\u7528\u304F\u3060\u3055\u3044\u3002\n\u30FBGPS\u6A5F\u80FD\u3092\u4F7F\u7528\u3059\u308B\u969B\u3001\u7AEF\u672B\u304C\n\u767A\u71B1\u3059\u308B\u3053\u3068\u304C\u3054\u3056\u3044\u307E\u3059\u3002"
       image: {fileID: 0}
+    - languageType: 1
+      text: "The recommended environment for this application is as follows.\r\nIOS
+        9.0 or higher Android 6.0 or higher\r\n\r\n[Recommended environment]\r\n\xB7
+        IPhone 7, iPhone 7 Plus, iPhone 6s, iPhone 6s Plus, iPhone 6, iPhone 6 Plus\r\n\xB7
+        Galaxy S 6, Galaxy S 6 edge,\r\nGalaxy S 7, Galaxy S 7 edge,\r\n\r\n\u203B
+        The above condition\r\nIt depends on the normal version.\r\nIt may not work\r\n\r\n[note]\r\n\xB7
+        This application uses the beacon detection function.\r\nLocation information
+        (GPS), Bluetooth\r\nPlease turn it on and use it.\r\n\xB7 When using the GPS
+        terminal function\r\nHeating"
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u9019\u500B\u61C9\u7528\u7A0B\u5E8F\u63A8\u85A6\u7684\u74B0\u5883\u5982\u4E0B\u3002\r\n\xB7IOS
+        9.0\u6216\u66F4\u9AD8\u7248\u672C\xB7Android 6.0\u6216\u66F4\u9AD8\u7248\u672C\r\n\r\n[\u63A8\u85A6\u74B0\u5883]\r\n\xB7iPhone
+        7\uFF0CiPhone 7 Plus\uFF0CiPhone 6s\uFF0CiPhone 6s Plus\uFF0CiPhone 6\uFF0CiPhone
+        6 Plus\r\n\xB7Galaxy S6\uFF0CGalaxy S6 Edge\uFF0C\r\nGalaxy S7\uFF0CGalaxy
+        S7 Edge\uFF0C\r\n\r\n*\u5373\u4F7F\u6EFF\u8DB3\u4E0A\u8FF0\u689D\u4EF6\uFF0C\r\n\u53D6\u6C7A\u65BC\u6A21\u578B\uFF0C\u6B63\u5E38\r\n\u5B83\u53EF\u80FD\u4E0D\u5DE5\u4F5C\u3002\r\n\r\n[\u6CE8\u610F]\r\n\xB7\u8A72\u61C9\u7528\u7A0B\u5E8F\u4F7F\u7528\u4FE1\u6A19\u6AA2\u6E2C\u529F\u80FD\r\n\u56E0\u6B64\uFF0C\u4F4D\u7F6E\u4FE1\u606F\uFF08GPS\uFF09\uFF0C\u85CD\u7259\r\n\u8ACB\u6253\u958B\u4E26\u4F7F\u7528\u5B83\u3002\r\n\xB7\u4F7F\u7528GPS\u529F\u80FD\u6642\uFF0C\u7D42\u7AEF\r\n\u53EF\u80FD\u6703\u5F15\u8D77\u767C\u71D2\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u9019\u500B\u61C9\u7528\u7A0B\u5E8F\u63A8\u85A6\u7684\u74B0\u5883\u5982\u4E0B\u3002\r\n\xB7IOS
+        9.0\u6216\u66F4\u9AD8\u7248\u672C\xB7Android 6.0\u6216\u66F4\u9AD8\u7248\u672C\r\n\r\n[\u63A8\u85A6\u74B0\u5883]\r\n\xB7iPhone
+        7\uFF0CiPhone 7 Plus\uFF0CiPhone 6s\uFF0CiPhone 6s Plus\uFF0CiPhone 6\uFF0CiPhone
+        6 Plus\r\n\xB7Galaxy S6\uFF0CGalaxy S6 Edge\uFF0C\r\nGalaxy S7\uFF0CGalaxy
+        S7 Edge\uFF0C\r\n\r\n*\u5373\u4F7F\u6EFF\u8DB3\u4E0A\u8FF0\u689D\u4EF6\uFF0C\r\n\u53D6\u6C7A\u65BC\u6A21\u578B\uFF0C\u6B63\u5E38\r\n\u5B83\u53EF\u80FD\u4E0D\u5DE5\u4F5C\u3002\r\n\r\n[\u6CE8\u610F]\r\n\xB7\u8A72\u61C9\u7528\u7A0B\u5E8F\u4F7F\u7528\u4FE1\u6A19\u6AA2\u6E2C\u529F\u80FD\r\n\u56E0\u6B64\uFF0C\u4F4D\u7F6E\u4FE1\u606F\uFF08GPS\uFF09\uFF0C\u85CD\u7259\r\n\u8ACB\u6253\u958B\u4E26\u4F7F\u7528\u5B83\u3002\r\n\xB7\u4F7F\u7528GPS\u529F\u80FD\u6642\uFF0C\u7D42\u7AEF\r\n\u53EF\u80FD\u6703\u5F15\u8D77\u767C\u71D2\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E2A\u0E20\u0E32\u0E1E\u0E41\u0E27\u0E14\u0E25\u0E49\u0E2D\u0E21\u0E17\u0E35\u0E48\u0E41\u0E19\u0E30\u0E19\u0E33\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E41\u0E2D\u0E47\u0E1E\u0E1E\u0E25\u0E34\u0E40\u0E04\u0E0A\u0E31\u0E19\u0E19\u0E35\u0E49\u0E21\u0E35\u0E14\u0E31\u0E07\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E19\u0E35\u0E49\r\n\xB7
+        IOS 9.0 \u0E02\u0E36\u0E49\u0E19\u0E44\u0E1B\xB7 Android 6.0 \u0E2B\u0E23\u0E37\u0E2D\u0E43\u0E2B\u0E21\u0E48\u0E01\u0E27\u0E48\u0E32\r\n\r\n[\u0E2A\u0E20\u0E32\u0E1E\u0E41\u0E27\u0E14\u0E25\u0E49\u0E2D\u0E21\u0E17\u0E35\u0E48\u0E41\u0E19\u0E30\u0E19\u0E33]\r\n\xB7
+        iPhone 7, iPhone 7 Plus, iPhone 6 s, iPhone 6 s Plus, iPhone 6, iPhone 6 Plus\r\n\xB7
+        Galaxy S6, Galaxy S6 Edge,\r\nGalaxy S7, Galaxy S7 Edge,\r\n\r\n* \u0E41\u0E21\u0E49\u0E27\u0E48\u0E32\u0E40\u0E07\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E02\u0E02\u0E49\u0E32\u0E07\u0E15\u0E49\u0E19\u0E08\u0E30\u0E1E\u0E2D\u0E43\u0E08,\r\n\u0E02\u0E36\u0E49\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E01\u0E31\u0E1A\u0E23\u0E38\u0E48\u0E19\u0E1B\u0E01\u0E15\u0E34\r\n\u0E2D\u0E32\u0E08\u0E44\u0E21\u0E48\u0E17\u0E33\u0E07\u0E32\u0E19\r\n\r\n[\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E2B\u0E15\u0E38]\r\n\xB7\u0E41\u0E2D\u0E47\u0E1E\u0E1E\u0E25\u0E34\u0E40\u0E04\u0E0A\u0E31\u0E19\u0E19\u0E35\u0E49\u0E43\u0E0A\u0E49\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E19\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E08\u0E31\u0E1A\u0E1A\u0E35\u0E04\u0E2D\u0E19\r\n\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07
+        (GPS), Bluetooth\r\n\u0E01\u0E23\u0E38\u0E13\u0E32\u0E40\u0E1B\u0E34\u0E14\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E41\u0E25\u0E30\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\r\n\xB7\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E43\u0E0A\u0E49\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E48\u0E19
+        GPS, \u0E40\u0E17\u0E2D\u0E23\u0E4C\u0E21\u0E34\u0E19\u0E31\u0E25\r\n\u0E2D\u0E32\u0E08\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E40\u0E01\u0E34\u0E14\u0E44\u0E02\u0E49\u0E44\u0E14\u0E49"
+      image: {fileID: 0}
   - key: 15
     localContents:
     - languageType: 0
       text: "\u2776\u30A2\u30A4\u30B3\u30F3\u306E\u5834\u6240\u306B\u884C\u3063\u3066\u5996\u602A\u9054\u3092\u3001\n\u63A2\u305D\u3046\u3002\n\n\r\r\u2777\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u30BF\u30C3\u30D7\u3057\u3066\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3088\u3046\u3002\n\n\r\r\u2778\u5C01\u5370\u5E16\u306B\u30DA\u30FC\u30B8\u304C\u306A\u304F\u3001\u5C01\u5370\u3067\u304D\u306A\u3044\u5996\u602A\u3082\u3044\u307E\u3059\u3002\u5148\u306B\u30DA\u30FC\u30B8\u3092\u63A2\u305D\u3046\u3002\n\n\r\r\u2779\u3042\u308B\u671F\u9593\u306B\u306E\u307F\u51FA\u73FE\u3059\u308B\u9650\u5B9A\u5996\u602A\u3082\u3044\u308B\u3088\uFF01\n\n\r\r\u5996\u602A\u5C01\u5370\u5E16\u3092\u5B8C\u6210\u3055\u305B\u3066\u3001\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u306B\u5E73\u548C\u3092\u53D6\u308A\u623B\u305D\u3046\u3002\r"
+      image: {fileID: 0}
+    - languageType: 1
+      text: "\u2776 Go to icon place and youkai,\r\nlet's search.\r\n\r\n\r\n\r\n\u2777
+        Let's tap the timing and seal the youkai.\r\n\r\n\r\n\r\n\u2778 There are
+        no pages in the seal book and some youkai can not be sealed. Let's search
+        the page first.\r\n\r\n\r\n\r\n\u2779 There are limited youkai that only appear
+        for a certain period!\r\n\r\n\r\n\r\nComplete your youkai seal book and let
+        Ezashi regain peace in the village of Fujiwara."
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u2776\u53BB\u5716\u6A19\u7684\u5730\u65B9\u548Cyoukai\uFF0C\r\n\u8B93\u6211\u5011\u627E\u5230\u5B83\u3002\r\n\r\n\r\n\r\n\u2777\u8B93\u6211\u5011\u6316\u6398\u6642\u6A5F\uFF0C\u4E26\u5BC6\u5C01youkai\u3002\r\n\r\n\r\n\r\nseal\u5BC6\u5C01\u66F8\u4E2D\u6C92\u6709\u9801\u9762\uFF0C\u6709\u4E9B\u5BC6\u5C01\u4E0D\u80FD\u5BC6\u5C01\u3002
+        \u6211\u5011\u5148\u641C\u7D22\u9801\u9762\u3002\r\n\r\n\r\n\r\n\u2779\u6709\u9650\u7684youkai\u53EA\u51FA\u73FE\u4E00\u6BB5\u6642\u9593\uFF01\r\n\r\n\r\n\r\n\u5B8C\u6210\u4F60\u7684\u5BC6\u5C01\u66F8\uFF0C\u8B93\u57C3\u624E\u65AF\u5728\u85E4\u539F\u6751\u6062\u5FA9\u548C\u5E73\u3002\n\r\n\r\n\r\n\u2777\u8BA9\u6211\u4EEC\u6316\u6398\u65F6\u673A\uFF0C\u5E76\u5BC6\u5C01youkai\u3002\r\n\r\n\r\n\r\nseal\u5BC6\u5C01\u4E66\u4E2D\u6CA1\u6709\u9875\u9762\uFF0C\u6709\u4E9B\u5BC6\u5C01\u4E0D\u80FD\u5BC6\u5C01\u3002
+        \u6211\u4EEC\u5148\u641C\u7D22\u9875\u9762\u3002\r\n\r\n\r\n\r\n\u2779\u6709\u9650\u7684youkai\u53EA\u51FA\u73B0\u4E00\u6BB5\u65F6\u95F4\uFF01\r\n\r\n\r\n\r\n\u5B8C\u6210\u4F60\u7684\u5BC6\u5C01\u4E66\uFF0C\u8BA9\u57C3\u624E\u65AF\u5728\u85E4\u539F\u6751\u6062\u590D\u548C\u5E73\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u2776\u53BB\u56FE\u6807\u7684\u5730\u65B9\u548Cyoukai\uFF0C\r\n\u8BA9\u6211\u4EEC\u627E\u5230\u5B83\u3002\r\n\r\n\r\n\r\n\u2777\u8BA9\u6211\u4EEC\u6316\u6398\u65F6\u673A\uFF0C\u5E76\u5BC6\u5C01youkai\u3002\r\n\r\n\r\n\r\nseal\u5BC6\u5C01\u4E66\u4E2D\u6CA1\u6709\u9875\u9762\uFF0C\u6709\u4E9B\u5BC6\u5C01\u4E0D\u80FD\u5BC6\u5C01\u3002
+        \u6211\u4EEC\u5148\u641C\u7D22\u9875\u9762\u3002\r\n\r\n\r\n\r\n\u2779\u6709\u9650\u7684youkai\u53EA\u51FA\u73B0\u4E00\u6BB5\u65F6\u95F4\uFF01\r\n\r\n\r\n\r\n\u5B8C\u6210\u4F60\u7684\u5BC6\u5C01\u4E66\uFF0C\u8BA9\u57C3\u624E\u65AF\u5728\u85E4\u539F\u6751\u6062\u590D\u548C\u5E73\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u2776\u0E44\u0E1B\u0E17\u0E35\u0E48\u0E44\u0E2D\u0E04\u0E2D\u0E19 place
+        \u0E41\u0E25\u0E30 youkai,\r\n\u0E25\u0E2D\u0E07\u0E2B\u0E32\u0E14\u0E39\u0E2A\u0E34\r\n\r\n\r\n\r\n\u2777\u0E25\u0E2D\u0E07\u0E41\u0E15\u0E30\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30\u0E40\u0E27\u0E25\u0E32\u0E41\u0E25\u0E30\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32
+        youkai\r\n\r\n\r\n\r\n\u2778\u0E44\u0E21\u0E48\u0E21\u0E35\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E43\u0E19\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E41\u0E25\u0E30\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01
+        youkai \u0E44\u0E14\u0E49 \u0E25\u0E2D\u0E07\u0E04\u0E49\u0E19\u0E2B\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E41\u0E23\u0E01\u0E01\u0E48\u0E2D\u0E19\r\n\r\n\r\n\r\n\u2779\u0E21\u0E35
+        youkai \u0E17\u0E35\u0E48 \u0E08\u0E33\u0E01\u0E31\u0E14 \u0E17\u0E35\u0E48\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E0A\u0E48\u0E27\u0E07\u0E40\u0E27\u0E25\u0E32\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19!\r\n\r\n\r\n\r\n\u0E40\u0E15\u0E34\u0E21\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E23\u0E31\u0E1A\u0E23\u0E2D\u0E07
+        youkai \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E43\u0E2B\u0E49\u0E2A\u0E21\u0E1A\u0E39\u0E23\u0E13\u0E4C\u0E41\u0E25\u0E30\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E43\u0E2B\u0E49
+        Ezashi \u0E1F\u0E37\u0E49\u0E19\u0E2A\u0E31\u0E19\u0E15\u0E34\u0E20\u0E32\u0E1E\u0E43\u0E19\u0E2B\u0E21\u0E39\u0E48\u0E1A\u0E49\u0E32\u0E19
+        Fujiwara"
       image: {fileID: 0}
   - key: 16
     localContents:
     - languageType: 0
       text: "\u753B\u9762\u3092\u30BF\u30C3\u30D7\u3057\u3066\u4E0B\u3055\u3044\u3002"
       image: {fileID: 0}
+    - languageType: 1
+      text: Please tap the screen.
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u8ACB\u9EDE\u64CA\u5C4F\u5E55\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u8BF7\u70B9\u51FB\u5C4F\u5E55\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E42\u0E1B\u0E23\u0E14\u0E41\u0E15\u0E30\u0E17\u0E35\u0E48\u0E2B\u0E19\u0E49\u0E32\u0E08\u0E2D"
+      image: {fileID: 0}
   - key: 17
     localContents:
     - languageType: 0
       text: "\u623B\u308B"
       image: {fileID: 0}
+    - languageType: 1
+      text: "Return\r\n"
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u56DE\u5831"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u56DE\u62A5"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E01\u0E25\u0E31\u0E1A"
+      image: {fileID: 0}
   - key: 18
     localContents:
     - languageType: 0
       text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+    - languageType: 1
+      text: Seal seal
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u5BC6\u5C01\u5BC6\u5C01"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5BC6\u5C01\u5BC6\u5C01"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E0B\u0E35\u0E25"
       image: {fileID: 0}
   - key: 19
     localContents:
@@ -223,60 +507,261 @@ MonoBehaviour:
     - languageType: 0
       text: "\u904A\u3073\u65B9"
       image: {fileID: 0}
+    - languageType: 1
+      text: how to play
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u600E\u9EBC\u73A9"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u600E\u4E48\u73A9\r\n"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E27\u0E34\u0E18\u0E35\u0E01\u0E32\u0E23\u0E40\u0E25\u0E48\u0E19\r\n"
+      image: {fileID: 0}
   - key: 21
     localContents:
     - languageType: 0
       text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+    - languageType: 1
+      text: Seal seal
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u5BC6\u5C01\u5BC6\u5C01"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5BC6\u5C01\u5BC6\u5C01"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E0B\u0E35\u0E25"
       image: {fileID: 0}
   - key: 22
     localContents:
     - languageType: 0
       text: "\u307B\u3046\u3073\u5E16"
       image: {fileID: 0}
+    - languageType: 1
+      text: Buddhist priest
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u4F5B\u6559\u7267\u5E2B"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u4F5B\u6559\u7267\u5E08"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E1E\u0E38\u0E17\u0E18\u0E28\u0E32\u0E2A\u0E19\u0E34\u0E01\u0E0A\u0E19"
+      image: {fileID: 0}
   - key: 23
     localContents:
     - languageType: 0
       text: "\u5207\u308A\u66FF\u3048"
+      image: {fileID: 0}
+    - languageType: 1
+      text: switch
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u958B\u95DC"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5F00\u5173"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E01\u0E32\u0E23\u0E2A\u0E25\u0E31\u0E1A"
       image: {fileID: 0}
   - key: 24
     localContents:
     - languageType: 0
       text: "\u307B\u3046\u3073 \u5E16"
       image: {fileID: 0}
+    - languageType: 1
+      text: Buddhist priest
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u4F5B\u6559\u7267\u5E2B"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u4F5B\u6559\u7267\u5E08"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E1E\u0E38\u0E17\u0E18\u0E28\u0E32\u0E2A\u0E19\u0E34\u0E01\u0E0A\u0E19"
+      image: {fileID: 0}
   - key: 25
     localContents:
     - languageType: 0
       text: "\u30D5\u30A9\u30C8\u30D5\u30EC\u30FC\u30E0"
+      image: {fileID: 0}
+    - languageType: 1
+      text: Photo frame
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u76F8\u6846"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u76F8\u6846"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E01\u0E23\u0E2D\u0E1A\u0E23\u0E39\u0E1B"
       image: {fileID: 0}
   - key: 26
     localContents:
     - languageType: 0
       text: "\u5F15 \u63DB \u5238"
       image: {fileID: 0}
+    - languageType: 1
+      text: Coupon
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u62C9\u8F49\u63DB\u9580\u7968"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u62C9\u8F6C\u6362\u95E8\u7968"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E14\u0E36\u0E07\u0E15\u0E31\u0E4B\u0E27\u0E41\u0E1B\u0E25\u0E07"
+      image: {fileID: 0}
   - key: 27
     localContents:
     - languageType: 0
       text: "\u30D7\u30ED\u30ED\u30FC\u30B0"
+      image: {fileID: 0}
+    - languageType: 1
+      text: prologue
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u5E8F\u5E55"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5E8F\u5E55"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E2D\u0E32\u0E23\u0E31\u0E21\u0E20\u0E1A\u0E17"
       image: {fileID: 0}
   - key: 28
     localContents:
     - languageType: 0
       text: "\u5F15 \u63DB \u5238"
       image: {fileID: 0}
+    - languageType: 1
+      text: Coupon
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u62C9\u8F49\u63DB\u9580\u7968"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u62C9\u8F6C\u6362\u95E8\u7968"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E14\u0E36\u0E07\u0E15\u0E31\u0E4B\u0E27\u0E41\u0E1B\u0E25\u0E07"
+      image: {fileID: 0}
   - key: 29
     localContents:
     - languageType: 0
       text: "\u203B\u3053\u3061\u3089\u306E\u30DC\u30BF\u30F3\u306F\n <color=red>\u30B9\u30BF\u30C3\u30D5\u5C02\u7528</color>\u3067\u3059\u3002 "
+      image: {fileID: 0}
+    - languageType: 1
+      text: "\u203B This button is\r\n\_ <color = red> Staff only </ color>."
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u203B\u9019\u500B\u6309\u9215\u662F\r\n\_ <color = red>\u50C5\u9650\u54E1\u5DE5</
+        color>\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u203B\u8FD9\u4E2A\u6309\u94AE\u662F\r\n\_ <color = red>\u4EC5\u9650\u5458\u5DE5</
+        color>\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49\u0E04\u0E37\u0E2D\r\n\_ <color
+        = red> \u0E40\u0E09\u0E1E\u0E32\u0E30\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19
+        </ color>"
       image: {fileID: 0}
   - key: 30
     localContents:
     - languageType: 0
       text: "\u304A\u5BA2\u69D8\u306F\u30BF\u30C3\u30D7\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044\u3002"
       image: {fileID: 0}
+    - languageType: 1
+      text: Customer should not tap.
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u5BA2\u6236\u4E0D\u61C9\u8A72\u9EDE\u64CA\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5BA2\u6237\u4E0D\u5E94\u8BE5\u70B9\u51FB\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E25\u0E39\u0E01\u0E04\u0E49\u0E32\u0E44\u0E21\u0E48\u0E04\u0E27\u0E23\u0E41\u0E15\u0E30"
+      image: {fileID: 0}
   - key: 31
     localContents:
     - languageType: 0
       text: "\u30B9\u30BF\u30C3\u30D5\u7528\u30DC\u30BF\u30F3"
+      image: {fileID: 0}
+    - languageType: 1
+      text: Staff button
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u54E1\u5DE5\u6309\u9215"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5458\u5DE5\u6309\u94AE"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E1B\u0E38\u0E48\u0E21 Staff"
+      image: {fileID: 0}
+  - key: 32
+    localContents:
+    - languageType: 0
+      text: "\u8A00 \u8A9E \u3092 \u9078 \u629E \u3057 \u3066 \u304F \u3060 \u3055
+        \u3044\u3002"
+      image: {fileID: 0}
+    - languageType: 1
+      text: Please select a language.
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u8ACB\u9078\u64C7\u4E00\u7A2E\u8A9E\u8A00\u3002"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u8BF7\u9009\u62E9\u4E00\u79CD\u8BED\u8A00\u3002"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E42\u0E1B\u0E23\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E20\u0E32\u0E29\u0E32"
+      image: {fileID: 0}
+  - key: 33
+    localContents:
+    - languageType: 0
+      text: "\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\n\u30CA\u30D3"
+      image: {fileID: 0}
+    - languageType: 1
+      text: Fuji Fujiwara's Township Navi
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u5BCC\u58EB\u85E4\u539F\u9109Navi"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5BCC\u58EB\u85E4\u539F\u4E61Navi"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30\u0E02\u0E2D\u0E07\u0E40\u0E21\u0E37\u0E2D\u0E07
+        Navi"
+      image: {fileID: 0}
+  - key: 34
+    localContents:
+    - languageType: 0
+      text: "\u3054\u5229\u7528\u4E0A\u306E\n\u6CE8\u610F"
+      image: {fileID: 0}
+    - languageType: 1
+      text: "On usage\r\nCaution"
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u5728\u4F7F\u7528\r\n\u8B66\u544A"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5728\u4F7F\u7528\r\n\u8B66\u544A"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\r\n\u0E04\u0E27\u0E32\u0E21\u0E23\u0E30\u0E21\u0E31\u0E14\u0E23\u0E30\u0E27\u0E31\u0E07"
       image: {fileID: 0}
   local: []
   yokaiData:
