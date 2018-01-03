@@ -469,7 +469,7 @@ MonoBehaviour:
       text: "\u623B\u308B"
       image: {fileID: 0}
     - languageType: 1
-      text: "Return\r\n"
+      text: "Return\r"
       image: {fileID: 0}
     - languageType: 2
       text: "\u56DE\u5831"
@@ -508,7 +508,7 @@ MonoBehaviour:
       text: "\u904A\u3073\u65B9"
       image: {fileID: 0}
     - languageType: 1
-      text: how to play
+      text: Guide play
       image: {fileID: 0}
     - languageType: 2
       text: "\u600E\u9EBC\u73A9"
@@ -525,7 +525,7 @@ MonoBehaviour:
       text: "\u5C01\u5370\u5E16"
       image: {fileID: 0}
     - languageType: 1
-      text: Seal seal
+      text: Seal posts
       image: {fileID: 0}
     - languageType: 2
       text: "\u5BC6\u5C01\u5BC6\u5C01"
@@ -542,7 +542,7 @@ MonoBehaviour:
       text: "\u307B\u3046\u3073\u5E16"
       image: {fileID: 0}
     - languageType: 1
-      text: Buddhist priest
+      text: Priest
       image: {fileID: 0}
     - languageType: 2
       text: "\u4F5B\u6559\u7267\u5E2B"
@@ -661,20 +661,17 @@ MonoBehaviour:
       text: "\u203B\u3053\u3061\u3089\u306E\u30DC\u30BF\u30F3\u306F\n <color=red>\u30B9\u30BF\u30C3\u30D5\u5C02\u7528</color>\u3067\u3059\u3002 "
       image: {fileID: 0}
     - languageType: 1
-      text: "\u203B This button is\r\n\_ <color = red> Staff only </ color>."
+      text: "\u203B This button is\n <color=red>Staff only</color>."
       image: {fileID: 0}
     - languageType: 2
-      text: "\u203B\u9019\u500B\u6309\u9215\u662F\r\n\_ <color = red>\u50C5\u9650\u54E1\u5DE5</
-        color>\u3002"
+      text: "\u203B\u9019\u500B\u6309\u9215\u662F\r\n\_<color=red>\u50C5\u9650\u54E1\u5DE5</color>."
       image: {fileID: 0}
     - languageType: 3
-      text: "\u203B\u8FD9\u4E2A\u6309\u94AE\u662F\r\n\_ <color = red>\u4EC5\u9650\u5458\u5DE5</
-        color>\u3002"
+      text: "\u203B\u8FD9\u4E2A\u6309\u94AE\u662F\r\n\_<color=red>\u4EC5\u9650\u5458\u5DE5</color>."
       image: {fileID: 0}
     - languageType: 4
-      text: "\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49\u0E04\u0E37\u0E2D\r\n\_ <color
-        = red> \u0E40\u0E09\u0E1E\u0E32\u0E30\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19
-        </ color>"
+      text: "\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49\u0E04\u0E37\u0E2D\r\n\_<color=red>
+        \u0E40\u0E09\u0E1E\u0E32\u0E30\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19 </color>."
       image: {fileID: 0}
   - key: 30
     localContents:
