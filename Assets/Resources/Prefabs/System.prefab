@@ -758,6 +758,125 @@ MonoBehaviour:
     - languageType: 4
       text: "\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\r\n\u0E04\u0E27\u0E32\u0E21\u0E23\u0E30\u0E21\u0E31\u0E14\u0E23\u0E30\u0E27\u0E31\u0E07"
       image: {fileID: 0}
+  - key: 35
+    localContents:
+    - languageType: 0
+      text: "\u9589 \u3058 \u308B"
+      image: {fileID: 0}
+    - languageType: 1
+      text: Close
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u59EC\u6307\u6536"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u59EC\u6307\u6536"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E08\u0E35\u0E17\u0E35\u0E48\u0E1B\u0E34\u0E14"
+      image: {fileID: 0}
+  - key: 36
+    localContents:
+    - languageType: 0
+      text: "\u5C01\u5370\u5E16\u3092\u898B\u308B"
+      image: {fileID: 0}
+    - languageType: 1
+      text: See the Seal
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u770B\u5BC6\u5C01\u689D"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u770B\u5BC6\u5C01\u6761"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E14\u0E39\u0E0B\u0E35\u0E25\u0E1C\u0E19\u0E36\u0E01"
+      image: {fileID: 0}
+  - key: 37
+    localContents:
+    - languageType: 0
+      text: "\u5C01\u5370\u3059\u308B"
+      image: {fileID: 0}
+    - languageType: 1
+      text: To Seal
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u5BC6\u5C01"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u5BC6\u5C01"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E43\u0E19\u0E01\u0E32\u0E23\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01"
+      image: {fileID: 0}
+  - key: 38
+    localContents:
+    - languageType: 0
+      text: "\u30A2\u30A4\u30C6\u30E0\u3092\u7372\u5F97\u3057\u307E\u3057\u305F\uFF01"
+      image: {fileID: 0}
+    - languageType: 1
+      text: I won an item!
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u6211\u8D0F\u4E86\u4E00\u500B\u9805\u76EE\uFF01"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u6211\u8D62\u4E86\u4E00\u4E2A\u9879\u76EE\uFF01"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E09\u0E31\u0E19\u0E0A\u0E19\u0E30\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23!"
+      image: {fileID: 0}
+  - key: 39
+    localContents:
+    - languageType: 0
+      text: "\u5996\u602A\u3092\u5C01\u5370\u3057\u307E\u3057\u305F\uFF01"
+      image: {fileID: 0}
+    - languageType: 1
+      text: I sealed yokai!
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u6211\u5C01\u4F60\u4E86\uFF01"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u6211\u5C01\u4F60\u4E86\uFF01"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E09\u0E31\u0E19\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01 youkai!"
+      image: {fileID: 0}
+  - key: 40
+    localContents:
+    - languageType: 0
+      text: "\u5996\u602A\u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002\u5C01\u5370\u3057\u307E\u3059\u304B?"
+      image: {fileID: 0}
+    - languageType: 1
+      text: I found a youkai. Do you seal it?
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u6211\u627E\u5230\u4E86\u4E00\u500Byoukai \u4F60\u5C01\u5370\u55CE\uFF1F"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u6211\u627E\u5230\u4E86\u4E00\u4E2Ayoukai \u4F60\u5C01\u5370\u5417\uFF1F"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E09\u0E31\u0E19\u0E1E\u0E1A youkai \u0E04\u0E38\u0E13\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?"
+      image: {fileID: 0}
+  - key: 41
+    localContents:
+    - languageType: 0
+      text: "\u30A2\u30A4\u30C6\u30E0\u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002\u7372\u5F97\u3057\u307E\u3059\u304B?"
+      image: {fileID: 0}
+    - languageType: 1
+      text: I found an item. Do you want to win?
+      image: {fileID: 0}
+    - languageType: 2
+      text: "\u6211\u627E\u5230\u4E86\u4E00\u500B\u9805\u76EE\u3002 \u4F60\u60F3\u8D0F\u55CE\uFF1F"
+      image: {fileID: 0}
+    - languageType: 3
+      text: "\u6211\u627E\u5230\u4E86\u4E00\u4E2A\u9879\u76EE\u3002 \u4F60\u60F3\u8D62\u5417\uFF1F"
+      image: {fileID: 0}
+    - languageType: 4
+      text: "\u0E09\u0E31\u0E19\u0E1E\u0E1A\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23 \u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E17\u0E35\u0E48\u0E08\u0E30\u0E0A\u0E19\u0E30?"
+      image: {fileID: 0}
   local: []
   yokaiData:
   - id: 1

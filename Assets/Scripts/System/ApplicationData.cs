@@ -200,7 +200,16 @@ public enum LocaleType
     ButtonTicketStaff,
     SelectLanguage,
     ButtonOpenEsashiApp,
-    ButtonOpenCautionDialog
+    ButtonOpenCautionDialog,
+    ButtonClose,
+    ButtonGetSuccessful,
+    ButtonToSeal,
+    MessageGetItem,
+    MessageGetYokai,
+    MessageFindYokai,
+    MessageFindItem
+
+
 
 }
 

@@ -3779,6 +3779,7 @@ MonoBehaviour:
   btnShowYokaiLibrary: {fileID: 1745957927307274}
   btnShowRewardList: {fileID: 1257785624529616}
   btnGuidePlay: {fileID: 1247587678607868}
+  btnClose: {fileID: 1514107251276378}
 --- !u!114 &114786415359080692
 MonoBehaviour:
   m_ObjectHideFlags: 1
