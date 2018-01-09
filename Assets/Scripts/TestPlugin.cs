@@ -21,18 +21,17 @@ public class TestPlugin : MonoBehaviour {
             activityContext = activityClass.GetStatic<AndroidJavaObject>("currentActivity");
         }
 
-        using (AndroidJavaClass pluginClass = new AndroidJavaClass("com.yume.hhm.mylibrary.iBeaconLib"))
+        using (AndroidJavaClass pluginClass = new AndroidJavaClass("com.yume.hhm.mylibrary.IBeaconLib"))
         {
             if (pluginClass != null)
             {
                 pluginObject = pluginClass.CallStatic<AndroidJavaObject>("instance");
                 pluginObject.Call("setContext", activityContext);
                 log = pluginObject.Call<string>("turnOnService");
-                if (log != null)
+                /*if (log != null)
                 {
-                    //text.text = log;
-                }
-                //pluginObject.Call("turnOnService");
+                    text.text = log;
+                }*/
             }
         }
     }
