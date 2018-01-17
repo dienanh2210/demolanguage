@@ -22,6 +22,7 @@ public class TutorialManager : Page
         {
             string name = i.name.Remove(0, 5);
             var obj = ApplicationData.TutorialData.Where(s => s.index.ToString() == name.Trim()).ToList();
+           
             if (obj.Count() > 0)
             {
                 i.transform.GetChild(0).GetComponent<Image>().sprite = obj[0].image;
@@ -29,7 +30,7 @@ public class TutorialManager : Page
                 for (int a = 0; a < ApplicationData.TutorialData[a].localContents.Count; a++)
                 {
                     i.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = obj[0].localContents[a].text.ToString();
-
+                    i.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.TapOnPrologue);
                 }
             }
         }

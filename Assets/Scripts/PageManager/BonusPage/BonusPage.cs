@@ -4,14 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class BonusPage : Page {
-    
-    #region Declare
-        [SerializeField]
-        GameObject buttonTicket,btShowPhoto,btShowTicket;
 
-        Color myGray = new Color();
-        Color myWhite = new Color();
-        List<Image> lstImg = new List<Image>();
+    #region Declare
+    [SerializeField]
+    GameObject buttonTicket, btShowPhoto, btShowTicket;
+
+    [SerializeField]
+    Text txtBack, txtTitle, txtbtPhoto, txtbtTicket, txtbtTutorial;
+    [SerializeField]
+    Text txtTicketBack, txtTicketTitle, txtTicketNoticeForStaff, txtTicketNoticeDontTap, txtbtTicketStaff;
+
+
+    Color myGray = new Color();
+    Color myWhite = new Color();
+    List<Image> lstImg = new List<Image>();
     #endregion
 
     #region Init
@@ -38,7 +44,19 @@ public class BonusPage : Page {
                 buttonTicket.SetActive(true);
             else
                 buttonTicket.SetActive(false);
-        }
+
+        txtBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
+        txtTitle.text = ApplicationData.GetLocaleText(LocaleType.TitleBonusPage);
+        txtbtPhoto.text = ApplicationData.GetLocaleText(LocaleType.ButtonPhotoFrame);
+        txtbtTicket.text = ApplicationData.GetLocaleText(LocaleType.ButtonTicket);
+        txtbtTutorial.text = ApplicationData.GetLocaleText(LocaleType.ButtonPrologue);
+
+        txtTicketBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
+        txtTicketTitle.text = ApplicationData.GetLocaleText(LocaleType.TitleTicketPage);
+        txtTicketNoticeForStaff.text = ApplicationData.GetLocaleText(LocaleType.TicketNoticeForStaff);
+        txtTicketNoticeDontTap.text = ApplicationData.GetLocaleText(LocaleType.TicketNoticeDontTap);
+        txtbtTicketStaff.text = ApplicationData.GetLocaleText(LocaleType.ButtonTicketStaff);
+    }
     #endregion
 
     #region Utility
@@ -66,6 +84,7 @@ public class BonusPage : Page {
                 }
             }
         }
+
         public void Click()
         {
             UserData.TakeTicket();
