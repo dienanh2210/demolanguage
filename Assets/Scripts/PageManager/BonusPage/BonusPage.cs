@@ -50,8 +50,12 @@ public class BonusPage : Page {
         txtbtPhoto.text = ApplicationData.GetLocaleText(LocaleType.ButtonPhotoFrame);
         txtbtTicket.text = ApplicationData.GetLocaleText(LocaleType.ButtonTicket);
         txtbtTutorial.text = ApplicationData.GetLocaleText(LocaleType.ButtonPrologue);
+
 		txtDialogConfirm1.text = ApplicationData.GetLocaleText (LocaleType.ConfirmationDialog1);
+		txtDialogConfirm1.lineSpacing = ApplicationData.SetLineSpacing (LocaleType.ConfirmationDialog1);
+
 		txtDialogConfirm2.text = ApplicationData.GetLocaleText (LocaleType.ConfirmationDialog2);
+
 		txtYes1.text = ApplicationData.GetLocaleText (LocaleType.ButtonYes);
 		txtNo1.text = ApplicationData.GetLocaleText (LocaleType.ButtonNo);
 		txtYes2.text = ApplicationData.GetLocaleText (LocaleType.ButtonYes);
@@ -59,8 +63,15 @@ public class BonusPage : Page {
 		txtExchangeTicket.text = ApplicationData.GetLocaleText (LocaleType.ButtonExchangeTicket);
         txtTicketBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
         txtTicketTitle.text = ApplicationData.GetLocaleText(LocaleType.TitleTicketPage);
+
         txtTicketNoticeForStaff.text = ApplicationData.GetLocaleText(LocaleType.TicketNoticeForStaff);
+		txtTicketNoticeForStaff.rectTransform.localPosition = ApplicationData.SetLinePosition (LocaleType.TicketNoticeForStaff);
+		txtTicketNoticeForStaff.rectTransform.sizeDelta = new Vector2 (ApplicationData.SetLineWidth (LocaleType.TicketNoticeForStaff), 327);
+
         txtTicketNoticeDontTap.text = ApplicationData.GetLocaleText(LocaleType.TicketNoticeDontTap);
+		txtTicketNoticeDontTap.rectTransform.localPosition = ApplicationData.SetLinePosition (LocaleType.TicketNoticeDontTap);
+		txtTicketNoticeDontTap.rectTransform.sizeDelta = new Vector2 (ApplicationData.SetLineWidth (LocaleType.TicketNoticeDontTap), 327);
+
         txtbtTicketStaff.text = ApplicationData.GetLocaleText(LocaleType.ButtonTicketStaff);
     }
     #endregion
