@@ -1511,7 +1511,7 @@ MonoBehaviour:
         a second exchange. For this reason, a staff member must always tap this button
         for the exchange.
       image: {fileID: 0}
-      lineSpacing: 1.2
+      lineSpacing: 0.7
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 2
