@@ -207,10 +207,12 @@ public enum LocaleType
     MessageGetItem,
     MessageGetYokai,
     MessageFindYokai,
-    MessageFindItem
-
-
-
+    MessageFindItem,
+	ConfirmationDialog1,
+	ConfirmationDialog2,
+	ButtonYes,
+	ButtonNo,
+	ButtonExchangeTicket
 }
 
 [Serializable]

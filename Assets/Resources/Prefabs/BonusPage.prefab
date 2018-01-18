@@ -183,7 +183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1138099111693042
 GameObject:
   m_ObjectHideFlags: 1
@@ -1468,6 +1468,13 @@ MonoBehaviour:
   txtbtPhoto: {fileID: 114934856167574434}
   txtbtTicket: {fileID: 114277574868186370}
   txtbtTutorial: {fileID: 114673886821763962}
+  txtDialogConfirm1: {fileID: 114808838235389922}
+  txtDialogConfirm2: {fileID: 114105520179472030}
+  txtYes1: {fileID: 114557545396588226}
+  txtNo1: {fileID: 114990620680297236}
+  txtYes2: {fileID: 114405762944462890}
+  txtNo2: {fileID: 114499560138568674}
+  txtExchangeTicket: {fileID: 114658517555039548}
   txtTicketBack: {fileID: 114476142550570254}
   txtTicketTitle: {fileID: 114505000383717066}
   txtTicketNoticeForStaff: {fileID: 114848350364826230}

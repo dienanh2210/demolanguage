@@ -10,7 +10,7 @@ public class BonusPage : Page {
     GameObject buttonTicket, btShowPhoto, btShowTicket;
 
     [SerializeField]
-    Text txtBack, txtTitle, txtbtPhoto, txtbtTicket, txtbtTutorial;
+	Text txtBack, txtTitle, txtbtPhoto, txtbtTicket, txtbtTutorial, txtDialogConfirm1, txtDialogConfirm2, txtYes1, txtNo1, txtYes2, txtNo2, txtExchangeTicket;
     [SerializeField]
     Text txtTicketBack, txtTicketTitle, txtTicketNoticeForStaff, txtTicketNoticeDontTap, txtbtTicketStaff;
 
@@ -50,7 +50,13 @@ public class BonusPage : Page {
         txtbtPhoto.text = ApplicationData.GetLocaleText(LocaleType.ButtonPhotoFrame);
         txtbtTicket.text = ApplicationData.GetLocaleText(LocaleType.ButtonTicket);
         txtbtTutorial.text = ApplicationData.GetLocaleText(LocaleType.ButtonPrologue);
-
+		txtDialogConfirm1.text = ApplicationData.GetLocaleText (LocaleType.ConfirmationDialog1);
+		txtDialogConfirm2.text = ApplicationData.GetLocaleText (LocaleType.ConfirmationDialog2);
+		txtYes1.text = ApplicationData.GetLocaleText (LocaleType.ButtonYes);
+		txtNo1.text = ApplicationData.GetLocaleText (LocaleType.ButtonNo);
+		txtYes2.text = ApplicationData.GetLocaleText (LocaleType.ButtonYes);
+		txtNo2.text = ApplicationData.GetLocaleText (LocaleType.ButtonNo);
+		txtExchangeTicket.text = ApplicationData.GetLocaleText (LocaleType.ButtonExchangeTicket);
         txtTicketBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
         txtTicketTitle.text = ApplicationData.GetLocaleText(LocaleType.TitleTicketPage);
         txtTicketNoticeForStaff.text = ApplicationData.GetLocaleText(LocaleType.TicketNoticeForStaff);
