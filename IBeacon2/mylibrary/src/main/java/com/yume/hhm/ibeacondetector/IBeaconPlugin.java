@@ -17,8 +17,8 @@ public class IBeaconPlugin {
         return instance;
     }
 
-    public void setContext(Context context){
-        this.context = context;
+    public void setContext(Context ctx){
+        context = ctx;
     }
 
     public Context getContext(){
@@ -26,14 +26,12 @@ public class IBeaconPlugin {
     }
 
     public void turnOnService(String json) {
-        Toast.makeText(context,"on service",Toast.LENGTH_LONG).show();
         Intent i = new Intent(context, com.yume.hhm.ibeacondetector.IBeaconService.class);
         i.putExtra("json", json);
         context.startService(i);
     }
 
     public void turnOffService() {
-        Toast.makeText(context,"off service",Toast.LENGTH_LONG).show();
         context.stopService(new Intent(context, com.yume.hhm.ibeacondetector.IBeaconService.class));
     }
 }

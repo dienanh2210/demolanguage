@@ -1,5 +1,6 @@
 package com.yume.hhm.ibeacondetector;
 
+import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -43,9 +44,10 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
     private String beaconName;
     private RegionBootstrap regionBootstrap;
 
-    private NotificationCompat.Builder mBuilder;
-    private int mNotificationId = 001;
-    private NotificationManager mNotifyMgr;
+    private NotificationCompat.Builder notificationBuilder;
+    private int notificationId = 001;
+    private Notification notification;
+    private NotificationManager notificationManager;
 
     private Context context;
 
@@ -53,46 +55,53 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
 
     public void onCreate() {
         super.onCreate();
+        try {
+            context = IBeaconPlugin.instance().getContext();
 
-        context = IBeaconPlugin.instance().getContext();
+            PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, new Intent(context, UnityPlayerActivity.class), PendingIntent.FLAG_UPDATE_CURRENT);
+            int id = getResources().getIdentifier("noti", "drawable", "com.yume.yokaiget");
 
-        PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, new Intent(context, UnityPlayerActivity.class), PendingIntent.FLAG_UPDATE_CURRENT);
-        int id = getResources().getIdentifier("noti", "drawable", "com.yume.yokaiget");
+            notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+            notificationBuilder = new NotificationCompat.Builder(context)
+                    .setSmallIcon(id)
+                    .setContentTitle("iBeacon detected!")
+                    .setContentText("Tap to show")
+                    .setContentIntent(pendingIntent)
+                    .setAutoCancel(true);
+            notification = notificationBuilder.build();
 
-        mNotifyMgr = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        mBuilder = new NotificationCompat.Builder(context)
-                .setSmallIcon(id)
-                .setContentTitle("iBeacon detected!!!")
-                .setContentText("Tap to show!!!")
-                .setContentIntent(pendingIntent);
-
-        beaconManager = BeaconManager.getInstanceForApplication(getApplicationContext());
-        beaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24"));
-        beaconManager.setBackgroundBetweenScanPeriod(1000);
-        identifier = Identifier.parse("B0FC4601-14A6-43A1-ABCD-CB9CFDDB4013");
-        beaconName = "Yokai_get_ibeacon";
-        region = new Region(beaconName, identifier, null, null);
+            beaconManager = BeaconManager.getInstanceForApplication(getApplicationContext());
+            beaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24"));
+            beaconManager.setBackgroundBetweenScanPeriod(2000);
+            identifier = Identifier.parse("B0FC4601-14A6-43A1-ABCD-CB9CFDDB4013");
+            beaconName = "Yokai_get_ibeacon";
+            region = new Region(beaconName, identifier, null, null);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 
     @Override
     public void onDestroy(){
         super.onDestroy();
-        beaconManager.unbind(this);
+        if(beaconManager != null)
+            beaconManager.unbind(this);
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         regionBootstrap = new RegionBootstrap(this, region);
-        beaconManager.bind(this);
-        if (intent != null && intent.getExtras() != null){
+        if(beaconManager != null)
+            beaconManager.bind(this);
+        if (intent != null && intent.getExtras() != null) {
             String json = intent.getStringExtra("json");
             parseJSON(json);
         }
         return START_NOT_STICKY;
     }
 
-    private void parseJSON(String json){
+    private void parseJSON(String json) {
         listMinor = new ArrayList<>();
         try {
             JSONObject jsonObj = new JSONObject(json);
@@ -138,7 +147,7 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
                     for (Beacon b : collection) {
                         for(String minor : listMinor) {
                             if(b.getId3().toString().equals(minor)) {
-                                mNotifyMgr.notify(mNotificationId, mBuilder.build());
+                                notificationManager.notify(notificationId, notification);
                             }
                         }
                     }

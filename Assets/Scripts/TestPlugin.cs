@@ -43,7 +43,6 @@ public class TestPlugin : MonoBehaviour {
         sb.Remove(sb.Length - 1, 1);
         sb.Append(']');
         string str = sb.ToString();
-
         string finalJSON = "{\"iBeacons\":" + str + "}";
         return finalJSON;
     }
