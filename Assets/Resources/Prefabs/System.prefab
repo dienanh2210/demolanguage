@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8db3af1c53d74098a55a4b2b67ed456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedLanguage: 1
+  selectedLanguage: 0
   localeData:
   - key: 1
     localContents:
@@ -149,9 +149,10 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u25C7\u0E40\u0E27\u0E25\u0E32\u0E17\u0E35\u0E48 youkai \u0E21\u0E35\u0E40\u0E27\u0E25\u0E32
-        \u0E08\u0E33\u0E01\u0E31\u0E14 \u0E17\u0E35\u0E48\u0E1B\u0E23\u0E32\u0E01\u0E0F\u25C7\r\nyoukai
-        \u0E40\u0E27\u0E25\u0E32 \u0E08\u0E33\u0E01\u0E31\u0E14\r\n-green_fire \u0E1A\u0E19\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\r\n\u0E09\u0E31\u0E19\u0E08\u0E30\u0E21\u0E32\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\r\n\u0E21\u0E32\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E43\u0E19\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E19\u0E35\u0E49"
+      text: "\u25C7 \u0E42\u0E22\u0E44\u0E01\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E31\u0E27\u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E08\u0E33\u0E01\u0E31\u0E14\u25C7\r\n
+        \u0E42\u0E22\u0E44\u0E01\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E32\u0E21\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E15\u0E48\u0E32\u0E07
+        \u0E46 \u0E1A\u0E19\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2B\u0E21\u0E32\u0E22\r\n-green_fire
+        \u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E08\u0E33\u0E01\u0E31\u0E14\n\u0E09\u0E31\u0E19\u0E08\u0E30\u0E21\u0E32\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\r\n\u0E21\u0E32\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E43\u0E19\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E19\u0E35\u0E49"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -165,8 +166,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 1
-      text: "\u201CThank you for capturing all the y\u014Dkai in Areas 1and 2.\nFor
-        your services, I give you this photo frame.\nCheck your Reward Album\u2026\u201D"
+      text: "Thank you for capturing all the y\u014Dkai in Areas 1and 2.\nFor your
+        services, I give you this photo frame.\nCheck your Reward Album\u2026"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -184,9 +185,10 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\"\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01
-        youkai \u0E02\u0E2D\u0E07\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48\u2460\u2461\u0E09\u0E31\u0E19\u0E08\u0E30\u0E43\u0E2B\u0E49\u0E01\u0E23\u0E2D\u0E1A\u0E23\u0E39\u0E1B\u0E01\u0E25\u0E31\u0E1A\u0E02\u0E2D\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E14\u0E39\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D
-        broomage ... \""
+      text: "\u201C\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14\u0E43\u0E19\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48
+        1 \u0E41\u0E25\u0E30 2\n \u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13
+        \u0E40\u0E23\u0E32\u0E21\u0E2D\u0E1A\u0E01\u0E23\u0E2D\u0E1A\u0E23\u0E39\u0E1B\u0E19\u0E35\u0E49\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\n
+        \u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u2026\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -219,7 +221,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\"\u0E42\u0E2D\u0E49\u0E40\u0E14\u0E47\u0E01\u0E14\u0E37\u0E48\u0E21\u0E44\u0E14\u0E49\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E31\u0E27\u0E17\u0E35\u0E48\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E23\u0E31\u0E10\u0E14\u0E31\u0E07\u0E19\u0E31\u0E49\u0E19\u0E40\u0E23\u0E32\u0E08\u0E30\u0E44\u0E1B\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E43\u0E19\u0E02\u0E13\u0E30\u0E19\u0E35\u0E49.\""
+      text: "\u201C\u0E42\u0E27\u0E49\u0E27 \u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E40\u0E0B\u0E42\u0E0A\n
+        \u0E44\u0E1B\u0E17\u0E35\u0E48\u0E19\u0E31\u0E48\u0E19\u0E17\u0E31\u0E19\u0E17\u0E35
+        \u0E41\u0E25\u0E30\u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E43\u0E2B\u0E49\u0E44\u0E14\u0E49\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -252,7 +256,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\"\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E40\u0E14\u0E47\u0E01\u0E02\u0E35\u0E49\u0E40\u0E21\u0E32\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E31\u0E27\u0E43\u0E19\u0E2B\u0E19\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19\u0E17\u0E32\u0E07\u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E21\u0E31\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E23\u0E32\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E17\u0E35\u0E48\u0E1B\u0E34\u0E14\u0E2A\u0E19\u0E34\u0E17"
+      text: "\u201C\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E40\u0E0B\u0E42\u0E0A\n
+        \u0E04\u0E23\u0E31\u0E49\u0E07\u0E19\u0E35\u0E49\u0E04\u0E38\u0E13\u0E08\u0E30\u0E08\u0E31\u0E1A\u0E44\u0E14\u0E49\u0E41\u0E19\u0E48
+        \u0E46!\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -285,9 +291,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E19\u0E35\u0E49 youkai \u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E01\u0E25\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19
-        \"\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01
-        Yokai\"\r\n\u0E01\u0E25\u0E31\u0E27\u0E16\u0E39\u0E01\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E09\u0E31\u0E19\u0E08\u0E30\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E2B\u0E19\u0E49\u0E32\r\n\u0E09\u0E31\u0E19\u0E0B\u0E48\u0E2D\u0E19\u0E21\u0E31\u0E19\u0E44\u0E27\u0E49"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E15\u0E31\u0E27\u0E19\u0E35\u0E49\u0E01\u0E25\u0E31\u0E27\u0E27\u0E48\u0E32\u0E08\u0E30\u0E16\u0E39\u0E01\u0E08\u0E31\u0E1A\u0E41\u0E25\u0E30\n
+        \u0E2A\u0E48\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01
+        \u0E14\u0E31\u0E07\u0E19\u0E31\u0E49\u0E19\n \u0E21\u0E31\u0E19\u0E01\u0E47\u0E40\u0E25\u0E22\u0E43\u0E0A\u0E49\u0E2B\u0E19\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E21\u0E31\u0E19\u0E41\u0E25\u0E30\u0E0B\u0E48\u0E2D\u0E19\u0E44\u0E27\u0E49"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -323,8 +329,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E44\u0E1B\u0E17\u0E35\u0E48\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E43\u0E01\u0E25\u0E49\u0E40\u0E04\u0E35\u0E22\u0E07
-        -item\n\u0E09\u0E31\u0E19\u0E04\u0E49\u0E19\u0E2B\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E40\u0E27\u0E47\u0E1A"
+      text: "\u0E44\u0E1B\u0E17\u0E35\u0E48 -item \u0E43\u0E01\u0E25\u0E49\u0E40\u0E04\u0E35\u0E22\u0E07
+        \u0E41\u0E25\u0E30\r\n \u0E21\u0E2D\u0E07\u0E2B\u0E32\u0E2B\u0E19\u0E49\u0E32"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -357,7 +363,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E21\u0E35\u0E2B\u0E19\u0E49\u0E32\u0E19\u0E35\u0E49\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E44\u0E14\u0E49\r\n\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E01\u0E25\u0E49\u0E40\u0E1E\u0E23\u0E32\u0E30\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E01\u0E25\u0E49\r\n\u0E08\u0E19\u0E41\u0E25\u0E49\u0E27\u0E09\u0E31\u0E19\u0E21\u0E35\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2A\u0E33\u0E04\u0E31\u0E0D"
+      text: "\u0E21\u0E35\u0E42\u0E22\u0E44\u0E01\u0E43\u0E01\u0E25\u0E49 \u0E46 \u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\n
+        \u0E08\u0E31\u0E1A\u0E44\u0E14\u0E49\u0E42\u0E14\u0E22\u0E44\u0E21\u0E48\u0E43\u0E0A\u0E49\u0E2B\u0E19\u0E49\u0E32\u0E19\u0E35\u0E49\n
+        \u0E40\u0E01\u0E47\u0E1A\u0E44\u0E27\u0E49\u0E43\u0E2B\u0E49\u0E14\u0E35\u0E08\u0E19\u0E01\u0E27\u0E48\u0E32\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E1A\u0E21\u0E31\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -389,7 +397,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\"\u0E2A\u0E07\u0E1A\u0E25\u0E07\u0E41\u0E25\u0E30\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E44\u0E27\u0E49\""
+      text: "\u0E04\u0E48\u0E2D\u0E22 \u0E46 \u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E19\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -421,7 +429,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\"\u0E1C\u0E21 !?\""
+      text: "\u0E2D\u0E30\u0E44\u0E23\u0E19\u0E35\u0E48?!"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -453,7 +461,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\"\u0E09\u0E31\u0E19\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E44\u0E14\u0E49!\""
+      text: "\u0E09\u0E31\u0E19\u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49!"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -488,10 +496,12 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E1E\u0E25\u0E31\u0E07\u0E14\u0E19\u0E15\u0E23\u0E35\u0E02\u0E2D\u0E07
-        Daishijiji \u0E21\u0E35\u0E1E\u0E25\u0E31\u0E07\u0E41\u0E25\u0E30\u0E2B\u0E25\u0E1A\u0E2B\u0E19\u0E35\r\n\r\n\"\u0E16\u0E49\u0E32\u0E04\u0E38\u0E13\u0E1C\u0E19\u0E36\u0E01
-        youkai \u0E02\u0E2D\u0E07\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48\u2462\u2463\u0E04\u0E38\u0E13\u0E08\u0E30\u0E41\u0E02\u0E47\u0E07\u0E41\u0E23\u0E07\u0E02\u0E36\u0E49\u0E19\r\n\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32
-        youkai \""
+      text: "\u0E1E\u0E25\u0E31\u0E07\u0E02\u0E2D\u0E07\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E41\u0E02\u0E47\u0E07\u0E41\u0E01\u0E23\u0E48\u0E07\u0E21\u0E32\u0E01
+        \u0E41\u0E25\u0E49\u0E27\u0E21\u0E31\u0E19\u0E01\u0E47\u0E2B\u0E19\u0E35\u0E44\u0E1B!\n
+        \n \u201C\u0E04\u0E38\u0E13\u0E08\u0E30\u0E21\u0E35\u0E1E\u0E25\u0E31\u0E07\u0E17\u0E35\u0E48\u0E41\u0E01\u0E23\u0E48\u0E07\u0E02\u0E36\u0E49\u0E19
+        \u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\u0E01\u0E17\u0E35\u0E48\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E43\u0E19\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48
+        3 \u0E41\u0E25\u0E30 4\n \u0E40\u0E25\u0E48\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E22
+        \u0E46 \u0E41\u0E25\u0E49\u0E27\u0E01\u0E47\u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E43\u0E2B\u0E49\u0E2B\u0E21\u0E14\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -526,13 +536,13 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E40\u0E23\u0E32\u0E1E\u0E48\u0E32\u0E22\u0E41\u0E1E\u0E49\u0E40\u0E14\u0E47\u0E01\u0E14\u0E37\u0E48\u0E21\u0E40\u0E2B\u0E25\u0E49\u0E32
-        Sake \u0E1C\u0E39\u0E49\u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E40\u0E1B\u0E34\u0E14
-        \"\u0E17\u0E32\u0E07\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E42\u0E25\u0E01\u0E02\u0E2D\u0E07
-        Makai\" \u0E41\u0E25\u0E30\u0E42\u0E22\u0E19\u0E15\u0E23\u0E32\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E02\u0E2D\u0E07\u0E21\u0E2D\u0E19\u0E2A\u0E40\u0E15\u0E2D\u0E23\u0E4C\r\n\u0E09\u0E31\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E17\u0E33\u0E21\u0E31\u0E19\u0E44\u0E14\u0E49
-        \u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01
-        youkai \u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E43\u0E2B\u0E49\u0E1A\u0E31\u0E15\u0E23\u0E01\u0E33\u0E19\u0E31\u0E25\u0E2B\u0E32\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E14\u0E39\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D
-        broomage \u0E21\u0E35\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E14\u0E35\u0E17\u0E35\u0E48\u0E08\u0E30\u0E41\u0E2A\u0E14\u0E07\u0E1A\u0E31\u0E15\u0E23\u0E01\u0E33\u0E19\u0E31\u0E25\u0E43\u0E2B\u0E49\u0E01\u0E31\u0E1A\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19"
+      text: "\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E01\u0E33\u0E25\u0E31\u0E07\u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E40\u0E1B\u0E34\u0E14\u0E1B\u0E23\u0E30\u0E15\u0E39\u0E2A\u0E39\u0E48\u0E42\u0E25\u0E01\u0E41\u0E2B\u0E48\u0E07\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13
+        \u0E04\u0E38\u0E13\u0E0A\u0E19\u0E30\u0E21\u0E31\u0E19\u0E41\u0E25\u0E49\u0E27
+        \u0E41\u0E25\u0E30\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01\u0E01\u0E47\u0E2A\u0E21\u0E1A\u0E39\u0E23\u0E13\u0E4C\n
+        \n \u201C\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\n
+        \u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13
+        \u0E40\u0E23\u0E32\u0E21\u0E2D\u0E1A\u0E15\u0E31\u0E4B\u0E27\u0E41\u0E25\u0E01\u0E19\u0E35\u0E49\u0E01\u0E31\u0E1A\u0E04\u0E38\u0E13\n
+        \u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u2026\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -564,8 +574,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\"\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E04\u0E38\u0E13\u0E2B\u0E19\u0E35
-        youkai \u0E2B\u0E49\u0E32\u0E19\u0E32\u0E17\u0E35\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E21\u0E31\u0E19\""
+      text: "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E2B\u0E25\u0E38\u0E14\u0E44\u0E14\u0E49\u0E2D\u0E35\u0E01
+        \u0E08\u0E19\u0E01\u0E27\u0E48\u0E32\u0E08\u0E30\u0E04\u0E23\u0E1A\u0E2B\u0E49\u0E32\u0E19\u0E32\u0E17\u0E35"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -581,12 +591,12 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 1
-      text: "The system requirements for this app are as follows:\L- iOS 9 or above
-        / Android 6.0 or above\L\L[System Requirements]\L- iPhone 7, iPhone 7 Plus,
-        iPhone 6s, iPhone 6s Plus\L- Galaxy S6, Galaxy S6 edge, Galaxy S7, Galaxy
-        S7 edge\L*Depending on the model, some devices may not operate normally even
-        if they meet the above conditions.\L\L[Warning]\L- This app uses beacon detection,
-        so please ensure that Location (GPS) and Bluetooth are set to On.\L- Devices
+      text: "The system requirements for this app are as follows:\n - iOS 9 or above
+        / Android 6.0 or above\n [System Requirements]\n - iPhone 7, iPhone 7 Plus,
+        iPhone 6s, iPhone 6s Plus \n- Galaxy S6, Galaxy S6 edge, Galaxy S7, Galaxy
+        S7 edge \n*Depending on the model, some devices may not operate normally even
+        if they meet the above conditions.\n [Warning]\n - This app uses beacon detection,
+        so please ensure that Location (GPS) and Bluetooth are set to On. \n- Devices
         will sometimes generate heat while using the GPS function."
       image: {fileID: 0}
       lineSpacing: 0
@@ -609,12 +619,20 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E2A\u0E20\u0E32\u0E1E\u0E41\u0E27\u0E14\u0E25\u0E49\u0E2D\u0E21\u0E17\u0E35\u0E48\u0E41\u0E19\u0E30\u0E19\u0E33\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E41\u0E2D\u0E47\u0E1E\u0E1E\u0E25\u0E34\u0E40\u0E04\u0E0A\u0E31\u0E19\u0E19\u0E35\u0E49\u0E21\u0E35\u0E14\u0E31\u0E07\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E19\u0E35\u0E49\r\n\xB7
-        IOS 9.0 \u0E02\u0E36\u0E49\u0E19\u0E44\u0E1B\xB7 Android 6.0 \u0E2B\u0E23\u0E37\u0E2D\u0E43\u0E2B\u0E21\u0E48\u0E01\u0E27\u0E48\u0E32\r\n\r\n[\u0E2A\u0E20\u0E32\u0E1E\u0E41\u0E27\u0E14\u0E25\u0E49\u0E2D\u0E21\u0E17\u0E35\u0E48\u0E41\u0E19\u0E30\u0E19\u0E33]\r\n\xB7
-        iPhone 7, iPhone 7 Plus, iPhone 6 s, iPhone 6 s Plus, iPhone 6, iPhone 6 Plus\r\n\xB7
-        Galaxy S6, Galaxy S6 Edge,\r\nGalaxy S7, Galaxy S7 Edge,\r\n\r\n* \u0E41\u0E21\u0E49\u0E27\u0E48\u0E32\u0E40\u0E07\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E02\u0E02\u0E49\u0E32\u0E07\u0E15\u0E49\u0E19\u0E08\u0E30\u0E1E\u0E2D\u0E43\u0E08,\r\n\u0E02\u0E36\u0E49\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E01\u0E31\u0E1A\u0E23\u0E38\u0E48\u0E19\u0E1B\u0E01\u0E15\u0E34\r\n\u0E2D\u0E32\u0E08\u0E44\u0E21\u0E48\u0E17\u0E33\u0E07\u0E32\u0E19\r\n\r\n[\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E2B\u0E15\u0E38]\r\n\xB7\u0E41\u0E2D\u0E47\u0E1E\u0E1E\u0E25\u0E34\u0E40\u0E04\u0E0A\u0E31\u0E19\u0E19\u0E35\u0E49\u0E43\u0E0A\u0E49\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E19\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E08\u0E31\u0E1A\u0E1A\u0E35\u0E04\u0E2D\u0E19\r\n\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07
-        (GPS), Bluetooth\r\n\u0E01\u0E23\u0E38\u0E13\u0E32\u0E40\u0E1B\u0E34\u0E14\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E41\u0E25\u0E30\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\r\n\xB7\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E43\u0E0A\u0E49\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E48\u0E19
-        GPS, \u0E40\u0E17\u0E2D\u0E23\u0E4C\u0E21\u0E34\u0E19\u0E31\u0E25\r\n\u0E2D\u0E32\u0E08\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E40\u0E01\u0E34\u0E14\u0E44\u0E02\u0E49\u0E44\u0E14\u0E49"
+      text: "\"\u0E04\u0E27\u0E32\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E23\u0E30\u0E1A\u0E1A\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E41\u0E2D\u0E1B\u0E19\u0E35\u0E49\u0E21\u0E35\u0E14\u0E31\u0E07\u0E19\u0E35\u0E49:
+        \n- iOS 9 \u0E02\u0E36\u0E49\u0E19\u0E44\u0E1B / Android 6.0 \u0E02\u0E36\u0E49\u0E19\u0E44\u0E1B\n
+        \n [\u0E04\u0E27\u0E32\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E23\u0E30\u0E1A\u0E1A]
+        \n- iPhone 7, iPhone 7 Plus, iPhone 6s, iPhone 6s Plus - Galaxy S6, Galaxy
+        S6 edge, Galaxy S7, Galaxy S7 edge *\u0E02\u0E36\u0E49\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E01\u0E31\u0E1A\u0E23\u0E38\u0E48\u0E19
+        \u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E1A\u0E32\u0E07\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E2D\u0E32\u0E08\u0E17\u0E33\u0E07\u0E32\u0E19\u0E44\u0E21\u0E48\u0E1B\u0E01\u0E15\u0E34
+        \u0E41\u0E21\u0E49\u0E27\u0E48\u0E32\u0E08\u0E30\u0E21\u0E35\u0E04\u0E38\u0E13\u0E2A\u0E21\u0E1A\u0E31\u0E15\u0E34\u0E15\u0E23\u0E07\u0E15\u0E32\u0E21\u0E40\u0E07\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E02\u0E14\u0E49\u0E32\u0E19\u0E1A\u0E19
+        \n \n [\u0E04\u0E33\u0E40\u0E15\u0E37\u0E2D\u0E19]\n - \u0E41\u0E2D\u0E1B\u0E19\u0E35\u0E49\u0E43\u0E0A\u0E49\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E08\u0E31\u0E1A\u0E2A\u0E31\u0E0D\u0E0D\u0E32\u0E13
+        \u0E14\u0E31\u0E07\u0E19\u0E31\u0E49\u0E19\u0E42\u0E1B\u0E23\u0E14\u0E21\u0E31\u0E48\u0E19\u0E43\u0E08\u0E27\u0E48\u0E32
+        \u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E17\u0E32\u0E07\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07
+        (GPS) \u0E41\u0E25\u0E30\u0E1A\u0E25\u0E39\u0E17\u0E39\u0E18 \u0E16\u0E39\u0E01\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0E40\u0E1B\u0E47\u0E19
+        \u0E40\u0E1B\u0E34\u0E14 \n- \u0E1A\u0E32\u0E07\u0E04\u0E23\u0E31\u0E49\u0E07\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E08\u0E30\u0E23\u0E49\u0E2D\u0E19\u0E02\u0E36\u0E49\u0E19
+        \u0E43\u0E19\u0E02\u0E13\u0E30\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E48\u0E19
+        GPS\""
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -651,14 +669,15 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u2776\u0E44\u0E1B\u0E17\u0E35\u0E48\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E02\u0E2D\u0E07\u0E44\u0E2D\u0E04\u0E2D\u0E19\u0E41\u0E25\u0E30\u0E04\u0E49\u0E19\u0E2B\u0E32
-        youkai\r\n\r\n\u2777\u0E25\u0E2D\u0E07\u0E41\u0E15\u0E30\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30\u0E40\u0E27\u0E25\u0E32\u0E41\u0E25\u0E30\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32
-        youkai\r\n\r\n\u2778\u0E44\u0E21\u0E48\u0E21\u0E35\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E43\u0E19\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E41\u0E25\u0E30\u0E21\u0E35\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E44\u0E14\u0E49
-        \u0E25\u0E2D\u0E07\u0E04\u0E49\u0E19\u0E2B\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E41\u0E23\u0E01\u0E01\u0E48\u0E2D\u0E19\r\n\r\n\u2779\u0E21\u0E35
-        youkai \u0E17\u0E35\u0E48 \u0E08\u0E33\u0E01\u0E31\u0E14 \u0E17\u0E35\u0E48\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E0A\u0E48\u0E27\u0E07\u0E40\u0E27\u0E25\u0E32\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19!\r\n\r\n\u0E40\u0E15\u0E34\u0E21\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E23\u0E31\u0E1A\u0E23\u0E2D\u0E07
-        youkai \u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E43\u0E2B\u0E49\u0E2A\u0E21\u0E1A\u0E39\u0E23\u0E13\u0E4C\u0E41\u0E25\u0E30\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E43\u0E2B\u0E49
-        Ezashi \u0E1F\u0E37\u0E49\u0E19\u0E2A\u0E31\u0E19\u0E15\u0E34\u0E20\u0E32\u0E1E\u0E43\u0E19\u0E2B\u0E21\u0E39\u0E48\u0E1A\u0E49\u0E32\u0E19
-        Fujiwara"
+      text: "\"1. \u0E44\u0E1B\u0E17\u0E35\u0E48\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E17\u0E35\u0E48\u0E21\u0E35\u0E44\u0E2D\u0E04\u0E2D\u0E19
+        \u0E41\u0E25\u0E30\u0E21\u0E2D\u0E07\u0E2B\u0E32\u0E42\u0E22\u0E44\u0E01\n
+        2. \u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E41\u0E15\u0E30\u0E17\u0E35\u0E48\u0E42\u0E22\u0E44\u0E01\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E43\u0E2B\u0E49\u0E44\u0E14\u0E49\n
+        3. \u0E21\u0E35\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E08\u0E31\u0E1A\u0E44\u0E14\u0E49
+        \u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E21\u0E35\u0E44\u0E21\u0E48\u0E21\u0E35\u0E2B\u0E19\u0E49\u0E32\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21
+        \u0E04\u0E49\u0E19\u0E2B\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E01\u0E48\u0E2D\u0E19\n
+        4. \u0E19\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E21\u0E35\u0E42\u0E22\u0E44\u0E01\u0E1E\u0E34\u0E40\u0E28\u0E29\u0E17\u0E35\u0E48\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E23\u0E30\u0E2B\u0E27\u0E48\u0E32\u0E07\u0E1A\u0E32\u0E07\u0E0A\u0E48\u0E27\u0E07\u0E40\u0E27\u0E25\u0E32\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19\n
+        \n \u0E40\u0E01\u0E47\u0E1A\u0E02\u0E2D\u0E07\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01\u0E43\u0E2B\u0E49\u0E04\u0E23\u0E1A\u0E41\u0E25\u0E30\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E07\u0E1A\""
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -672,7 +691,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 1
-      text: Please tap the screen...
+      text: Please tap the screen
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -754,7 +773,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E0B\u0E35\u0E25"
+      text: "\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -818,7 +837,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E27\u0E34\u0E18\u0E35\u0E01\u0E32\u0E23\u0E40\u0E25\u0E48\u0E19\r\n"
+      text: "\u0E27\u0E34\u0E18\u0E35\u0E40\u0E25\u0E48\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -850,7 +869,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E1B\u0E23\u0E30\u0E17\u0E31\u0E1A\u0E15\u0E23\u0E32\u0E0B\u0E35\u0E25"
+      text: "\u5C01\u5370\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -882,7 +901,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E1E\u0E38\u0E17\u0E18\u0E28\u0E32\u0E2A\u0E19\u0E34\u0E01\u0E0A\u0E19"
+      text: "\u307B\u3046\u3073\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -914,7 +933,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E01\u0E32\u0E23\u0E2A\u0E25\u0E31\u0E1A"
+      text: "\u0E2A\u0E27\u0E34\u0E15\u0E0A\u0E4C"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -946,7 +965,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E1E\u0E38\u0E17\u0E18\u0E28\u0E32\u0E2A\u0E19\u0E34\u0E01\u0E0A\u0E19"
+      text: "\u0E41\u0E25\u0E01\u0E15\u0E31\u0E4B\u0E27"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -978,7 +997,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E01\u0E23\u0E2D\u0E1A\u0E23\u0E39\u0E1B"
+      text: "\u0E01\u0E23\u0E2D\u0E1A\u0E20\u0E32\u0E1E"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1010,7 +1029,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E14\u0E36\u0E07\u0E15\u0E31\u0E4B\u0E27\u0E41\u0E1B\u0E25\u0E07"
+      text: "\u0E41\u0E25\u0E01\u0E15\u0E31\u0E4B\u0E27"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1074,7 +1093,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E14\u0E36\u0E07\u0E15\u0E31\u0E4B\u0E27\u0E41\u0E1B\u0E25\u0E07"
+      text: "\u0E04\u0E39\u0E1B\u0E2D\u0E07"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1106,11 +1125,12 @@ MonoBehaviour:
       linePosition: {x: -3, y: -122}
       lineWidth: 838.8
     - languageType: 4
-      text: "\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49\u0E04\u0E37\u0E2D\r\n\_<color=red>
-        \u0E40\u0E09\u0E1E\u0E32\u0E30\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19 </color>."
+      text: "\u203B\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\n\_<color=red>
+        \u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19
+        </color>."
       image: {fileID: 0}
       lineSpacing: 0
-      linePosition: {x: 69, y: -143}
+      linePosition: {x: -14, y: -69}
       lineWidth: 838.8
   - key: 30
     localContents:
@@ -1139,7 +1159,7 @@ MonoBehaviour:
       linePosition: {x: 69, y: 42}
       lineWidth: 838.8
     - languageType: 4
-      text: "\u0E25\u0E39\u0E01\u0E04\u0E49\u0E32\u0E44\u0E21\u0E48\u0E04\u0E27\u0E23\u0E41\u0E15\u0E30"
+      text: " \u0E1C\u0E39\u0E49\u0E40\u0E22\u0E35\u0E48\u0E22\u0E21\u0E0A\u0E21\u0E44\u0E21\u0E48\u0E04\u0E27\u0E23\u0E41\u0E15\u0E30\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 69, y: 42}
@@ -1171,7 +1191,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E1B\u0E38\u0E48\u0E21 Staff"
+      text: "\u0E1B\u0E38\u0E48\u0E21\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1236,8 +1256,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30\u0E02\u0E2D\u0E07\u0E40\u0E21\u0E37\u0E2D\u0E07
-        Navi"
+      text: "\u0E23\u0E30\u0E1A\u0E1A\u0E19\u0E33\u0E17\u0E32\u0E07\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1269,7 +1289,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\r\n\u0E04\u0E27\u0E32\u0E21\u0E23\u0E30\u0E21\u0E31\u0E14\u0E23\u0E30\u0E27\u0E31\u0E07"
+      text: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E2B\u0E15\u0E38\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1301,7 +1321,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E08\u0E35\u0E17\u0E35\u0E48\u0E1B\u0E34\u0E14"
+      text: "\u0E1B\u0E34\u0E14"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1333,7 +1353,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E14\u0E39\u0E0B\u0E35\u0E25\u0E1C\u0E19\u0E36\u0E01"
+      text: "\u0E14\u0E39\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1365,7 +1385,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E43\u0E19\u0E01\u0E32\u0E23\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01"
+      text: "\u0E08\u0E31\u0E1A"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1397,7 +1417,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E09\u0E31\u0E19\u0E0A\u0E19\u0E30\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23!"
+      text: "\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E44\u0E2D\u0E40\u0E17\u0E47\u0E21!"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1429,7 +1449,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E09\u0E31\u0E19\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01 youkai!"
+      text: "\u0E04\u0E38\u0E13\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E44\u0E14\u0E49!"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1461,7 +1481,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E09\u0E31\u0E19\u0E1E\u0E1A youkai \u0E04\u0E38\u0E13\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?"
+      text: "\u0E04\u0E38\u0E13\u0E1E\u0E1A\u0E42\u0E22\u0E44\u0E01 \u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E44\u0E2B\u0E21?"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1493,7 +1513,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u0E09\u0E31\u0E19\u0E1E\u0E1A\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23 \u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E17\u0E35\u0E48\u0E08\u0E30\u0E0A\u0E19\u0E30?"
+      text: "\u0E04\u0E38\u0E13\u0E1E\u0E1A\u0E44\u0E2D\u0E40\u0E17\u0E47\u0E21 \u0E2B\u0E22\u0E34\u0E1A\u0E44\u0E2B\u0E21?"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1527,7 +1547,11 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u7279\u5178\u3092\u5F15\u304D\u63DB\u3048\u307E\u3059\u304B\uFF1F\u4E00\u5EA6\u300C\u5F15\u63DB\u6E08\u300D\u306B\u306A\u308B\u3068\u4E8C\u5EA6\u3068\u5F15\u304D\u63DB\u3048\u304C\u3067\u304D\u307E\u305B\u3093\u3002\u3057\u305F\u304C\u3063\u3066\u3053\u306E\u30DC\u30BF\u30F3\u306F\u5FC5\u305A\u5F15\u63DB\u6642\u306B\u4FC2\u54E1\u304C\u30BF\u30C3\u30D7\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      text: "\u0E41\u0E25\u0E01\u0E42\u0E1A\u0E19\u0E31\u0E2A\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13?
+        \u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\u0E01\u0E17\u0E35\u0E48\u0E41\u0E25\u0E01\u0E44\u0E1B\u0E41\u0E25\u0E49\u0E27
+        \u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E41\u0E25\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E17\u0E35\u0E48\u0E2A\u0E2D\u0E07\u0E44\u0E14\u0E49
+        \u0E14\u0E49\u0E27\u0E22\u0E40\u0E2B\u0E15\u0E38\u0E1C\u0E25\u0E19\u0E35\u0E49
+        \u0E15\u0E49\u0E2D\u0E07\u0E43\u0E2B\u0E49\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E41\u0E15\u0E30\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E40\u0E2A\u0E21\u0E2D"
       image: {fileID: 0}
       lineSpacing: 1
       linePosition: {x: 0, y: 0}
@@ -1559,7 +1583,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u5F15\u304D\u63DB\u3048\u3092\u884C\u3044\u307E\u3059\u3002\u9593\u9055\u3044\u3042\u308A\u307E\u305B\u3093\u304B\uFF1F"
+      text: "\u0E02\u0E13\u0E30\u0E19\u0E35\u0E49\u0E04\u0E38\u0E13\u0E08\u0E30\u0E41\u0E25\u0E01
+        \u0E41\u0E19\u0E48\u0E43\u0E08\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1591,7 +1616,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u306F\u3044"
+      text: "\u0E43\u0E0A\u0E48"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1623,7 +1648,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u3044\u3044\u3048"
+      text: "\u0E44\u0E21\u0E48"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1655,7 +1680,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u5F15\u63DB\u5238"
+      text: "\u0E41\u0E25\u0E01\u0E15\u0E31\u0E4B\u0E27"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1668,6 +1693,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u6CB3\u7AE5"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Kappa
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6CB3\u7AE5"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u6CB3\u7AE5"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E41\u0E04\u0E1B\u0E1B\u0E49\u0E32"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1700,8 +1749,9 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-    - languageType: 0
-      text: "\u982D\u9802\u90E8\u306B\u76BF\u304C\u3042\u308B\u3053\u3068\u304C\u591A\u304F\u3001\u76BF\u304C\u4E7E\u3044\u305F\u308A\u3001\u5272\u308C\u305F\u308A\u3059\u308B\u3068\u529B\u3092\u5931\u3063\u3066\u3057\u307E\u3046\u6C34\u8FBA\u306E\u5996\u602A"
+    - languageType: 4
+      text: " \u0E42\u0E22\u0E44\u0E01\u0E19\u0E49\u0E33\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E2A\u0E48\u0E27\u0E19\u0E21\u0E32\u0E01\u0E08\u0E30\u0E21\u0E35\u0E08\u0E32\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E1A\u0E19\u0E2B\u0E31\u0E27
+        \u0E41\u0E25\u0E30\u0E2A\u0E39\u0E0D\u0E40\u0E2A\u0E35\u0E22\u0E1E\u0E25\u0E31\u0E07\u0E16\u0E49\u0E32\u0E08\u0E32\u0E19\u0E41\u0E2B\u0E49\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E41\u0E15\u0E01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1715,6 +1765,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u8D64\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Aka-oni
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8D64\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8D64\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2D\u0E32\u0E01\u0E32-\u0E42\u0E2D\u0E19\u0E34"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1747,7 +1821,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u4EBA\u306B\u5371\u5BB3\u3092\u52A0\u3048\u3001\u98DF\u3079\u308B\u3053\u3068\u3082\u3042\u308B\u3002\r"
+      text: "\u0E1B\u0E35\u0E28\u0E32\u0E08\u0E1E\u0E27\u0E01\u0E19\u0E35\u0E49\u0E17\u0E33\u0E23\u0E49\u0E32\u0E22\u0E1C\u0E39\u0E49\u0E04\u0E19
+        \u0E41\u0E25\u0E30\u0E1A\u0E32\u0E07\u0E04\u0E23\u0E31\u0E49\u0E07\u0E01\u0E47\u0E01\u0E34\u0E19\u0E04\u0E19\u0E14\u0E49\u0E27\u0E22"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1761,6 +1836,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u72D0\u706B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Kitsunebi
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u72D0\u706B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u72D0\u706B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E34\u0E17\u0E2A\u0E36\u0E40\u0E19\u0E1A\u0E34"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1795,7 +1894,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u72D0\u306E\u53E3\u304B\u3089\u5410\u304D\u51FA\u3055\u308C\u305F\u706B\u3068\u3044\u3046\u8AAC\u3082\u3042\u308A\n\u706B\u306E\u6C17\u306E\u306A\u3044\u5834\u6240\u306B\u73FE\u308C\u308B\u3002"
+      text: "\u0E1A\u0E32\u0E07\u0E04\u0E19\u0E1A\u0E2D\u0E01\u0E27\u0E48\u0E32\u0E40\u0E1B\u0E25\u0E27\u0E44\u0E1F\u0E19\u0E35\u0E49\u0E21\u0E32\u0E08\u0E32\u0E01\u0E1B\u0E32\u0E01\u0E02\u0E2D\u0E07\u0E08\u0E34\u0E49\u0E07\u0E08\u0E2D\u0E01\r\n
+        \u0E42\u0E14\u0E22\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E43\u0E19\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E15\u0E48\u0E32\u0E07
+        \u0E46 \u0E41\u0E15\u0E48\u0E44\u0E21\u0E48\u0E23\u0E49\u0E2D\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1809,6 +1910,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u5EA7\u6577\u308F\u3089\u3057"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Zashiki-warashi
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5EA7\u6577\u7AE5\u5B50"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5EA7\u6577\u7AE5\u5B50"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E0B\u0E30\u0E0A\u0E34\u0E01\u0E34-\u0E27\u0E30\u0E23\u0E30\u0E0A\u0E34"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1842,7 +1967,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u5EA7\u6577\u3084\u8535\u306B\u4F4F\u3080\u7CBE\u970A\u5996\u602A\u3002\u3044\u305F\u305A\u3089\u597D\u304D\u3067\u3001\r\n\u898B\u305F\u4EBA\u306B\u306F\u5E78\u904B\u304C\u8A2A\u308C\u308B\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\u3002"
+      text: "\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13\u0E17\u0E35\u0E48\u0E2D\u0E32\u0E28\u0E31\u0E22\u0E43\u0E19\u0E2B\u0E49\u0E2D\u0E07\u0E17\u0E32\u0E17\u0E32\u0E21\u0E34
+        \u0E41\u0E25\u0E30\u0E42\u0E01\u0E14\u0E31\u0E07 \u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E0A\u0E2D\u0E1A\u0E40\u0E25\u0E48\u0E19\u0E15\u0E25\u0E01
+        \u0E41\u0E25\u0E30\u0E04\u0E19\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E47\u0E19\u0E21\u0E31\u0E19\u0E01\u0E47\u0E16\u0E37\u0E2D\u0E27\u0E48\u0E32\u0E42\u0E0A\u0E04\u0E14\u0E35"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1856,6 +1983,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u306C\u3089\u308A\u3072\u3087\u3093"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Nurarihyon
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6ED1\u74E2"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u6ED1\u74E2"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E19\u0E39\u0E23\u0E30\u0E23\u0E34\u0E2E\u0E22\u0E2D\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1888,7 +2039,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u5168\u56FD\u5404\u5730\u3067\u4F1D\u3048\u3089\u308C\u3066\u3044\u308B\u304C\u3001\n\r\u8A73\u3057\u3044\u3053\u3068\u304C\u308F\u304B\u3089\u306A\u3044\u3001\u8B0E\u306E\u5996\u602A\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E25\u0E36\u0E01\u0E25\u0E31\u0E1A\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E47\u0E19\u0E01\u0E31\u0E19\u0E17\u0E31\u0E48\u0E27\u0E1B\u0E23\u0E30\u0E40\u0E17\u0E28
+        \u0E41\u0E15\u0E48\u0E44\u0E21\u0E48\u0E04\u0E48\u0E2D\u0E22\u0E21\u0E35\u0E43\u0E04\u0E23\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1902,6 +2054,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u308D\u304F\u308D\u9996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Rokurokubi
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8F46\u8F64\u9996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8F98\u8F73\u9996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E23\u0E04\u0E38\u0E42\u0E23\u0E04\u0E38\u0E1A\u0E34"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1935,7 +2111,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u9996\u304C\u80F4\u4F53\u304B\u3089\u96E2\u308C\u3066\u6D6E\u904A\u3059\u308B\u30BF\u30A4\u30D7\u3068\u3001\r\n\u9996\u304C\u9577\u304F\u4F38\u3073\u308B\u30BF\u30A4\u30D7\u306B\u5206\u304B\u308C\u308B\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E19\u0E35\u0E49\u0E41\u0E1A\u0E48\u0E07\u0E2D\u0E2D\u0E01\u0E40\u0E1B\u0E47\u0E19\u0E0A\u0E19\u0E34\u0E14\u0E17\u0E35\u0E48\u0E2B\u0E31\u0E27\u0E02\u0E2D\u0E07\u0E21\u0E31\u0E19\u0E25\u0E2D\u0E22\u0E41\u0E22\u0E01\u0E2D\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E15\u0E31\u0E27
+        \u0E41\u0E25\u0E30\u0E0A\u0E19\u0E34\u0E14\u0E17\u0E35\u0E48\u0E21\u0E35\u0E04\u0E2D\u0E22\u0E32\u0E27"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1949,6 +2126,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u76EE\u3072\u3068\u3064\u307C\u3046"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Mehitotsu-b\u014D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u7368\u773C\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u72EC\u773C\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E40\u0E21\u0E2E\u0E34\u0E42\u0E15\u0E17\u0E2A\u0E36-\u0E42\u0E1A"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1982,7 +2183,10 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u4E00\u3064\u76EE\u5C0F\u50E7\u3068\u3082\u8A00\u3046\u3002\u5371\u5BB3\u3092\u52A0\u3048\u308B\u3088\u3046\u306A\r\n\u3053\u3068\u306F\u306A\u304F\u3001\u7A81\u7136\u73FE\u308C\u3066\u4EBA\u3092\u9A5A\u304B\u3059\u5996\u602A\u3002"
+      text: " \u0E2B\u0E23\u0E37\u0E2D\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E01\u0E31\u0E19\u0E43\u0E19\u0E0A\u0E37\u0E48\u0E2D
+        \u0E2E\u0E34\u0E42\u0E15\u0E17\u0E2A\u0E36\u0E40\u0E21\u0E30-\u0E42\u0E04\u0E42\u0E0B
+        \u0E42\u0E22\u0E44\u0E01\u0E19\u0E35\u0E49\u0E44\u0E21\u0E48\u0E2D\u0E31\u0E19\u0E15\u0E23\u0E32\u0E22
+        \u0E41\u0E15\u0E48\u0E08\u0E39\u0E48 \u0E46 \u0E01\u0E47\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E02\u0E36\u0E49\u0E19\u0E41\u0E25\u0E30\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E04\u0E19\u0E15\u0E01\u0E43\u0E08"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1996,6 +2200,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u3086\u304D\u5973"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 0
+      text: Yuki-onna
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u96EA\u5973"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u96EA\u5973"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E22\u0E39\u0E01\u0E34-\u0E2D\u0E2D\u0E19\u0E19\u0E32"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2029,7 +2257,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u7537\u306B\u51B7\u305F\u3044\u606F\u3092\u5439\u304D\u304B\u3051\u3066\u51CD\u6B7B\u3055\u305B\u305F\u308A\u3001\n\r\u7537\u306E\u7CBE\u3092\u5438\u3044\u3064\u304F\u3057\u3066\u6BBA\u3059\u3001\u96EA\u306E\u5996\u602A\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E2B\u0E34\u0E21\u0E30\u0E17\u0E35\u0E48\u0E06\u0E48\u0E32\u0E1C\u0E39\u0E49\u0E0A\u0E32\u0E22\u0E14\u0E49\u0E27\u0E22\u0E01\u0E32\u0E23\u0E1E\u0E48\u0E19\u0E44\u0E2D\u0E40\u0E22\u0E47\u0E19\u0E43\u0E2A\u0E48\u0E43\u0E2B\u0E49\u0E41\u0E02\u0E47\u0E07
+        \u0E2B\u0E23\u0E37\u0E2D\u0E14\u0E39\u0E14\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13\u0E02\u0E2D\u0E07\u0E1E\u0E27\u0E01\u0E40\u0E02\u0E32"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2043,6 +2272,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u304F\u306F\u3057\u3083"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Kuhasha
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u706B\u8ECA\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u706B\u8F66\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E38\u0E2E\u0E30\u0E0A\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2076,7 +2329,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u846C\u5F0F\u3084\u5893\u5834\u304B\u3089\u6B7B\u4F53\u3092\u596A\u3046\u5996\u602A\u3002\r\n\u5E74\u8001\u3044\u305F\u732B\u304C\u3053\u306E\u5996\u602A\u306B\u306A\u308B\u3068\u3082\u8A00\u308F\u308C\u308B\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E02\u0E42\u0E21\u0E22\u0E0B\u0E32\u0E01\u0E28\u0E1E\u0E08\u0E32\u0E01\u0E07\u0E32\u0E19\u0E28\u0E1E
+        \u0E2B\u0E23\u0E37\u0E2D\u0E2B\u0E25\u0E38\u0E21\u0E1D\u0E31\u0E07\u0E28\u0E1E\r\n
+        \u0E19\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E21\u0E35\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E40\u0E25\u0E48\u0E32\u0E27\u0E48\u0E32\u0E41\u0E21\u0E27\u0E41\u0E01\u0E48\u0E08\u0E30\u0E01\u0E25\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E38\u0E2E\u0E30\u0E0A\u0E30\u0E14\u0E49\u0E27\u0E22"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2090,6 +2345,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u86C7\u9AA8\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Jakotsu-baba
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u86C7\u9AA8\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u86C7\u9AA8\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E08\u0E32\u0E42\u0E01\u0E17\u0E2A\u0E36-\u0E1A\u0E32\u0E1A\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2124,7 +2403,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u4F53\u306B\u5927\u304D\u306A\u86C7\u3092\u5DFB\u304D\u4ED8\u3051\u305F\u8001\u5A46\u3002\r\n\u592B\u304C\u5C01\u5370\u3055\u308C\u305F\u86C7\u585A\u3092\u5B88\u3063\u3066\u3044\u308B\u3002"
+      text: "\u0E2B\u0E0D\u0E34\u0E07\u0E0A\u0E23\u0E32\u0E17\u0E35\u0E48\u0E21\u0E35\u0E07\u0E39\u0E43\u0E2B\u0E0D\u0E48\u0E1E\u0E31\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E23\u0E2D\u0E1A\u0E15\u0E31\u0E27\r\n
+        \u0E40\u0E18\u0E2D\u0E1B\u0E01\u0E1B\u0E49\u0E2D\u0E07\u0E2A\u0E38\u0E2A\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E35\u0E02\u0E2D\u0E07\u0E40\u0E18\u0E2D\u0E16\u0E39\u0E01\u0E1D\u0E31\u0E07\u0E2D\u0E22\u0E39\u0E48"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2136,6 +2416,30 @@ MonoBehaviour:
     name: oni-baba
     kana: "\u304A\u306B\u3070\u3070"
     localNames:
+    - languageType: 0
+      text: "\u9B3C\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Onibaba
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9B3C\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E2D\u0E19\u0E34\u0E1A\u0E32\u0E1A\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     - languageType: 0
       text: "\u9B3C\u5A46"
       image: {fileID: 0}
@@ -2171,7 +2475,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u67D0\u5C4B\u6577\u306B\u4ED5\u3048\u308B\u4E73\u6BCD\u304C\u8AA4\u3063\u3066\n\r\u81EA\u5206\u306E\u5A18\u3092\u6BBA\u3057\u3001\u60B2\u3057\u307F\u306E\u3042\u307E\u308A\u9B3C\u3068\u306A\u3063\u305F\u3002"
+      text: "\u0E1E\u0E22\u0E32\u0E1A\u0E32\u0E25\u0E41\u0E21\u0E48\u0E25\u0E39\u0E01\u0E2D\u0E48\u0E2D\u0E19\u0E44\u0E14\u0E49\u0E06\u0E48\u0E32\u0E25\u0E39\u0E01\u0E2A\u0E32\u0E27\u0E02\u0E2D\u0E07\u0E15\u0E31\u0E27\u0E40\u0E2D\u0E07\u0E42\u0E14\u0E22\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E15\u0E31\u0E49\u0E07\u0E43\u0E08
+        \u0E41\u0E25\u0E30\u0E01\u0E25\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19\u0E1B\u0E35\u0E28\u0E32\u0E08\u0E2B\u0E25\u0E31\u0E07\u0E16\u0E39\u0E01\u0E04\u0E23\u0E2D\u0E1A\u0E07\u0E33\u0E14\u0E49\u0E27\u0E22\u0E04\u0E27\u0E32\u0E21\u0E40\u0E28\u0E23\u0E49\u0E32"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2185,6 +2490,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u624B\u9577\u8DB3\u9577"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Tenaga-ashinaga
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u624B\u9577\u8DB3\u9577"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u624B\u957F\u8DB3\u957F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E40\u0E17\u0E19\u0E32\u0E01\u0E30 \u0E2D\u0E30\u0E0A\u0E34\u0E19\u0E32\u0E01\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2217,7 +2546,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u592B\u5A66\u3082\u3057\u304F\u306F\u5144\u5F1F\u306E\u5996\u602A\u3002\u4EBA\u3092\u8972\u3044\u55B0\u3089\u3063\u305F\u3002"
+      text: "\u0E2A\u0E32\u0E21\u0E35\u0E01\u0E31\u0E1A\u0E20\u0E23\u0E23\u0E22\u0E32
+        \u0E2B\u0E23\u0E37\u0E2D\u0E1E\u0E35\u0E48\u0E19\u0E49\u0E2D\u0E07\u0E42\u0E22\u0E44\u0E01
+        \u0E1E\u0E27\u0E01\u0E19\u0E35\u0E49\u0E08\u0E30\u0E15\u0E32\u0E21\u0E25\u0E48\u0E32\u0E1C\u0E39\u0E49\u0E04\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2231,6 +2562,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u5927\u767E\u8DB3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Omukade
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5927\u767E\u8DB3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5927\u767E\u8DB3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E2D\u0E21\u0E38\u0E04\u0E32\u0E40\u0E14\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2264,7 +2619,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u6E56\u306E\u9B5A\u3092\u98DF\u3044\u6BBA\u3059\u5996\u602A\u3002\r\n\u4EBA\u9593\u306E\u553E\u3092\u304B\u3051\u308B\u3068\u6B7B\u306C\u3068\u4FE1\u3058\u3089\u308C\u3066\u3044\u308B\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E01\u0E34\u0E19\u0E1B\u0E25\u0E32\u0E43\u0E19\u0E17\u0E30\u0E40\u0E25\u0E2A\u0E32\u0E1A\r\n
+        \u0E1A\u0E32\u0E07\u0E04\u0E19\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E27\u0E48\u0E32\u0E42\u0E22\u0E44\u0E01\u0E1E\u0E27\u0E01\u0E19\u0E35\u0E49\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E16\u0E39\u0E01\u0E06\u0E48\u0E32\u0E14\u0E49\u0E27\u0E22\u0E19\u0E49\u0E33\u0E25\u0E32\u0E22\u0E02\u0E2D\u0E07\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2278,6 +2634,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u4E5D\u5C3E\u72D0"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Ky\u016Bbi-kitsune"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u4E5D\u5C3E\u72D0"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u4E5D\u5C3E\u72D0"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E40\u0E04\u0E35\u0E22\u0E27\u0E1A\u0E34-\u0E04\u0E34\u0E17\u0E2A\u0E36\u0E40\u0E19\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2311,7 +2691,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u5C3E\u304C\u4E5D\u672C\u3042\u308B\u72D0\u306E\u5996\u602A\u3002\n\r\u4EBA\u306E\u59FF\u306B\u5316\u3051\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3002"
+      text: " \u0E42\u0E22\u0E44\u0E01\u0E19\u0E35\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E21\u0E32\u0E08\u0E34\u0E49\u0E07\u0E08\u0E2D\u0E01\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E01\u0E49\u0E32\u0E2B\u0E32\u0E07\r\n
+        \u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E41\u0E1B\u0E25\u0E07\u0E23\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C\u0E44\u0E14\u0E49"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2325,6 +2706,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u308F\u3044\u3089"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Waira
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u725B\u9752\u86D9"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u725B\u9752\u86D9"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E44\u0E27\u0E23\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2358,7 +2763,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u30AC\u30DE\u304C\u5909\u5F62\u3057\u305F\u3068\u3044\u308F\u308C\u308B\u7DD1\u8272\u306E\u5996\u602A\u3002\r\n\u524D\u8DB3\u306B\u306F\u592A\u304F\u92ED\u3044\u304B\u304E\u722A\u3092\u3082\u3064\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E2A\u0E35\u0E40\u0E02\u0E35\u0E22\u0E27\u0E17\u0E35\u0E48\u0E27\u0E48\u0E32\u0E01\u0E31\u0E19\u0E27\u0E48\u0E32\u0E41\u0E1B\u0E25\u0E07\u0E23\u0E48\u0E32\u0E07\u0E21\u0E32\u0E08\u0E32\u0E01\u0E01\u0E1A\r\n
+        \u0E02\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E21\u0E31\u0E19\u0E21\u0E35\u0E01\u0E23\u0E07\u0E40\u0E25\u0E47\u0E1A\u0E17\u0E35\u0E48\u0E41\u0E2B\u0E25\u0E21\u0E04\u0E21"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2372,6 +2778,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u304A\u3068\u308D\u3057"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Otoroshi
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9AEA\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u53D1\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E2D\u0E42\u0E15\u0E30\u0E42\u0E23\u0E0A\u0E34 "
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2405,7 +2835,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u9577\u3044\u9AEA\u306B\u304A\u304A\u308F\u308C\u305F\u5996\u602A\u3002\r\u6050\u308D\u3057\u3044\u3068\u3044\u3046\n\u8A00\u8449\u304C\u5996\u602A\u5316\u3057\u305F\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\u3002"
+      text: " \u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E1C\u0E21\u0E22\u0E32\u0E27\u0E1B\u0E01\u0E04\u0E25\u0E38\u0E21\u0E15\u0E31\u0E27\r\n
+        \u0E27\u0E48\u0E32\u0E01\u0E31\u0E19\u0E27\u0E48\u0E32\u0E42\u0E22\u0E44\u0E01\u0E19\u0E35\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E32\u0E23\u0E2D\u0E38\u0E1B\u0E21\u0E32\u0E02\u0E2D\u0E07\u0E04\u0E33\u0E17\u0E35\u0E48\u0E19\u0E48\u0E32\u0E01\u0E25\u0E31\u0E27"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2419,6 +2850,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u732B\u307E\u305F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Nekomata
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u732B\u53C8"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u732B\u53C8"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E40\u0E19\u0E42\u0E01\u0E30\u0E21\u0E32\u0E15\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2452,7 +2907,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u5C3E\u304C\u4E8C\u53C8\u306B\u5206\u304B\u308C\u305F\u732B\u306E\u5996\u602A\u3002\n\r\u5C71\u5965\u306B\u4F4F\u307F\u3001\u4EBA\u9593\u3092\u98DF\u3044\u6BBA\u3059\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E41\u0E21\u0E27\u0E17\u0E35\u0E48\u0E21\u0E35\u0E2B\u0E32\u0E07\u0E41\u0E22\u0E01\u0E44\u0E1B\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E2D\u0E07\u0E2B\u0E32\u0E07\r\n
+        \u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E2D\u0E32\u0E28\u0E31\u0E22\u0E25\u0E36\u0E01\u0E40\u0E02\u0E49\u0E32\u0E44\u0E1B\u0E43\u0E19\u0E20\u0E39\u0E40\u0E02\u0E32
+        \u0E41\u0E25\u0E30\u0E01\u0E34\u0E19\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2466,6 +2923,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u30BF\u30F3\u30BF\u30F3\u30B3\u30ED\u30EA\u30F3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Tantan-kororin
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u67FF\u5B50\u5996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u67FF\u5B50\u5996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E41\u0E17\u0E19\u0E41\u0E17\u0E19-\u0E42\u0E04\u0E42\u0E23\u0E23\u0E34\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2499,7 +2980,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u5BAE\u57CE\u770C\u306E\u5996\u602A\u3002\u67FF\u3092\u53CE\u7A6B\u3057\u306A\u3044\u3068\r\n\u5996\u602A\u3068\u306A\u308A\u753A\u4E2D\u3092\u5F98\u5F8A\u3059\u308B\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E08\u0E32\u0E01\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14\u0E21\u0E34\u0E22\u0E32\u0E01\u0E34
+        \u0E25\u0E39\u0E01\u0E1E\u0E25\u0E31\u0E1A\u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E40\u0E01\u0E47\u0E1A\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E08\u0E30\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E42\u0E22\u0E44\u0E01\u0E1E\u0E27\u0E01\u0E19\u0E35\u0E49
+        \u0E41\u0E25\u0E30\u0E40\u0E14\u0E34\u0E19\u0E40\u0E15\u0E23\u0E48\u0E15\u0E31\u0E27\u0E40\u0E21\u0E37\u0E2D\u0E07"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2513,6 +2996,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u306C\u3048"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Nue
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9D7A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u864E\u9E2B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E19\u0E39\u0E40\u0E2D\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2546,7 +3053,10 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u733F\u306E\u982D\u306B\u3001\u72F8\u306E\u4F53\u3002\u864E\u306E\u624B\u8DB3\u306B\u3001\u86C7\u306E\u5C3E\u3002\r\n\u6C17\u5473\u306E\u60AA\u3044\u58F0\u3067\u9CF4\u304F\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E21\u0E35\u0E2B\u0E31\u0E27\u0E40\u0E1B\u0E47\u0E19\u0E25\u0E34\u0E07
+        \u0E15\u0E31\u0E27\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E21\u0E35 \u0E02\u0E32\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E2A\u0E37\u0E2D
+        \u0E41\u0E25\u0E30\u0E2B\u0E32\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E07\u0E39\r\n
+        \u0E40\u0E2A\u0E35\u0E22\u0E07\u0E23\u0E49\u0E2D\u0E07\u0E02\u0E2D\u0E07\u0E21\u0E31\u0E19\u0E19\u0E48\u0E32\u0E02\u0E19\u0E25\u0E38\u0E01\u0E22\u0E34\u0E48\u0E07\u0E19\u0E31\u0E01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2560,6 +3070,30 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u304B\u307F\u304D\u308A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Kamikiri
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5243\u982D\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5243\u5934\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E30\u0E21\u0E34\u0E04\u0E34\u0E23\u0E34"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2593,7 +3127,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u591C\u4E2D\u306B\u9053\u3092\u6B69\u304F\u4EBA\u3001\u7537\u5973\u554F\u308F\u305A\u3001\r\n\u982D\u9AEA\u3092\u3072\u305D\u304B\u306B\u5207\u308B\u3068\u3044\u308F\u308C\u308B\u5996\u602A\u3002"
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E27\u0E48\u0E32\u0E01\u0E31\u0E19\u0E27\u0E48\u0E32\u0E08\u0E30\u0E41\u0E2D\u0E1A\u0E15\u0E31\u0E14\u0E1C\u0E21\u0E02\u0E2D\u0E07\u0E1C\u0E39\u0E49\u0E0A\u0E32\u0E22\u0E2B\u0E23\u0E37\u0E2D\u0E1C\u0E39\u0E49\u0E2B\u0E0D\u0E34\u0E07\u0E17\u0E35\u0E48\u0E40\u0E14\u0E34\u0E19\u0E1A\u0E19\u0E16\u0E19\u0E19\u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2629,8 +3163,8 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-    - languageType: 0
-      text: "\u9152\u5451\u7AE5\u5B50"
+    - languageType: 4
+      text: "\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2665,7 +3199,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u4EBA\u3055\u3089\u3044\u3092\u3059\u308B\u9B3C\u3002\n\r\u4E71\u66B4\u8005\u3067\u304A\u9152\u304C\u5927\u597D\u304D\u306A\u9B3C\u306E\u982D\u9818\u3002"
+      text: " \u0E1B\u0E35\u0E28\u0E32\u0E08\u0E17\u0E35\u0E48\u0E23\u0E39\u0E49\u0E01\u0E31\u0E19\u0E27\u0E48\u0E32\u0E0A\u0E2D\u0E1A\u0E25\u0E31\u0E01\u0E1E\u0E32\u0E15\u0E31\u0E27\u0E1C\u0E39\u0E49\u0E04\u0E19\r\n
+        \u0E2B\u0E31\u0E27\u0E2B\u0E19\u0E49\u0E32\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E1B\u0E35\u0E28\u0E32\u0E08\u0E02\u0E35\u0E49\u0E40\u0E21\u0E32\u0E17\u0E35\u0E48\u0E0A\u0E2D\u0E1A\u0E04\u0E27\u0E32\u0E21\u0E23\u0E38\u0E19\u0E41\u0E23\u0E07"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2944,7 +3479,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u3072\u3068\u304D\u308F\u5927\u304D\u306A\u96F7\u9CF4\u304C\u3068\u3069\u308D\u304D\u3001\u7960\u306B\u96F7\u304C\u843D\u3061\u305F\u3002\n\n\u7960\u304B\u3089\u8607\u3063\u305F\u9B3C\u30FC\u30FC\u305D\u308C\u306F\u9152\u5451\u7AE5\u5B50\u3002\n"
+      text: "\u0E1F\u0E49\u0E32\u0E23\u0E49\u0E2D\u0E07 \u0E41\u0E25\u0E30\u0E1F\u0E49\u0E32\u0E1C\u0E48\u0E32\u0E17\u0E35\u0E48\u0E28\u0E32\u0E25\u0E40\u0E08\u0E49\u0E32
+        \u0E08\u0E32\u0E01\u0E28\u0E32\u0E25\u0E40\u0E08\u0E49\u0E32 \u0E1B\u0E35\u0E28\u0E32\u0E08\u0E1F\u0E37\u0E49\u0E19\u0E04\u0E37\u0E19\u0E0A\u0E35\u0E1E\u0E42\u0E1C\u0E25\u0E48\u0E02\u0E36\u0E49\u0E19\u0E21\u0E32:
+        \u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34 "
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2979,7 +3516,11 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u9152\u5451\u7AE5\u5B50\u304C\u8607\u3063\u305F\u306E\u306B\u306F\u7406\u7531\u304C\u3042\u3063\u305F\u3002\n\r\n\u305D\u308C\u306F\u3001\u4ECA\u5E74\u304C\u5343\u5E74\u306B\u4E00\u5EA6\u306E\n\u300C\u9B54\u754C\u306E\u5165\u308A\u53E3\u300D\u304C\u958B\u304F\u5E74\u3067\u3042\u308B\u3068\u8A00\u3046\u3053\u3068\u3002\n\n\r\u305D\u3057\u3066\u9B54\u754C\u306E\u5165\u308A\u53E3\u306F\u3001\n\u300C\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u300D\u306B\u958B\u304F\u3001\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\n\u306E\u3067\u3042\u308B\u3002"
+      text: "\"\u0E40\u0E2B\u0E15\u0E38\u0E1C\u0E25\u0E17\u0E35\u0E48\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E1F\u0E37\u0E49\u0E19\u0E04\u0E37\u0E19\u0E0A\u0E35\u0E1E
+        \u0E17\u0E38\u0E01\u0E2B\u0E25\u0E32\u0E22\u0E1E\u0E31\u0E19\u0E1B\u0E35 \u0E1B\u0E23\u0E30\u0E15\u0E39\u0E2A\u0E39\u0E48\u0E42\u0E25\u0E01\u0E41\u0E2B\u0E48\u0E07\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13\u0E08\u0E30\u0E40\u0E1B\u0E34\u0E14\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E04\u0E23\u0E31\u0E49\u0E07
+        \u0E41\u0E25\u0E30\u0E1B\u0E35\u0E19\u0E35\u0E49\u0E01\u0E47\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E43\u0E19\u0E2B\u0E25\u0E32\u0E22\u0E1E\u0E31\u0E19\u0E1B\u0E35\u0E19\u0E31\u0E49\u0E19\n
+        \u0E17\u0E32\u0E07\u0E40\u0E02\u0E49\u0E32\u0E40\u0E1B\u0E34\u0E14\u0E43\u0E19\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30\""
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -3014,7 +3555,11 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u2015\u2015\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u3002\r\n\n\u300C\u3055\u3041\u4EBA\u9593\u9054\u3092\u6016\u304C\u3089\u305B\u308D\u3002\u9B54\u754C\u306B\u843D\u3068\u3057\u3066\u3057\u307E\u3048\uFF01\uFF01\u300D\n\n\r\u9152\u5451\u7AE5\u5B50\u306F\u3001\u3053\u3053\u306B\u5949\u3089\u308C\u3066\u3044\u308B\u5996\u602A\u5C01\u5370\u5E16\u306E\u5C01\u5370\u3092\u89E3\u304D\u3001\n\r\u5996\u602A\u9054\u3092\u3053\u306E\u4E16\u306B\u653E\u3063\u305F\u3002"
+      text: "\"\u0E17\u0E35\u0E48\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30: \u201C\u0E44\u0E1B\u0E2B\u0E25\u0E2D\u0E01\u0E1E\u0E27\u0E01\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C\u0E01\u0E31\u0E19
+        \u0E41\u0E25\u0E30\u0E2A\u0E48\u0E07\u0E1E\u0E27\u0E01\u0E19\u0E31\u0E49\u0E19\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E42\u0E25\u0E01\u0E41\u0E2B\u0E48\u0E07\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13!\u201D\n
+        \u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E40\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E28\u0E31\u0E01\u0E14\u0E34\u0E4C\u0E2A\u0E34\u0E17\u0E18\u0E34\u0E4C\u0E1A\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01
+        \u0E41\u0E25\u0E30\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E42\u0E22\u0E44\u0E01\u0E40\u0E02\u0E49\u0E32\u0E21\u0E32\u0E2A\u0E39\u0E48\u0E42\u0E25\u0E01\""
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -3048,7 +3593,10 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u5C01\u5370\u88AB\u89E3\u9664\u7684\u5996\u602A\u4EEC\u98DE\u6563\u5230\u85E4\u539F\u4E4B\u4E61\u7684\u5404\u5904\u3002"
+      text: "\u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\u0E01\u0E17\u0E35\u0E48\u0E42\u0E22\u0E44\u0E01\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E34\u0E2A\u0E23\u0E30\u0E41\u0E25\u0E49\u0E27
+        \u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E01\u0E47\u0E08\u0E30\u0E01\u0E23\u0E30\u0E08\u0E32\u0E22\u0E2D\u0E22\u0E39\u0E48\u0E23\u0E2D\u0E1A
+        \u0E46 \u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -3082,7 +3630,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u7A81\u7136\u3001\u76EE\u306E\u524D\u306B\u771F\u3063\u6697\u306A\u3082\u306E\u304C\u7A7A\u304B\u3089\n\r\u821E\u3044\u964D\u308A\u3066\u304D\u305F\u30FB\u30FB\u30FB\n\r\u795E\u306E\u4F7F\u3044\u3001\u516B\u54AB\u70CF\u3067\u3042\u308B\u3002"
+      text: "\u0E17\u0E31\u0E19\u0E43\u0E14\u0E19\u0E31\u0E49\u0E19 \u0E1A\u0E32\u0E07\u0E2A\u0E34\u0E48\u0E07\u0E2A\u0E35\u0E14\u0E33\u0E42\u0E09\u0E1A\u0E25\u0E07\u0E21\u0E32\u0E08\u0E32\u0E01\u0E17\u0E49\u0E2D\u0E07\u0E1F\u0E49\u0E32\u0E15\u0E23\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E04\u0E38\u0E13...\n
+        \u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E22\u0E32\u0E15\u0E30\u0E01\u0E32\u0E23\u0E32\u0E2A\u0E38
+        \u0E1C\u0E39\u0E49\u0E2A\u0E48\u0E07\u0E2A\u0E32\u0E23\u0E08\u0E32\u0E01\u0E2A\u0E27\u0E23\u0E23\u0E04\u0E4C"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -3093,7 +3643,7 @@ MonoBehaviour:
       text: "\u300C\u9152\u5451\u7AE5\u5B50\u304C\u8607\u308A\u3001\u5996\u602A\u5C01\u5370\u5E16\u306E\u5C01\u5370\u3092\r\n\u89E3\u3044\u3066\u3057\u307E\u3063\u305F\u306E\u3067\u3054\u3056\u308B\u3002\u3059\u3050\u306B\u5C01\u5370\u3057\u306A\u3044\u3068\r\n\u5927\u5909\u306A\u4E8B\u306B\u306A\u308B\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
       image: {fileID: 0}
       lineSpacing: 0
-      linePosition: {x: 0, y: 0}
+      linePosition: {x: 58.6, y: 124.65}
       lineWidth: 0
     - languageType: 1
       text: "Shuten-d\u014Dji has been ressurected, and he released the seal on the
@@ -3101,25 +3651,28 @@ MonoBehaviour:
         terrible could happen."
       image: {fileID: 0}
       lineSpacing: 0
-      linePosition: {x: 0, y: 0}
+      linePosition: {x: 58.6, y: 78}
       lineWidth: 0
     - languageType: 2
       text: "\u300C\u9152\u541E\u7AE5\u5B50\u5DF2\u5FA9\u6D3B\uFF0C\n\u4E26\u89E3\u958B\u5996\u602A\u5C01\u5370\u5E16\u4E0A\u7684\u5C01\u5370\u3002\n\u82E5\u4E0D\u76E1\u5FEB\u91CD\u65B0\u5C01\u5370\uFF0C\u5C31\u7CDF\u4E86\u3002\u300D"
       image: {fileID: 0}
       lineSpacing: 0
-      linePosition: {x: 0, y: 0}
+      linePosition: {x: 58.6, y: 167}
       lineWidth: 0
     - languageType: 3
       text: "\"\u201C\u9152\u541E\u7AE5\u5B50\u82CF\u9192\u4E86\uFF0C\n\u5E76\u628A\u5996\u602A\u5C01\u5370\u5E16\u7684\u5C01\u5370\u89E3\u5F00\u4E86\u3002\n\u4E0D\u9A6C\u4E0A\u8FDB\u884C\u5C01\u5370\u7684\u8BDD\u9EBB\u70E6\u5C31\u5927\u4E86\u54E6\u3002\u201D\""
       image: {fileID: 0}
       lineSpacing: 0
-      linePosition: {x: 0, y: 0}
+      linePosition: {x: 58.6, y: 124.65}
       lineWidth: 0
     - languageType: 4
-      text: "\u300C\u9152\u5451\u7AE5\u5B50\u304C\u8607\u308A\u3001\u5996\u602A\u5C01\u5370\u5E16\u306E\u5C01\u5370\u3092\r\n\u89E3\u3044\u3066\u3057\u307E\u3063\u305F\u306E\u3067\u3054\u3056\u308B\u3002\u3059\u3050\u306B\u5C01\u5370\u3057\u306A\u3044\u3068\r\n\u5927\u5909\u306A\u4E8B\u306B\u306A\u308B\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
+      text: "\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E1F\u0E37\u0E49\u0E19\u0E04\u0E37\u0E19\u0E0A\u0E35\u0E1E
+        \u0E41\u0E25\u0E30\u0E01\u0E47\u0E1B\u0E25\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E1A\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01!
+        \u0E16\u0E49\u0E32\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E40\u0E01\u0E47\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E31\u0E19\u0E17\u0E35
+        \u0E2D\u0E32\u0E08\u0E40\u0E01\u0E34\u0E14\u0E1A\u0E32\u0E07\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E40\u0E25\u0E27\u0E23\u0E49\u0E32\u0E22\u0E02\u0E36\u0E49\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
-      linePosition: {x: 0, y: 0}
+      linePosition: {x: 58.6, y: 125}
       lineWidth: 0
   - index: 3
     localContents:
@@ -3134,7 +3687,7 @@ MonoBehaviour:
         them to the album.\nUse this."
       image: {fileID: 0}
       lineSpacing: 0
-      linePosition: {x: 0, y: 0}
+      linePosition: {x: 0, y: 88}
       lineWidth: 0
     - languageType: 2
       text: "\"\u300C\u8ACB\u7528\u9019\u500B\n\u91CD\u65B0\u5C01\u5370\n\u5728 -red_fire\u4E4B\u8655\u7684\u5996\u602A\u5011\u3002\u300D\""
@@ -3149,7 +3702,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u300C-red_fire \u306E\u5834\u6240\u306B\u3044\u308B\u5996\u602A\u9054\u3092\n\r\u5C01\u5370\u5E16\u306B\u5C01\u5370\u3057\u76F4\u3059\u306E\u3067\u3054\u3056\u308B\u3002\r\n\u3053\u308C\u3092\u4F7F\u3046\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
+      text: "\u201C\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19
+        -red_fire\n\u0E41\u0E25\u0E30\u0E2A\u0E48\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E40\u0E02\u0E49\u0E32\u0E44\u0E1B\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\r\n
+        \u0E43\u0E0A\u0E49\u0E19\u0E35\u0E48\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -3163,7 +3718,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 1
-      text: "When you look in the bag it gives you, you see a glass ball.\nThis is
+      text: "When you look in the bag it gives\nyou, you see a glass ball.\nThis is
         called the \u201COni-tama.\u201D"
       image: {fileID: 0}
       lineSpacing: 0
@@ -3182,7 +3737,9 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u6E21\u3055\u308C\u305F\u9769\u888B\u306E\u4E2D\u3092\u8997\u304F\u3068\u30AC\u30E9\u30B9\u7389\u304C\u2500\u3002\n\r\u3053\u308C\u3092\u300C\u9B3C\u7389\u300D\u3068\u8A00\u3046\u3002"
+      text: "\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E04\u0E38\u0E13\u0E21\u0E2D\u0E07\u0E43\u0E19\u0E01\u0E23\u0E30\u0E40\u0E1B\u0E4B\u0E32\u0E17\u0E35\u0E48\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\u0E21\u0E32\r\n
+        \u0E04\u0E38\u0E13\u0E08\u0E30\u0E40\u0E2B\u0E47\u0E19\u0E1A\u0E2D\u0E25\u0E41\u0E01\u0E49\u0E27\r\n
+        \u0E19\u0E35\u0E48\u0E40\u0E23\u0E35\u0E22\u0E01\u0E27\u0E48\u0E32 \u201C\u0E42\u0E2D\u0E19\u0E34-\u0E17\u0E32\u0E21\u0E30\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -3196,7 +3753,7 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 1
-      text: "Capture the y\u014Dkai by carefully tapping on them."
+      text: "Capture the y\u014Dkai by carefully \ntapping on them."
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -3214,7 +3771,8 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
-      text: "\u300C\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u5996\u602A\u3092\u30BF\u30C3\u30D7\u3057\u3066\u3001\n\u5996\u602A\u9054\u3092\u5C01\u5370\u3059\u308B\u306E\u3067\u3054\u3056\u308B\u3002\u300D\""
+      text: "\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01 \u0E42\u0E14\u0E22\u0E04\u0E48\u0E2D\u0E22
+        \u0E46 \u0E41\u0E15\u0E30\u0E17\u0E35\u0E48\u0E15\u0E31\u0E27\u0E42\u0E22\u0E44\u0E01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
