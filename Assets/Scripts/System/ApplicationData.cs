@@ -118,6 +118,33 @@ public class ApplicationData : MonoBehaviour
         }
     }
 
+	public static float SetLineSpacing(LocaleType key){
+		var locale = applicationData.localeData.Find ((obj) => obj.key == key);
+		if (locale.key != LocaleType.None) {
+			return locale.localContents [(int)ApplicationData.SelectedLanguage].lineSpacing;
+		} else {
+			return 1 ;
+		}
+	}
+
+	public static float SetLineWidth(LocaleType key){
+		var locale = applicationData.localeData.Find ((obj) => obj.key == key);
+		if (locale.key != LocaleType.None) {
+			return locale.localContents [(int)ApplicationData.SelectedLanguage].lineWidth;
+		} else {
+			return 1 ;
+		}
+	}
+
+	public static Vector2 SetLinePosition(LocaleType key){
+		var locale = applicationData.localeData.Find ((obj) => obj.key == key);
+		if (locale.key != LocaleType.None) {
+			return locale.localContents [(int)ApplicationData.SelectedLanguage].linePosition;
+		} else {
+			return new Vector2(0,0) ;
+		}
+	}
+
     [SerializeField]
     LanguageType selectedLanguage = LanguageType.Japanese;
 
@@ -207,10 +234,12 @@ public enum LocaleType
     MessageGetItem,
     MessageGetYokai,
     MessageFindYokai,
-    MessageFindItem
-
-
-
+    MessageFindItem,
+	ConfirmationDialog1,
+	ConfirmationDialog2,
+	ButtonYes,
+	ButtonNo,
+	ButtonExchangeTicket
 }
 
 [Serializable]
@@ -218,7 +247,6 @@ public struct LocaleData
 {
     public LocaleType key;
     public List<Locale> localContents;
-
 }
 
 [Serializable]
@@ -361,6 +389,9 @@ public struct Locale
     [Multiline]
     public string text;
     public Sprite image;
+	public float lineSpacing;
+	public Vector2 linePosition;
+	public float lineWidth;
 }
 
 

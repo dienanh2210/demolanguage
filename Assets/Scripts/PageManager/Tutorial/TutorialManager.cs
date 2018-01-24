@@ -18,22 +18,25 @@ public class TutorialManager : Page
     private void Start()
     {
         Instance = this;
-        foreach (Transform i in this.transform)
-        {
-            string name = i.name.Remove(0, 5);
-            var obj = ApplicationData.TutorialData.Where(s => s.index.ToString() == name.Trim()).ToList();
-           
-            if (obj.Count() > 0)
-            {
-                i.transform.GetChild(0).GetComponent<Image>().sprite = obj[0].image;
+		foreach (Transform i in this.transform)
+		{
+			string name = i.name.Remove(0, 5);
+			TutorialData obj = ApplicationData.TutorialData.SingleOrDefault(s => s.index.ToString() == name.Trim());
 
-                for (int a = 0; a < ApplicationData.TutorialData[a].localContents.Count; a++)
-                {
-                    i.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = obj[0].localContents[a].text.ToString();
-                    i.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.TapOnPrologue);
-                }
-            }
-        }
+			if (!obj.Equals(new TutorialData()))
+			{
+				i.transform.GetChild(0).GetComponent<Image>().sprite = obj.image;
+
+				for (int a = 0; a < obj.localContents.Count; a++)
+				{
+					if (obj.localContents[a].languageType == ApplicationData.SelectedLanguage)
+					{
+						i.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = obj.localContents[a].text.ToString();
+					}
+					i.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.TapOnPrologue);
+				}
+			}
+		}
     }
 
     public static int count = 0;

@@ -75,7 +75,7 @@ public class YokaiGetTutorialManager : Page{
         FireEffect (true);
 
         for (int i = 0; i < ApplicationData.YokaiGetTutorialData.Count; i++) {
-            yokai [i].GetComponentsInChildren<Text> (true) [0].text = ApplicationData.YokaiGetTutorialData [i].localContents [0].text.ToString ();
+			yokai [i].GetComponentsInChildren<Text> (true) [0].text = ApplicationData.YokaiGetTutorialData [i].localContents [(int)ApplicationData.SelectedLanguage].text.ToString ();
            
         }
 
