@@ -867,7 +867,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7A81\u7136\u3001\u76EE\u306E\u524D\u306B\u771F\u3063\u6697\u306A\u3082\u306E\u304C\u7A7A\u304B\u3089\n\r\u821E\u3044\u964D\u308A\u3066\u304D\u305F\u30FB\u30FB\u30FB\n\r\u795E\u306E\u4F7F\u3044\u3001\u516B\u54AB\u70CF\u3067\u3042\u308B\u3002\n"
+  m_Text: "When you look in the bag it gives\n you, you see a glass ball.\nThis is
+    called the \u201COni-tama.\u201D"
 --- !u!114 &114112260849194840
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1303,7 +1304,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7A81\u7136\u3001\u76EE\u306E\u524D\u306B\u771F\u3063\u6697\u306A\u3082\u306E\u304C\u7A7A\u304B\u3089\n\r\u821E\u3044\u964D\u308A\u3066\u304D\u305F\u30FB\u30FB\u30FB\n\r\u795E\u306E\u4F7F\u3044\u3001\u516B\u54AB\u70CF\u3067\u3042\u308B\u3002\n"
+  m_Text: "Suddenly, something pitch black swoops down from the sky right in front
+    of you...\nIt\u2019s Yatagarasu, a divine messenger.\n"
 --- !u!114 &114342276291566814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1610,7 +1612,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7A81\u7136\u3001\u76EE\u306E\u524D\u306B\u771F\u3063\u6697\u306A\u3082\u306E\u304C\u7A7A\u304B\u3089\n\r\u821E\u3044\u964D\u308A\u3066\u304D\u305F\u30FB\u30FB\u30FB\n\r\u795E\u306E\u4F7F\u3044\u3001\u516B\u54AB\u70CF\u3067\u3042\u308B\u3002\n"
+  m_Text: "Capture the y\u014Dkai by carefully \ntapping on them."
 --- !u!114 &114555143200928096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1643,7 +1645,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7A81\u7136\u3001\u76EE\u306E\u524D\u306B\u771F\u3063\u6697\u306A\u3082\u306E\u304C\u7A7A\u304B\u3089\n\r\u821E\u3044\u964D\u308A\u3066\u304D\u305F\u30FB\u30FB\u30FB\n\r\u795E\u306E\u4F7F\u3044\u3001\u516B\u54AB\u70CF\u3067\u3042\u308B\u3002"
+  m_Text: "\u201CShuten-d\u014Dji has been ressurected, and he released the seal on
+    the Y\u014Dkai Album! If you don\u2019t collect the y\u014Dkai right away, something
+    terrible could happen.\u201D"
 --- !u!114 &114566281174575460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2572,8 +2576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -53.5}
-  m_SizeDelta: {x: -117.2, y: -142.3}
+  m_AnchoredPosition: {x: 0, y: -32.675}
+  m_SizeDelta: {x: -117.2, y: -100.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224003636045725918
 RectTransform:
@@ -2843,8 +2847,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 122, y: -56}
-  m_SizeDelta: {x: -193, y: -137.3}
+  m_AnchoredPosition: {x: 122, y: -51.310467}
+  m_SizeDelta: {x: -193, y: -63.379066}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224277318561434440
 RectTransform:
@@ -3067,8 +3071,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -51.5}
-  m_SizeDelta: {x: -117.2, y: -146.3}
+  m_AnchoredPosition: {x: 0, y: -30.675}
+  m_SizeDelta: {x: -117.2, y: -104.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224563689728239892
 RectTransform:
@@ -3085,8 +3089,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 122, y: -56}
-  m_SizeDelta: {x: -193, y: -137.3}
+  m_AnchoredPosition: {x: 122, y: -35.175}
+  m_SizeDelta: {x: -193, y: -95.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224589090578271704
 RectTransform:
@@ -3200,8 +3204,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: -117.2, y: -99.3}
+  m_AnchoredPosition: {x: 0, y: -31.175}
+  m_SizeDelta: {x: -117.2, y: -103.649994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224618067705934072
 RectTransform:
