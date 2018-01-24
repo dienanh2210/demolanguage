@@ -79,7 +79,7 @@ public class GetPageManager : Page
         notification_ending = GameObject.FindGameObjectWithTag ("TextCanvas").transform.Find("notification_ending").gameObject;
         neededItemNoti = GameObject.Find ("TextCanvas").transform.Find ("neededItemNoti").gameObject;
         backButton.SetActive (true);
-
+		backButton.GetComponentInChildren<Text> ().text = ApplicationData.GetLocaleText (LocaleType.ButtonBack);
         if (ApplicationData.GetYokaiData (PageData.yokaiID).IsNeedItem ()) {
             if (!ApplicationData.GetYokaiData (PageData.yokaiID).HasItem ()) {
 
