@@ -6,12 +6,15 @@ import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.IBinder;
 import android.os.RemoteException;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 
 import com.unity3d.player.UnityPlayerActivity;
+import com.yume.ibeacondetector.R;
+
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
@@ -58,12 +61,12 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
         try {
             context = IBeaconPlugin.instance().getContext();
 
-            PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, new Intent(context, UnityPlayerActivity.class), PendingIntent.FLAG_UPDATE_CURRENT);
-            int id = getResources().getIdentifier("noti", "drawable", "com.yume.yokaiget");
-
             notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+            PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, new Intent(context, UnityPlayerActivity.class), PendingIntent.FLAG_UPDATE_CURRENT);
+
             notificationBuilder = new NotificationCompat.Builder(context)
-                    .setSmallIcon(id)
+                    .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.notification_large))
+                    .setSmallIcon(R.drawable.notification_small)
                     .setContentTitle("iBeacon detected!")
                     .setContentText("Tap to show")
                     .setContentIntent(pendingIntent)

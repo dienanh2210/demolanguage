@@ -4,7 +4,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TestPlugin : MonoBehaviour {
+public class PluginAndroid : MonoBehaviour {
 
     private AndroidJavaObject activityContext = null;
     private AndroidJavaObject pluginObject = null;
