@@ -171,6 +171,7 @@ public class TitlePage : Page
         {
             PageManager.Show(PageType.MapPage);
         }
+        MapManager.SetupMapImage();
     }
     public void EnableBluetooth()
     {
