@@ -19,6 +19,8 @@ public class TitlePage : Page
     [SerializeField]
     Text txtRed, txtSelectLanguage, txtShowApp, txtCaution;
 
+	public Image imgLogo;
+
     string iosID;
     string androidID;
 
@@ -51,6 +53,9 @@ public class TitlePage : Page
 			ApplicationData.SelectedLanguage = LanguageType.English;
 			break;
 		}
+
+		imgLogo.sprite = ApplicationData.GetLogoImage (ApplicationData.SelectedLanguage).img;
+
         PageData.Initialize ();
         androidID = "com.fujiwaranosato.EsashiNavi";
         iosID = "youtube-watch-listen-stream/id544007664?mt=8";
