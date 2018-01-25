@@ -29,6 +29,28 @@ public class TitlePage : Page
 
     #region Init
     void OnEnable (){
+		switch (Application.systemLanguage.ToString()) {
+		case "Japanese":
+			SelectJapanese ();
+			ApplicationData.SelectedLanguage = LanguageType.Japanese;
+			break;
+		case "ChineseTraditional":
+			SelectChinese1 ();
+			ApplicationData.SelectedLanguage = LanguageType.Chinese1;
+			break;
+		case "ChineseSimplified":
+			SelectChinese2 ();
+			ApplicationData.SelectedLanguage = LanguageType.Chinese2;
+			break;
+		case "Thai":
+			SelectThai ();
+			ApplicationData.SelectedLanguage = LanguageType.Thai;
+			break;
+		default:
+			SelectEnglish ();
+			ApplicationData.SelectedLanguage = LanguageType.English;
+			break;
+		}
         PageData.Initialize ();
         androidID = "com.fujiwaranosato.EsashiNavi";
         iosID = "youtube-watch-listen-stream/id544007664?mt=8";
