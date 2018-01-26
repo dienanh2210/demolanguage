@@ -46,6 +46,11 @@ public class ApplicationData : MonoBehaviour
         return applicationData.successImageData.Find ((obj) => obj.type == languageType);
     }
 
+	public static Logo GetLogoImage(LanguageType languageType)
+	{
+		return applicationData.logo.Find ((obj) => obj.type == languageType);
+	}
+
     public static YokaiData GetYokaiData (int yokai_id)
     {
         return applicationData.yokaiData.Find ((obj) => obj.id == yokai_id);
@@ -173,7 +178,8 @@ public class ApplicationData : MonoBehaviour
     [SerializeField]
     List<YokaiGetTutorialData> yokaiGetTutorialData = new List<YokaiGetTutorialData> ();
 
-
+	[SerializeField]
+	List<Logo> logo = new List<Logo>();
 
 
     void Awake ()
@@ -271,6 +277,13 @@ public struct YokaiGetTutorialData
 {
     public int index;
     public List<Locale> localContents;
+}
+
+[Serializable]
+public struct Logo
+{
+	public LanguageType type;
+	public Sprite img;
 }
 
 [Serializable]
