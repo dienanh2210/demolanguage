@@ -788,25 +788,25 @@ MonoBehaviour:
       lineWidth: 0
     - languageType: 1
       text: 
-      image: {fileID: 21300000, guid: d290cf1c3c058224798efa1bf79e8547, type: 3}
+      image: {fileID: 21300000, guid: a19bd3349d376c94fa1de2abee87c13d, type: 3}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 2
       text: 
-      image: {fileID: 21300000, guid: d290cf1c3c058224798efa1bf79e8547, type: 3}
+      image: {fileID: 21300000, guid: 928abc684c88aee47b26ec728427713a, type: 3}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 3
       text: 
-      image: {fileID: 21300000, guid: d290cf1c3c058224798efa1bf79e8547, type: 3}
+      image: {fileID: 21300000, guid: c2485490fadfdd349b97aac9251b1532, type: 3}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
     - languageType: 4
       text: 
-      image: {fileID: 21300000, guid: d290cf1c3c058224798efa1bf79e8547, type: 3}
+      image: {fileID: 21300000, guid: 5b68e8dedd2963244bfeacf272805dee, type: 3}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
@@ -3213,17 +3213,17 @@ MonoBehaviour:
     yokaiText: {fileID: 21300000, guid: 3ea3e07af26993047a0b1bd215d10ac1, type: 3}
     itemText: {fileID: 21300000, guid: 474862120169a004da4f3cb3ed2e5f9a, type: 3}
   - type: 1
-    yokaiText: {fileID: 0}
-    itemText: {fileID: 0}
+    yokaiText: {fileID: 21300000, guid: 935b881379e6cfc4fbd5051245748309, type: 3}
+    itemText: {fileID: 21300000, guid: e2a1fae7758a15b498ca4e9b859241d4, type: 3}
   - type: 2
-    yokaiText: {fileID: 0}
-    itemText: {fileID: 0}
+    yokaiText: {fileID: 21300000, guid: 09e0f698ff7ef144f87d41ecb7553d86, type: 3}
+    itemText: {fileID: 21300000, guid: 51cdeef67dcbbee429d4d6c2c19b51b6, type: 3}
   - type: 3
-    yokaiText: {fileID: 0}
-    itemText: {fileID: 0}
+    yokaiText: {fileID: 21300000, guid: e4b19ca0cfa763d49af0ed4a534f7867, type: 3}
+    itemText: {fileID: 21300000, guid: 0ad32f4b052d28c438277396bb2d8e15, type: 3}
   - type: 4
-    yokaiText: {fileID: 0}
-    itemText: {fileID: 0}
+    yokaiText: {fileID: 21300000, guid: f7dccf5e7beb39f4da836366c98f8e35, type: 3}
+    itemText: {fileID: 21300000, guid: 2166397083856fb4e8dc07e97ae80fb3, type: 3}
   itemData:
   - id: 1
     name: nurari-hyon
@@ -3777,3 +3777,14 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
+  logo:
+  - type: 0
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
+  - type: 1
+    img: {fileID: 21300000, guid: 3040af02f03a7c0429e0fb628bd2e1a6, type: 3}
+  - type: 2
+    img: {fileID: 21300000, guid: 413a4fbdabfe5bd46bdadfb403d34a0e, type: 3}
+  - type: 3
+    img: {fileID: 21300000, guid: 6b01141853920c5488572424ad8506db, type: 3}
+  - type: 4
+    img: {fileID: 21300000, guid: 6167dd62869673b4cbb92ba8851f0e0d, type: 3}
