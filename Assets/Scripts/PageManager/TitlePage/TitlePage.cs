@@ -157,10 +157,10 @@ public class TitlePage : Page
                 item.interactable = true;
             }
 			
-			imgLogo.sprite = ApplicationData.GetLogoImage (ApplicationData.SelectedLanguage).img;
-			txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
-			txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
-			txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
+		imgLogo.sprite = ApplicationData.GetLogoImage (ApplicationData.SelectedLanguage).img;
+		txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
+		txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
+		txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
         }
 
         public void SelectEnglish()
