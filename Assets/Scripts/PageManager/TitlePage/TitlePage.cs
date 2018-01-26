@@ -150,16 +150,19 @@ public class TitlePage : Page
             List<Button> lstTemp = lstButton.FindAll(x => x.name != name);
             Button bt = lstButton.Find(x => x.name == name);
             Color myGray = new Color();
-            ColorUtility.TryParseHtmlString("#9C9C9CFF", out myGray);
             bt.GetComponentInChildren<Text>().color = Color.black;
             bt.image.sprite = lstSprite[1];
             foreach (var item in lstTemp)
             {
-                item.image.sprite = lstSprite[2];
-                item.GetComponentInChildren<Text>().color = myGray;
                 item.interactable = true;
             }
+			
+			imgLogo.sprite = ApplicationData.GetLogoImage (ApplicationData.SelectedLanguage).img;
+			txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
+			txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
+			txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
         }
+
         public void SelectEnglish()
         {
             ApplicationData.SelectedLanguage = LanguageType.English;
