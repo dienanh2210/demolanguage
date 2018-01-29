@@ -125,64 +125,1567 @@ MonoBehaviour:
     localContents:
     - languageType: 0
       text: "\u25C7\u671F\u9593\u9650\u5B9A\u5996\u602A\u51FA\u6CA1\u4E2D\u25C7\n\u671F\u9593\u9650\u5B9A\u306E\u5996\u602A\u304C\n\u5730\u56F3\u4E0A\u306E-green_fire\u306E\n\u5834\u6240\u306B\u51FA\u6CA1\u3057\u307E\u3059\u3002\n\u3053\u306E\u6A5F\u4F1A\u306B\u3001\u5C01\u5370\u3057\u3088\u3046\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "\u25C7Limited Time Y\u014Dkai Availability\u25C7\nFor a limited time,
+        y\u014Dkai will appear at locations on the map marked with -green_fire ."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u25C7\u671F\u9593\u9650\u5B9A\u5996\u602A\u51FA\u6C92\u4E2D\u25C7\n\u671F\u9593\u9650\u5B9A\u5996\u602A\u5C07\u6703\u5728\u5730\u5716\u4E0A\u7684\u3000\u4F4D\u7F6E\u51FA\u6C92\u3002\n-green_fire\n\n\u6211\u5011\u4F86\u5BC6\u5C01\u9019\u500B\u5834\u5408\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u25C7\u9650\u65F6\u5996\u602A\u51FA\u6CA1\u4E2D\u25C7\n\u9650\u65F6\u51FA\u6CA1\u7684\u5996\u602A\u5C06\u5728\u5730\u56FE\u4E0A\u7684\u3000\u4F4D\u7F6E\u51FA\u6CA1\u3002\n-green_fire\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u25C7 \u0E42\u0E22\u0E44\u0E01\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E31\u0E27\u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E08\u0E33\u0E01\u0E31\u0E14\u25C7\r\n
+        \u0E42\u0E22\u0E44\u0E01\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E32\u0E21\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E15\u0E48\u0E32\u0E07
+        \u0E46 \u0E1A\u0E19\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2B\u0E21\u0E32\u0E22\r\n-green_fire
+        \u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E08\u0E33\u0E01\u0E31\u0E14\n\u0E09\u0E31\u0E19\u0E08\u0E30\u0E21\u0E32\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\r\n\u0E21\u0E32\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E43\u0E19\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E19\u0E35\u0E49"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 2
     localContents:
     - languageType: 0
       text: "\u300C\u30A8\u30EA\u30A2\u2460\u2461\u306E\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3066\u304F\u308C\u3066\u3042\u308A\u304C\u3068\u3046\u3002\u304A\u793C\u306B\u30D5\u30A9\u30C8\u30D5\u30EC\u30FC\u30E0\u3092\u6E21\u3059\u3067\u3054\u3056\u308B\u3002\u307B\u3046\u3073\u5E16\u3092\u898B\u3066\u307F\u308B\u306E\u3067\u3054\u3056\u308B\u30FB\u30FB\u30FB\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Thank you for capturing all the y\u014Dkai in Areas 1and 2.\nFor your
+        services, I give you this photo frame.\nCheck your Reward Album\u2026"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u300C\u8B1D\u8B1D\u4F60\u5C01\u5370\u4E86\u5340\u57DF\u2460\u2461\u7684\u5996\u602A\u5011\u3002\n\u6211\u5C07\u9001\u7D66\u4F60\u76F8\u6846\u505A\u70BA\u8B1D\u79AE\u3002\n\u8ACB\u770B\u770B\u734E\u52F5\u5E16\u5427\u2026\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u201C\u611F\u8C22\u60A8\u628A\u533A\u57DF\u2460\u4E0E\u533A\u57DF\u2461\u7684\u5996\u602A\u4EEC\u90FD\u5C01\u5370\u8D77\u6765\u4E86\u3002\n\u4F5C\u4E3A\u611F\u8C22\uFF0C\u7ED9\u60A8\u4E00\u4E2A\u76F8\u6846\u3002\n\u8BF7\u770B\u770B\u8912\u7F8E\u5E16\u5427\u2026\u2026\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u201C\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14\u0E43\u0E19\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48
+        1 \u0E41\u0E25\u0E30 2\n \u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13
+        \u0E40\u0E23\u0E32\u0E21\u0E2D\u0E1A\u0E01\u0E23\u0E2D\u0E1A\u0E23\u0E39\u0E1B\u0E19\u0E35\u0E49\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\n
+        \u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u2026\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 3
     localContents:
     - languageType: 0
       text: "\u300C\u304A\u3084\u3001\u653F\u5E81\u306B\u9152\u5451\u7AE5\u5B50\u304C\u73FE\u308C\u305F\u3067\u3054\u3056\u308B\u3002\u4ECA\u3059\u3050\u5C01\u5370\u3057\u306B\u884C\u304F\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "\u201CWhoa, Shuten-d\u014Dji has appeared at the Seicho Government Office.\nGo
+        there right away and capture him.\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u300C\u554A\u5440\uFF0C\u9152\u541E\u7AE5\u5B50\u51FA\u73FE\u5728\u653F\u5EF3\u4E86\u3002\n\u8ACB\u73FE\u5728\u99AC\u4E0A\u53BB\u5C01\u5370\u4ED6\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u201C\u54CE\u5440\uFF0C\u9152\u541E\u7AE5\u5B50\u51FA\u73B0\u5728\u8859\u95E8\u4E86\u3002\n\u9A6C\u4E0A\u53BB\u5C01\u5370\u5B83\u5427\u3002\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u201C\u0E42\u0E27\u0E49\u0E27 \u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E40\u0E0B\u0E42\u0E0A\n
+        \u0E44\u0E1B\u0E17\u0E35\u0E48\u0E19\u0E31\u0E48\u0E19\u0E17\u0E31\u0E19\u0E17\u0E35
+        \u0E41\u0E25\u0E30\u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E43\u0E2B\u0E49\u0E44\u0E14\u0E49\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 4
     localContents:
     - languageType: 0
       text: "\u300C\u518D\u3073\u653F\u5E81\u306B\u9152\u5451\u7AE5\u5B50\u304C\u73FE\u308C\u305F\u3067\u3054\u3056\u308B\u3002\u4ECA\u5EA6\u3053\u305D\u5C01\u5370\u3059\u308B\u3067\u3054\u3056\u308B\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "\u201CShuten-d\u014Dji appeared again at the Seicho Government Office.\nYou\u2019ll
+        get him this time!\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u300C\u9152\u541E\u7AE5\u5B50\u518D\u5EA6\u51FA\u73FE\u5728\u653F\u5EF3\u3002\n\u9019\u4E00\u6B21\u4E00\u5B9A\u8981\u5C01\u5370\u4ED6\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u201C\u9152\u541E\u7AE5\u5B50\u518D\u6B21\u51FA\u73B0\u5728\u8859\u95E8\u4E86\u3002\n\u8FD9\u6B21\u4E00\u5B9A\u8981\u628A\u5B83\u5C01\u5370\u4F4F\u3002\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u201C\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E23\u0E31\u0E10\u0E1A\u0E32\u0E25\u0E40\u0E0B\u0E42\u0E0A\n
+        \u0E04\u0E23\u0E31\u0E49\u0E07\u0E19\u0E35\u0E49\u0E04\u0E38\u0E13\u0E08\u0E30\u0E08\u0E31\u0E1A\u0E44\u0E14\u0E49\u0E41\u0E19\u0E48
+        \u0E46!\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 5
     localContents:
     - languageType: 0
       text: "\u3053\u306E\u5996\u602A\u306F\u3001\u518D\u3073\u300C\u5996\u602A\u5C01\u5370\u5E16\u300D\u306B\r\u5C01\u5370\u3055\u308C\u308B\u4E8B\u3092\u6050\u308C\u3066\u3001\u5C01\u5370\u3055\u308C\u305F\u9801\u3092\r\u96A0\u3057\u3066\u3057\u307E\u3063\u305F\u306E\u3067\u3054\u3056\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "This y\u014Dkai is scared of being captured\nand returned to the Y\u014Dkai
+        Album, so it\nhas taken its page and hidden it."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6B64\u5996\u602A\u5BB3\u6015\u518D\u5EA6\u88AB\u5C01\u5370\u65BC\n\u300C\u5996\u602A\u5C01\u5370\u5E16\u300D\u4E2D\uFF0C\n\u65BC\u662F\u5C31\u628A\u5C01\u5370\u9801\u9762\u85CF\u8D77\u4F86\u4E86\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8FD9\u53EA\u5996\u602A\u6015\u88AB\u518D\u6B21\u5C01\u5370\u5230\n\u201C\u5996\u602A\u5C01\u5370\u5E16\u201D\uFF0C\n\u56E0\u6B64\u628A\u5DF2\u5C01\u5370\u7684\u9875\u9762\u85CF\u8D77\u6765\u4E86\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E15\u0E31\u0E27\u0E19\u0E35\u0E49\u0E01\u0E25\u0E31\u0E27\u0E27\u0E48\u0E32\u0E08\u0E30\u0E16\u0E39\u0E01\u0E08\u0E31\u0E1A\u0E41\u0E25\u0E30\n
+        \u0E2A\u0E48\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01
+        \u0E14\u0E31\u0E07\u0E19\u0E31\u0E49\u0E19\n \u0E21\u0E31\u0E19\u0E01\u0E47\u0E40\u0E25\u0E22\u0E43\u0E0A\u0E49\u0E2B\u0E19\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E21\u0E31\u0E19\u0E41\u0E25\u0E30\u0E0B\u0E48\u0E2D\u0E19\u0E44\u0E27\u0E49"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 6
     localContents:
     - languageType: 0
       text: "\u8FD1\u304F\u306B\u3042\u308B-item\u306B\u884C\u3063\u3066\r\u9801\u3092\u63A2\u3059\u306E\u3067\u3054\u3056\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: 'Go to the -item nearby and
+
+        look for the page.
+
+'
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8ACB\u5230\u9644\u8FD1\u7684 -item\n\u53BB\u627E\u5C0B\u9801\u9762\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u524D\u5F80\u9644\u8FD1\u7684 -item\n\u5BFB\u627E\u9875\u9762\u5427\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E44\u0E1B\u0E17\u0E35\u0E48 -item \u0E43\u0E01\u0E25\u0E49\u0E40\u0E04\u0E35\u0E22\u0E07
+        \u0E41\u0E25\u0E30\r\n \u0E21\u0E2D\u0E07\u0E2B\u0E32\u0E2B\u0E19\u0E49\u0E32"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 7
     localContents:
     - languageType: 0
       text: "\u3053\u306E\u9801\u304C\u7121\u3044\u3068\u5C01\u5370\u3067\u304D\u306A\u3044\u5996\u602A\u304C\r\u8FD1\u304F\u306B\u3044\u308B\u306E\u3067\u3054\u3056\u308B\u3002\r\u305D\u308C\u307E\u3067\u5927\u4E8B\u306B\u6301\u3063\u3066\u308B\u306E\u3067\u3054\u3056\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "There\u2019s a y\u014Dkai nearby that you can\u2019t\ncapture without
+        this page.\nKeep it safely until you find it."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9019\u9644\u8FD1\u6709\u6C92\u6709\u6B64\u9801\u9762\n\u5C31\u7121\u6CD5\u5C01\u5370\u4E4B\u5996\u602A\u3002\n\u5728\u5C01\u5370\u5B8C\u6210\u4E4B\u524D\u52D9\u5FC5\u8B39\u614E\u6536\u597D\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u9644\u8FD1\u6709\u5FC5\u987B\u7528\u672C\u9875\n\u624D\u80FD\u5C01\u5370\u7684\u5996\u602A\u3002\n\u5728\u90A3\u4E4B\u524D\u52A1\u5FC5\u8C28\u614E\u6536\u597D\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E21\u0E35\u0E42\u0E22\u0E44\u0E01\u0E43\u0E01\u0E25\u0E49 \u0E46 \u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\n
+        \u0E08\u0E31\u0E1A\u0E44\u0E14\u0E49\u0E42\u0E14\u0E22\u0E44\u0E21\u0E48\u0E43\u0E0A\u0E49\u0E2B\u0E19\u0E49\u0E32\u0E19\u0E35\u0E49\n
+        \u0E40\u0E01\u0E47\u0E1A\u0E44\u0E27\u0E49\u0E43\u0E2B\u0E49\u0E14\u0E35\u0E08\u0E19\u0E01\u0E27\u0E48\u0E32\u0E04\u0E38\u0E13\u0E08\u0E30\u0E1E\u0E1A\u0E21\u0E31\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 8
     localContents:
     - languageType: 0
       text: "\u300C\u843D\u3061\u7740\u3044\u3066\u5C01\u5370\u3059\u308B\u3067\u3054\u3056\u308B\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Calmly capture him.
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8ACB\u51B7\u975C\u5730\u5C01\u5370\u4ED6"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u51B7\u9759\u5730\u628A\u5B83\u5C01\u5370\u8D77\u6765"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E48\u0E2D\u0E22 \u0E46 \u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E19\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 9
     localContents:
     - languageType: 0
       text: "\u300C\u3093\uFF01\uFF1F\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: What?!
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u55EF\uFF01\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u989D\uFF01\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2D\u0E30\u0E44\u0E23\u0E19\u0E35\u0E48?!"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 10
     localContents:
     - languageType: 0
       text: "\u300C\u5C01\u5370\u3067\u304D\u306A\u3044\u3067\u3054\u3056\u308B\uFF01\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "You can\u2019t capture him!"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u7121\u6CD5\u5C01\u5370\uFF01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u65E0\u6CD5\u5C01\u5370\uFF01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E09\u0E31\u0E19\u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49!"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 11
     localContents:
     - languageType: 0
-      text: "\u9152\u5451\u7AE5\u5B50\u306E\u5996\u529B\u306F\u5F37\u529B\u3067\u3001\u9003\u3052\u3089\u308C\u3066\u3057\u307E\u3063\u305F\u2015\u2015\u3002\r\r\u300C\u30A8\u30EA\u30A2\u306E\u2462\u2463\u306E\u5996\u602A\u3092\u5C01\u5370\u3059\u308C\u3070\u3082\u3063\u3068\u5F37\u304F\u306A\u308C\u308B\u306E\u3067\u3054\u3056\u308B\u3002\r\u7D9A\u3051\u3066\u5996\u602A\u3092\u5C01\u5370\u3059\u308B\u306E\u3067\u3054\u3056\u308B\u3002\u300D"
+      text: "\u9152\u5451\u7AE5\u5B50\u306E\u5996\u529B\u306F\u5F37\u529B\u3067\u3001\u9003\u3052\u3089\u308C\u3066\u3057\u307E\u3063\u305F\u2015\u2015\u3002\r\n\r\n\u300C\u30A8\u30EA\u30A2\u306E\u2462
+        \u2463\u306E\u5996\u602A\u3092\u5C01\u5370\u3059\u308C\u3070\u3082\u3063\u3068\u5F37\u304F\u306A\u308C\u308B\u306E\u3067\u3054\u3056\u308B\u3002\r\n\u7D9A\u3051\u3066\u5996\u602A\u3092\u5C01\u5370\u3059\u308B\u306E\u3067\u3054\u3056\u308B\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Shuten-d\u014Dji\u2019s powers are strong and he got away!\n\n\u201CYou\u2019ll
+        get stronger after capturing the y\u014Dkai in Areas 3 and 4.\nKeep up the
+        work and capture them.\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9152\u541E\u7AE5\u5B50\u7684\u5996\u529B\u592A\u5F37\uFF0C\u8B93\u4ED6\u812B\u9003\u4E86\u2015\u2015\u3002\n\n\u300C\u7B49\u4F60\u5C01\u5370\u5340\u57DF\u2462\u2463\u7684\u5996\u602A\u4E4B\u5F8C\uFF0C\u4E00\u5B9A\u6703\u8B8A\u66F4\u5F37\u3002\n\u8ACB\u7E7C\u7E8C\u5C01\u5370\u5996\u602A\u5427\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u9152\u541E\u7AE5\u5B50\u7684\u5996\u529B\u592A\u5389\u5BB3\u4E86\uFF0C\u5C45\u7136\u9003\u8131\u4E86\u2014\u2014\u3002\n\n\u201C\u5982\u679C\u628A\u533A\u57DF\u2462\u533A\u57DF\u2463\u7684\u5996\u602A\u5C01\u5370\u8D77\u6765\u7684\u8BDD\uFF0C\u5C31\u4F1A\u53D8\u5F97\u66F4\u5F3A\u3002\n\u7EE7\u7EED\u5C01\u5370\u5996\u602A\u5427\u3002\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E1E\u0E25\u0E31\u0E07\u0E02\u0E2D\u0E07\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E41\u0E02\u0E47\u0E07\u0E41\u0E01\u0E23\u0E48\u0E07\u0E21\u0E32\u0E01
+        \u0E41\u0E25\u0E49\u0E27\u0E21\u0E31\u0E19\u0E01\u0E47\u0E2B\u0E19\u0E35\u0E44\u0E1B!\n
+        \n \u201C\u0E04\u0E38\u0E13\u0E08\u0E30\u0E21\u0E35\u0E1E\u0E25\u0E31\u0E07\u0E17\u0E35\u0E48\u0E41\u0E01\u0E23\u0E48\u0E07\u0E02\u0E36\u0E49\u0E19
+        \u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\u0E01\u0E17\u0E35\u0E48\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E43\u0E19\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48
+        3 \u0E41\u0E25\u0E30 4\n \u0E40\u0E25\u0E48\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E22
+        \u0E46 \u0E41\u0E25\u0E49\u0E27\u0E01\u0E47\u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E43\u0E2B\u0E49\u0E2B\u0E21\u0E14\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 12
     localContents:
     - languageType: 0
       text: "\u300C\u9B54\u754C\u306E\u5165\u308A\u53E3\u300D\u3092\u958B\u3053\u3046\u3068\u3057\u3066\u305F\u9152\u5451\u7AE5\u5B50\u3092\u5012\u3057\u3001\u5996\u602A\u5C01\u5370\u5E16\u3092\r\u5B8C\u6210\u3055\u305B\u308B\u3053\u3068\u304C\u3067\u304D\u305F\u3002\u300C\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3066\u304F\u308C\u3066\u3042\u308A\u304C\u3068\u3046\u3002\u304A\u793C\u306B\u5F15\u63DB\u5238\u3092\u6E21\u3059\u3067\u3054\u3056\u308B\u3002\u307B\u3046\u3073\u5E16\u3092\u898B\u3066\u307F\u308B\u306E\u3067\u3054\u3056\u308B\u3002\u5F15\u63DB\u5238\u3092\u3001\u30B9\u30BF\u30C3\u30D5\u306B\u898B\u305B\u308B\u3068\u826F\u3044\u3053\u3068\u304C\u3042\u308B\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "\"Shuten-d\u014Dji was trying to open the entrance to the spirit world.
+        You defeated him and completed the Y\u014Dkai Album.\n\nThank you for capturing
+        the y\u014Dkai.\nFor your services, I give you this exchange ticket.\nCheck
+        your Reward Album.\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5DF2\u6253\u5012\u9810\u8B00\u6253\u958B\u300C\u9B54\u754C\u5165\u53E3\u300D\u7684\u9152\u541E\u7AE5\u5B50\uFF0C\n\u4E26\u5B8C\u6210\u4E86\u5996\u602A\u5C01\u5370\u5E16\u3002\n\n\u300C\u8B1D\u8B1D\u4F60\u5C01\u5370\u4E86\u9019\u4E9B\u5996\u602A\u3002\n\u6211\u5C07\u8D08\u9001\u4F60\u514C\u63DB\u5238\u4F5C\u70BA\u7B54\u8B1D\u3002\n\u8ACB\u770B\u770B\u734E\u52F5\u5E16\u5427\u3002\n\u51FA\u793A\u514C\u63DB\u5238\u7D66\u5DE5\u4F5C\u4EBA\u54E1\u770B\u5C31\u6703\u6709\u597D\u4E8B\u767C\u751F\u54E6\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u6253\u8D25\u4F01\u56FE\u5F00\u542F\u201C\u9B54\u754C\u5165\u53E3\u201D\u7684\u9152\u541E\u7AE5\u5B50\uFF0C\n\u5B8C\u6210\u4E86\u5996\u602A\u5C01\u5370\u5E16\u3002\n\n\u201C\u611F\u8C22\u60A8\u628A\u5996\u602A\u4EEC\u90FD\u5C01\u5370\u8D77\u6765\u4E86\u3002\n\u4F5C\u4E3A\u611F\u8C22\uFF0C\u7ED9\u60A8\u4E00\u4E2A\u5151\u6362\u5238\u3002\n\u8BF7\u770B\u770B\u8912\u7F8E\u5E16\u5427\u3002\n\u628A\u5151\u6362\u5238\u7ED9\u5DE5\u4F5C\u4EBA\u5458\u770B\u7684\u8BDD\u4F1A\u6709\u597D\u4E8B\u53D1\u751F\u54E6\u3002\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E01\u0E33\u0E25\u0E31\u0E07\u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E40\u0E1B\u0E34\u0E14\u0E1B\u0E23\u0E30\u0E15\u0E39\u0E2A\u0E39\u0E48\u0E42\u0E25\u0E01\u0E41\u0E2B\u0E48\u0E07\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13
+        \u0E04\u0E38\u0E13\u0E0A\u0E19\u0E30\u0E21\u0E31\u0E19\u0E41\u0E25\u0E49\u0E27
+        \u0E41\u0E25\u0E30\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01\u0E01\u0E47\u0E2A\u0E21\u0E1A\u0E39\u0E23\u0E13\u0E4C\n
+        \n \u201C\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\n
+        \u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13
+        \u0E40\u0E23\u0E32\u0E21\u0E2D\u0E1A\u0E15\u0E31\u0E4B\u0E27\u0E41\u0E25\u0E01\u0E19\u0E35\u0E49\u0E01\u0E31\u0E1A\u0E04\u0E38\u0E13\n
+        \u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u2026\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 13
     localContents:
     - languageType: 0
       text: "\u300C\u4E00\u5EA6\u9003\u304C\u3057\u305F\u5996\u602A\u306F5\u5206\u305F\u305F\u306A\u3044\u3068\u3001\u5C01\u5370\u3067\u304D\u306A\u3044\u306E\u3067\u3054\u3056\u308B\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Y\u014Dkai you miss can\u2019t be captured again until five minutes later."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u4E00\u65E6\u653E\u8D70\u5996\u602A\uFF0C5\u5206\u9418\u5167\u7121\u6CD5\u5C01\u5370\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5996\u602A\u4E00\u65E6\u9003\u8D70\uFF0C5\u5206\u949F\u5185\u65E0\u6CD5\u5C01\u5370"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E2B\u0E25\u0E38\u0E14\u0E44\u0E14\u0E49\u0E2D\u0E35\u0E01
+        \u0E08\u0E19\u0E01\u0E27\u0E48\u0E32\u0E08\u0E30\u0E04\u0E23\u0E1A\u0E2B\u0E49\u0E32\u0E19\u0E32\u0E17\u0E35"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 14
     localContents:
     - languageType: 0
       text: "\u672C\u30A2\u30D7\u30EA\u306E\u63A8\u5968\u74B0\u5883\u306F\u4EE5\u4E0B\u306B\u306A\u308A\u307E\u3059\u3002\n\u30FBiOS9.0\u4EE5\u964D\u30FBAndroid6.0\u4EE5\u964D\n\n[\u63A8\u5968\u74B0\u5883]\n\u30FBiPhone7\u3001iPhone7
         Plus\u3001iPhone6s\u3001iPhone6s Plus, iPhone6, iPhone6Plus\n\u30FBGalaxy
         S6\u3001Galaxy S6 Edge\u3001\nGalaxy S7\u3001Galaxy S7 Edge,\n\n\u203B\u4E0A\u8A18\u306E\u6761\u4EF6\u3092\u6E80\u305F\u3057\u3066\u3044\u3066\u3082\u3001\n\u6A5F\u7A2E\u306B\u3088\u3063\u3066\u306F\u6B63\u5E38\u306B\n\u52D5\u4F5C\u3057\u306A\u3044\u3053\u3068\u304C\u3054\u3056\u3044\u307E\u3059\u3002\n\n[\u3054\u6CE8\u610F]\n\u30FB\u672C\u30A2\u30D7\u30EA\u306F\u30D3\u30FC\u30B3\u30F3\u691C\u51FA\u6A5F\u80FD\u3092\u4F7F\u7528\u3059\u308B\n\u305F\u3081\u3001\u4F4D\u7F6E\u60C5\u5831(GPS)\u3001Bluetooth\u3092\nON\u306B\u3057\u3066\u3054\u5229\u7528\u304F\u3060\u3055\u3044\u3002\n\u30FBGPS\u6A5F\u80FD\u3092\u4F7F\u7528\u3059\u308B\u969B\u3001\u7AEF\u672B\u304C\n\u767A\u71B1\u3059\u308B\u3053\u3068\u304C\u3054\u3056\u3044\u307E\u3059\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "The system requirements for this app are as follows:\n - iOS 9 or above
+        / Android 6.0 or above\n [System Requirements]\n - iPhone 7, iPhone 7 Plus,
+        iPhone 6s, iPhone 6s Plus \n- Galaxy S6, Galaxy S6 edge, Galaxy S7, Galaxy
+        S7 edge \n*Depending on the model, some devices may not operate normally even
+        if they meet the above conditions.\n [Warning]\n - This app uses beacon detection,
+        so please ensure that Location (GPS) and Bluetooth are set to On. \n- Devices
+        will sometimes generate heat while using the GPS function."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\"\u672CAPP\u7684\u5EFA\u8B70\u5B89\u88DD\u74B0\u5883\u5982\u4E0B\u3002\n\u30FBiOS9.0\u4EE5\u4E0A\u30FBAndroid6.0\u4EE5\u4E0A\n\n[\u5EFA\u8B70\u5B89\u88DD]\n\u30FBiPhone7\u3001iPhone7
+        Plus\u3001iPhone6s\u3001iPhone6s Plus, iPhone6, iPhone6Plus\n\u30FBGalaxy
+        S6\u3001Galaxy S6 Edge\u3001Galaxy S7\u3001Galaxy S7 Edge,\n\u203B\u5373\u4F7F\u7B26\u5408\u4E0A\u8FF0\u689D\u4EF6\uFF0C\u4E5F\u53EF\u80FD\u56E0\u6A5F\u7A2E\u4E0D\u540C\u800C\u767C\u751F\u7121\u6CD5\u6B63\u5E38\u904B\u4F5C\u7684\u60C5\u5F62\u3002\n\n[\u6CE8\u610F\u4E8B\u9805]\n\u30FB\u7531\u65BC\u672CAPP\u672C\u4F7F\u7528\u4FE1\u6A19\u5B9A\u4F4D\u529F\u80FD\uFF0C\u56E0\u6B64\u8ACB\u958B\u555F\u885B\u661F\u5B9A\u4F4D(GPS)\u3001Bluetooth\u3002\n\u30FB\u4F7F\u7528GPS\u529F\u80FD\u6642\uFF0C\u7D42\u7AEF\u53EF\u80FD\u6703\u6709\u767C\u71B1\u7B49\u73FE\u8C61\u3002\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\"\u672C\u5E94\u7528\u7684\u63A8\u8350\u4F7F\u7528\u73AF\u5883\u5982\u4E0B\u6240\u793A\u3002\n\xB7iOS9.0\u53CA\u4EE5\u4E0A\xB7\u5B89\u53536.0\u53CA\u4EE5\u4E0A\n\n\u3010\u63A8\u8350\u73AF\u5883\u3011\n\xB7iPhone7\u3001iPhone7
+        Plus\u3001iPhone6s\u3001iPhone6s Plus, iPhone6, iPhone6Plus\n\u30FBGalaxy
+        S6\u3001Galaxy S6 Edge\u3001Galaxy S7\u3001Galaxy S7 Edge\n\u203B\u5373\u4F7F\u6EE1\u8DB3\u4E0A\u8FF0\u6761\u4EF6\uFF0C\u56E0\u673A\u578B\u4E0D\u540C\u4E5F\u53EF\u80FD\u51FA\u73B0\u65E0\u6CD5\u6B63\u5E38\u8FD0\u884C\u7684\u60C5\u51B5\u3002\n\n\u3010\u6CE8\u610F\u4E8B\u9879\u3011\n\xB7\u672C\u5E94\u7528\u5C06\u4F7F\u7528\u4FE1\u6807\u68C0\u6D4B\u529F\u80FD\uFF0C\u56E0\u6B64\u4F7F\u7528\u65F6\u8BF7\u542F\u7528\u4F4D\u7F6E\u4FE1\u606F\uFF08GPS\uFF09\u3001\u84DD\u7259\u3002\n\xB7\u4F7F\u7528GPS\u529F\u80FD\u65F6\uFF0C\u7EC8\u7AEF\u53EF\u80FD\u4F1A\u53D1\u70ED\u3002\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\"\u0E04\u0E27\u0E32\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E23\u0E30\u0E1A\u0E1A\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E41\u0E2D\u0E1B\u0E19\u0E35\u0E49\u0E21\u0E35\u0E14\u0E31\u0E07\u0E19\u0E35\u0E49:
+        \n- iOS 9 \u0E02\u0E36\u0E49\u0E19\u0E44\u0E1B / Android 6.0 \u0E02\u0E36\u0E49\u0E19\u0E44\u0E1B\n
+        \n [\u0E04\u0E27\u0E32\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E23\u0E30\u0E1A\u0E1A]
+        \n- iPhone 7, iPhone 7 Plus, iPhone 6s, iPhone 6s Plus - Galaxy S6, Galaxy
+        S6 edge, Galaxy S7, Galaxy S7 edge *\u0E02\u0E36\u0E49\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E01\u0E31\u0E1A\u0E23\u0E38\u0E48\u0E19
+        \u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E1A\u0E32\u0E07\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E2D\u0E32\u0E08\u0E17\u0E33\u0E07\u0E32\u0E19\u0E44\u0E21\u0E48\u0E1B\u0E01\u0E15\u0E34
+        \u0E41\u0E21\u0E49\u0E27\u0E48\u0E32\u0E08\u0E30\u0E21\u0E35\u0E04\u0E38\u0E13\u0E2A\u0E21\u0E1A\u0E31\u0E15\u0E34\u0E15\u0E23\u0E07\u0E15\u0E32\u0E21\u0E40\u0E07\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E02\u0E14\u0E49\u0E32\u0E19\u0E1A\u0E19
+        \n \n [\u0E04\u0E33\u0E40\u0E15\u0E37\u0E2D\u0E19]\n - \u0E41\u0E2D\u0E1B\u0E19\u0E35\u0E49\u0E43\u0E0A\u0E49\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E08\u0E31\u0E1A\u0E2A\u0E31\u0E0D\u0E0D\u0E32\u0E13
+        \u0E14\u0E31\u0E07\u0E19\u0E31\u0E49\u0E19\u0E42\u0E1B\u0E23\u0E14\u0E21\u0E31\u0E48\u0E19\u0E43\u0E08\u0E27\u0E48\u0E32
+        \u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E17\u0E32\u0E07\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07
+        (GPS) \u0E41\u0E25\u0E30\u0E1A\u0E25\u0E39\u0E17\u0E39\u0E18 \u0E16\u0E39\u0E01\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0E40\u0E1B\u0E47\u0E19
+        \u0E40\u0E1B\u0E34\u0E14 \n- \u0E1A\u0E32\u0E07\u0E04\u0E23\u0E31\u0E49\u0E07\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E08\u0E30\u0E23\u0E49\u0E2D\u0E19\u0E02\u0E36\u0E49\u0E19
+        \u0E43\u0E19\u0E02\u0E13\u0E30\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E48\u0E19
+        GPS\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - key: 15
     localContents:
     - languageType: 0
-      text: "\u2776\u30A2\u30A4\u30B3\u30F3\u306E\u5834\u6240\u306B\u884C\u3063\u3066\u5996\u602A\u9054\u3092\u3001\n\u63A2\u305D\u3046\u3002\n\n\r\r\u2777\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u30BF\u30C3\u30D7\u3057\u3066\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3088\u3046\u3002\n\n\r\r\u2778\u5C01\u5370\u5E16\u306B\u30DA\u30FC\u30B8\u304C\u306A\u304F\u3001\u5C01\u5370\u3067\u304D\u306A\u3044\u5996\u602A\u3082\u3044\u307E\u3059\u3002\u5148\u306B\u30DA\u30FC\u30B8\u3092\u63A2\u305D\u3046\u3002\n\n\r\r\u2779\u3042\u308B\u671F\u9593\u306B\u306E\u307F\u51FA\u73FE\u3059\u308B\u9650\u5B9A\u5996\u602A\u3082\u3044\u308B\u3088\uFF01\n\n\r\r\u5996\u602A\u5C01\u5370\u5E16\u3092\u5B8C\u6210\u3055\u305B\u3066\u3001\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u306B\u5E73\u548C\u3092\u53D6\u308A\u623B\u305D\u3046\u3002\r"
+      text: "\u2776\u30A2\u30A4\u30B3\u30F3\u306E\u5834\u6240\u306B\u884C\u3063\u3066\u5996\u602A\u9054\u3092\u3001\n\u63A2\u305D\u3046\u3002\n\n\r\r\u2777\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u5996\u602A\u3092\u30BF\u30C3\u30D7\u3057\u3066\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3088\u3046\u3002\n\n\r\r\u2778\u5C01\u5370\u5E16\u306B\u30DA\u30FC\u30B8\u304C\u306A\u304F\u3001\u5C01\u5370\u3067\u304D\u306A\u3044\u5996\u602A\u3082\u3044\u307E\u3059\u3002\u5148\u306B\u30DA\u30FC\u30B8\u3092\u63A2\u305D\u3046\u3002\n\n\r\r\u2779\u3042\u308B\u671F\u9593\u306B\u306E\u307F\u51FA\u73FE\u3059\u308B\u9650\u5B9A\u5996\u602A\u3082\u3044\u308B\u3088\uFF01\n\n\r\r\u5996\u602A\u5C01\u5370\u5E16\u3092\u5B8C\u6210\u3055\u305B\u3066\u3001\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u306B\u5E73\u548C\u3092\u53D6\u308A\u623B\u305D\u3046\u3002\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "\u2776 Go to the locations with icons and look for y\u014Dkai.\n\r\n\u2777
+        Try to tap the y\u014Dkai to capture them.\n\r\n\u2778 There are y\u014Dkai
+        that you can\u2019t capture because they don\u2019t have pages in the album.
+        Find the pages first.\r\n\r\n\u2779 There are also special y\u014Dkai that
+        only appear during certain times.\r\n\r\nComplete the Y\u014Dkai Album and
+        return Esashi-Fujiwara Heritage Park to peace."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "1.\u8ACB\u5230\u5716\u793A\u7684\u4F4D\u7F6E\u5C0B\u627E\u5996\u602A\u5011\u3002\n2.\u5728\u6B63\u78BA\u6642\u6A5F\u9EDE\u64CA\u5996\u602A\uFF0C\u5C31\u80FD\u5C01\u5370\u5996\u602A\u5011\u3002\n3.\u6709\u7684\u5996\u602A\u6C92\u6709\u5C01\u5370\u5E16\u9801\u9762\u5C31\u7121\u6CD5\u5C01\u5370\u3002\u8ACB\u5148\u5C0B\u627E\u9801\u9762\u3002\n4.\u6709\u7684\u5996\u602A\u53EA\u6709\u5728\u7279\u5B9A\u671F\u9593\u624D\u6703\u51FA\u73FE\u5594\uFF01\n\n\u8ACB\u5B8C\u6210\u5996\u602A\u5C01\u5370\u5E16\uFF0C\u8B93\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u56DE\u6B78\u5E73\u975C\u5427\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "1.\u524D\u5F80\u56FE\u6807\u7684\u4F4D\u7F6E\u641C\u5BFB\u5996\u602A\u4EEC\u3002\n2.\u6293\u51C6\u65F6\u673A\u70B9\u51FB\u5996\u602A\uFF0C\u5C01\u5370\u5996\u602A\u4EEC\u3002\n3.\u5C01\u5370\u5E16\u4E0A\u6CA1\u6709\u9875\u9762\uFF0C\u6709\u7684\u5996\u602A\u65E0\u6CD5\u5C01\u5370\u3002\u5148\u67E5\u627E\u9875\u9762\u5427\u3002\n4.\u8FD8\u6709\u4E9B\u5996\u602A\u4EC5\u9650\u67D0\u4E9B\u671F\u95F4\u624D\u4F1A\u51FA\u73B0\u54E6\uFF01\n\n\u5B8C\u6210\u5996\u602A\u5C01\u5370\u5E16\uFF0C\u8BA9\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u6062\u590D\u548C\u5E73\u5427\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\"1. \u0E44\u0E1B\u0E17\u0E35\u0E48\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E17\u0E35\u0E48\u0E21\u0E35\u0E44\u0E2D\u0E04\u0E2D\u0E19
+        \u0E41\u0E25\u0E30\u0E21\u0E2D\u0E07\u0E2B\u0E32\u0E42\u0E22\u0E44\u0E01\n
+        2. \u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E41\u0E15\u0E30\u0E17\u0E35\u0E48\u0E42\u0E22\u0E44\u0E01\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E43\u0E2B\u0E49\u0E44\u0E14\u0E49\n
+        3. \u0E21\u0E35\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E08\u0E31\u0E1A\u0E44\u0E14\u0E49
+        \u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E21\u0E35\u0E44\u0E21\u0E48\u0E21\u0E35\u0E2B\u0E19\u0E49\u0E32\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21
+        \u0E04\u0E49\u0E19\u0E2B\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E01\u0E48\u0E2D\u0E19\n
+        4. \u0E19\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E21\u0E35\u0E42\u0E22\u0E44\u0E01\u0E1E\u0E34\u0E40\u0E28\u0E29\u0E17\u0E35\u0E48\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E23\u0E30\u0E2B\u0E27\u0E48\u0E32\u0E07\u0E1A\u0E32\u0E07\u0E0A\u0E48\u0E27\u0E07\u0E40\u0E27\u0E25\u0E32\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19\n
+        \n \u0E40\u0E01\u0E47\u0E1A\u0E02\u0E2D\u0E07\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01\u0E43\u0E2B\u0E49\u0E04\u0E23\u0E1A\u0E41\u0E25\u0E30\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E07\u0E1A\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 16
+    localContents:
+    - languageType: 0
+      text: "\u753B\u9762\u3092\u30BF\u30C3\u30D7\u3057\u3066\u4E0B\u3055\u3044\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Please tap the screen
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8ACB\u9EDE\u64CA\u5C4F\u5E55\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8BF7\u70B9\u51FB\u5C4F\u5E55\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E1B\u0E23\u0E14\u0E41\u0E15\u0E30\u0E17\u0E35\u0E48\u0E2B\u0E19\u0E49\u0E32\u0E08\u0E2D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 17
+    localContents:
+    - languageType: 0
+      text: "\u623B\u308B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Back
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8FD4\u56DE"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8FD4\u56DE"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E01\u0E25\u0E31\u0E1A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 18
+    localContents:
+    - languageType: 0
+      text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Album
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 19
+    localContents:
+    - languageType: 0
+      text: 
+      image: {fileID: 21300000, guid: d290cf1c3c058224798efa1bf79e8547, type: 3}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: 
+      image: {fileID: 21300000, guid: a19bd3349d376c94fa1de2abee87c13d, type: 3}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: 
+      image: {fileID: 21300000, guid: 928abc684c88aee47b26ec728427713a, type: 3}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: 
+      image: {fileID: 21300000, guid: c2485490fadfdd349b97aac9251b1532, type: 3}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: 
+      image: {fileID: 21300000, guid: 5b68e8dedd2963244bfeacf272805dee, type: 3}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 20
+    localContents:
+    - languageType: 0
+      text: "\u904A\u3073\u65B9"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: How to Play
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6E38\u6232\u65B9\u6CD5"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u6E38\u620F\u65B9\u5F0F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E27\u0E34\u0E18\u0E35\u0E40\u0E25\u0E48\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 21
+    localContents:
+    - languageType: 0
+      text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 22
+    localContents:
+    - languageType: 0
+      text: "\u307B\u3046\u3073\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "\u307B\u3046\u3073\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u307B\u3046\u3073\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u307B\u3046\u3073\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u307B\u3046\u3073\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 23
+    localContents:
+    - languageType: 0
+      text: "\u5207\u308A\u66FF\u3048"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Switch
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5207\u63DB"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5207\u6362"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2A\u0E27\u0E34\u0E15\u0E0A\u0E4C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 24
+    localContents:
+    - languageType: 0
+      text: "\u307B\u3046\u3073 \u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Exchange Ticket
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u514C\u63DB\u5238"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5151\u6362\u5238"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E41\u0E25\u0E01\u0E15\u0E31\u0E4B\u0E27"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 25
+    localContents:
+    - languageType: 0
+      text: "\u30D5\u30A9\u30C8\u30D5\u30EC\u30FC\u30E0"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Photo frame
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u76F8\u6846"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u76F8\u6846"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E01\u0E23\u0E2D\u0E1A\u0E20\u0E32\u0E1E"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 26
+    localContents:
+    - languageType: 0
+      text: "\u5F15 \u63DB \u5238"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Exchange Ticket
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u514C\u63DB\u5238"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5151\u6362\u5238"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E41\u0E25\u0E01\u0E15\u0E31\u0E4B\u0E27"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 27
+    localContents:
+    - languageType: 0
+      text: "\u30D7\u30ED\u30ED\u30FC\u30B0"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Prologue
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5E8F\u5E55"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5F00\u573A\u767D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2D\u0E32\u0E23\u0E31\u0E21\u0E20\u0E1A\u0E17"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 28
+    localContents:
+    - languageType: 0
+      text: "\u5F15 \u63DB \u5238"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Coupon
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u62C9\u8F49\u63DB\u9580\u7968"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u62C9\u8F6C\u6362\u95E8\u7968"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E39\u0E1B\u0E2D\u0E07"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 29
+    localContents:
+    - languageType: 0
+      text: "\u203B\u3053\u3061\u3089\u306E\u30DC\u30BF\u30F3\u306F\n <color=red>\u30B9\u30BF\u30C3\u30D5\u5C02\u7528</color>\u3067\u3059\u3002 "
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 69, y: -73}
+      lineWidth: 838.8
+    - languageType: 1
+      text: "\u203B This button is\n <color=red>for Staff </color>only.\n"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 50, y: -125}
+      lineWidth: 600
+    - languageType: 2
+      text: "\u203B\u6B64\u6309\u9215\u70BA\u5DE5\u4F5C\n<color=red>\u4EBA\u54E1\u5C08\u7528</color>\u3002\n"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: -3, y: -122}
+      lineWidth: 838.8
+    - languageType: 3
+      text: "\u203B\u8FD9\u4E2A\u6309\u94AE\u662F\u5DE5\u4F5C\n<color=red>\u4EBA\u5458\u4E13\u7528</color>\u3002\n"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: -3, y: -122}
+      lineWidth: 838.8
+    - languageType: 4
+      text: "\u203B\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\n\_<color=red>
+        \u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19
+        </color>."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: -14, y: -69}
+      lineWidth: 838.8
+  - key: 30
+    localContents:
+    - languageType: 0
+      text: "\u304A\u5BA2\u69D8\u306F\u30BF\u30C3\u30D7\u3057\u306A\u3044\u3067\u304F\u3060\u3055\u3044\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 69, y: 68}
+      lineWidth: 838.8
+    - languageType: 1
+      text: Visitors should not tap this button.
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 70, y: 30}
+      lineWidth: 700
+    - languageType: 2
+      text: "\u8ACB\u5C0F\u5FC3\u52FF\u89F8\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 69, y: 42}
+      lineWidth: 838.8
+    - languageType: 3
+      text: "\u8BF7\u52FF\u70B9\u51FB\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 69, y: 42}
+      lineWidth: 838.8
+    - languageType: 4
+      text: " \u0E1C\u0E39\u0E49\u0E40\u0E22\u0E35\u0E48\u0E22\u0E21\u0E0A\u0E21\u0E44\u0E21\u0E48\u0E04\u0E27\u0E23\u0E41\u0E15\u0E30\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 69, y: 42}
+      lineWidth: 838.8
+  - key: 31
+    localContents:
+    - languageType: 0
+      text: "\u30B9\u30BF\u30C3\u30D5\u7528\u30DC\u30BF\u30F3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Staff Button
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5DE5\u4F5C\u4EBA\u54E1\u5C08\u7528\u6309\u9215"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5DE5\u4F5C\u4EBA\u5458\u4E13\u7528\u6309\u94AE"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E1B\u0E38\u0E48\u0E21\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 32
+    localContents:
+    - languageType: 0
+      text: "\u8A00 \u8A9E \u3092 \u9078 \u629E \u3057 \u3066 \u304F \u3060 \u3055
+        \u3044\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Please select a language.
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8ACB\u9078\u64C7\u4E00\u7A2E\u8A9E\u8A00\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8BF7\u9009\u62E9\u4E00\u79CD\u8BED\u8A00\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E1B\u0E23\u0E14\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E20\u0E32\u0E29\u0E32"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 33
+    localContents:
+    - languageType: 0
+      text: "\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\n\u30CA\u30D3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Esashi-Fujiwara Heritage Park Navigator
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u56AE\u5C0E"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u5411\u5BFC"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E23\u0E30\u0E1A\u0E1A\u0E19\u0E33\u0E17\u0E32\u0E07\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 34
+    localContents:
+    - languageType: 0
+      text: "\u3054\u5229\u7528\u4E0A\u306E\n\u6CE8\u610F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Usage Notes
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u4F7F\u7528\u6CE8\u610F\u4E8B\u9805"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u4F7F\u7528\u6CE8\u610F\u4E8B\u9879"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E2B\u0E15\u0E38\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 35
+    localContents:
+    - languageType: 0
+      text: "\u9589 \u3058 \u308B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Close
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u95DC\u9589"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5173\u95ED"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E1B\u0E34\u0E14"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 36
+    localContents:
+    - languageType: 0
+      text: "\u5C01\u5370\u5E16\u3092\u898B\u308B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: View album
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u67E5\u770B\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u67E5\u770B\u5C01\u5370\u5E16"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E14\u0E39\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 37
+    localContents:
+    - languageType: 0
+      text: "\u5C01\u5370\u3059\u308B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Capture
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5C01\u5370"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5C01\u5370"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E08\u0E31\u0E1A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 38
+    localContents:
+    - languageType: 0
+      text: "\u30A2\u30A4\u30C6\u30E0\u3092\u7372\u5F97\u3057\u307E\u3057\u305F\uFF01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: You got an item!
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5DF2\u7372\u5F97\u9053\u5177\uFF01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5DF2\u83B7\u5F97\u9053\u5177\uFF01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E44\u0E2D\u0E40\u0E17\u0E47\u0E21!"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 39
+    localContents:
+    - languageType: 0
+      text: "\u5996\u602A\u3092\u5C01\u5370\u3057\u307E\u3057\u305F\uFF01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "You captured a y\u014Dkai!"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5996\u602A\u5DF2\u88AB\u5C01\u5370\uFF01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5996\u602A\u5DF2\u88AB\u5C01\u5370\uFF01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E38\u0E13\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E44\u0E14\u0E49!"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 40
+    localContents:
+    - languageType: 0
+      text: "\u5996\u602A\u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002\u5C01\u5370\u3057\u307E\u3059\u304B?"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "You found a y\u014Dkai. Capture it?"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u767C\u73FE\u5996\u602A\u3002\u662F\u5426\u5C01\u5370\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u53D1\u73B0\u5996\u602A\uFF0C\u662F\u5426\u5C01\u5370\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E38\u0E13\u0E1E\u0E1A\u0E42\u0E22\u0E44\u0E01 \u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E44\u0E2B\u0E21?"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 41
+    localContents:
+    - languageType: 0
+      text: "\u30A2\u30A4\u30C6\u30E0\u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002\u7372\u5F97\u3057\u307E\u3059\u304B?"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: You found an item. Take it?
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u767C\u73FE\u9053\u5177\u3002\u662F\u5426\u7372\u53D6\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u53D1\u73B0\u9053\u5177\uFF0C\u662F\u5426\u83B7\u53D6\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E38\u0E13\u0E1E\u0E1A\u0E44\u0E2D\u0E40\u0E17\u0E47\u0E21 \u0E2B\u0E22\u0E34\u0E1A\u0E44\u0E2B\u0E21?"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 42
+    localContents:
+    - languageType: 0
+      text: "\u7279\u5178\u3092\u5F15\u304D\u63DB\u3048\u307E\u3059\u304B\uFF1F\u4E00\u5EA6\u300C\u5F15\u63DB\u6E08\u300D\u306B\u306A\u308B\u3068\u4E8C\u5EA6\u3068\u5F15\u304D\u63DB\u3048\u304C\u3067\u304D\u307E\u305B\u3093\u3002\u3057\u305F\u304C\u3063\u3066\u3053\u306E\u30DC\u30BF\u30F3\u306F\u5FC5\u305A\u5F15\u63DB\u6642\u306B\u4FC2\u54E1\u304C\u30BF\u30C3\u30D7\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      image: {fileID: 0}
+      lineSpacing: 1
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Exchanging your bonus? Once the exchange is complete, you cannot make
+        a second exchange. For this reason, a staff member must always tap this button
+        for the exchange.
+      image: {fileID: 0}
+      lineSpacing: 0.7
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u662F\u5426\u8981\u514C\u63DB\u7279\u5178\uFF1F\u4E00\u65E6\u300C\u514C\u63DB\u5B8C\u7562\u300D\u4E4B\u5F8C\u5C07\u7121\u6CD5\u518D\u6B21\u514C\u63DB\u3002\u56E0\u6B64\u514C\u63DB\u6642\uFF0C\u8ACB\u52D9\u5FC5\u7531\u5DE5\u4F5C\u4EBA\u54E1\u9EDE\u64CA\u6309\u9215\u3002"
+      image: {fileID: 0}
+      lineSpacing: 1
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u662F\u5426\u5151\u6362\u4F18\u60E0\uFF1F\u4E00\u65E6\u53D8\u6210\u201C\u5DF2\u5151\u6362\u201D\u5219\u518D\u4E5F\u65E0\u6CD5\u5151\u6362\u3002\n\u56E0\u6B64\uFF0C\u8BE5\u6309\u94AE\u8BF7\u52A1\u5FC5\u5728\u5151\u6362\u65F6\u7531\u5DE5\u4F5C\u4EBA\u5458\u70B9\u51FB\u3002"
+      image: {fileID: 0}
+      lineSpacing: 1
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E41\u0E25\u0E01\u0E42\u0E1A\u0E19\u0E31\u0E2A\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13?
+        \u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\u0E01\u0E17\u0E35\u0E48\u0E41\u0E25\u0E01\u0E44\u0E1B\u0E41\u0E25\u0E49\u0E27
+        \u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E41\u0E25\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07\u0E17\u0E35\u0E48\u0E2A\u0E2D\u0E07\u0E44\u0E14\u0E49
+        \u0E14\u0E49\u0E27\u0E22\u0E40\u0E2B\u0E15\u0E38\u0E1C\u0E25\u0E19\u0E35\u0E49
+        \u0E15\u0E49\u0E2D\u0E07\u0E43\u0E2B\u0E49\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E41\u0E15\u0E30\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E40\u0E2A\u0E21\u0E2D"
+      image: {fileID: 0}
+      lineSpacing: 1
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 43
+    localContents:
+    - languageType: 0
+      text: "\u5F15\u304D\u63DB\u3048\u3092\u884C\u3044\u307E\u3059\u3002\u9593\u9055\u3044\u3042\u308A\u307E\u305B\u3093\u304B\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: You will now exchange. Are you sure?
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9032\u884C\u514C\u63DB\u3002\u662F\u5426\u78BA\u5B9A\u7121\u8AA4\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8FDB\u884C\u5151\u6362\u3002\u662F\u5426\u786E\u5B9A\u65E0\u8BEF\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E02\u0E13\u0E30\u0E19\u0E35\u0E49\u0E04\u0E38\u0E13\u0E08\u0E30\u0E41\u0E25\u0E01
+        \u0E41\u0E19\u0E48\u0E43\u0E08\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 44
+    localContents:
+    - languageType: 0
+      text: "\u306F\u3044"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Yes
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u662F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u662F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E43\u0E0A\u0E48"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 45
+    localContents:
+    - languageType: 0
+      text: "\u3044\u3044\u3048"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: No
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5426"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5426"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E44\u0E21\u0E48"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  - key: 46
+    localContents:
+    - languageType: 0
+      text: "\u5F15\u63DB\u5238"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Exchange Ticket
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u514C\u63DB\u5238"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5151\u6362\u5238"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E41\u0E25\u0E01\u0E15\u0E31\u0E4B\u0E27"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  local: []
   yokaiData:
   - id: 1
     name: Kappa
@@ -190,11 +1693,69 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u6CB3\u7AE5"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Kappa
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6CB3\u7AE5"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u6CB3\u7AE5"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E41\u0E04\u0E1B\u0E1B\u0E49\u0E32"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 7191a0edc1ae784448f9ee3369c32ab9, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u982D\u9802\u90E8\u306B\u76BF\u304C\u3042\u308B\u3053\u3068\u304C\u591A\u304F\u3001\u76BF\u304C\u4E7E\u3044\u305F\u308A\u3001\u5272\u308C\u305F\u308A\u3059\u308B\u3068\u529B\u3092\u5931\u3063\u3066\u3057\u307E\u3046\u6C34\u8FBA\u306E\u5996\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "These water y\u014Dkai often have plates on their heads, and they lose
+        strength if the plates dry out or break."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u751F\u6D3B\u65BC\u6C34\u908A\u7684\u5996\u602A\uFF0C\u5927\u90E8\u5206\u7684\u6CB3\u7AE5\u982D\u4E0A\u90FD\u6709\u789F\u5B50\uFF0C\u4E00\u65E6\u789F\u5B50\u4E7E\u71E5\u3001\u9F9C\u88C2\u5C31\u6703\u5931\u53BB\u529B\u91CF\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u6C34\u8FB9\u7684\u5996\u602A\uFF0C\u5934\u9876\u90E8\u5927\u591A\u6570\u6709\u789F\u5B50\uFF0C\u789F\u5B50\u5E72\u4E86\u6216\u7834\u4E86\u7684\u8BDD\u80FD\u529B\u5C31\u4F1A\u6D88\u5931\u3002\n"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: " \u0E42\u0E22\u0E44\u0E01\u0E19\u0E49\u0E33\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E2A\u0E48\u0E27\u0E19\u0E21\u0E32\u0E01\u0E08\u0E30\u0E21\u0E35\u0E08\u0E32\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E1A\u0E19\u0E2B\u0E31\u0E27
+        \u0E41\u0E25\u0E30\u0E2A\u0E39\u0E0D\u0E40\u0E2A\u0E35\u0E22\u0E1E\u0E25\u0E31\u0E07\u0E16\u0E49\u0E32\u0E08\u0E32\u0E19\u0E41\u0E2B\u0E49\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E41\u0E15\u0E01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 1
@@ -204,11 +1765,68 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u8D64\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Aka-oni
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8D64\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8D64\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2D\u0E32\u0E01\u0E32-\u0E42\u0E2D\u0E19\u0E34"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 23263b415ed8d473ab7e807d9d75d9b4, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u4EBA\u306B\u5371\u5BB3\u3092\u52A0\u3048\u3001\u98DF\u3079\u308B\u3053\u3068\u3082\u3042\u308B\u3002\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: These demons hurt people and sometimes eat them
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6703\u5371\u5BB3\u4EBA\u985E\uFF0C\u6709\u6642\u4E5F\u6703\u5403\u4EBA\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u52A0\u5BB3\u4E8E\u4EBA\uFF0C\u6709\u65F6\u8FD8\u4F1A\u5403\u4EBA\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E1B\u0E35\u0E28\u0E32\u0E08\u0E1E\u0E27\u0E01\u0E19\u0E35\u0E49\u0E17\u0E33\u0E23\u0E49\u0E32\u0E22\u0E1C\u0E39\u0E49\u0E04\u0E19
+        \u0E41\u0E25\u0E30\u0E1A\u0E32\u0E07\u0E04\u0E23\u0E31\u0E49\u0E07\u0E01\u0E47\u0E01\u0E34\u0E19\u0E04\u0E19\u0E14\u0E49\u0E27\u0E22"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -218,11 +1836,71 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u72D0\u706B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Kitsunebi
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u72D0\u706B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u72D0\u706B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E34\u0E17\u0E2A\u0E36\u0E40\u0E19\u0E1A\u0E34"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: db5563cf0344d4dc882d28055f8539d1, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u72D0\u306E\u53E3\u304B\u3089\u5410\u304D\u51FA\u3055\u308C\u305F\u706B\u3068\u3044\u3046\u8AAC\u3082\u3042\u308A\n\u706B\u306E\u6C17\u306E\u306A\u3044\u5834\u6240\u306B\u73FE\u308C\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: 'Some say this flame comes from the mouth of foxes.
+
+        It appears in places with no heat.'
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6709\u4E00\u8AAA\u662F\u72D0\u72F8\u5634\u5DF4\u5410\u51FA\u4F86\u7684\u706B\u7130\uFF0C\n\u51FA\u6C92\u5728\u6C92\u6709\u706B\u7684\u5730\u65B9\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u4E5F\u6709\u4F20\u8BF4\u662F\u72D0\u53E3\u5410\u51FA\u7684\u706B\u3002\n\u51FA\u73B0\u5728\u6CA1\u6709\u706B\u7684\u5730\u65B9\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E1A\u0E32\u0E07\u0E04\u0E19\u0E1A\u0E2D\u0E01\u0E27\u0E48\u0E32\u0E40\u0E1B\u0E25\u0E27\u0E44\u0E1F\u0E19\u0E35\u0E49\u0E21\u0E32\u0E08\u0E32\u0E01\u0E1B\u0E32\u0E01\u0E02\u0E2D\u0E07\u0E08\u0E34\u0E49\u0E07\u0E08\u0E2D\u0E01\r\n
+        \u0E42\u0E14\u0E22\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E43\u0E19\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E15\u0E48\u0E32\u0E07
+        \u0E46 \u0E41\u0E15\u0E48\u0E44\u0E21\u0E48\u0E23\u0E49\u0E2D\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 1
@@ -232,11 +1910,70 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u5EA7\u6577\u308F\u3089\u3057"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Zashiki-warashi
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5EA7\u6577\u7AE5\u5B50"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5EA7\u6577\u7AE5\u5B50"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E0B\u0E30\u0E0A\u0E34\u0E01\u0E34-\u0E27\u0E30\u0E23\u0E30\u0E0A\u0E34"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: f6044695ab0af475bb1d4134b880d478, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u5EA7\u6577\u3084\u8535\u306B\u4F4F\u3080\u7CBE\u970A\u5996\u602A\u3002\u3044\u305F\u305A\u3089\u597D\u304D\u3067\u3001\r\n\u898B\u305F\u4EBA\u306B\u306F\u5E78\u904B\u304C\u8A2A\u308C\u308B\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: A spirit that lives in tatami rooms and warehouses. They love playing
+        jokes, and those who spot them are said to have good luck
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u85CF\u5728\u5BA2\u5EF3\u6216\u5009\u5EAB\u88E1\u7684\u7CBE\u9748\u5996\u602A\u3002\u559C\u6B61\u60E1\u4F5C\u5287\uFF0C\n\u64DA\u8AAA\u770B\u898B\u4ED6\u6703\u5E36\u4F86\u597D\u904B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u4F4F\u5728\u5BA2\u5385\u6216\u4ED3\u5E93\u7684\u7CBE\u7075\u5996\u602A\u3002\u8C03\u76AE\u6363\u86CB\uFF0C\n\u636E\u8BF4\u770B\u5230\u5EA7\u6577\u7AE5\u5B50\u4F1A\u5E26\u6765\u597D\u8FD0\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13\u0E17\u0E35\u0E48\u0E2D\u0E32\u0E28\u0E31\u0E22\u0E43\u0E19\u0E2B\u0E49\u0E2D\u0E07\u0E17\u0E32\u0E17\u0E32\u0E21\u0E34
+        \u0E41\u0E25\u0E30\u0E42\u0E01\u0E14\u0E31\u0E07 \u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E0A\u0E2D\u0E1A\u0E40\u0E25\u0E48\u0E19\u0E15\u0E25\u0E01
+        \u0E41\u0E25\u0E30\u0E04\u0E19\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E47\u0E19\u0E21\u0E31\u0E19\u0E01\u0E47\u0E16\u0E37\u0E2D\u0E27\u0E48\u0E32\u0E42\u0E0A\u0E04\u0E14\u0E35"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 3
     isBoss: 0
     isTermLimited: 0
@@ -246,11 +1983,68 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u306C\u3089\u308A\u3072\u3087\u3093"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Nurarihyon
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6ED1\u74E2"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u6ED1\u74E2"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E19\u0E39\u0E23\u0E30\u0E23\u0E34\u0E2E\u0E22\u0E2D\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: f51ee0014d07440a4909773b89cdc726, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u5168\u56FD\u5404\u5730\u3067\u4F1D\u3048\u3089\u308C\u3066\u3044\u308B\u304C\u3001\n\r\u8A73\u3057\u3044\u3053\u3068\u304C\u308F\u304B\u3089\u306A\u3044\u3001\u8B0E\u306E\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A mysterious y\u014Dkai seen across the country but very little is known."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u96D6\u7136\u5728\u65E5\u672C\u5168\u570B\u5404\u5730\u90FD\u6709\u76F8\u95DC\u50B3\u8AAA\uFF0C\n\u537B\u6C92\u6709\u4EBA\u77E5\u9053\u5176\u771F\u9762\u76EE\u7684\u795E\u79D8\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5168\u56FD\u5404\u5730\u90FD\u6D41\u4F20\u7740\u5B83\u7684\u4F20\u8BF4\uFF0C\n\u5374\u662F\u4E2A\u65E0\u4EBA\u77E5\u6653\u5176\u771F\u9762\u76EE\u7684\u795E\u79D8\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E25\u0E36\u0E01\u0E25\u0E31\u0E1A\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E47\u0E19\u0E01\u0E31\u0E19\u0E17\u0E31\u0E48\u0E27\u0E1B\u0E23\u0E30\u0E40\u0E17\u0E28
+        \u0E41\u0E15\u0E48\u0E44\u0E21\u0E48\u0E04\u0E48\u0E2D\u0E22\u0E21\u0E35\u0E43\u0E04\u0E23\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 1
     isBoss: 0
     isTermLimited: 0
@@ -260,11 +2054,69 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u308D\u304F\u308D\u9996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Rokurokubi
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8F46\u8F64\u9996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8F98\u8F73\u9996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E23\u0E04\u0E38\u0E42\u0E23\u0E04\u0E38\u0E1A\u0E34"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: beb934105df57466794ca2611efdd330, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u9996\u304C\u80F4\u4F53\u304B\u3089\u96E2\u308C\u3066\u6D6E\u904A\u3059\u308B\u30BF\u30A4\u30D7\u3068\u3001\r\n\u9996\u304C\u9577\u304F\u4F38\u3073\u308B\u30BF\u30A4\u30D7\u306B\u5206\u304B\u308C\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "This y\u014Dkai is divided into the kind whose head floats separately
+        from the body and the kind with a long neck."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5206\u6210\u5169\u7A2E\uFF0C\u4E00\u7A2E\u662F\u8EAB\u9996\u5206\u96E2\u578B\uFF0C\n\u4E00\u7A2E\u662F\u53EF\u4F38\u9577\u8116\u5B50\u7684\u985E\u578B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5206\u6210\u4E24\u79CD\uFF0C\u4E00\u79CD\u662F\u8EAB\u9996\u5206\u79BB\u578B\uFF0C\n\u4E00\u79CD\u662F\u8116\u5B50\u53EF\u4EE5\u4F38\u957F\u7684\u7C7B\u578B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E19\u0E35\u0E49\u0E41\u0E1A\u0E48\u0E07\u0E2D\u0E2D\u0E01\u0E40\u0E1B\u0E47\u0E19\u0E0A\u0E19\u0E34\u0E14\u0E17\u0E35\u0E48\u0E2B\u0E31\u0E27\u0E02\u0E2D\u0E07\u0E21\u0E31\u0E19\u0E25\u0E2D\u0E22\u0E41\u0E22\u0E01\u0E2D\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E15\u0E31\u0E27
+        \u0E41\u0E25\u0E30\u0E0A\u0E19\u0E34\u0E14\u0E17\u0E35\u0E48\u0E21\u0E35\u0E04\u0E2D\u0E22\u0E32\u0E27"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -274,11 +2126,71 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u76EE\u3072\u3068\u3064\u307C\u3046"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Mehitotsu-b\u014D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u7368\u773C\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u72EC\u773C\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E40\u0E21\u0E2E\u0E34\u0E42\u0E15\u0E17\u0E2A\u0E36-\u0E42\u0E1A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 44f3ab3a04ff3489c9e6d218c13f17c6, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u4E00\u3064\u76EE\u5C0F\u50E7\u3068\u3082\u8A00\u3046\u3002\u5371\u5BB3\u3092\u52A0\u3048\u308B\u3088\u3046\u306A\r\n\u3053\u3068\u306F\u306A\u304F\u3001\u7A81\u7136\u73FE\u308C\u3066\u4EBA\u3092\u9A5A\u304B\u3059\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Also known as Hitotsume-koz\u014D. This y\u014Dkai isn\u2019t dangerous
+        but will suddenly appear and surprise people."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u53C8\u7A31\u4E00\u76EE\u5C0F\u50E7\u3002\u4ED6\u4E0D\u6703\u5371\u5BB3\u4EBA\u985E\uFF0C\n\u53EA\u6703\u7A81\u7136\u51FA\u73FE\u9A5A\u5687\u4EBA\u985E\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u4E5F\u79F0\u72EC\u773C\u5C0F\u50E7\u3002\u4E0D\u4F1A\u52A0\u5BB3\u4EBA\uFF0C\n\u800C\u662F\u4F1A\u7A81\u7136\u51FA\u73B0\u5413\u4EBA\u4E00\u8DF3\u7684\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: " \u0E2B\u0E23\u0E37\u0E2D\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E01\u0E31\u0E19\u0E43\u0E19\u0E0A\u0E37\u0E48\u0E2D
+        \u0E2E\u0E34\u0E42\u0E15\u0E17\u0E2A\u0E36\u0E40\u0E21\u0E30-\u0E42\u0E04\u0E42\u0E0B
+        \u0E42\u0E22\u0E44\u0E01\u0E19\u0E35\u0E49\u0E44\u0E21\u0E48\u0E2D\u0E31\u0E19\u0E15\u0E23\u0E32\u0E22
+        \u0E41\u0E15\u0E48\u0E08\u0E39\u0E48 \u0E46 \u0E01\u0E47\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E02\u0E36\u0E49\u0E19\u0E41\u0E25\u0E30\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E04\u0E19\u0E15\u0E01\u0E43\u0E08"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 2
     isBoss: 0
     isTermLimited: 0
@@ -288,11 +2200,69 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u3086\u304D\u5973"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 0
+      text: Yuki-onna
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u96EA\u5973"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u96EA\u5973"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E22\u0E39\u0E01\u0E34-\u0E2D\u0E2D\u0E19\u0E19\u0E32"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 6ee2b7a56cd2b4eecbe654f4727659b0, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u7537\u306B\u51B7\u305F\u3044\u606F\u3092\u5439\u304D\u304B\u3051\u3066\u51CD\u6B7B\u3055\u305B\u305F\u308A\u3001\n\r\u7537\u306E\u7CBE\u3092\u5438\u3044\u3064\u304F\u3057\u3066\u6BBA\u3059\u3001\u96EA\u306E\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A snow y\u014Dkai that kills men by freezing them with her cold breath
+        or absorbing their spirit."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u96EA\u5973\n\u6703\u5439\u51FA\u51B0\u51B7\u7684\u6C23\u606F\u51CD\u6B7B\u7537\u4EBA\uFF0C\n\u6216\u5438\u98DF\u7537\u4EBA\u7684\u7CBE\u6C23\u4E26\u6BBA\u6B7B\u4ED6\u5011\u7684\u96EA\u4E4B\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u96EA\u5973\n\u5BF9\u7537\u4EBA\u5439\u51FA\u51B0\u51B7\u7684\u6C14\u606F\u4F7F\u5176\u51BB\u6B7B\uFF0C\n\u6216\u5438\u5149\u7537\u4EBA\u7CBE\u6C14\u540E\u518D\u5C06\u5176\u6740\u5BB3\u7684\u96EA\u4E4B\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E2B\u0E34\u0E21\u0E30\u0E17\u0E35\u0E48\u0E06\u0E48\u0E32\u0E1C\u0E39\u0E49\u0E0A\u0E32\u0E22\u0E14\u0E49\u0E27\u0E22\u0E01\u0E32\u0E23\u0E1E\u0E48\u0E19\u0E44\u0E2D\u0E40\u0E22\u0E47\u0E19\u0E43\u0E2A\u0E48\u0E43\u0E2B\u0E49\u0E41\u0E02\u0E47\u0E07
+        \u0E2B\u0E23\u0E37\u0E2D\u0E14\u0E39\u0E14\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13\u0E02\u0E2D\u0E07\u0E1E\u0E27\u0E01\u0E40\u0E02\u0E32"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -302,11 +2272,70 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u304F\u306F\u3057\u3083"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Kuhasha
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u706B\u8ECA\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u706B\u8F66\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E38\u0E2E\u0E30\u0E0A\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: c02a20e97722d400386963e3b758f8e5, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u846C\u5F0F\u3084\u5893\u5834\u304B\u3089\u6B7B\u4F53\u3092\u596A\u3046\u5996\u602A\u3002\r\n\u5E74\u8001\u3044\u305F\u732B\u304C\u3053\u306E\u5996\u602A\u306B\u306A\u308B\u3068\u3082\u8A00\u308F\u308C\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A y\u014Dkai that steals corpses from funerals or graves.\nIt\u2019s
+        also said that old cats become Kuhasha."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5728\u55AA\u79AE\u6216\u5893\u5730\u596A\u53D6\u4EBA\u985E\u7684\u5C4D\u9AD4\u3002\n\u64DA\u8AAA\u662F\u7531\u5E74\u9081\u7684\u8C93\u6240\u8B8A\u6210\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u4ECE\u846C\u793C\u6216\u5893\u5730\u628A\u5C38\u4F53\u593A\u8D70\u7684\u5996\u602A\u3002\n\u636E\u8BF4\u5E74\u8FC8\u7684\u732B\u4F1A\u53D8\u6210\u8FD9\u79CD\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E02\u0E42\u0E21\u0E22\u0E0B\u0E32\u0E01\u0E28\u0E1E\u0E08\u0E32\u0E01\u0E07\u0E32\u0E19\u0E28\u0E1E
+        \u0E2B\u0E23\u0E37\u0E2D\u0E2B\u0E25\u0E38\u0E21\u0E1D\u0E31\u0E07\u0E28\u0E1E\r\n
+        \u0E19\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E21\u0E35\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E40\u0E25\u0E48\u0E32\u0E27\u0E48\u0E32\u0E41\u0E21\u0E27\u0E41\u0E01\u0E48\u0E08\u0E30\u0E01\u0E25\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E38\u0E2E\u0E30\u0E0A\u0E30\u0E14\u0E49\u0E27\u0E22"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -316,11 +2345,70 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u86C7\u9AA8\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Jakotsu-baba
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u86C7\u9AA8\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u86C7\u9AA8\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E08\u0E32\u0E42\u0E01\u0E17\u0E2A\u0E36-\u0E1A\u0E32\u0E1A\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 0004d5ffbae514fcd8d01abbf3a465ee, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u4F53\u306B\u5927\u304D\u306A\u86C7\u3092\u5DFB\u304D\u4ED8\u3051\u305F\u8001\u5A46\u3002\r\n\u592B\u304C\u5C01\u5370\u3055\u308C\u305F\u86C7\u585A\u3092\u5B88\u3063\u3066\u3044\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 0
+      text: 'An old woman with a large snake wrapped around her body.
+
+        She protects the tomb where her husband is buried.'
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8EAB\u4E0A\u6372\u8457\u5927\u86C7\u7684\u8001\u5A46\u5A46\u3002\n\u4E00\u76F4\u5B88\u5728\u4E08\u592B\u88AB\u5C01\u5370\u7684\u86C7\u585A\u65C1\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u8EAB\u4E0A\u7F20\u7740\u4E00\u6761\u5927\u86C7\u7684\u8001\u5A46\u5A46\u3002\n\u5B88\u62A4\u7740\u4E08\u592B\u88AB\u5C01\u5370\u7684\u86C7\u585A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2B\u0E0D\u0E34\u0E07\u0E0A\u0E23\u0E32\u0E17\u0E35\u0E48\u0E21\u0E35\u0E07\u0E39\u0E43\u0E2B\u0E0D\u0E48\u0E1E\u0E31\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E23\u0E2D\u0E1A\u0E15\u0E31\u0E27\r\n
+        \u0E40\u0E18\u0E2D\u0E1B\u0E01\u0E1B\u0E49\u0E2D\u0E07\u0E2A\u0E38\u0E2A\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E35\u0E02\u0E2D\u0E07\u0E40\u0E18\u0E2D\u0E16\u0E39\u0E01\u0E1D\u0E31\u0E07\u0E2D\u0E22\u0E39\u0E48"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -330,11 +2418,69 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u9B3C\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Onibaba
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9B3C\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E2D\u0E19\u0E34\u0E1A\u0E32\u0E1A\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 0
+      text: "\u9B3C\u5A46"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 3ec6209511e3f45d48b67a75c9db92a1, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u67D0\u5C4B\u6577\u306B\u4ED5\u3048\u308B\u4E73\u6BCD\u304C\u8AA4\u3063\u3066\n\r\u81EA\u5206\u306E\u5A18\u3092\u6BBA\u3057\u3001\u60B2\u3057\u307F\u306E\u3042\u307E\u308A\u9B3C\u3068\u306A\u3063\u305F\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: A wet nurse serving a certain residence mistakenly killed her own daughter
+        and turned into a demon after being overwhelmed by sadness.
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5728\u67D0\u5B85\u90B8\u505A\u4E73\u6BCD\u7684\u5973\u4EBA\uFF0C\n\u56E0\u8AA4\u6BBA\u81EA\u5DF1\u7684\u5973\u5152\uFF0C\u904E\u5EA6\u60B2\u50B7\u800C\u8B8A\u70BA\u9B3C\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5728\u67D0\u6237\u4EBA\u5BB6\u5F53\u5976\u5A18\uFF0C\n\u8BEF\u6740\u4E86\u81EA\u5DF1\u7684\u5973\u513F\u540E\uFF0C\u53D8\u6210\u4E00\u4E2A\u60B2\u4F24\u4E0D\u5DF2\u7684\u9B3C\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E1E\u0E22\u0E32\u0E1A\u0E32\u0E25\u0E41\u0E21\u0E48\u0E25\u0E39\u0E01\u0E2D\u0E48\u0E2D\u0E19\u0E44\u0E14\u0E49\u0E06\u0E48\u0E32\u0E25\u0E39\u0E01\u0E2A\u0E32\u0E27\u0E02\u0E2D\u0E07\u0E15\u0E31\u0E27\u0E40\u0E2D\u0E07\u0E42\u0E14\u0E22\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E15\u0E31\u0E49\u0E07\u0E43\u0E08
+        \u0E41\u0E25\u0E30\u0E01\u0E25\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19\u0E1B\u0E35\u0E28\u0E32\u0E08\u0E2B\u0E25\u0E31\u0E07\u0E16\u0E39\u0E01\u0E04\u0E23\u0E2D\u0E1A\u0E07\u0E33\u0E14\u0E49\u0E27\u0E22\u0E04\u0E27\u0E32\u0E21\u0E40\u0E28\u0E23\u0E49\u0E32"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 4
     isBoss: 0
     isTermLimited: 0
@@ -344,11 +2490,69 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u624B\u9577\u8DB3\u9577"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Tenaga-ashinaga
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u624B\u9577\u8DB3\u9577"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u624B\u957F\u8DB3\u957F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E40\u0E17\u0E19\u0E32\u0E01\u0E30 \u0E2D\u0E30\u0E0A\u0E34\u0E19\u0E32\u0E01\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 80b1b0eef1f5a4d62a0f8df33c5f4edb, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u592B\u5A66\u3082\u3057\u304F\u306F\u5144\u5F1F\u306E\u5996\u602A\u3002\u4EBA\u3092\u8972\u3044\u55B0\u3089\u3063\u305F\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Husband and wife or sibling y\u014Dkai. They hunt down people."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u592B\u5A66\u6216\u5144\u5F1F\u5996\u602A\u3002\u6703\u8972\u64CA\u4F75\u541E\u98DF\u4EBA\u985E\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u592B\u59BB\u6216\u5144\u5F1F\u5996\u602A\u3002\u88AD\u51FB\u5E76\u541E\u98DF\u4EBA\u7C7B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2A\u0E32\u0E21\u0E35\u0E01\u0E31\u0E1A\u0E20\u0E23\u0E23\u0E22\u0E32
+        \u0E2B\u0E23\u0E37\u0E2D\u0E1E\u0E35\u0E48\u0E19\u0E49\u0E2D\u0E07\u0E42\u0E22\u0E44\u0E01
+        \u0E1E\u0E27\u0E01\u0E19\u0E35\u0E49\u0E08\u0E30\u0E15\u0E32\u0E21\u0E25\u0E48\u0E32\u0E1C\u0E39\u0E49\u0E04\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -358,11 +2562,69 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u5927\u767E\u8DB3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Omukade
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5927\u767E\u8DB3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5927\u767E\u8DB3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E2D\u0E21\u0E38\u0E04\u0E32\u0E40\u0E14\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 408ee0518e1bf42ec9e1e1ec1fb5c291, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u6E56\u306E\u9B5A\u3092\u98DF\u3044\u6BBA\u3059\u5996\u602A\u3002\r\n\u4EBA\u9593\u306E\u553E\u3092\u304B\u3051\u308B\u3068\u6B7B\u306C\u3068\u4FE1\u3058\u3089\u308C\u3066\u3044\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A y\u014Dkai that devours lake fish.\nSome believe that they can be killed
+        by human saliva."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6BBA\u6B7B\u4E26\u541E\u98DF\u6E56\u4E2D\u9B5A\u985E\u7684\u5996\u602A\u3002\n\u4EBA\u5011\u6DF1\u4FE1\u5C0D\u5176\u5410\u53E3\u6C34\u80FD\u6BBA\u6B7B\u4ED6\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u98DF\u6740\u6E56\u4E2D\u4E4B\u9C7C\u7684\u5996\u602A\u3002\n\u5927\u5BB6\u90FD\u76F8\u4FE1\u5BF9\u5176\u5410\u53E3\u6C34\u5C31\u53EF\u4EE5\u6740\u6B7B\u5B83\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E01\u0E34\u0E19\u0E1B\u0E25\u0E32\u0E43\u0E19\u0E17\u0E30\u0E40\u0E25\u0E2A\u0E32\u0E1A\r\n
+        \u0E1A\u0E32\u0E07\u0E04\u0E19\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E27\u0E48\u0E32\u0E42\u0E22\u0E44\u0E01\u0E1E\u0E27\u0E01\u0E19\u0E35\u0E49\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E16\u0E39\u0E01\u0E06\u0E48\u0E32\u0E14\u0E49\u0E27\u0E22\u0E19\u0E49\u0E33\u0E25\u0E32\u0E22\u0E02\u0E2D\u0E07\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -372,11 +2634,69 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u4E5D\u5C3E\u72D0"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Ky\u016Bbi-kitsune"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u4E5D\u5C3E\u72D0"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u4E5D\u5C3E\u72D0"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E40\u0E04\u0E35\u0E22\u0E27\u0E1A\u0E34-\u0E04\u0E34\u0E17\u0E2A\u0E36\u0E40\u0E19\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: a9a5e5d2cfbd641fe93855483e797189, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u5C3E\u304C\u4E5D\u672C\u3042\u308B\u72D0\u306E\u5996\u602A\u3002\n\r\u4EBA\u306E\u59FF\u306B\u5316\u3051\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "This y\u014Dkai is a fox with nine tails.\nThey can transform into the
+        shape of humans."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u64C1\u6709\u4E5D\u689D\u5C3E\u5DF4\u7684\u5996\u602A\u3002\n\u80FD\u8B8A\u6210\u4EBA\u985E\u7684\u6A21\u6A23\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u6709\u4E5D\u6761\u5C3E\u5DF4\u7684\u72D0\u5996\u3002\n\u53EF\u4EE5\u5E7B\u5316\u6210\u4EBA\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: " \u0E42\u0E22\u0E44\u0E01\u0E19\u0E35\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E21\u0E32\u0E08\u0E34\u0E49\u0E07\u0E08\u0E2D\u0E01\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E01\u0E49\u0E32\u0E2B\u0E32\u0E07\r\n
+        \u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E41\u0E1B\u0E25\u0E07\u0E23\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C\u0E44\u0E14\u0E49"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -386,11 +2706,69 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u308F\u3044\u3089"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Waira
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u725B\u9752\u86D9"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u725B\u9752\u86D9"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E44\u0E27\u0E23\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: d637d093823c04ad29d3474e5fc62c3c, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u30AC\u30DE\u304C\u5909\u5F62\u3057\u305F\u3068\u3044\u308F\u308C\u308B\u7DD1\u8272\u306E\u5996\u602A\u3002\r\n\u524D\u8DB3\u306B\u306F\u592A\u304F\u92ED\u3044\u304B\u304E\u722A\u3092\u3082\u3064\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A green y\u014Dkai said to have transformed from a toad.\nIts front legs
+        have sharp claws."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u64DA\u8AAC\u662F\u7531\u7669\u86E4\u87C6\u8B8A\u5F62\u800C\u6210\u7684\u7DA0\u8272\u5996\u602A\u3002\n\u524D\u8173\u9577\u6709\u7C97\u800C\u92B3\u5229\u7684\u722A\u5B50\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u636E\u8BF4\u662F\u765E\u86E4\u87C6\u53D8\u5F62\u800C\u6210\u7684\u7EFF\u8272\u5996\u602A\u3002\n\u524D\u8DB3\u6709\u53C8\u7C97\u53C8\u9510\u5229\u7684\u94A9\u722A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E2A\u0E35\u0E40\u0E02\u0E35\u0E22\u0E27\u0E17\u0E35\u0E48\u0E27\u0E48\u0E32\u0E01\u0E31\u0E19\u0E27\u0E48\u0E32\u0E41\u0E1B\u0E25\u0E07\u0E23\u0E48\u0E32\u0E07\u0E21\u0E32\u0E08\u0E32\u0E01\u0E01\u0E1A\r\n
+        \u0E02\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E21\u0E31\u0E19\u0E21\u0E35\u0E01\u0E23\u0E07\u0E40\u0E25\u0E47\u0E1A\u0E17\u0E35\u0E48\u0E41\u0E2B\u0E25\u0E21\u0E04\u0E21"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 1
@@ -400,11 +2778,69 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u304A\u3068\u308D\u3057"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Otoroshi
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9AEA\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u53D1\u9B3C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E2D\u0E42\u0E15\u0E30\u0E42\u0E23\u0E0A\u0E34 "
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 52ea841884aa2486d960e5456b9e3814, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u9577\u3044\u9AEA\u306B\u304A\u304A\u308F\u308C\u305F\u5996\u602A\u3002\r\u6050\u308D\u3057\u3044\u3068\u3044\u3046\n\u8A00\u8449\u304C\u5996\u602A\u5316\u3057\u305F\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A y\u014Dkai surrounded by long hair.\nThis y\u014Dkai is said to be
+        the personification of the word frightening."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5168\u8EAB\u8986\u6EFF\u9577\u9AEE\u7684\u5996\u602A\u3002\n\u64DA\u8AAA\u662F\u7531\u65E5\u6587\u7684\u6050\u6016\u9019\u500B\u8A5E\u6240\u8B8A\u6210\u7684\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5168\u8EAB\u8986\u6EE1\u957F\u53D1\u7684\u5996\u602A\u3002\n\u636E\u8BF4\u662F\u7531\u65E5\u8BED\u7684\u6050\u6016\u8FD9\u4E2A\u8BCD\u53D8\u6210\u7684\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: " \u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E1C\u0E21\u0E22\u0E32\u0E27\u0E1B\u0E01\u0E04\u0E25\u0E38\u0E21\u0E15\u0E31\u0E27\r\n
+        \u0E27\u0E48\u0E32\u0E01\u0E31\u0E19\u0E27\u0E48\u0E32\u0E42\u0E22\u0E44\u0E01\u0E19\u0E35\u0E49\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E32\u0E23\u0E2D\u0E38\u0E1B\u0E21\u0E32\u0E02\u0E2D\u0E07\u0E04\u0E33\u0E17\u0E35\u0E48\u0E19\u0E48\u0E32\u0E01\u0E25\u0E31\u0E27"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -414,11 +2850,70 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u732B\u307E\u305F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Nekomata
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u732B\u53C8"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u732B\u53C8"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E40\u0E19\u0E42\u0E01\u0E30\u0E21\u0E32\u0E15\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: d703757202cc84e5fb701c75f72f7db7, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u5C3E\u304C\u4E8C\u53C8\u306B\u5206\u304B\u308C\u305F\u732B\u306E\u5996\u602A\u3002\n\r\u5C71\u5965\u306B\u4F4F\u307F\u3001\u4EBA\u9593\u3092\u98DF\u3044\u6BBA\u3059\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A cat y\u014Dkai with a tail that is split into two.\nThey live deep
+        in the mountains and devour humans."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5C3E\u5DF4\u5206\u6210\u5169\u689D\u7684\u8C93\u5996\u3002\n\u5C45\u4F4F\u5728\u6DF1\u5C71\u88E1\uFF0C\u6703\u5403\u4EBA\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5C3E\u5DF4\u5206\u6210\u4E24\u80A1\u7684\u732B\u5996\u3002\n\u4F4F\u5728\u6DF1\u5C71\u91CC\uFF0C\u4F1A\u5403\u4EBA\u7C7B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E41\u0E21\u0E27\u0E17\u0E35\u0E48\u0E21\u0E35\u0E2B\u0E32\u0E07\u0E41\u0E22\u0E01\u0E44\u0E1B\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E2D\u0E07\u0E2B\u0E32\u0E07\r\n
+        \u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E2D\u0E32\u0E28\u0E31\u0E22\u0E25\u0E36\u0E01\u0E40\u0E02\u0E49\u0E32\u0E44\u0E1B\u0E43\u0E19\u0E20\u0E39\u0E40\u0E02\u0E32
+        \u0E41\u0E25\u0E30\u0E01\u0E34\u0E19\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -428,11 +2923,70 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u30BF\u30F3\u30BF\u30F3\u30B3\u30ED\u30EA\u30F3"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Tantan-kororin
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u67FF\u5B50\u5996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u67FF\u5B50\u5996"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E41\u0E17\u0E19\u0E41\u0E17\u0E19-\u0E42\u0E04\u0E42\u0E23\u0E23\u0E34\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: 5fd74a31b67354949b3fcfb29a1dd12b, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u5BAE\u57CE\u770C\u306E\u5996\u602A\u3002\u67FF\u3092\u53CE\u7A6B\u3057\u306A\u3044\u3068\r\n\u5996\u602A\u3068\u306A\u308A\u753A\u4E2D\u3092\u5F98\u5F8A\u3059\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A y\u014Dkai from Miyagi Prefecture. Persimmons that aren\u2019t harvested
+        turn into these y\u014Dkai and roam the town."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5BAE\u57CE\u7E23\u7684\u5996\u602A\u3002\u82E5\u6709\u67FF\u5B50\u672A\u63A1\u6536\n\u5C31\u6703\u5316\u70BA\u5996\u602A\u5728\u57CE\u93AE\u88E1\u5F98\u5F8A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5BAB\u57CE\u53BF\u7684\u5996\u602A\u3002\u67FF\u5B50\u4E0D\u91C7\u6536\u7684\u8BDD\uFF0C\n\u5C31\u4F1A\u53D8\u6210\u5996\u602A\uFF0C\u5728\u57CE\u4E2D\u5F98\u5F8A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E08\u0E32\u0E01\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E31\u0E14\u0E21\u0E34\u0E22\u0E32\u0E01\u0E34
+        \u0E25\u0E39\u0E01\u0E1E\u0E25\u0E31\u0E1A\u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E40\u0E01\u0E47\u0E1A\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E08\u0E30\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E42\u0E22\u0E44\u0E01\u0E1E\u0E27\u0E01\u0E19\u0E35\u0E49
+        \u0E41\u0E25\u0E30\u0E40\u0E14\u0E34\u0E19\u0E40\u0E15\u0E23\u0E48\u0E15\u0E31\u0E27\u0E40\u0E21\u0E37\u0E2D\u0E07"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -442,11 +2996,71 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u306C\u3048"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Nue
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9D7A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u864E\u9E2B"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E19\u0E39\u0E40\u0E2D\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: bfb57099f791343b189c2d640bdcc9d7, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u733F\u306E\u982D\u306B\u3001\u72F8\u306E\u4F53\u3002\u864E\u306E\u624B\u8DB3\u306B\u3001\u86C7\u306E\u5C3E\u3002\r\n\u6C17\u5473\u306E\u60AA\u3044\u58F0\u3067\u9CF4\u304F\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A y\u014Dkai with the head of a monkey, body of a tanuki, legs of a tiger,
+        and tail of a snake.\nIt cries in an eerie voice."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u733F\u982D\u3001\u72F8\u8EAB\u3002\u864E\u8DB3\uFF0C\u86C7\u5C3E\u3002\n\u53EB\u8072\u6703\u4EE4\u4EBA\u6BDB\u9AA8\u609A\u7136\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u733F\u5934\uFF0C\u72F8\u8EAB\u3002\u864E\u8DB3\uFF0C\u86C7\u5C3E\u3002\n\u53EB\u58F0\u4EE4\u4EBA\u6BDB\u9AA8\u609A\u7136\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E21\u0E35\u0E2B\u0E31\u0E27\u0E40\u0E1B\u0E47\u0E19\u0E25\u0E34\u0E07
+        \u0E15\u0E31\u0E27\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E21\u0E35 \u0E02\u0E32\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E2A\u0E37\u0E2D
+        \u0E41\u0E25\u0E30\u0E2B\u0E32\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E07\u0E39\r\n
+        \u0E40\u0E2A\u0E35\u0E22\u0E07\u0E23\u0E49\u0E2D\u0E07\u0E02\u0E2D\u0E07\u0E21\u0E31\u0E19\u0E19\u0E48\u0E32\u0E02\u0E19\u0E25\u0E38\u0E01\u0E22\u0E34\u0E48\u0E07\u0E19\u0E31\u0E01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 5
     isBoss: 0
     isTermLimited: 0
@@ -456,11 +3070,68 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u304B\u307F\u304D\u308A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: Kamikiri
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u5243\u982D\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5243\u5934\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E04\u0E30\u0E21\u0E34\u0E04\u0E34\u0E23\u0E34"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: dd51c12b556e24b62b94bd2b7c6a3ec5, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u591C\u4E2D\u306B\u9053\u3092\u6B69\u304F\u4EBA\u3001\u7537\u5973\u554F\u308F\u305A\u3001\r\n\u982D\u9AEA\u3092\u3072\u305D\u304B\u306B\u5207\u308B\u3068\u3044\u308F\u308C\u308B\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "A y\u014Dkai that is said to secretly cut the hair of people, man or
+        woman, who walk the streets at night."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u64DA\u8AAC\u4E0D\u8AD6\u7537\u5973\uFF0C\u6703\u628A\u534A\u591C\u884C\u8D70\u8DEF\u4EBA\u7684\u982D\u9AEE\n\u5077\u5077\u5243\u6389\u7684\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u636E\u8BF4\u4E0D\u8BBA\u7537\u5973\uFF0C\u4F1A\u628A\u534A\u591C\u884C\u8D70\u8DEF\u4EBA\u7684\u5934\u53D1\n\u5077\u5077\u5243\u6389\u7684\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E27\u0E48\u0E32\u0E01\u0E31\u0E19\u0E27\u0E48\u0E32\u0E08\u0E30\u0E41\u0E2D\u0E1A\u0E15\u0E31\u0E14\u0E1C\u0E21\u0E02\u0E2D\u0E07\u0E1C\u0E39\u0E49\u0E0A\u0E32\u0E22\u0E2B\u0E23\u0E37\u0E2D\u0E1C\u0E39\u0E49\u0E2B\u0E0D\u0E34\u0E07\u0E17\u0E35\u0E48\u0E40\u0E14\u0E34\u0E19\u0E1A\u0E19\u0E16\u0E19\u0E19\u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 0
     isTermLimited: 0
@@ -470,11 +3141,70 @@ MonoBehaviour:
     localNames:
     - languageType: 0
       text: "\u9152\u5451\u7AE5\u5B50"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Shuten-d\u014Dji"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9152\u541E\u7AE5\u5B50"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 0
+      text: "\u9152\u5451\u7AE5\u5B50"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     image: {fileID: 21300000, guid: e6844a70464f5423ca86d67121c040fe, type: 3}
     nameImage: {fileID: 21300000, guid: cc87a8b49c265104c9b7177b0f5df001, type: 3}
     localContents:
     - languageType: 0
       text: "\u4EBA\u3055\u3089\u3044\u3092\u3059\u308B\u9B3C\u3002\n\r\u4E71\u66B4\u8005\u3067\u304A\u9152\u304C\u5927\u597D\u304D\u306A\u9B3C\u306E\u982D\u9818\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 0
+      text: 'A demon known for kidnapping people.
+
+        The violent and drunken boss of the demons.'
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8A98\u62D0\u4EBA\u985E\u7684\u9B3C\u3002\n\u7C97\u9B6F\u55DC\u9152\u7684\u9B3C\u9996\u9818\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u62D0\u9A97\u4EBA\u7C7B\u7684\u9B3C\u3002\n\u7C97\u9C81\u53C8\u55DC\u9152\u7684\u9B3C\u5934\u76EE\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: " \u0E1B\u0E35\u0E28\u0E32\u0E08\u0E17\u0E35\u0E48\u0E23\u0E39\u0E49\u0E01\u0E31\u0E19\u0E27\u0E48\u0E32\u0E0A\u0E2D\u0E1A\u0E25\u0E31\u0E01\u0E1E\u0E32\u0E15\u0E31\u0E27\u0E1C\u0E39\u0E49\u0E04\u0E19\r\n
+        \u0E2B\u0E31\u0E27\u0E2B\u0E19\u0E49\u0E32\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E1B\u0E35\u0E28\u0E32\u0E08\u0E02\u0E35\u0E49\u0E40\u0E21\u0E32\u0E17\u0E35\u0E48\u0E0A\u0E2D\u0E1A\u0E04\u0E27\u0E32\u0E21\u0E23\u0E38\u0E19\u0E41\u0E23\u0E07"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
     necessary_item_id: 0
     isBoss: 1
     isTermLimited: 0
@@ -483,17 +3213,17 @@ MonoBehaviour:
     yokaiText: {fileID: 21300000, guid: 3ea3e07af26993047a0b1bd215d10ac1, type: 3}
     itemText: {fileID: 21300000, guid: 474862120169a004da4f3cb3ed2e5f9a, type: 3}
   - type: 1
-    yokaiText: {fileID: 0}
-    itemText: {fileID: 0}
+    yokaiText: {fileID: 21300000, guid: 935b881379e6cfc4fbd5051245748309, type: 3}
+    itemText: {fileID: 21300000, guid: e2a1fae7758a15b498ca4e9b859241d4, type: 3}
   - type: 2
-    yokaiText: {fileID: 0}
-    itemText: {fileID: 0}
+    yokaiText: {fileID: 21300000, guid: 09e0f698ff7ef144f87d41ecb7553d86, type: 3}
+    itemText: {fileID: 21300000, guid: 51cdeef67dcbbee429d4d6c2c19b51b6, type: 3}
   - type: 3
-    yokaiText: {fileID: 0}
-    itemText: {fileID: 0}
+    yokaiText: {fileID: 21300000, guid: e4b19ca0cfa763d49af0ed4a534f7867, type: 3}
+    itemText: {fileID: 21300000, guid: 0ad32f4b052d28c438277396bb2d8e15, type: 3}
   - type: 4
-    yokaiText: {fileID: 0}
-    itemText: {fileID: 0}
+    yokaiText: {fileID: 21300000, guid: f7dccf5e7beb39f4da836366c98f8e35, type: 3}
+    itemText: {fileID: 21300000, guid: 2166397083856fb4e8dc07e97ae80fb3, type: 3}
   itemData:
   - id: 1
     name: nurari-hyon
@@ -724,40 +3454,337 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: d900197da26e24f47878f79c50626893, type: 3}
     localContents:
     - languageType: 0
-      text: "\u3072\u3068\u304D\u308F\u5927\u304D\u306A\u96F7\u9CF4\u304C\u3068\u3069\u308D\u304D\u3001\u7960\u306B\u96F7\u304C\u843D\u3061\u305F\u3002\n\n\u7960\u304B\u3089\u8607\u3063\u305F\u9B3C\u30FC\u30FC\u305D\u308C\u306F\u9152\u5451\u7AE5\u5B50\u3002\n"
+      text: "\u3072\u3068\u304D\u308F\u5927\u304D\u306A\u96F7\u9CF4\u304C\u3068\u3069\u308D\u304D\u3001\n\u7960\u306B\u96F7\u304C\u843D\u3061\u305F\u3002\n\n\u7960\u304B\u3089\u8607\u3063\u305F\u9B3C\u30FC\u30FC\u305D\u308C\u306F\u9152\u5451\u7AE5\u5B50\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Thunder roared, and lightning struck the shrine. From the shrine emerged
+        a resurrected demon: Shuten-d\u014Dji."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u8F5F\u9686\u4E00\u8072\u5DE8\u97FF\uFF0C\u4E00\u9663\u5DE8\u96F7\u64CA\u4E2D\u7960\u5802\u3002\n\u6709\u4E00\u96BB\u9B3C\u5F9E\u7960\u5802\u4E2D\u5FA9\u6D3B\u4E86\uFF0D\uFF0D\u4ED6\u5C31\u662F\u9152\u541E\u7AE5\u5B50\u3002\n\n\n"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u96F7\u58F0\u8F70\u9686\u4F5C\u54CD\uFF0C\u5C0F\u5E99\u4E2D\u843D\u4E0B\u4E00\u58F0\u60CA\u96F7\u3002\n\u4E00\u53EA\u9B3C\u4ECE\u5C0F\u5E99\u82CF\u9192\uFF0D\uFF0D\u5B83\u5C31\u662F\u9152\u541E\u7AE5\u5B50\u3002\n"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E1F\u0E49\u0E32\u0E23\u0E49\u0E2D\u0E07 \u0E41\u0E25\u0E30\u0E1F\u0E49\u0E32\u0E1C\u0E48\u0E32\u0E17\u0E35\u0E48\u0E28\u0E32\u0E25\u0E40\u0E08\u0E49\u0E32
+        \u0E08\u0E32\u0E01\u0E28\u0E32\u0E25\u0E40\u0E08\u0E49\u0E32 \u0E1B\u0E35\u0E28\u0E32\u0E08\u0E1F\u0E37\u0E49\u0E19\u0E04\u0E37\u0E19\u0E0A\u0E35\u0E1E\u0E42\u0E1C\u0E25\u0E48\u0E02\u0E36\u0E49\u0E19\u0E21\u0E32:
+        \u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34 "
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - index: 2
     image: {fileID: 21300000, guid: d900197da26e24f47878f79c50626893, type: 3}
     localContents:
     - languageType: 0
-      text: "\u9152\u5451\u7AE5\u5B50\u304C\u8607\u3063\u305F\u306E\u306B\u306F\u7406\u7531\u304C\u3042\u3063\u305F\u3002\n\r\n\u305D\u308C\u306F\u3001\u4ECA\u5E74\u304C\u5343\u5E74\u306B\u4E00\u5EA6\u306E\n\u300C\u9B54\u754C\u306E\u5165\u308A\u53E3\u300D\u304C\u958B\u304F\u5E74\u3067\u3042\u308B\u3068\u8A00\u3046\u3053\u3068\u3002\n\n\r\u305D\u3057\u3066\u9B54\u754C\u306E\u5165\u308A\u53E3\u306F\u3001\n\u300C\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u300D\u306B\u958B\u304F\u3001\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\n\u306E\u3067\u3042\u308B\u3002"
+      text: "\u9152\u5451\u7AE5\u5B50\u304C\u8607\u3063\u305F\u306E\u306B\u306F\u7406\u7531\u304C\u3042\u3063\u305F\u3002\n\n\u305D\u308C\u306F\u3001\u4ECA\u5E74\u304C\u5343\u5E74\u306B\u4E00\u5EA6\u306E\n\u300C\u9B54\u754C\u306E\u5165\u308A\u53E3\u300D\u304C\u958B\u304F\u5E74\u3067\u3042\u308B\n\u3068\u8A00\u3046\u3053\u3068\u3002\n\n\u305D\u3057\u3066\u9B54\u754C\u306E\u5165\u308A\u53E3\u306F\u3001\n\u300C\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u300D\u306B\u958B\u304F\u3001\n\u3068\u8A00\u308F\u308C\u3066\u3044\u308B\u306E\u3067\u3042\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "There was a reason Shuten-d\u014Dji came back to life. Once every thousand
+        years the entrance to the world of spirits is opened, and this is one of those
+        years.\nThe entrance opened in Esashi-Fujiwara Heritage Park.\n"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u9152\u541E\u7AE5\u5B50\u6703\u5FA9\u6D3B\u662F\u6709\u539F\u56E0\u7684\u3002\n\u90A3\u662F\u56E0\u70BA\uFF0C\u4ECA\u5E74\u6B63\u662F\u5343\u5E74\u4E00\u5EA6\u300C\u9B54\u754C\u5165\u53E3\u300D\u5927\u958B\u7684\u4E00\u5E74\u3002\n\u50B3\u8AAA\u9B54\u754C\u7684\u5165\u53E3\u5C31\u5728\u300C\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u300D\u6253\u958B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u9152\u541E\u7AE5\u5B50\u7684\u82CF\u9192\u662F\u6709\u539F\u56E0\u7684\u3002\n\u56E0\u4E3A\u4ECA\u5E74\u662F\u5343\u5E74\u4E00\u5EA6\u201C\u9B54\u754C\u5165\u53E3\u201D\u5F00\u542F\u7684\u5E74\u4EFD\u3002\n\u5E76\u4E14\uFF0C\u636E\u8BF4\u9B54\u754C\u7684\u5165\u53E3\u5C31\u5728\u201C\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u201D\u5F00\u542F\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\"\u0E40\u0E2B\u0E15\u0E38\u0E1C\u0E25\u0E17\u0E35\u0E48\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E1F\u0E37\u0E49\u0E19\u0E04\u0E37\u0E19\u0E0A\u0E35\u0E1E
+        \u0E17\u0E38\u0E01\u0E2B\u0E25\u0E32\u0E22\u0E1E\u0E31\u0E19\u0E1B\u0E35 \u0E1B\u0E23\u0E30\u0E15\u0E39\u0E2A\u0E39\u0E48\u0E42\u0E25\u0E01\u0E41\u0E2B\u0E48\u0E07\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13\u0E08\u0E30\u0E40\u0E1B\u0E34\u0E14\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E04\u0E23\u0E31\u0E49\u0E07
+        \u0E41\u0E25\u0E30\u0E1B\u0E35\u0E19\u0E35\u0E49\u0E01\u0E47\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E43\u0E19\u0E2B\u0E25\u0E32\u0E22\u0E1E\u0E31\u0E19\u0E1B\u0E35\u0E19\u0E31\u0E49\u0E19\n
+        \u0E17\u0E32\u0E07\u0E40\u0E02\u0E49\u0E32\u0E40\u0E1B\u0E34\u0E14\u0E43\u0E19\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - index: 3
     image: {fileID: 21300000, guid: 5fb7de9b0424833448b2dab9469f5ad6, type: 3}
     localContents:
     - languageType: 0
-      text: "\u2015\u2015\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u3002\r\n\n\u300C\u3055\u3041\u4EBA\u9593\u9054\u3092\u6016\u304C\u3089\u305B\u308D\u3002\u9B54\u754C\u306B\u843D\u3068\u3057\u3066\u3057\u307E\u3048\uFF01\uFF01\u300D\n\n\r\u9152\u5451\u7AE5\u5B50\u306F\u3001\u3053\u3053\u306B\u5949\u3089\u308C\u3066\u3044\u308B\u5996\u602A\u5C01\u5370\u5E16\u306E\u5C01\u5370\u3092\u89E3\u304D\u3001\n\r\u5996\u602A\u9054\u3092\u3053\u306E\u4E16\u306B\u653E\u3063\u305F\u3002"
+      text: "\u2015\u2015\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u3002\r\n\n\u300C\u3055\u3041\u4EBA\u9593\u9054\u3092\u6016\u304C\u3089\u305B\u308D\u3002\n\u9B54\u754C\u306B\u843D\u3068\u3057\u3066\u3057\u307E\u3048\uFF01\uFF01\u300D\n\n\r\u9152\u5451\u7AE5\u5B50\u306F\u3001\u3053\u3053\u306B\u5949\u3089\u308C\u3066\u3044\u308B\n\u5996\u602A\u5C01\u5370\u5E16\u306E\u5C01\u5370\u3092\u89E3\u304D\u3001\n\r\u5996\u602A\u9054\u3092\u3053\u306E\u4E16\u306B\u653E\u3063\u305F\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "At Esashi-Fujiwara Heritage Park: Let\u2019s go scare some humans and
+        send them to the spirit world!\u201D\nShuten-d\u014Dji opened the sacred seal
+        on the Y\u014Dkai Album and released the y\u014Dkai into the world."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u2015\u2015\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u3002\n\u300C\u51FA\u4F86\u5687\u4EBA\u5427\u3002\u8B93\u4ED6\u5011\u58AE\u5165\u9B54\u754C\uFF01\uFF01\u300D\n\u9152\u541E\u7AE5\u5B50\u89E3\u958B\u4E86\u539F\u672C\u4F9B\u5949\u65BC\u6B64\u7684\u5996\u602A\u5C01\u5370\u5E16\u7684\u5C01\u5370\uFF0C\n\u5C07\u5996\u602A\u5011\u653E\u5230\u9019\u500B\u4E16\u4E0A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\"\u2014\u2014\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u3002\n\u53BB\u5427\uFF0C\u53BB\u5413\u552C\u5413\u552C\u4EBA\u7C7B\u5427\u3002\u8BA9\u4ED6\u4EEC\u5760\u5165\u9B54\u754C\u5427\uFF01\uFF01\u201D\n\u9152\u541E\u7AE5\u5B50\u63ED\u5F00\u4E86\u7528\u4E8E\u5C01\u5370\u4F9B\u5949\u5728\u8FD9\u91CC\u7684\u5996\u602A\u7684\u5C01\u5370\u5E16\uFF0C\n\u5C06\u5996\u602A\u4EEC\u653E\u51FA\u5230\u8FD9\u4E2A\u4E16\u4E0A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\"\u0E17\u0E35\u0E48\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30: \u201C\u0E44\u0E1B\u0E2B\u0E25\u0E2D\u0E01\u0E1E\u0E27\u0E01\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C\u0E01\u0E31\u0E19
+        \u0E41\u0E25\u0E30\u0E2A\u0E48\u0E07\u0E1E\u0E27\u0E01\u0E19\u0E31\u0E49\u0E19\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E42\u0E25\u0E01\u0E41\u0E2B\u0E48\u0E07\u0E27\u0E34\u0E0D\u0E0D\u0E32\u0E13!\u201D\n
+        \u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E40\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E28\u0E31\u0E01\u0E14\u0E34\u0E4C\u0E2A\u0E34\u0E17\u0E18\u0E34\u0E4C\u0E1A\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01
+        \u0E41\u0E25\u0E30\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E42\u0E22\u0E44\u0E01\u0E40\u0E02\u0E49\u0E32\u0E21\u0E32\u0E2A\u0E39\u0E48\u0E42\u0E25\u0E01\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - index: 4
     image: {fileID: 21300000, guid: 5fb7de9b0424833448b2dab9469f5ad6, type: 3}
     localContents:
     - languageType: 0
-      text: "\u5C01\u5370\u3092\u89E3\u304B\u308C\u305F\u5996\u602A\u9054\u306F\u3001\u85E4\u539F\u306E\u90F7\u306E\u5404\u3005\u306E\u5834\u6240\u306B\u98DB\u3073\u6563\u3063\u3066\u884C\u3063\u305F\u3002"
+      text: "\u5C01\u5370\u3092\u89E3\u304B\u308C\u305F\u5996\u602A\u9054\u306F\u3001\u85E4\u539F\u306E\u90F7\u306E\n\u5404\u3005\u306E\u5834\u6240\u306B\u98DB\u3073\u6563\u3063\u3066\u884C\u3063\u305F\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Once the y\u014Dkai were free, they scattered all around Esashi-Fujiwara
+        Heritage Park."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u88AB\u89E3\u958B\u5C01\u5370\u7684\u5996\u602A\u5011\uFF0C\u5C31\u9019\u6A23\u98DB\u6563\u81F3\u85E4\u539F\u4E4B\u9109\u7684\u5404\u8655\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u5C01\u5370\u88AB\u89E3\u9664\u7684\u5996\u602A\u4EEC\u98DE\u6563\u5230\u85E4\u539F\u4E4B\u4E61\u7684\u5404\u5904\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E2B\u0E25\u0E31\u0E07\u0E08\u0E32\u0E01\u0E17\u0E35\u0E48\u0E42\u0E22\u0E44\u0E01\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E34\u0E2A\u0E23\u0E30\u0E41\u0E25\u0E49\u0E27
+        \u0E1E\u0E27\u0E01\u0E21\u0E31\u0E19\u0E01\u0E47\u0E08\u0E30\u0E01\u0E23\u0E30\u0E08\u0E32\u0E22\u0E2D\u0E22\u0E39\u0E48\u0E23\u0E2D\u0E1A
+        \u0E46 \u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   yokaiGetTutorialData:
   - index: 1
     localContents:
     - languageType: 0
       text: "\u7A81\u7136\u3001\u76EE\u306E\u524D\u306B\u771F\u3063\u6697\u306A\u3082\u306E\u304C\u7A7A\u304B\u3089\n\r\u821E\u3044\u964D\u308A\u3066\u304D\u305F\u30FB\u30FB\u30FB\n\r\u795E\u306E\u4F7F\u3044\u3001\u516B\u54AB\u70CF\u3067\u3042\u308B\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Suddenly, something pitch black swoops down from the sky right in front
+        of you...\nIt\u2019s Yatagarasu, a divine messenger.\n"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u7A81\u7136\u4E4B\u9593\uFF0C\u773C\u524D\u6709\u6F06\u9ED1\u4E4B\u7269\n\u5F9E\u5929\u800C\u964D\u30FB\u30FB\u30FB\n\u539F\u4F86\u662F\u795E\u4E4B\u4F7F\u8005\uFF0C\u516B\u54AB\u9CE5\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u7A81\u7136\uFF0C\u773C\u524D\u4E00\u7247\u6F06\u9ED1\u7684\u4E1C\u897F\n\u4ECE\u5929\u800C\u964D\u2026\u2026\n\u539F\u6765\u662F\u795E\u4F7F\u516B\u54AB\u9E1F\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E17\u0E31\u0E19\u0E43\u0E14\u0E19\u0E31\u0E49\u0E19 \u0E1A\u0E32\u0E07\u0E2A\u0E34\u0E48\u0E07\u0E2A\u0E35\u0E14\u0E33\u0E42\u0E09\u0E1A\u0E25\u0E07\u0E21\u0E32\u0E08\u0E32\u0E01\u0E17\u0E49\u0E2D\u0E07\u0E1F\u0E49\u0E32\u0E15\u0E23\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E04\u0E38\u0E13...\n
+        \u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E22\u0E32\u0E15\u0E30\u0E01\u0E32\u0E23\u0E32\u0E2A\u0E38
+        \u0E1C\u0E39\u0E49\u0E2A\u0E48\u0E07\u0E2A\u0E32\u0E23\u0E08\u0E32\u0E01\u0E2A\u0E27\u0E23\u0E23\u0E04\u0E4C"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - index: 2
     localContents:
     - languageType: 0
       text: "\u300C\u9152\u5451\u7AE5\u5B50\u304C\u8607\u308A\u3001\u5996\u602A\u5C01\u5370\u5E16\u306E\u5C01\u5370\u3092\r\n\u89E3\u3044\u3066\u3057\u307E\u3063\u305F\u306E\u3067\u3054\u3056\u308B\u3002\u3059\u3050\u306B\u5C01\u5370\u3057\u306A\u3044\u3068\r\n\u5927\u5909\u306A\u4E8B\u306B\u306A\u308B\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 58.6, y: 124.65}
+      lineWidth: 0
+    - languageType: 1
+      text: "Shuten-d\u014Dji has been ressurected, and he released the seal on the
+        Y\u014Dkai Album! If you don\u2019t collect the y\u014Dkai right away, something
+        terrible could happen."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 58.6, y: 78}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u300C\u9152\u541E\u7AE5\u5B50\u5DF2\u5FA9\u6D3B\uFF0C\n\u4E26\u89E3\u958B\u5996\u602A\u5C01\u5370\u5E16\u4E0A\u7684\u5C01\u5370\u3002\n\u82E5\u4E0D\u76E1\u5FEB\u91CD\u65B0\u5C01\u5370\uFF0C\u5C31\u7CDF\u4E86\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 58.6, y: 167}
+      lineWidth: 0
+    - languageType: 3
+      text: "\"\u201C\u9152\u541E\u7AE5\u5B50\u82CF\u9192\u4E86\uFF0C\n\u5E76\u628A\u5996\u602A\u5C01\u5370\u5E16\u7684\u5C01\u5370\u89E3\u5F00\u4E86\u3002\n\u4E0D\u9A6C\u4E0A\u8FDB\u884C\u5C01\u5370\u7684\u8BDD\u9EBB\u70E6\u5C31\u5927\u4E86\u54E6\u3002\u201D\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 58.6, y: 124.65}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E1F\u0E37\u0E49\u0E19\u0E04\u0E37\u0E19\u0E0A\u0E35\u0E1E
+        \u0E41\u0E25\u0E30\u0E01\u0E47\u0E1B\u0E25\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E1A\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01!
+        \u0E16\u0E49\u0E32\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E40\u0E01\u0E47\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E31\u0E19\u0E17\u0E35
+        \u0E2D\u0E32\u0E08\u0E40\u0E01\u0E34\u0E14\u0E1A\u0E32\u0E07\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E40\u0E25\u0E27\u0E23\u0E49\u0E32\u0E22\u0E02\u0E36\u0E49\u0E19"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 58.6, y: 125}
+      lineWidth: 0
   - index: 3
     localContents:
     - languageType: 0
       text: "\u300C-red_fire \u306E\u5834\u6240\u306B\u3044\u308B\u5996\u602A\u9054\u3092\n\r\u5C01\u5370\u5E16\u306B\u5C01\u5370\u3057\u76F4\u3059\u306E\u3067\u3054\u3056\u308B\u3002\r\n\u3053\u308C\u3092\u4F7F\u3046\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Capture the y\u014Dkai at the places marked with -red_fire \nand return
+        them to the album.\nUse this."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 88}
+      lineWidth: 0
+    - languageType: 2
+      text: "\"\u300C\u8ACB\u7528\u9019\u500B\n\u91CD\u65B0\u5C01\u5370\n\u5728 -red_fire\u4E4B\u8655\u7684\u5996\u602A\u5011\u3002\u300D\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\"\u201C\u628A -red_fire\u4E4B\u5904\u7684\u5996\u602A\u4EEC\n\u91CD\u65B0\u5C01\u5370\u5230\u5C01\u5370\u5E16\u91CC\u3002\n\u5C31\u7528\u8FD9\u4E2A\u54E6\u3002\u201D\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u201C\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19
+        -red_fire\n\u0E41\u0E25\u0E30\u0E2A\u0E48\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E40\u0E02\u0E49\u0E32\u0E44\u0E1B\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\r\n
+        \u0E43\u0E0A\u0E49\u0E19\u0E35\u0E48\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - index: 4
     localContents:
     - languageType: 0
       text: "\u6E21\u3055\u308C\u305F\u9769\u888B\u306E\u4E2D\u3092\u8997\u304F\u3068\u30AC\u30E9\u30B9\u7389\u304C\u2500\u3002\n\r\u3053\u308C\u3092\u300C\u9B3C\u7389\u300D\u3068\u8A00\u3046\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "When you look in the bag it gives\nyou, you see a glass ball.\nThis is
+        called the \u201COni-tama.\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u6253\u958B\u76AE\u56CA\u4E00\u770B\uFF0C\u767C\u73FE\u88E1\u9762\u6709\u4E00\u9846\u73BB\u7483\u73E0\u2500\u3002\n\u9019\u5C31\u662F\u300C\u9B3C\u7389\u300D\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u63A5\u8FC7\u76AE\u56CA\u6253\u5F00\u4E00\u770B\uFF0C\u91CC\u9762\u6709\u4E2A\u73BB\u7483\u73E0\u2500\u3002\n\u8FD9\u53EB\u505A\u201C\u9B3C\u7389\u201D\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E04\u0E38\u0E13\u0E21\u0E2D\u0E07\u0E43\u0E19\u0E01\u0E23\u0E30\u0E40\u0E1B\u0E4B\u0E32\u0E17\u0E35\u0E48\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\u0E21\u0E32\r\n
+        \u0E04\u0E38\u0E13\u0E08\u0E30\u0E40\u0E2B\u0E47\u0E19\u0E1A\u0E2D\u0E25\u0E41\u0E01\u0E49\u0E27\r\n
+        \u0E19\u0E35\u0E48\u0E40\u0E23\u0E35\u0E22\u0E01\u0E27\u0E48\u0E32 \u201C\u0E42\u0E2D\u0E19\u0E34-\u0E17\u0E32\u0E21\u0E30\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
   - index: 5
     localContents:
     - languageType: 0
-      text: "\u300C\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u30BF\u30C3\u30D7\u3057\u3066\u3001\r\n\u5996\u602A\u9054\u3092\u5C01\u5370\u3059\u308B\u306E\u3067\u3054\u3056\u308B\u3002\u300D"
+      text: "\u300C\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u5996\u602A\u3092\u30BF\u30C3\u30D7\u3057\u3066\u3001\n\u5996\u602A\u9054\u3092\u5C01\u5370\u3059\u308B\u306E\u3067\u3054\u3056\u308B\u3002\u300D\""
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 1
+      text: "Capture the y\u014Dkai by carefully \ntapping on them."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 2
+      text: "\u300C\u53EA\u8981\u5728\u6B63\u78BA\u6642\u6A5F\u9EDE\u64CA\u5996\u602A\uFF0C\n\u5C31\u80FD\u5C01\u5370\u5996\u602A\u5011\u3002\u300D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 3
+      text: "\u201C\u6293\u51C6\u65F6\u673A\u70B9\u51FB\u5996\u602A\uFF0C\n\u5C01\u5370\u5996\u602A\u4EEC\u5427\u3002\u201D"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+    - languageType: 4
+      text: "\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01 \u0E42\u0E14\u0E22\u0E04\u0E48\u0E2D\u0E22
+        \u0E46 \u0E41\u0E15\u0E30\u0E17\u0E35\u0E48\u0E15\u0E31\u0E27\u0E42\u0E22\u0E44\u0E01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+  logo:
+  - type: 0
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
+  - type: 1
+    img: {fileID: 21300000, guid: 3040af02f03a7c0429e0fb628bd2e1a6, type: 3}
+  - type: 2
+    img: {fileID: 21300000, guid: 413a4fbdabfe5bd46bdadfb403d34a0e, type: 3}
+  - type: 3
+    img: {fileID: 21300000, guid: 6b01141853920c5488572424ad8506db, type: 3}
+  - type: 4
+    img: {fileID: 21300000, guid: 6167dd62869673b4cbb92ba8851f0e0d, type: 3}

@@ -4,6 +4,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ApplicationData : MonoBehaviour
 {
     static ApplicationData applicationData;
@@ -19,6 +20,20 @@ public class ApplicationData : MonoBehaviour
         }
     }
 
+    public static Sprite GetLocaleImage(LocaleType key)
+    {
+        var locale = applicationData.localeData.Find((obj) => obj.key == key);
+        if (locale.key != LocaleType.None)
+        {
+            return locale.localContents.Find((obj) => obj.languageType == SelectedLanguage).image;
+        }
+        else
+        {
+            Debug.LogError("cant find locale");
+            return null;
+        }
+    }
+
     public static List<YokaiData> YokaiData {
         get {
             return applicationData.yokaiData;
@@ -30,6 +45,11 @@ public class ApplicationData : MonoBehaviour
     {
         return applicationData.successImageData.Find ((obj) => obj.type == languageType);
     }
+
+	public static Logo GetLogoImage(LanguageType languageType)
+	{
+		return applicationData.logo.Find ((obj) => obj.type == languageType);
+	}
 
     public static YokaiData GetYokaiData (int yokai_id)
     {
@@ -103,11 +123,41 @@ public class ApplicationData : MonoBehaviour
         }
     }
 
+	public static float SetLineSpacing(LocaleType key){
+		var locale = applicationData.localeData.Find ((obj) => obj.key == key);
+		if (locale.key != LocaleType.None) {
+			return locale.localContents [(int)ApplicationData.SelectedLanguage].lineSpacing;
+		} else {
+			return 1 ;
+		}
+	}
+
+	public static float SetLineWidth(LocaleType key){
+		var locale = applicationData.localeData.Find ((obj) => obj.key == key);
+		if (locale.key != LocaleType.None) {
+			return locale.localContents [(int)ApplicationData.SelectedLanguage].lineWidth;
+		} else {
+			return 1 ;
+		}
+	}
+
+	public static Vector2 SetLinePosition(LocaleType key){
+		var locale = applicationData.localeData.Find ((obj) => obj.key == key);
+		if (locale.key != LocaleType.None) {
+			return locale.localContents [(int)ApplicationData.SelectedLanguage].linePosition;
+		} else {
+			return new Vector2(0,0) ;
+		}
+	}
+
     [SerializeField]
     LanguageType selectedLanguage = LanguageType.Japanese;
 
     [SerializeField]
     List<LocaleData> localeData = new List<LocaleData> ();
+
+    [SerializeField]
+    List<Locale> local = new List<Locale>();
 
     [SerializeField]
     List<YokaiData> yokaiData = new List<YokaiData> ();
@@ -128,7 +178,8 @@ public class ApplicationData : MonoBehaviour
     [SerializeField]
     List<YokaiGetTutorialData> yokaiGetTutorialData = new List<YokaiGetTutorialData> ();
 
-
+	[SerializeField]
+	List<Logo> logo = new List<Logo>();
 
 
     void Awake ()
@@ -163,7 +214,38 @@ public enum LocaleType
     LastEndingAfterBoss,
     WaitNextDetect,
     Guide,
-    HowToPlay
+    HowToPlay,
+    TapOnPrologue,
+    ButtonBack,
+    TitleYokaiLibrary,
+    IconLimitedYokai,
+    ButtonHowToPlay,
+    ButtonYokaiLibrary,
+    ButtonBonus,
+    ButtonSwitchCamera,
+    TitleBonusPage,
+    ButtonPhotoFrame,
+    ButtonTicket,
+    ButtonPrologue,
+    TitleTicketPage,
+    TicketNoticeForStaff,
+    TicketNoticeDontTap,
+    ButtonTicketStaff,
+    SelectLanguage,
+    ButtonOpenEsashiApp,
+    ButtonOpenCautionDialog,
+    ButtonClose,
+    ButtonGetSuccessful,
+    ButtonToSeal,
+    MessageGetItem,
+    MessageGetYokai,
+    MessageFindYokai,
+    MessageFindItem,
+	ConfirmationDialog1,
+	ConfirmationDialog2,
+	ButtonYes,
+	ButtonNo,
+	ButtonExchangeTicket
 }
 
 [Serializable]
@@ -171,9 +253,7 @@ public struct LocaleData
 {
     public LocaleType key;
     public List<Locale> localContents;
-
 }
-
 
 [Serializable]
 public struct SuccessImageData
@@ -197,6 +277,13 @@ public struct YokaiGetTutorialData
 {
     public int index;
     public List<Locale> localContents;
+}
+
+[Serializable]
+public struct Logo
+{
+	public LanguageType type;
+	public Sprite img;
 }
 
 [Serializable]
@@ -314,6 +401,10 @@ public struct Locale
     public LanguageType languageType;
     [Multiline]
     public string text;
+    public Sprite image;
+	public float lineSpacing;
+	public Vector2 linePosition;
+	public float lineWidth;
 }
 
 

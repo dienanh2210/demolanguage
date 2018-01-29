@@ -6,16 +6,27 @@ using System;
 using UnityEngine.UI;
 using System.Runtime.InteropServices;
 
+
 public class Photo : Page {
 
     public GameObject btBack, btPhoto;
+    [SerializeField]
+    Text txtBack, txtCameraSwitch;
     bool b = false;
+
+
 
     [DllImport("__Internal")]
 　　private static extern void _PlaySystemShutterSound();
 
 　　[DllImport("__Internal")]
 　　private static extern void _GetTexture(byte[] textureByte, int length);
+
+    private void OnEnable()
+    {
+        txtBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
+        txtCameraSwitch.text = ApplicationData.GetLocaleText(LocaleType.ButtonSwitchCamera);
+    }
 
     public void ChangeBonusPage()
     {

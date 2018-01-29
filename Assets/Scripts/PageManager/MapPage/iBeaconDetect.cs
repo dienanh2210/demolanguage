@@ -115,6 +115,8 @@ internal class iBeaconDetect : MonoBehaviour
         _camera = GameObject.FindGameObjectWithTag ("MainCamera");//
         posCamera = new Vector3 (0, 0, -9);
         MapImage = GameObject.Find ("Map").transform.Find ("Map_Image").gameObject;
+        btnGetYokai.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonToSeal);
+        btnSuccess.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonGetSuccessful);
     }
 
     void OnDetectBeacon ()
@@ -135,9 +137,9 @@ internal class iBeaconDetect : MonoBehaviour
 
             GetYokai.SetActive (true);
             if (PageData.yokaiID == -1) {
-                titleDialog.text = "アイテムを獲得しました！";
+                titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageGetItem);
             } else {
-                titleDialog.text = "妖怪を封印しました！";
+                titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageGetYokai);
             }
             btnSuccess.SetActive (true);
             btnGetYokai.SetActive (false);
@@ -236,9 +238,9 @@ internal class iBeaconDetect : MonoBehaviour
                 }
 
                 if (beaconData.iBeaconType == IBeaconType.Yokai) {
-                    titleDialog.text = "妖 怪 を 見 つけました。封 印 しますか?";
+                    titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageFindYokai);
                 } else if (beaconData.iBeaconType == IBeaconType.Item) {
-                    titleDialog.text = "アイテム を 見 つけました。獲 得 しますか?";
+                    titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageFindItem);
                 }
 
                 OnDetectBeacon ();

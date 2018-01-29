@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
@@ -17,7 +17,9 @@ public class TitlePage : Page
     [SerializeField]
     TextPic txtTerm;
     [SerializeField]
-    Text txtRed;
+    Text txtRed, txtSelectLanguage, txtShowApp, txtCaution;
+
+	public Image imgLogo;
 
     string iosID;
     string androidID;
@@ -29,6 +31,31 @@ public class TitlePage : Page
 
     #region Init
     void OnEnable (){
+		switch (Application.systemLanguage.ToString()) {
+		case "Japanese":
+			SelectJapanese ();
+			ApplicationData.SelectedLanguage = LanguageType.Japanese;
+			break;
+		case "ChineseTraditional":
+			SelectChinese1 ();
+			ApplicationData.SelectedLanguage = LanguageType.Chinese1;
+			break;
+		case "ChineseSimplified":
+			SelectChinese2 ();
+			ApplicationData.SelectedLanguage = LanguageType.Chinese2;
+			break;
+		case "Thai":
+			SelectThai ();
+			ApplicationData.SelectedLanguage = LanguageType.Thai;
+			break;
+		default:
+			SelectEnglish ();
+			ApplicationData.SelectedLanguage = LanguageType.English;
+			break;
+		}
+
+		imgLogo.sprite = ApplicationData.GetLogoImage (ApplicationData.SelectedLanguage).img;
+
         PageData.Initialize ();
         androidID = "com.fujiwaranosato.EsashiNavi";
         iosID = "youtube-watch-listen-stream/id544007664?mt=8";
@@ -44,6 +71,11 @@ public class TitlePage : Page
         {
             dialog.SetActive(false);
         }
+
+        txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
+        txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
+        txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
+
     }
     private void Start()
     {
@@ -58,7 +90,7 @@ public class TitlePage : Page
         {
             PopupRed.SetActive(false);
         }
-        DisalbeButton("btJapanese");
+
     }
 #endregion
 
@@ -118,16 +150,19 @@ public class TitlePage : Page
             List<Button> lstTemp = lstButton.FindAll(x => x.name != name);
             Button bt = lstButton.Find(x => x.name == name);
             Color myGray = new Color();
-            ColorUtility.TryParseHtmlString("#9C9C9CFF", out myGray);
             bt.GetComponentInChildren<Text>().color = Color.black;
             bt.image.sprite = lstSprite[1];
             foreach (var item in lstTemp)
             {
-                item.image.sprite = lstSprite[2];
-                item.GetComponentInChildren<Text>().color = myGray;
-                item.interactable = false;
+                item.interactable = true;
             }
+			
+		imgLogo.sprite = ApplicationData.GetLogoImage (ApplicationData.SelectedLanguage).img;
+		txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
+		txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
+		txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
         }
+
         public void SelectEnglish()
         {
             ApplicationData.SelectedLanguage = LanguageType.English;
@@ -166,6 +201,7 @@ public class TitlePage : Page
         {
             PageManager.Show(PageType.MapPage);
         }
+        MapManager.SetupMapImage();
     }
     public void EnableBluetooth()
     {

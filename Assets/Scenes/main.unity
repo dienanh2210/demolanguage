@@ -577,6 +577,13 @@ MonoBehaviour:
   greenFireIcon: {fileID: 21300000, guid: d1d9d5beebde0124093c9bbe9e8b4acb, type: 3}
   redFireIcon: {fileID: 21300000, guid: ac0f75f9d62b1c642bd7f63e8a1a9125, type: 3}
   pageIcon: {fileID: 21300000, guid: 9e5a6c9fc51bb12408b4ad3c6784894b, type: 3}
+  mapImage:
+  - {fileID: 2800000, guid: b90c8c091fc54d54088c27d6f5acf50a, type: 3}
+  - {fileID: 2800000, guid: d0167638f25b8cc4abecffcf616ff4dc, type: 3}
+  - {fileID: 2800000, guid: c74e7fd49ecd4954c88a562660be727b, type: 3}
+  - {fileID: 2800000, guid: d7f4fd89e3de1184c8708d87d670e3e2, type: 3}
+  - {fileID: 2800000, guid: 98e4b5bdcb044f7478b12d61b0d18bf6, type: 3}
+  map: {fileID: 1253129828}
 --- !u!1 &361762331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,6 +1879,11 @@ Transform:
   m_Father: {fileID: 342330562}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1253129828 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1671400357748972, guid: 5b1064b09fd30dc4eaafb03edc9e4c8d,
+    type: 2}
+  m_PrefabInternal: {fileID: 896699794}
 --- !u!1 &1267556544
 GameObject:
   m_ObjectHideFlags: 0
