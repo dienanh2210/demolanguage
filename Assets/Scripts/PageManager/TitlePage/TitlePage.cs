@@ -21,11 +21,15 @@ public class TitlePage : Page
 
 	public Image imgLogo;
 
-    string iosID;
-    string androidID;
+    string iosID = "id1331763426";
+    string iosScheme = "esashinavi://";
+    string androidID = "com.fujiwaranosato.EsashiNavi";
 
     [DllImport ("__Internal")]
-    private static extern int isInstalled();
+    private static extern bool isInstalled(string id);
+
+    [DllImport ("__Internal")]
+    private static extern void openByScheme (string scheme);
 
     #endregion
 
@@ -57,8 +61,6 @@ public class TitlePage : Page
 		imgLogo.sprite = ApplicationData.GetLogoImage (ApplicationData.SelectedLanguage).img;
 
         PageData.Initialize ();
-        androidID = "com.fujiwaranosato.EsashiNavi";
-        iosID = "youtube-watch-listen-stream/id544007664?mt=8";
 
         if (ApplicationLogic.IsShowTermLimitedYokai())
         {
@@ -97,15 +99,9 @@ public class TitlePage : Page
     #region LaunchApp
         void IosLaunch()
         {
-
-            int appStatus = 0; //Assign value we recieve to this
-        
-            // Calls the isInstalled function inside the plugin 
-            appStatus = isInstalled(); //returns the status of app install in ObjC plugin
-            // 0 is No, 1 is Yes
-
-            if (appStatus != 1)
-            {
+            if (isInstalled (iosScheme)) {
+                openByScheme (iosScheme);
+            } else {
                 Application.OpenURL("itms-apps://itunes.apple.com/app/" + iosID);
             }
         }
