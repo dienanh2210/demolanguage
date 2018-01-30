@@ -2283,6 +2283,16 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.size
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4912132068235694, guid: 1587412637c0d401a998db761204100f, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2325,6 +2335,56 @@ Prefab:
       propertyPath: pageTransiton
       value: 
       objectReference: {fileID: 1659282986}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].key
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.data[0].text
+      value: "\u5996\u602A\u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.data[1].languageType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.data[1].text
+      value: "You found a y\u014Dkai."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.data[2].languageType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.data[2].text
+      value: "\u767C\u73FE\u5996\u602A\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.data[3].languageType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.data[3].text
+      value: "\u53D1\u73B0\u5996\u602A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.data[4].languageType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114986910850865928, guid: 1587412637c0d401a998db761204100f,
+        type: 2}
+      propertyPath: localeData.Array.data[46].localContents.Array.data[4].text
+      value: "\u0E04\u0E38\u0E13\u0E1E\u0E1A\u0E42\u0E22\u0E44\u0E01"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1587412637c0d401a998db761204100f, type: 2}
   m_IsPrefabParent: 0
