@@ -67,6 +67,8 @@ public class TitlePage : Page
             dialog.SetActive(true);
 
             txtTerm.text = ApplicationData.GetLocaleText(LocaleType.TermLimitedYokai);
+			txtTerm.lineSpacing = ApplicationData.SetLineSpacing (LocaleType.TermLimitedYokai);
+			txtTerm.fontSize = ApplicationData.SetFontSize (LocaleType.TermLimitedYokai);
 
         }
         else
