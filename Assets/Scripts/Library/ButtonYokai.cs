@@ -17,6 +17,10 @@ public class ButtonYokai : Page {
 
     [SerializeField]
     GameObject backLibrary;
+
+    [SerializeField]
+    GameObject backButton;
+
     [SerializeField]
     GameObject content;
 
@@ -35,6 +39,10 @@ public class ButtonYokai : Page {
     {
         count = 1;
         bnYokai = this;
+        library.transform.Find("TitleText").GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.TitleYokaiLibrary);
+        backLibrary.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
+        backButton.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
+
     }
 
     public void ClickYokai(int name)

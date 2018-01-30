@@ -40,17 +40,22 @@ public class YokaiLibrary : MonoBehaviour
                 {
                     if (ApplicationData.YokaiData[n].isTermLimited)
                     {
-                        i.transform.GetChild(2).gameObject.SetActive(true);
+                        i.transform.Find("Limit").gameObject.SetActive(true);
+                        i.transform.Find("Limit").GetComponent<Image>().sprite = ApplicationData.GetLocaleImage(LocaleType.IconLimitedYokai);                     
                     }
                     if (!CheckId(ApplicationData.YokaiData[n].necessary_item_id))
                     {
                         i.transform.GetChild(0).GetComponent<Image>().sprite = ApplicationData.YokaiData[n].image;
-                        if (UserData.GetLatestYokaiId () == ApplicationData.YokaiData [n].id) {
+                        if (UserData.GetLatestYokaiId () == ApplicationData.YokaiData [n].id)
+                        {
                             i.transform.GetChild (1).gameObject.SetActive (true);
-                            if (ApplicationData.YokaiData [n].isTermLimited) {
-                                i.transform.GetChild (2).gameObject.SetActive (false);
+                            if (ApplicationData.YokaiData [n].isTermLimited)
+                            {
+                                i.transform.Find("Limit").gameObject.SetActive (false);
                             }
-                        } else {
+                        }
+                        else
+                        {
                             i.transform.GetChild (1).gameObject.SetActive (false);
                         }
                         if (check)
@@ -76,9 +81,10 @@ public class YokaiLibrary : MonoBehaviour
                             {
                                 i.transform.GetChild(1).gameObject.SetActive(true);
                                 if (ApplicationData.YokaiData [n].isTermLimited) {
-                                    i.transform.GetChild (2).gameObject.SetActive (false);
+                                    i.transform.Find("Limit").gameObject.SetActive (false);
                                 }
-                            } else
+                            }
+                            else
                             {
                                 i.transform.GetChild(1).gameObject.SetActive(false);
                             }

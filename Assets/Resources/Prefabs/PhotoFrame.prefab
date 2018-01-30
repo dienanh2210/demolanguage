@@ -985,7 +985,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}
-    m_FontSize: 33
+    m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -996,7 +996,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5207\u66FF\u3048"
+  m_Text: 
 --- !u!114 &114783985041519542
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1064,6 +1064,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   btBack: {fileID: 1958196179993268}
   btPhoto: {fileID: 1769408856845546}
+  txtBack: {fileID: 114902317117659304}
+  txtCameraSwitch: {fileID: 114773187785626052}
 --- !u!114 &114838799633476002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1149,7 +1151,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u623B \u308B"
+  m_Text: 
 --- !u!114 &114932160211588392
 MonoBehaviour:
   m_ObjectHideFlags: 1
