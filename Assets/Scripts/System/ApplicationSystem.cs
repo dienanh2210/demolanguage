@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ApplicationSystem : MonoBehaviour
 {
 
     // Use this for initialization
     void Start()
     {
-
+        Override.startiBeacon();
 
     }
 
