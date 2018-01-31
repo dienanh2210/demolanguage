@@ -19,15 +19,22 @@ public class MapManager : MonoBehaviour {
 
     static MapManager instance;
 
-	// Use this for initialization
-	void Awake () {
+    [SerializeField]
+    List<Texture> mapImage;
+
+    [SerializeField]
+    GameObject map;
+
+    // Use this for initialization
+    void Awake () {
         instance = this;
 	}
 
     void Start ()
     {
         SetupIcon ();
-       // PlayerPrefs.DeleteAll();
+        // PlayerPrefs.DeleteAll();
+        
     }
 
     public static void SetupIcon ()
@@ -56,5 +63,10 @@ public class MapManager : MonoBehaviour {
     public static IBeaconIcon GetIBeaconIcon (int index)
     {
         return instance.icons.Find ((icon) => icon.IbeaconIndex == index);
+    }
+
+    public static void SetupMapImage()
+    {
+        instance.map.GetComponent<Renderer>().material.mainTexture = instance.mapImage[(int)ApplicationData.SelectedLanguage];
     }
 }

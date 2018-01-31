@@ -1,41 +1,21 @@
 
 //Objective-C Code
-#import <Foundation/Foundation.h>    
+#import <Foundation/Foundation.h>
 
-  @interface SampleClass:NSObject
-  /* method declaration */
-- (int)isInstalledX;
-  @end
-  
-  @implementation SampleClass
-
-
-- (int)isInstalledX
-   {
-        int param = 0;
-        NSString *youtubeAppURL = @"youtube://";
-		
-        if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"youtube://"]])
+//C-wrapper that Unity communicates with
+extern "C"
+{
+    bool isInstalled(const char *scheme)
+    {
+        if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:[ [ NSString alloc ] initWithUTF8String:scheme ]]])
         {
-            param = 1;
-			[[UIApplication sharedApplication] openURL:[NSURL URLWithString:youtubeAppURL]];
-        }else{
-            param = 40;
+            return true;
         }
-        
-        return param;
-        
+        return false;
     }
-
-  @end
-
- //C-wrapper that Unity communicates with
-  extern "C"
-  {
-      int isInstalled()
-     {
-        SampleClass *status = [[SampleClass alloc] init];
-        return [status isInstalledX];
-     }
-     
-  }
+    
+    void openByScheme(const char *scheme)
+    {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[ [ NSString alloc ] initWithUTF8String:scheme ]]];
+    }
+}

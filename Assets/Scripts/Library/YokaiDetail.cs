@@ -44,18 +44,18 @@ public class YokaiDetail : MonoBehaviour
 
         if (yokai.kana != "")
         {
-            _name.GetComponent<Text>().text = yokai.localNames[0].text.ToString();
+			_name.GetComponent<Text>().text = yokai.localNames[(int)ApplicationData.SelectedLanguage].text.ToString();
             _kana.GetComponent<Text>().text = yokai.kana.ToString();
         }
         else
         {
-            _name.GetComponent<Text>().text = yokai.localNames[0].text.ToString();
+			_name.GetComponent<Text>().text = yokai.localNames[(int)ApplicationData.SelectedLanguage].text.ToString();
             _kana.GetComponent<Text>().text = yokai.kana.ToString();
         }
 
         for (int a = 0; a < ApplicationData.YokaiData[a].localContents.Count; a++)
         {
-            _description.GetComponent<Text>().text = yokai.localContents[a].text.ToString();
+			_description.GetComponent<Text>().text = yokai.localContents[(int)ApplicationData.SelectedLanguage].text.ToString();
         }
     }
 
@@ -73,15 +73,15 @@ public class YokaiDetail : MonoBehaviour
                 _image.GetComponent<Image>().sprite = d.image;
                 if (d.kana != "")
                 {
-                    _name.GetComponent<Text>().text = d.localNames[0].text;
+					_name.GetComponent<Text>().text = d.localNames[(int)ApplicationData.SelectedLanguage].text;
                     _kana.GetComponent<Text>().text = d.kana;
                 }
                 else
                 {
-                    _name.GetComponent<Text>().text = d.localNames[0].text;
+					_name.GetComponent<Text>().text = d.localNames[(int)ApplicationData.SelectedLanguage].text;
                     _kana.GetComponent<Text>().text = d.kana;
                 }
-                _description.GetComponent<Text>().text = d.localContents[0].text;
+				_description.GetComponent<Text>().text = d.localContents[(int)ApplicationData.SelectedLanguage].text;
             }
         }
         PageData.Initialize();
