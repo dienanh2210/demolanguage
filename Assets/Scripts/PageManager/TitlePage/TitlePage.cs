@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using TwitterKit.Unity;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -35,7 +36,7 @@ public class TitlePage : Page
 
     #region Init
     void OnEnable (){
-		switch (Application.systemLanguage.ToString()) {
+        switch (Application.systemLanguage.ToString()) {
 		case "Japanese":
 			SelectJapanese ();
 			ApplicationData.SelectedLanguage = LanguageType.Japanese;
@@ -83,6 +84,7 @@ public class TitlePage : Page
     }
     private void Start()
     {
+        Twitter.Init();
         if (!UserData.IsShowedGuideNote)
         {
             PopupRed.SetActive(true);
