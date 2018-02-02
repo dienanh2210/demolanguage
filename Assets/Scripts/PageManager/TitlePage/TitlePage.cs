@@ -163,14 +163,13 @@ public class TitlePage : Page
 		txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
 		txtSelectLanguage.fontSize = ApplicationData.SetFontSize (LocaleType.SelectLanguage);
 		txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
-		txtShowApp.fontSize = ApplicationData.SetFontSize (LocaleType.SelectLanguage);
 		txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
-		txtCaution.fontSize = ApplicationData.SetFontSize (LocaleType.SelectLanguage);
 
 		GetText = Text.FindObjectsOfType<Text> ();
 		if(ApplicationData.SelectedLanguage == LanguageType.Thai){
 			txtSelectLanguage.font = ApplicationData.GetFont (4);
 			txtShowApp.font = ApplicationData.GetFont (4);
+
 			txtCaution.font = ApplicationData.GetFont (4);
 		}else{
 			txtSelectLanguage.font = ApplicationData.GetFont (2);
