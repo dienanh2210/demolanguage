@@ -20,6 +20,24 @@ public class ApplicationData : MonoBehaviour
         }
     }
 
+	public static Font GetFont(int index){
+		switch (index) {
+		case 1:
+			return applicationData.fontData.titleFont;
+			break;
+		case 2:
+			return applicationData.fontData.contentFont;
+			break;
+		case 3:
+			return applicationData.fontData.thaiTitleFont;
+			break;
+		case 4:
+			return applicationData.fontData.thaiContentFont;
+			break;
+		}
+		return null;
+	}
+
     public static Sprite GetLocaleImage(LocaleType key)
     {
         var locale = applicationData.localeData.Find((obj) => obj.key == key);
@@ -166,6 +184,9 @@ public class ApplicationData : MonoBehaviour
     [SerializeField]
     List<LocaleData> localeData = new List<LocaleData> ();
 
+	[SerializeField]
+	FontText fontData = new FontText();
+
     [SerializeField]
     List<Locale> local = new List<Locale>();
 
@@ -264,6 +285,7 @@ public struct LocaleData
     public LocaleType key;
     public List<Locale> localContents;
 }
+	
 
 [Serializable]
 public struct SuccessImageData
@@ -418,4 +440,12 @@ public struct Locale
 	public int fontSize;
 }
 
+
+[Serializable]
+public struct FontText{
+	public Font titleFont;
+	public Font contentFont;
+	public Font thaiTitleFont;
+	public Font thaiContentFont;
+}
 

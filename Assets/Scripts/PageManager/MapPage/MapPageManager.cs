@@ -79,7 +79,14 @@ public class MapPageManager : Page
         btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonYokaiLibrary);
         btnShowRewardList.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBonus);
         btnGuidePlay.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonHowToPlay);
+		btnGuidePlay.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
+		btnGuidePlay.transform.GetChild (0).GetComponent<Text> ().fontSize = ApplicationData.SetFontSize (LocaleType.ButtonHowToPlay);
         btnClose.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonClose);
+		if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
+			btnClose.transform.GetChild (0).GetComponent<Text> ().font = ApplicationData.GetFont (4);
+		} else {
+			btnClose.transform.GetChild (0).GetComponent<Text> ().font = ApplicationData.GetFont (2);
+		}
     }
 
     IEnumerator _EnableBeacon ()
@@ -310,5 +317,7 @@ public class MapPageManager : Page
     {
         DialogGuidePlay.SetActive(true);
         DialogGuidePlay.transform.GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.HowToPlay);
+		DialogGuidePlay.transform.GetChild (1).GetComponent<Text> ().font = ChangeFont ();
+		DialogGuidePlay.transform.GetChild (1).GetComponent<Text> ().fontSize = ApplicationData.SetFontSize (LocaleType.HowToPlay);
     }
 }
