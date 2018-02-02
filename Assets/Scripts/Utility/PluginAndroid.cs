@@ -1,16 +1,19 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PluginAndroid : MonoBehaviour
 {
+   
+     
+#if UNITY_ANDROID
+    public static System.Action<string> OnGetBeacon;
 
     private AndroidJavaObject activityContext = null;
     private AndroidJavaObject pluginObject = null;
-
     private bool onFocus = false;
     private bool onForeground = true;
-
     void Start()
     {
         using (AndroidJavaClass activityClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
@@ -25,6 +28,9 @@ public class PluginAndroid : MonoBehaviour
                 pluginObject.Call("setContext", activityContext);
             }
         }
+        pluginObject.Call("isNotRunningBackground");
+
+        pluginObject.Call("turnOnService", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification), "");
     }
 
     string DataToJSON()
@@ -35,7 +41,12 @@ public class PluginAndroid : MonoBehaviour
         {
             if (ib.IsShowOnMap())
             {
-                sb.Append(JsonUtility.ToJson(ib));
+                IbeaconCanShown newData = new IbeaconCanShown();
+                newData.uuId = ib.uuid;
+                newData.majorId = ib.major_id;
+                newData.minorId = ib.minor_id;
+                newData.timeLastShown = UserData.GetLastTimeDetectBeacon(ib.minor_id, ib.major_id, ib.uuid).ToString("yyyy/MM/dd HH:mm:ss");
+                sb.Append(JsonUtility.ToJson(newData));
                 sb.Append(',');
             }
         }
@@ -45,23 +56,39 @@ public class PluginAndroid : MonoBehaviour
         string finalJSON = "{\"iBeacons\":" + str + "}";
         return finalJSON;
     }
-
     void OnApplicationPause(bool pauseStatus)
     {
         if (pauseStatus && !onFocus && onForeground)
         {
-            pluginObject.Call("turnOnService", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification), "");
+            pluginObject.Call("changeJsonValue", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification));
+            pluginObject.Call("isRunningBackground");
             onForeground = false;
         }
-        if (!pauseStatus && onFocus && !onForeground)
+        else if (!pauseStatus && onFocus && !onForeground)
         {
+            pluginObject.Call("isNotRunningBackground");
             onForeground = true;
-            pluginObject.Call("turnOffService");
         }
     }
+
 
     void OnApplicationFocus(bool hasFocus)
     {
         onFocus = hasFocus;
     }
+    public void ReceiveMessage(string ibeacon)
+    {
+        if (OnGetBeacon != null)
+            OnGetBeacon(ibeacon);
+    }
+#endif
+
+}
+public struct IbeaconCanShown
+{
+    public string uuId;
+    public string majorId;
+    public string minorId;
+    public string timeLastShown;
+
 }

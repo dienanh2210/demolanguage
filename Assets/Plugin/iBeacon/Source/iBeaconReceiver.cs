@@ -191,7 +191,9 @@ public class iBeaconReceiver : MonoBehaviour {
 	}
 
 	public static void Scan() {
-
+#if UNITY_ANDROID
+               return;
+#endif
         if (!initialized) {
 			InternInit(true);
 			return;
