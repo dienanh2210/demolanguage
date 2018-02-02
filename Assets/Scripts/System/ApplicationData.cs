@@ -276,7 +276,8 @@ public enum LocaleType
 	ConfirmationDialog2,
 	ButtonYes,
 	ButtonNo,
-	ButtonExchangeTicket
+	ButtonExchangeTicket,
+    ShareTwitterTitle
 }
 
 [Serializable]
