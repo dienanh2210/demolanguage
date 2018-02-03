@@ -14,6 +14,7 @@ public class PluginAndroid : MonoBehaviour
     private AndroidJavaObject pluginObject = null;
     private bool onFocus = false;
     private bool onForeground = true;
+
     void Start()
     {
         using (AndroidJavaClass activityClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
@@ -56,6 +57,7 @@ public class PluginAndroid : MonoBehaviour
         string finalJSON = "{\"iBeacons\":" + str + "}";
         return finalJSON;
     }
+
     void OnApplicationPause(bool pauseStatus)
     {
         if (pauseStatus && !onFocus && onForeground)
@@ -76,10 +78,16 @@ public class PluginAndroid : MonoBehaviour
     {
         onFocus = hasFocus;
     }
+
     public void ReceiveMessage(string ibeacon)
     {
         if (OnGetBeacon != null)
             OnGetBeacon(ibeacon);
+    }
+
+    private void OnApplicationQuit()
+    {
+        pluginObject.Call("turnOffService");
     }
 #endif
 
