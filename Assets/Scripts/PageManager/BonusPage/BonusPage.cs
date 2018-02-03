@@ -32,7 +32,7 @@ public class BonusPage : Page {
             if (ApplicationLogic.IsShowPhotoFrame())
                 ChangeColor(btShowPhoto, lstImg, true);
             else
-                ChangeColor(btShowPhoto, lstImg, false);
+                ChangeColor(btShowPhoto, lstImg, true);
 
             if (ApplicationLogic.IsShowTicket())
                 ChangeColor(btShowTicket, lstImg, true);
