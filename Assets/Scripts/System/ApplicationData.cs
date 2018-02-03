@@ -255,7 +255,8 @@ public enum LocaleType
 	ConfirmationDialog2,
 	ButtonYes,
 	ButtonNo,
-	ButtonExchangeTicket
+	ButtonExchangeTicket,
+    DetectNotification
 }
 
 [Serializable]
