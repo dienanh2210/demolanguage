@@ -81,7 +81,18 @@ internal class iBeaconDetect : MonoBehaviour
         bs_State = BroadcastState.inactive;
         BluetoothState.EnableBluetooth ();
     }
-
+ #if UNITY_ANDROID
+    private void OnEnable()
+    {
+        if (PluginAndroid.OnGetBeacon == null)
+            PluginAndroid.OnGetBeacon += DisplayOnBeaconFound;
+    }
+    private void OnDisable()
+    {
+        if (PluginAndroid.OnGetBeacon != null)
+            PluginAndroid.OnGetBeacon -= DisplayOnBeaconFound;
+    }
+#endif
     private void Start ()
     {
         _bluetoothButton.onClick.AddListener (delegate () {
@@ -197,7 +208,71 @@ internal class iBeaconDetect : MonoBehaviour
             yield return new WaitForSeconds(0.25f);
         }
     }
+    private void DisplayOnBeaconFound(string ibecon)
+    {
+        RectTransform rt_Content = (RectTransform)go_ScrollViewContent.transform;
+        string[] ibeconID = ibecon.Split('_');
+        string uuid = ibeconID[0];
+        string majorId = ibeconID[1];
+        string minorId = ibeconID[2];
 
+        if (!UserData.CanDetectIBeacon(minorId, majorId, uuid.ToUpper()))
+        {
+            return;
+        }
+
+        if (ApplicationData.IBeaconData.Exists((obj) =>
+                                                   obj.minor_id == minorId.ToString()
+                                               && obj.major_id == majorId.ToString()
+                                               && obj.uuid.ToUpper() == uuid.ToUpper()))
+        {
+            var beaconData = ApplicationData.IBeaconData.Find((obj) =>
+                                                              obj.minor_id == minorId
+                                                              && obj.major_id == majorId.ToString()
+                                                              && obj.uuid.ToUpper() == uuid.ToUpper());
+
+            if (!beaconData.IsShowOnMap())
+            {
+                return;
+            }
+
+            UserData.DetectIBeacon(minorId, majorId, uuid.ToUpper());
+            _dataID = beaconData.index;
+            GetYokai.SetActive(true);
+            StartCoroutine(Vibrate());
+            btnSuccess.SetActive(false);
+            btnGetYokai.SetActive(true);
+            // StartCoroutine(Complete());
+
+            if (beaconData.iBeaconType == IBeaconType.Item)
+            {
+                //PlayerPrefs.SetInt ("itemID", beaconData.data_id);
+                //PageData.itemID = beaconData.data_id;
+                PageData.SetItemID(beaconData.data_id);
+            }
+            else
+            {
+                //PlayerPrefs.SetInt ("yokaiID", beaconData.data_id);
+                //PageData.yokaiID = beaconData.data_id;
+                PageData.SetYokaiID(beaconData.data_id);
+            }
+
+            if (beaconData.iBeaconType == IBeaconType.Yokai)
+            {
+                titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageFindYokai);
+            }
+            else if (beaconData.iBeaconType == IBeaconType.Item)
+            {
+                titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageFindItem);
+            }
+
+            OnDetectBeacon();
+
+        }
+
+        go_FoundBeaconClone.transform.SetParent(go_ScrollViewContent.transform);
+        //go_FoundBeaconClone.transform.localPosition = new Vector3(0, 0, 0);//
+    }
     private void DisplayOnBeaconFound ()
     {
         RectTransform rt_Content = (RectTransform)go_ScrollViewContent.transform;

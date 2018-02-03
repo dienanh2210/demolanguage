@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fujiwaranosato.YokaiAR.ibeacon">
+
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application>
+        <service
+            android:enabled="true"
+            android:name="com.fujiwaranosato.YokaiAR.ibeacon.IBeaconService"
+            android:exported="true"></service>
+    </application>
+
+</manifest>
