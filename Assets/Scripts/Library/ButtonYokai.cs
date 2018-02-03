@@ -40,9 +40,11 @@ public class ButtonYokai : Page {
         count = 1;
         bnYokai = this;
         library.transform.Find("TitleText").GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.TitleYokaiLibrary);
+		library.transform.Find ("TitleText").GetComponent<Text> ().font = ChangeFont ();
         backLibrary.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
+		backLibrary.transform.GetChild(0).GetComponent<Text>().font = ChangeFont ();
         backButton.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
-
+		backButton.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
     }
 
     public void ClickYokai(int name)
@@ -56,9 +58,6 @@ public class ButtonYokai : Page {
             backLibrary.SetActive(true);
         }
             
-           
-        
-
     }
   
 

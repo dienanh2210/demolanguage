@@ -37,6 +37,7 @@ public class TitlePage : Page
 
     #region Init
     void OnEnable (){
+
         switch (Application.systemLanguage.ToString()) {
 		case "Japanese":
 			SelectJapanese ();

@@ -26,8 +26,10 @@ public class Page : MonoBehaviour
 	public Font ChangeFont(){
 		if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
 			return ApplicationData.GetFont (4);
+			Debug.Log (1);
 		} else {
 			return ApplicationData.GetFont (2);
+			Debug.Log (2);
 		}
 	}
 

@@ -119,11 +119,15 @@ public class CircleController : MonoBehaviour
             GameObject.FindGameObjectWithTag ("Model").transform.GetChild (2).gameObject.transform.localScale = new Vector3 (2, 2, 2);
 
             notification = GameObject.Find ("TextCanvas").transform.Find ("notification").gameObject;
-
+			if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
+				notification.GetComponentInChildren<Text> ().font = ApplicationData.GetFont (4);
+			} else {
+				notification.GetComponentInChildren<Text> ().font = ApplicationData.GetFont (2);
+			}
             if (GetPageManager.throwCount == 1) {
 
                 notification.SetActive (true);
-                notification.GetComponentInChildren<Text> ().text = ApplicationData.GetLocaleText (LocaleType.MiddleBossCrawMessage1);
+                notification.GetComponentInChildren<Text> ().text = ApplicationData.GetLocaleText (LocaleType.MiddleBossCrawMessage1); 
 
             }
             if (GetPageManager.throwCount == 2) {
@@ -303,6 +307,11 @@ public class CircleController : MonoBehaviour
         notification_ending = GameObject.Find ("TextCanvas").transform.Find ("notification_ending").gameObject;
         notification_ending.SetActive (true);
         notification_ending.GetComponentInChildren<Text> ().text = ApplicationData.GetLocaleText (LocaleType.LastEndingAfterBoss);
+		if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
+			notification_ending.GetComponentInChildren<Text> ().font = ApplicationData.GetFont (4);
+		} else {
+			notification_ending.GetComponentInChildren<Text> ().font = ApplicationData.GetFont (2);
+		}
         isCatch = true;
     }
 

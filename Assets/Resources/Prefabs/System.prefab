@@ -374,7 +374,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 1
       text: "There\u2019s a y\u014Dkai nearby that you can\u2019t capture without
         this page.\nKeep it safely until you find it."
@@ -382,21 +382,21 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 2
       text: "\u9019\u9644\u8FD1\u6709\u6C92\u6709\u6B64\u9801\u9762\n\u5C31\u7121\u6CD5\u5C01\u5370\u4E4B\u5996\u602A\u3002\n\u5728\u5C01\u5370\u5B8C\u6210\u4E4B\u524D\u52D9\u5FC5\u8B39\u614E\u6536\u597D\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 3
       text: "\u9644\u8FD1\u6709\u5FC5\u987B\u7528\u672C\u9875\n\u624D\u80FD\u5C01\u5370\u7684\u5996\u602A\u3002\n\u5728\u90A3\u4E4B\u524D\u52A1\u5FC5\u8C28\u614E\u6536\u597D\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 4
       text: "\u0E21\u0E35\u0E42\u0E22\u0E44\u0E01\u0E43\u0E01\u0E25\u0E49 \u0E46 \u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\n
         \u0E08\u0E31\u0E1A\u0E44\u0E14\u0E49\u0E42\u0E14\u0E22\u0E44\u0E21\u0E48\u0E43\u0E0A\u0E49\u0E2B\u0E19\u0E49\u0E32\u0E19\u0E35\u0E49\n
@@ -405,7 +405,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
   - key: 8
     localContents:
     - languageType: 0
@@ -1099,28 +1099,28 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 1
       text: Photo frame
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 2
       text: "\u76F8\u6846"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 3
       text: "\u76F8\u6846"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 4
       text: "\u0E01\u0E23\u0E2D\u0E1A\u0E20\u0E32\u0E1E"
       image: {fileID: 0}
@@ -1136,28 +1136,28 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 1
       text: Exchange Ticket
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 2
       text: "\u514C\u63DB\u5238"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 3
       text: "\u5151\u6362\u5238"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 4
       text: "\u0E41\u0E25\u0E01\u0E15\u0E31\u0E4B\u0E27"
       image: {fileID: 0}
@@ -1173,28 +1173,28 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 1
       text: Prologue
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 2
       text: "\u5E8F\u5E55"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 3
       text: "\u5F00\u573A\u767D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 35
+      fontSize: 60
     - languageType: 4
       text: "\u0E2D\u0E32\u0E23\u0E31\u0E21\u0E20\u0E1A\u0E17"
       image: {fileID: 0}
@@ -1210,72 +1210,72 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 100
     - languageType: 1
       text: Coupon
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 100
     - languageType: 2
       text: "\u62C9\u8F49\u63DB\u9580\u7968"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 100
     - languageType: 3
       text: "\u62C9\u8F6C\u6362\u95E8\u7968"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 100
     - languageType: 4
       text: "\u0E04\u0E39\u0E1B\u0E2D\u0E07"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 100
   - key: 29
     localContents:
     - languageType: 0
       text: "\u203B\u3053\u3061\u3089\u306E\u30DC\u30BF\u30F3\u306F\n <color=red>\u30B9\u30BF\u30C3\u30D5\u5C02\u7528</color>\u3067\u3059\u3002 "
       image: {fileID: 0}
       lineSpacing: 0.63
-      linePosition: {x: 69, y: -73}
+      linePosition: {x: 69, y: -85}
       lineWidth: 838.8
-      fontSize: 32
+      fontSize: 60
     - languageType: 1
       text: "\u203B This button is\n <color=red>for Staff </color>only.\n"
       image: {fileID: 0}
       lineSpacing: 0.63
       linePosition: {x: 50, y: -125}
       lineWidth: 600
-      fontSize: 32
+      fontSize: 60
     - languageType: 2
       text: "\u203B\u6B64\u6309\u9215\u70BA\u5DE5\u4F5C\n<color=red>\u4EBA\u54E1\u5C08\u7528</color>\u3002\n"
       image: {fileID: 0}
       lineSpacing: 0.63
-      linePosition: {x: -3, y: -122}
+      linePosition: {x: -3, y: -129}
       lineWidth: 838.8
-      fontSize: 32
+      fontSize: 60
     - languageType: 3
       text: "\u203B\u8FD9\u4E2A\u6309\u94AE\u662F\u5DE5\u4F5C\n<color=red>\u4EBA\u5458\u4E13\u7528</color>\u3002\n"
       image: {fileID: 0}
       lineSpacing: 0.63
-      linePosition: {x: -3, y: -122}
+      linePosition: {x: -3, y: -129}
       lineWidth: 838.8
-      fontSize: 32
+      fontSize: 60
     - languageType: 4
       text: "\u203B\u0E1B\u0E38\u0E48\u0E21\u0E19\u0E35\u0E49\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\n\_<color=red>
         \u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19
         </color>."
       image: {fileID: 0}
       lineSpacing: 1.1
-      linePosition: {x: -14, y: -90}
+      linePosition: {x: -14, y: -68}
       lineWidth: 838.8
       fontSize: 70
   - key: 30
@@ -1948,6 +1948,43 @@ MonoBehaviour:
       fontSize: 0
     - languageType: 4
       text: "\u0E41\u0E1A\u0E48\u0E07\u0E1B\u0E31\u0E19\u0E43\u0E19 Twitter?"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+  - key: 48
+    localContents:
+    - languageType: 0
+      text: "\u5996\u602A\u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 1
+      text: "You found a y\u014Dkai."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 2
+      text: "\u767C\u73FE\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 3
+      text: "\u53D1\u73B0\u5996\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 4
+      text: "\u0E04\u0E38\u0E13\u0E1E\u0E1A\u0E42\u0E22\u0E44\u0E01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -4113,7 +4150,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 1
       text: "Suddenly, something pitch black swoops down from the sky right in front
         of you...\nIt\u2019s Yatagarasu, a divine messenger.\n"
@@ -4121,21 +4158,21 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 2
       text: "\u7A81\u7136\u4E4B\u9593\uFF0C\u773C\u524D\u6709\u6F06\u9ED1\u4E4B\u7269\n\u5F9E\u5929\u800C\u964D\u30FB\u30FB\u30FB\n\u539F\u4F86\u662F\u795E\u4E4B\u4F7F\u8005\uFF0C\u516B\u54AB\u9CE5\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 3
       text: "\u7A81\u7136\uFF0C\u773C\u524D\u4E00\u7247\u6F06\u9ED1\u7684\u4E1C\u897F\n\u4ECE\u5929\u800C\u964D\u2026\u2026\n\u539F\u6765\u662F\u795E\u4F7F\u516B\u54AB\u9E1F\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 4
       text: "\u0E17\u0E31\u0E19\u0E43\u0E14\u0E19\u0E31\u0E49\u0E19 \u0E1A\u0E32\u0E07\u0E2A\u0E34\u0E48\u0E07\u0E2A\u0E35\u0E14\u0E33\u0E42\u0E09\u0E1A\u0E25\u0E07\u0E21\u0E32\u0E08\u0E32\u0E01\u0E17\u0E49\u0E2D\u0E07\u0E1F\u0E49\u0E32\u0E15\u0E23\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E04\u0E38\u0E13...\n
         \u0E19\u0E35\u0E48\u0E04\u0E37\u0E2D\u0E22\u0E32\u0E15\u0E30\u0E01\u0E32\u0E23\u0E32\u0E2A\u0E38
@@ -4144,7 +4181,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
   - index: 2
     localContents:
     - languageType: 0
@@ -4153,7 +4190,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 58.6, y: 124.65}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 1
       text: "Shuten-d\u014Dji has been ressurected, and he released the seal on the
         Y\u014Dkai Album! If you don\u2019t collect the y\u014Dkai right away, something
@@ -4162,21 +4199,21 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 58.6, y: 78}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 2
       text: "\u300C\u9152\u541E\u7AE5\u5B50\u5DF2\u5FA9\u6D3B\uFF0C\n\u4E26\u89E3\u958B\u5996\u602A\u5C01\u5370\u5E16\u4E0A\u7684\u5C01\u5370\u3002\n\u82E5\u4E0D\u76E1\u5FEB\u91CD\u65B0\u5C01\u5370\uFF0C\u5C31\u7CDF\u4E86\u3002\u300D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 58.6, y: 167}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 3
       text: "\"\u201C\u9152\u541E\u7AE5\u5B50\u82CF\u9192\u4E86\uFF0C\n\u5E76\u628A\u5996\u602A\u5C01\u5370\u5E16\u7684\u5C01\u5370\u89E3\u5F00\u4E86\u3002\n\u4E0D\u9A6C\u4E0A\u8FDB\u884C\u5C01\u5370\u7684\u8BDD\u9EBB\u70E6\u5C31\u5927\u4E86\u54E6\u3002\u201D\""
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 58.6, y: 124.65}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 4
       text: "\u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E1F\u0E37\u0E49\u0E19\u0E04\u0E37\u0E19\u0E0A\u0E35\u0E1E
         \u0E41\u0E25\u0E30\u0E01\u0E47\u0E1B\u0E25\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E1A\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01!
@@ -4186,7 +4223,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 58.6, y: 125}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
   - index: 3
     localContents:
     - languageType: 0
@@ -4195,7 +4232,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 1
       text: "Capture the y\u014Dkai at the places marked with -red_fire \nand return
         them to the album.\nUse this."
@@ -4203,21 +4240,21 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 88}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 2
       text: "\"\u300C\u8ACB\u7528\u9019\u500B\n\u91CD\u65B0\u5C01\u5370\n\u5728 -red_fire\u4E4B\u8655\u7684\u5996\u602A\u5011\u3002\u300D\""
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 3
       text: "\"\u201C\u628A -red_fire\u4E4B\u5904\u7684\u5996\u602A\u4EEC\n\u91CD\u65B0\u5C01\u5370\u5230\u5C01\u5370\u5E16\u91CC\u3002\n\u5C31\u7528\u8FD9\u4E2A\u54E6\u3002\u201D\""
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 4
       text: "\u201C\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19
         -red_fire\n\u0E41\u0E25\u0E30\u0E2A\u0E48\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E40\u0E02\u0E49\u0E32\u0E44\u0E1B\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\r\n
@@ -4226,7 +4263,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
   - index: 4
     localContents:
     - languageType: 0
@@ -4235,7 +4272,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 1
       text: "When you look in the bag it gives\nyou, you see a glass ball.\nThis is
         called the \u201COni-tama.\u201D"
@@ -4243,21 +4280,21 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 2
       text: "\u6253\u958B\u76AE\u56CA\u4E00\u770B\uFF0C\u767C\u73FE\u88E1\u9762\u6709\u4E00\u9846\u73BB\u7483\u73E0\u2500\u3002\n\u9019\u5C31\u662F\u300C\u9B3C\u7389\u300D\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 3
       text: "\u63A5\u8FC7\u76AE\u56CA\u6253\u5F00\u4E00\u770B\uFF0C\u91CC\u9762\u6709\u4E2A\u73BB\u7483\u73E0\u2500\u3002\n\u8FD9\u53EB\u505A\u201C\u9B3C\u7389\u201D\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 4
       text: "\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E04\u0E38\u0E13\u0E21\u0E2D\u0E07\u0E43\u0E19\u0E01\u0E23\u0E30\u0E40\u0E1B\u0E4B\u0E32\u0E17\u0E35\u0E48\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\u0E21\u0E32\r\n
         \u0E04\u0E38\u0E13\u0E08\u0E30\u0E40\u0E2B\u0E47\u0E19\u0E1A\u0E2D\u0E25\u0E41\u0E01\u0E49\u0E27\r\n
@@ -4266,7 +4303,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
   - index: 5
     localContents:
     - languageType: 0
@@ -4275,28 +4312,28 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 1
       text: "Capture the y\u014Dkai by carefully \ntapping on them."
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 2
       text: "\u300C\u53EA\u8981\u5728\u6B63\u78BA\u6642\u6A5F\u9EDE\u64CA\u5996\u602A\uFF0C\n\u5C31\u80FD\u5C01\u5370\u5996\u602A\u5011\u3002\u300D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 3
       text: "\u201C\u6293\u51C6\u65F6\u673A\u70B9\u51FB\u5996\u602A\uFF0C\n\u5C01\u5370\u5996\u602A\u4EEC\u5427\u3002\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 42
     - languageType: 4
       text: "\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01 \u0E42\u0E14\u0E22\u0E04\u0E48\u0E2D\u0E22
         \u0E46 \u0E41\u0E15\u0E30\u0E17\u0E35\u0E48\u0E15\u0E31\u0E27\u0E42\u0E22\u0E44\u0E01"
@@ -4304,7 +4341,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
   logo:
   - type: 0
     img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}

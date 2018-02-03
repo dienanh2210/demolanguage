@@ -29,18 +29,18 @@ public class BonusPage : Page {
             if (ApplicationLogic.IsShowPhotoFrame())
                 ChangeColor(btShowPhoto, lstImg, true);
             else
-                ChangeColor(btShowPhoto, lstImg, true);
+                ChangeColor(btShowPhoto, lstImg, false);
 
             if (ApplicationLogic.IsShowTicket())
                 ChangeColor(btShowTicket, lstImg, true);
             else
-                ChangeColor(btShowTicket, lstImg, true);
+                ChangeColor(btShowTicket, lstImg, false);
 
 
             if (UserData.IsGotTicket())
                 buttonTicket.SetActive(true);
             else
-                buttonTicket.SetActive(true);
+                buttonTicket.SetActive(false);
 
 		BonusPageText [0].text = ApplicationData.GetLocaleText (LocaleType.ButtonBack);
 		BonusPageText [1].text = ApplicationData.GetLocaleText(LocaleType.TitleBonusPage);
@@ -58,7 +58,7 @@ public class BonusPage : Page {
 		BonusPageText [11].text = ApplicationData.GetLocaleText (LocaleType.ButtonExchangeTicket);
 		BonusPageText [12].text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
 		BonusPageText [13].text = ApplicationData.GetLocaleText(LocaleType.TitleTicketPage);
-
+		BonusPageText [13].fontSize = ApplicationData.SetFontSize (LocaleType.TitleTicketPage);
 		BonusPageText [14].text = ApplicationData.GetLocaleText(LocaleType.TicketNoticeForStaff);
 		BonusPageText [14].rectTransform.localPosition = ApplicationData.SetLinePosition (LocaleType.TicketNoticeForStaff);
 		BonusPageText [14].rectTransform.sizeDelta = new Vector2 (ApplicationData.SetLineWidth (LocaleType.TicketNoticeForStaff), 327);
@@ -72,6 +72,7 @@ public class BonusPage : Page {
 		BonusPageText [16].text = ApplicationData.GetLocaleText(LocaleType.ButtonTicketStaff);
 
 		SetFont (BonusPageText);
+
 		BonusPageText [1].font = ApplicationData.GetFont (3);
 		BonusPageText [1].fontSize = ApplicationData.SetFontSize (LocaleType.TitleBonusPage);
 		BonusPageText [2].font = ApplicationData.GetFont (3);
