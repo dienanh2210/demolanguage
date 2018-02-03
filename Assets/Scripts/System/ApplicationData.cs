@@ -74,6 +74,7 @@ public class ApplicationData : MonoBehaviour
             return null;
         }
     }
+		
 
     public static List<YokaiData> YokaiData {
         get {
@@ -168,6 +169,15 @@ public class ApplicationData : MonoBehaviour
 		var locale = applicationData.localeData.Find ((obj) => obj.key == key);
 		if (locale.key != LocaleType.None) {
 			return locale.localContents [(int)ApplicationData.SelectedLanguage].lineSpacing;
+		} else {
+			return 1 ;
+		}
+	}
+
+	public static int SetFontSize(LocaleType key){
+		var locale = applicationData.localeData.Find ((obj) => obj.key == key);
+		if (locale.key != LocaleType.None) {
+			return locale.localContents [(int)ApplicationData.SelectedLanguage].fontSize;
 		} else {
 			return 1 ;
 		}
@@ -446,6 +456,7 @@ public struct Locale
 	public float lineSpacing;
 	public Vector2 linePosition;
 	public float lineWidth;
+	public int fontSize;
 }
 
 
