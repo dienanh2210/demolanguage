@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceaab206b4369435481b3f443a96b774, type: 3}
   m_Name: TwitterKitSettings
   m_EditorClassIdentifier: 
-  consumerKey: p6w69lYNaZ7gCczHHZSvCypAP
-  consumerSecret: aUAhBjTHkVwyBgEWRAWgGxzIT029xoEk2A9mBx4xcc9ddbb5PP
+  consumerKey: vHpmOrFhTXtE9R7oiAmKYjLB7
+  consumerSecret: fOX7dcYQMXXNA4VzMbj8YwHTfUbYegz7JhgWiYT1hM84GoWwkN

@@ -23,12 +23,16 @@ public class Photo : Page
 
     [DllImport("__Internal")]
     private static extern void _GetTexture(byte[] textureByte, int length);
+
     #endregion
 
     #region Utilities
 
     private void OnEnable()
     {
+
+		//Twitter.Init();
+
         txtBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
         txtSwitch.text = ApplicationData.GetLocaleText(LocaleType.ButtonSwitchCamera);
         txtShareTwitterTitle.text = ApplicationData.GetLocaleText(LocaleType.ShareTwitterTitle);
@@ -116,11 +120,11 @@ public class Photo : Page
     public void ShareTwitter()
     {
 #if UNITY_IOS
-        Twitter.Init();
-		TwitterSession session = Twitter.Session;
-		if (session == null || string.IsNullOrEmpty(session.authToken.token) || string.IsNullOrEmpty(session.authToken.secret))
+        TwitterSession session = Twitter.Session;
+
+		if (session == null)
 		{
-			Twitter.LogIn(StartComposer, (ApiError error) =>
+			Twitter.LogIn(StartComposer , (ApiError error) =>
 				{
 					UnityEngine.Debug.Log(error.message);
 				});
@@ -141,7 +145,6 @@ public class Photo : Page
     {
         DialogTwitter.SetActive(false);
 
-
         byte[] dataToSave = screenCapture.EncodeToPNG();
 
         string destination = Path.Combine(Application.persistentDataPath, System.DateTime.Now.ToString("yyyy-MM-dd-HHmmss") + ".png");
@@ -150,7 +153,10 @@ public class Photo : Page
 
         Twitter.Compose(session, destination, "New Yokai", new string[] { "#GetYokai" },
             (string tweetId) => { Debug.Log("Tweet Success, tweetId=" + tweetId); },
-            (ApiError error) => { Debug.Log("Tweet Failed " + error.message); session = null;},
+            (ApiError error) => { 
+				Debug.Log("Tweet Failed " + error.message); 
+
+			},
             () => { Debug.Log("Compose cancelled"); }
         );
     }
