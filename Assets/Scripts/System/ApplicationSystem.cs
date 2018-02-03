@@ -9,8 +9,8 @@ public class ApplicationSystem : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Override.startiBeacon();
-
+        Override.StartiBeacon();
+       
     }
 
     // Update is called once per frame
@@ -36,5 +36,12 @@ public class ApplicationSystem : MonoBehaviour
             }
         }
         return false;
+    }
+    private void OnApplicationPause(bool pause)
+    {
+        if(pause)
+        {
+            ApplicationData.updateNotificationText();
+        }
     }
 }

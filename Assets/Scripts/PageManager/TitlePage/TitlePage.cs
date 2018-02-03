@@ -140,6 +140,7 @@ public class TitlePage : Page
     }
     #endregion
 
+
     #region Language
     void DisalbeButton(string name)
         {
@@ -159,31 +160,36 @@ public class TitlePage : Page
 		txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
         }
 
-        public void SelectEnglish()
-        {
-            ApplicationData.SelectedLanguage = LanguageType.English;
-            DisalbeButton("btEnglish");
-        }
-        public void SelectJapanese()
-        {
-            ApplicationData.SelectedLanguage = LanguageType.Japanese;
-            DisalbeButton("btJapanese");
-        }
-        public void SelectChinese1()
-        {
-            ApplicationData.SelectedLanguage = LanguageType.Chinese1;
-            DisalbeButton("btChinese");
-        }
-        public void SelectChinese2()
-        {
-            ApplicationData.SelectedLanguage = LanguageType.Chinese2;
-            DisalbeButton("btChinese2");
-        }
-        public void SelectThai()
-        {
-            ApplicationData.SelectedLanguage = LanguageType.Thai;
-            DisalbeButton("btThai");
-        }
+    public void SelectEnglish()
+    {
+        ApplicationData.SelectedLanguage = LanguageType.English;
+        DisalbeButton("btEnglish");
+       
+    }
+    public void SelectJapanese()
+    {
+        ApplicationData.SelectedLanguage = LanguageType.Japanese;
+        DisalbeButton("btJapanese");
+       
+    }
+    public void SelectChinese1()
+    {
+        ApplicationData.SelectedLanguage = LanguageType.Chinese1;
+        DisalbeButton("btChinese");
+        
+    }
+    public void SelectChinese2()
+    {
+        ApplicationData.SelectedLanguage = LanguageType.Chinese2;
+        DisalbeButton("btChinese2");
+        
+    }
+    public void SelectThai()
+    {
+        ApplicationData.SelectedLanguage = LanguageType.Thai;
+        DisalbeButton("btThai");
+       
+    }
     #endregion
 
     #region Utilities
