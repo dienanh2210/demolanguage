@@ -20,27 +20,7 @@ public class ApplicationData : MonoBehaviour
             major = major + "," + i.major_id;
             
         }
-        string notificationText = "You found a yōkai";
-        if (ApplicationData.SelectedLanguage == LanguageType.English)
-        {
-            notificationText = "You found a yōkai";
-        }
-        else if (ApplicationData.SelectedLanguage == LanguageType.Japanese)
-        {
-            notificationText = ("妖怪を見つけました。");
-        }
-        else if (ApplicationData.SelectedLanguage == LanguageType.Chinese1)
-        { 
-        notificationText = "发现妖怪。";
-        }
-        else if (ApplicationData.SelectedLanguage == LanguageType.Chinese2)
-        {
-            notificationText = ("發現妖怪。");
-        }
-        else if (ApplicationData.SelectedLanguage == LanguageType.Thai)
-        {
-            notificationText = ("คุณพบโยไก");
-        }
+        string notificationText = GetLocaleText(LocaleType.DetectNotification);
 
         Override.SetText(notificationText);
         Override.LoadMinor_id(minor);
