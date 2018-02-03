@@ -3,11 +3,32 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System.Linq;
 
 public class ApplicationData : MonoBehaviour
 {
     static ApplicationData applicationData;
+
+    public static string updateNotificationText()
+    {
+        var listMinor_id = ApplicationData.IBeaconData.Where(s => s.IsShowOnMap()).ToList();
+        string minor = "";
+        string major = "";
+        foreach (IBeaconData i in listMinor_id)
+        {
+            minor = minor + "," + i.minor_id;
+            major = major + "," + i.major_id;
+            
+        }
+        string notificationText = GetLocaleText(LocaleType.DetectNotification);
+
+        Override.SetText(notificationText);
+        Override.LoadMinor_id(minor);
+        Override.LoadMajor_id(major);
+
+        return "";
+    }
+
 
     public static string GetLocaleText (LocaleType key)
     {
