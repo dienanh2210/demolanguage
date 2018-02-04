@@ -14,6 +14,7 @@ public class Photo : Page
 
     #region Declare
     public GameObject btBack, btPhoto, DialogTwitter;
+    public Text txtShareTwitterTitle, txtYes, txtNo , txtBack, txtSwitch;
     bool b = false;
     static Texture2D screenCapture;
 
@@ -25,6 +26,20 @@ public class Photo : Page
     #endregion
 
     #region Utilities
+
+    private void OnEnable()
+    {
+        txtBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
+        txtSwitch.text = ApplicationData.GetLocaleText(LocaleType.ButtonSwitchCamera);
+        txtShareTwitterTitle.text = ApplicationData.GetLocaleText(LocaleType.ShareTwitterTitle);
+        txtYes.text = ApplicationData.GetLocaleText(LocaleType.ButtonYes);
+        txtNo.text = ApplicationData.GetLocaleText(LocaleType.ButtonNo);
+
+        txtShareTwitterTitle.font = ChangeFont();
+        txtYes.font = ChangeFont();
+        txtNo.font = ChangeFont();
+
+    }
 
     public void ChangeBonusPage()
     {
@@ -134,9 +149,9 @@ public class Photo : Page
         File.WriteAllBytes(destination, dataToSave);
 
         Twitter.Compose(session, destination, "New Yokai", new string[] { "#GetYokai" },
-            (string tweetId) => { UnityEngine.Debug.Log("Tweet Success, tweetId=" + tweetId); },
-            (ApiError error) => { DebugConsole.Log("Tweet Failed " + error.message); session = null;},
-            () => { DebugConsole.Log("Compose cancelled"); }
+            (string tweetId) => { Debug.Log("Tweet Success, tweetId=" + tweetId); },
+            (ApiError error) => { Debug.Log("Tweet Failed " + error.message); session = null;},
+            () => { Debug.Log("Compose cancelled"); }
         );
     }
 

@@ -79,7 +79,14 @@ public class MapPageManager : Page
         btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonYokaiLibrary);
         btnShowRewardList.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBonus);
         btnGuidePlay.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonHowToPlay);
+		btnGuidePlay.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
+		btnGuidePlay.transform.GetChild (0).GetComponent<Text> ().fontSize = ApplicationData.SetFontSize (LocaleType.ButtonHowToPlay);
         btnClose.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonClose);
+		if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
+			btnClose.transform.GetChild (0).GetComponent<Text> ().font = ApplicationData.GetFont (4);
+		} else {
+			btnClose.transform.GetChild (0).GetComponent<Text> ().font = ApplicationData.GetFont (2);
+		}
     }
 
     IEnumerator _EnableBeacon ()
@@ -122,6 +129,7 @@ public class MapPageManager : Page
                 MiddleEnding.SetActive (true);
                 LastEnding.SetActive (false);
                 MiddleEnding.transform.GetChild (0).GetComponent<Text> ().text = ApplicationData.GetLocaleText (LocaleType.MiddleEnding2);
+				MiddleEnding.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
                 UserData.IsShowedMessageForMiddleEndingBeforeBoss = true;
                 MapManager.SetupIcon ();
             } else if (UserData.IsPassedBossOnce && !UserData.IsShowedMessageForMiddleEnding) {
@@ -137,6 +145,7 @@ public class MapPageManager : Page
                 LastEnding.SetActive (true);
                 MiddleEnding.SetActive (false);
                 LastEnding.transform.GetChild (0).GetComponent<Text> ().text = ApplicationData.GetLocaleText (LocaleType.LastEnding);
+				LastEnding.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
                 UserData.IsShowedMessageForLastEnding = true;
                 MapManager.SetupIcon ();
             }
@@ -318,5 +327,7 @@ public class MapPageManager : Page
     {
         DialogGuidePlay.SetActive(true);
         DialogGuidePlay.transform.GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.HowToPlay);
+		DialogGuidePlay.transform.GetChild (1).GetComponent<Text> ().font = ChangeFont ();
+		DialogGuidePlay.transform.GetChild (1).GetComponent<Text> ().fontSize = ApplicationData.SetFontSize (LocaleType.HowToPlay);
     }
 }

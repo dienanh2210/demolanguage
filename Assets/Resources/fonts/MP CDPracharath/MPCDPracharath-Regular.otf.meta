@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 5a4ccc2cb847eb948a0605a1b94f3092
+timeCreated: 1517384584
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MP CDPracharath
+  fontNames:
+  - MP CDPracharath
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0e82c443248162b41ab5b38900a511d6, type: 3}
+  - {fileID: 12800000, guid: 53e6c3c52d62e9e4997fc3431c72024e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

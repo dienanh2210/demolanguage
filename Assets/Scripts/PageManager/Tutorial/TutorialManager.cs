@@ -32,8 +32,12 @@ public class TutorialManager : Page
 					if (obj.localContents[a].languageType == ApplicationData.SelectedLanguage)
 					{
 						i.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = obj.localContents[a].text.ToString();
+						i.transform.GetChild (1).GetChild (0).GetComponent<Text> ().font = ChangeFont ();					
+						i.transform.GetChild (1).GetChild (0).GetComponent<Text> ().fontSize = obj.localContents [a].fontSize;
 					}
 					i.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.TapOnPrologue);
+					i.transform.GetChild (1).GetChild (1).GetComponent<Text> ().font = ChangeFont ();
+					i.transform.GetChild (1).GetChild (1).GetComponent<Text> ().fontSize = ApplicationData.SetFontSize (LocaleType.TapOnPrologue);
 				}
 			}
 		}

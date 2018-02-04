@@ -128,6 +128,13 @@ internal class iBeaconDetect : MonoBehaviour
         MapImage = GameObject.Find ("Map").transform.Find ("Map_Image").gameObject;
         btnGetYokai.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonToSeal);
         btnSuccess.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonGetSuccessful);
+		if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
+			btnGetYokai.transform.GetChild (0).GetComponent<Text> ().font = ApplicationData.GetFont (4);
+			btnSuccess.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont (4);
+		} else {
+			btnGetYokai.transform.GetChild (0).GetComponent<Text> ().font = ApplicationData.GetFont (2);
+			btnSuccess.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont (2);
+		}
     }
 
     void OnDetectBeacon ()
@@ -137,8 +144,6 @@ internal class iBeaconDetect : MonoBehaviour
         MapImage.GetComponent<PinchZoom> ().enabled = false;
         var dis = posCamera - MapManager.GetIBeaconIcon (_dataID).transform.position;
         dis.y = 0;
-        // MapImage.transform.position = Vector3.MoveTowards (MapImage.transform.position, MapImage.transform.position + dis, 5f);
-        //_camera.GetComponent<Camera>().fieldOfView = _camera.GetComponent<Camera>().fieldOfView - 10;
         MapImage.transform.DOMove (MapImage.transform.position + dis, 0.3f);
     }
 
@@ -160,19 +165,15 @@ internal class iBeaconDetect : MonoBehaviour
     // BroadcastState
     public void btn_StartStop ()
     {
-        Debug.Log ("btn_startstop");
         if (!IsBeaconActive) {
             iBeaconReceiver.BeaconRangeChangedEvent += OnBeaconRangeChanged;
 
             var regions = new List<iBeaconRegion> ();
             foreach (var beacon in ApplicationData.IBeaconData) {
-                Debug.Log (beacon.uuid);
                 regions.Add (new iBeaconRegion ("vn.javis.yokaiget" + beacon.index.ToString(), new Beacon (beacon.uuid, Convert.ToInt32 (beacon.major_id), Convert.ToInt32 (beacon.minor_id))));
             }
             iBeaconReceiver.regions = regions.ToArray ();
-            Debug.Log ("ibeacon before scan");
             iBeaconReceiver.Scan ();
-            Debug.Log ("Listening for beacons");
             bs_State = BroadcastState.active;
         } else {
             iBeaconReceiver.Stop ();
@@ -300,32 +301,30 @@ internal class iBeaconDetect : MonoBehaviour
                 StartCoroutine(Vibrate());
                 btnSuccess.SetActive (false);
                 btnGetYokai.SetActive (true);
-                // StartCoroutine(Complete());
 
                 if (beaconData.iBeaconType == IBeaconType.Item) {
-                    //PlayerPrefs.SetInt ("itemID", beaconData.data_id);
-                    //PageData.itemID = beaconData.data_id;
                     PageData.SetItemID (beaconData.data_id);
                 } else {
-                    //PlayerPrefs.SetInt ("yokaiID", beaconData.data_id);
-                    //PageData.yokaiID = beaconData.data_id;
                     PageData.SetYokaiID (beaconData.data_id);
                 }
 
                 if (beaconData.iBeaconType == IBeaconType.Yokai) {
                     titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageFindYokai);
+					titleDialog.fontSize = ApplicationData.SetFontSize (LocaleType.MessageFindYokai);
                 } else if (beaconData.iBeaconType == IBeaconType.Item) {
                     titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageFindItem);
+					titleDialog.fontSize = ApplicationData.SetFontSize (LocaleType.MessageFindYokai);
                 }
-
+				if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
+					titleDialog.font = ApplicationData.GetFont (4);
+				} else {
+					titleDialog.font = ApplicationData.GetFont (2);
+				}
                 OnDetectBeacon ();
                 break;
             }
 
             go_FoundBeaconClone.transform.SetParent (go_ScrollViewContent.transform);
-            //go_FoundBeaconClone.transform.localPosition = new Vector3(0, 0, 0);//
-
-            Debug.Log ("fond Beacon: " + b.ToString ());
         }
     }
 
