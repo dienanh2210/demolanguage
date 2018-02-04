@@ -172,6 +172,15 @@ public class UserData : MonoBehaviour
         var lastDetectTime = detectedIbeaconHistory [key];
         return DateTime.Compare (lastDetectTime, DateTime.Now.AddMinutes (-5)) < 0;
     }
+    public static DateTime GetLastTimeDetectBeacon(string minor_id, string major_id, string uuid)
+    {
+        var key = GetBeaconKey(minor_id, major_id, uuid);
+        if (detectedIbeaconHistory.ContainsKey(key))
+        {
+            return detectedIbeaconHistory[key];
+        }
+        return DateTime.Now.AddMinutes(-5);
+    }
     public static bool DetectIBeaconExist (string minor_id, string major_id, string uuid)
     {
         var key = GetBeaconKey (minor_id, major_id, uuid);

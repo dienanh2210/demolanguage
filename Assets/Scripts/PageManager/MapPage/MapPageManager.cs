@@ -105,6 +105,14 @@ public class MapPageManager : Page
         OffMap_Click();
     }
 
+	void OnApplicationPause(bool isPause){
+		if (isPause) {
+			// iBeaconDetect.btn_StartStop ();
+		} else {
+			// iBeaconDetect.btn_StartStop ();
+		}
+	}
+
     void Update ()
     {
         if (this.gameObject.activeSelf) {
