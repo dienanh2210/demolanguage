@@ -1101,7 +1101,7 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 60
     - languageType: 1
-      text: Photo frame
+      text: Photo Frame
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1113,14 +1113,14 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 60
+      fontSize: 80
     - languageType: 3
       text: "\u76F8\u6846"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 60
+      fontSize: 80
     - languageType: 4
       text: "\u0E01\u0E23\u0E2D\u0E1A\u0E20\u0E32\u0E1E"
       image: {fileID: 0}
@@ -1150,14 +1150,14 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 60
+      fontSize: 80
     - languageType: 3
       text: "\u5151\u6362\u5238"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 60
+      fontSize: 80
     - languageType: 4
       text: "\u0E41\u0E25\u0E01\u0E15\u0E31\u0E4B\u0E27"
       image: {fileID: 0}
@@ -1187,14 +1187,14 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 60
+      fontSize: 80
     - languageType: 3
       text: "\u5F00\u573A\u767D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 60
+      fontSize: 80
     - languageType: 4
       text: "\u0E2D\u0E32\u0E23\u0E31\u0E21\u0E20\u0E1A\u0E17"
       image: {fileID: 0}
@@ -1948,43 +1948,6 @@ MonoBehaviour:
       fontSize: 0
     - languageType: 4
       text: "\u0E41\u0E1A\u0E48\u0E07\u0E1B\u0E31\u0E19\u0E43\u0E19 Twitter?"
-      image: {fileID: 0}
-      lineSpacing: 0
-      linePosition: {x: 0, y: 0}
-      lineWidth: 0
-      fontSize: 0
-  - key: 48
-    localContents:
-    - languageType: 0
-      text: "\u5996\u602A\u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002"
-      image: {fileID: 0}
-      lineSpacing: 0
-      linePosition: {x: 0, y: 0}
-      lineWidth: 0
-      fontSize: 0
-    - languageType: 1
-      text: "You found a y\u014Dkai."
-      image: {fileID: 0}
-      lineSpacing: 0
-      linePosition: {x: 0, y: 0}
-      lineWidth: 0
-      fontSize: 0
-    - languageType: 2
-      text: "\u767C\u73FE\u5996\u602A\u3002"
-      image: {fileID: 0}
-      lineSpacing: 0
-      linePosition: {x: 0, y: 0}
-      lineWidth: 0
-      fontSize: 0
-    - languageType: 3
-      text: "\u53D1\u73B0\u5996\u602A"
-      image: {fileID: 0}
-      lineSpacing: 0
-      linePosition: {x: 0, y: 0}
-      lineWidth: 0
-      fontSize: 0
-    - languageType: 4
-      text: "\u0E04\u0E38\u0E13\u0E1E\u0E1A\u0E42\u0E22\u0E44\u0E01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}

@@ -296,7 +296,7 @@ public enum LocaleType
 	ConfirmationDialog1,
 	ConfirmationDialog2,
 	ButtonYes,
-	ButtonNo,
+    ButtonNo,
 	ButtonExchangeTicket,
     ShareTwitterTitle,
 	DetectNotification
