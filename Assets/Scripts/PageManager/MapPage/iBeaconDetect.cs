@@ -165,19 +165,15 @@ internal class iBeaconDetect : MonoBehaviour
     // BroadcastState
     public void btn_StartStop ()
     {
-        Debug.Log ("btn_startstop");
         if (!IsBeaconActive) {
             iBeaconReceiver.BeaconRangeChangedEvent += OnBeaconRangeChanged;
 
             var regions = new List<iBeaconRegion> ();
             foreach (var beacon in ApplicationData.IBeaconData) {
-                Debug.Log (beacon.uuid);
                 regions.Add (new iBeaconRegion ("vn.javis.yokaiget" + beacon.index.ToString(), new Beacon (beacon.uuid, Convert.ToInt32 (beacon.major_id), Convert.ToInt32 (beacon.minor_id))));
             }
             iBeaconReceiver.regions = regions.ToArray ();
-            Debug.Log ("ibeacon before scan");
             iBeaconReceiver.Scan ();
-            Debug.Log ("Listening for beacons");
             bs_State = BroadcastState.active;
         } else {
             iBeaconReceiver.Stop ();

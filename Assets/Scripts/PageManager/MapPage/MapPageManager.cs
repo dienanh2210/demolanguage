@@ -129,6 +129,7 @@ public class MapPageManager : Page
                 MiddleEnding.SetActive (true);
                 LastEnding.SetActive (false);
                 MiddleEnding.transform.GetChild (0).GetComponent<Text> ().text = ApplicationData.GetLocaleText (LocaleType.MiddleEnding2);
+				MiddleEnding.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
                 UserData.IsShowedMessageForMiddleEndingBeforeBoss = true;
                 MapManager.SetupIcon ();
             } else if (UserData.IsPassedBossOnce && !UserData.IsShowedMessageForMiddleEnding) {
@@ -144,6 +145,7 @@ public class MapPageManager : Page
                 LastEnding.SetActive (true);
                 MiddleEnding.SetActive (false);
                 LastEnding.transform.GetChild (0).GetComponent<Text> ().text = ApplicationData.GetLocaleText (LocaleType.LastEnding);
+				LastEnding.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
                 UserData.IsShowedMessageForLastEnding = true;
                 MapManager.SetupIcon ();
             }

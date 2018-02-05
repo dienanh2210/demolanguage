@@ -12,6 +12,11 @@ public class YokaiGetEnding : MonoBehaviour {
     {
         gameObject.SetActive (true);
         text.text = message;
+		if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
+			text.font = ApplicationData.GetFont (4);
+		} else {
+			text.font = ApplicationData.GetFont (2);
+		}
     }
 
     public void Hide ()

@@ -76,11 +76,14 @@ public class YokaiGetTutorialManager : Page{
 
         for (int i = 0; i < ApplicationData.YokaiGetTutorialData.Count; i++) {
 			yokai [i].GetComponentsInChildren<Text> (true) [0].text = ApplicationData.YokaiGetTutorialData [i].localContents [(int)ApplicationData.SelectedLanguage].text.ToString ();
-           
+			yokai [i].GetComponentsInChildren<Text> (true) [0].font = ChangeFont ();
+			yokai [i].GetComponentsInChildren<Text> (true) [0].fontSize = ApplicationData.YokaiGetTutorialData [i].localContents [(int)ApplicationData.SelectedLanguage].fontSize;
         }
 
         for (int j = 0; j < item.Length; j++) {
             item[j].GetComponentsInChildren<Text> (true) [0].text = ApplicationData.GetLocaleText (LocaleType.ItemGetTutorial);
+			item [j].GetComponentsInChildren<Text> (true) [0].font = ChangeFont ();
+			item [j].GetComponentsInChildren<Text> (true) [0].fontSize = ApplicationData.SetFontSize (LocaleType.ItemGetTutorial);
         }
 
         CircleScale ();
