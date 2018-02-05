@@ -21,6 +21,7 @@ public class TitlePage : Page
     Text txtRed, txtSelectLanguage, txtShowApp, txtCaution;
 
 	public Image imgLogo;
+	Text[] GetText;
 
     string iosID = "id1331763426";
     string iosScheme = "esashinavi://";
@@ -159,9 +160,25 @@ public class TitlePage : Page
             }
 			
 		imgLogo.sprite = ApplicationData.GetLogoImage (ApplicationData.SelectedLanguage).img;
+
 		txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
+		txtSelectLanguage.fontSize = ApplicationData.SetFontSize (LocaleType.SelectLanguage);
 		txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
+		txtShowApp.fontSize = ApplicationData.SetFontSize (LocaleType.SelectLanguage);
 		txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
+		txtCaution.fontSize = ApplicationData.SetFontSize (LocaleType.SelectLanguage);
+
+		GetText = Text.FindObjectsOfType<Text> ();
+		if(ApplicationData.SelectedLanguage == LanguageType.Thai){
+			txtSelectLanguage.font = ApplicationData.GetFont (4);
+			txtShowApp.font = ApplicationData.GetFont (4);
+			txtCaution.font = ApplicationData.GetFont (4);
+		}else{
+			txtSelectLanguage.font = ApplicationData.GetFont (2);
+			txtShowApp.font = ApplicationData.GetFont (2);
+			txtCaution.font = ApplicationData.GetFont (2);
+		}
+
         }
 
     public void SelectEnglish()

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 2c37b5433f98a7e4d9d9d48588d8d337
+timeCreated: 1517384584
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MP DBKomol
+  fontNames:
+  - MP DBKomol
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

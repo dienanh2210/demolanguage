@@ -1287,17 +1287,17 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}
-    m_FontSize: 14
+    m_FontSize: 60
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
+    m_BestFit: 0
+    m_MinSize: 6
     m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 0.55
   m_Text: 
 --- !u!114 &114280156392467230
 MonoBehaviour:
@@ -1463,23 +1463,24 @@ MonoBehaviour:
   buttonTicket: {fileID: 1113845035660390}
   btShowPhoto: {fileID: 1639122900478742}
   btShowTicket: {fileID: 1740906933216262}
-  txtBack: {fileID: 114950509982892238}
-  txtTitle: {fileID: 114719853621509954}
-  txtbtPhoto: {fileID: 114934856167574434}
-  txtbtTicket: {fileID: 114277574868186370}
-  txtbtTutorial: {fileID: 114673886821763962}
-  txtDialogConfirm1: {fileID: 114808838235389922}
-  txtDialogConfirm2: {fileID: 114105520179472030}
-  txtYes1: {fileID: 114557545396588226}
-  txtNo1: {fileID: 114990620680297236}
-  txtYes2: {fileID: 114405762944462890}
-  txtNo2: {fileID: 114499560138568674}
-  txtExchangeTicket: {fileID: 114658517555039548}
-  txtTicketBack: {fileID: 114476142550570254}
-  txtTicketTitle: {fileID: 114505000383717066}
-  txtTicketNoticeForStaff: {fileID: 114848350364826230}
-  txtTicketNoticeDontTap: {fileID: 114509305306608344}
-  txtbtTicketStaff: {fileID: 114842763926697522}
+  BonusPageText:
+  - {fileID: 114950509982892238}
+  - {fileID: 114719853621509954}
+  - {fileID: 114934856167574434}
+  - {fileID: 114277574868186370}
+  - {fileID: 114673886821763962}
+  - {fileID: 114808838235389922}
+  - {fileID: 114105520179472030}
+  - {fileID: 114557545396588226}
+  - {fileID: 114990620680297236}
+  - {fileID: 114405762944462890}
+  - {fileID: 114499560138568674}
+  - {fileID: 114658517555039548}
+  - {fileID: 114476142550570254}
+  - {fileID: 114505000383717066}
+  - {fileID: 114848350364826230}
+  - {fileID: 114509305306608344}
+  - {fileID: 114842763926697522}
 --- !u!114 &114455718383154172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1530,7 +1531,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}
     m_FontSize: 27
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 34
     m_Alignment: 4
@@ -1621,18 +1622,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b29ceacfe5435004aa21512157fa03f0, type: 3}
-    m_FontSize: 32
+    m_FontSize: 100
     m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 95
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\u0E04\u0E39\u0E1B\u0E2D\u0E07"
 --- !u!114 &114506487436589518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1681,11 +1682,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}
-    m_FontSize: 32
+    m_FontSize: 45
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 54
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2013,11 +2014,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}
-    m_FontSize: 14
+    m_FontSize: 40
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 44
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2384,10 +2385,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}
-    m_FontSize: 14
+    m_FontSize: 40
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
+    m_BestFit: 0
+    m_MinSize: 4
     m_MaxSize: 44
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2417,10 +2418,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}
-    m_FontSize: 32
+    m_FontSize: 60
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
+    m_BestFit: 0
+    m_MinSize: 6
     m_MaxSize: 65
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2558,9 +2559,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}
-    m_FontSize: 35
+    m_FontSize: 60
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 60
     m_Alignment: 4
@@ -3507,8 +3508,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00065595, y: 0.00065994}
-  m_SizeDelta: {x: 400.02, y: 129.5}
+  m_AnchoredPosition: {x: 5.2, y: 0.00065994}
+  m_SizeDelta: {x: 431.3, y: 129.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224500044344633214
 RectTransform:
@@ -3711,7 +3712,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 789.60004}
-  m_SizeDelta: {x: 801.8, y: 137.19995}
+  m_SizeDelta: {x: 801.8, y: 165.8}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &224724160157064596
 RectTransform:
@@ -3786,8 +3787,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -12.5, y: -0.000014323}
-  m_SizeDelta: {x: 25, y: -0}
+  m_AnchoredPosition: {x: -12.5, y: 24}
+  m_SizeDelta: {x: 25, y: 64.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224777517718854632
 RectTransform:

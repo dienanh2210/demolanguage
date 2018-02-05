@@ -1497,6 +1497,11 @@ MonoBehaviour:
   btBack: {fileID: 1958196179993268}
   btPhoto: {fileID: 1769408856845546}
   DialogTwitter: {fileID: 1307551098668860}
+  txtShareTwitterTitle: {fileID: 114242590624330700}
+  txtYes: {fileID: 114375955158489398}
+  txtNo: {fileID: 114357603728611662}
+  txtBack: {fileID: 114902317117659304}
+  txtSwitch: {fileID: 114773187785626052}
 --- !u!114 &114838799633476002
 MonoBehaviour:
   m_ObjectHideFlags: 1

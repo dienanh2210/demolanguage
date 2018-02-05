@@ -23,6 +23,20 @@ public class Page : MonoBehaviour
         instance = this;
     }
 
-   
+	public Font ChangeFont(){
+		if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
+			return ApplicationData.GetFont (4);
+			Debug.Log (1);
+		} else {
+			return ApplicationData.GetFont (2);
+			Debug.Log (2);
+		}
+	}
+
+	public void SetFont(Text[] txt){
+		for (int i = 0; i < txt.Length; i++) {
+			txt [i].font = ChangeFont ();
+		}
+	}
    
 }

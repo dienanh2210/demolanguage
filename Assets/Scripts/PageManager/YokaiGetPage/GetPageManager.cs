@@ -80,11 +80,13 @@ public class GetPageManager : Page
         neededItemNoti = GameObject.Find ("TextCanvas").transform.Find ("neededItemNoti").gameObject;
         backButton.SetActive (true);
 		backButton.GetComponentInChildren<Text> ().text = ApplicationData.GetLocaleText (LocaleType.ButtonBack);
+		backButton.GetComponentInChildren<Text> ().font = ChangeFont ();
         if (ApplicationData.GetYokaiData (PageData.yokaiID).IsNeedItem ()) {
             if (!ApplicationData.GetYokaiData (PageData.yokaiID).HasItem ()) {
 
                 neededItemNoti.SetActive (true);
                 neededItemNoti.GetComponentInChildren<Text> ().text = ApplicationData.GetLocaleText (LocaleType.NoItemMessage1);
+				neededItemNoti.GetComponentInChildren<Text> ().font = ChangeFont ();
                 count = 1;
             }
 
