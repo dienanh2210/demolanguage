@@ -32,5 +32,5 @@ public class IBeaconIcon : MonoBehaviour {
     {
         gameObject.SetActive (isActive);
     }
-
+    
 }
