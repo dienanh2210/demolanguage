@@ -299,8 +299,7 @@ public enum LocaleType
 	ButtonNo,
 	ButtonExchangeTicket,
     ShareTwitterTitle,
-	DetectNotification
-
+    DetectNotification
 }
 
 [Serializable]
