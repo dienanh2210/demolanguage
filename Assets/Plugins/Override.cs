@@ -21,6 +21,9 @@ public class Override : MonoBehaviour
 
     [DllImport("__Internal")]
      public static extern void updateAvailableMajorID(string majorIDs);
+
+    [DllImport("__Internal")]
+     public static extern void updateUUID(string uuids);
    
 #endif
 
@@ -50,6 +53,13 @@ public class Override : MonoBehaviour
     {
 #if UNITY_IOS && !UNITY_EDITOR
          updateAvailableMajorID(majorIDs);
+#endif
+    }
+
+    public static void LoadUUID(string uuids)
+    {
+#if UNITY_IOS && !UNITY_EDITOR
+         updateUUID(uuids);
 #endif
     }
 }

@@ -25,4 +25,8 @@ extern "C" {
     void updateAvailableMajorID (const char * majorIDs) {
         [iBeacon updateAvailableMajorID:[NSString stringWithUTF8String:majorIDs]];
     }
+    
+    void updateUUID(const char * uuids) {
+        [iBeacon updateUUID:[NSString stringWithUTF8String:uuids]];
+    }
 }
