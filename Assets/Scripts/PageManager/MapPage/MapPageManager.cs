@@ -202,35 +202,10 @@ public class MapPageManager : Page
     {
         if (!exitAlertBoard)
             return;
-        string strContent = "DO YOU WANT TO QUIT THIS APPLICATION?";
-        string strCancel = "CANCEL";
-        string strQuit = "QUIT";
-        if (ApplicationData.SelectedLanguage == LanguageType.Japanese)
-        {
-            return;
-        }
-        else if (ApplicationData.SelectedLanguage == LanguageType.Chinese1)
-        {
-            strContent = "你想退出这个应用程序吗？";
-            strCancel = "取消";
-            strQuit = "放弃";
-        }
-        else if (ApplicationData.SelectedLanguage == LanguageType.Chinese2)
-        {
-            strContent = "你想退出這個應用程序嗎？";
-            strCancel = "取消";
-            strQuit = "放棄";
-        }
-        else if (ApplicationData.SelectedLanguage == LanguageType.Thai)
-        {
-            strContent = "คุณต้องการออกจากแอปพลิเคชันนี้หรือไม่?";
-            strCancel = "ยกเลิก";
-            strQuit = "เลิก";
-        }
-
-        exitAlertBoard.transform.Find("txtContent").GetComponent<Text>().text = strContent;
-        exitAlertBoard.transform.Find("btnNo").GetComponent<Text>().text = strCancel;
-        exitAlertBoard.transform.Find("btnYes").GetComponent<Text>().text = strQuit;
+      
+        exitAlertBoard.transform.Find("txtContent").GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ExitAlert);
+        exitAlertBoard.transform.Find("btnNo").GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonCancelQuit);
+        exitAlertBoard.transform.Find("btnYes").GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonQuit);
     }
     void DisplayFailCase()
     {
