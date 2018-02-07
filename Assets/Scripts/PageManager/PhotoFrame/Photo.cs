@@ -6,7 +6,6 @@ using System;
 using UnityEngine.UI;
 using System.Runtime.InteropServices;
 using System.Globalization;
-using TwitterKit.Unity;
 using System.Linq;
 
 public class Photo : Page
@@ -26,12 +25,34 @@ public class Photo : Page
 
     #endregion
 
+    //#region UNITY_DEFAULT_CALLBACKS
+    //void OnDisable()
+    //{
+    //    ScreenshotHandler.ScreenshotFinishedSaving -= ScreenshotSaved;
+    //}
+    //#endregion
+
+    #region DELEGATE_EVENT_LISTENER
+    void ScreenshotSaved()
+    {
+#if UNITY_IPHONE || UNITY_IPAD
+        byte[] dataToSave = screenCapture.EncodeToPNG();
+
+        string destination = Path.Combine(Application.persistentDataPath, System.DateTime.Now.ToString("yyyy-MM-dd-HHmmss") + ".png");
+
+        File.WriteAllBytes(destination, dataToSave);
+
+        GeneralSharingiOSBridge.ShareTextWithImage(destination, "New Yokai !!! \nThis is post from YokaiGet");
+#endif
+    }
+    #endregion
+
+
     #region Utilities
 
     private void OnEnable()
     {
-
-		//Twitter.Init();
+        //ScreenshotHandler.ScreenshotFinishedSaving += ScreenshotSaved;
 
         txtBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
         txtSwitch.text = ApplicationData.GetLocaleText(LocaleType.ButtonSwitchCamera);
@@ -120,19 +141,9 @@ public class Photo : Page
     public void ShareTwitter()
     {
 #if UNITY_IOS
-        TwitterSession session = Twitter.Session;
+        DialogTwitter.SetActive(false);
+        ScreenshotSaved();
 
-		if (session == null)
-		{
-			Twitter.LogIn(StartComposer , (ApiError error) =>
-				{
-					UnityEngine.Debug.Log(error.message);
-				});
-		}
-		else
-		{
-			StartComposer(session);
-		}
 #endif
 
 #if UNITY_ANDROID
@@ -140,58 +151,6 @@ public class Photo : Page
 #endif
 
     }
-
-    private void StartComposer(TwitterSession session)
-    {
-        DialogTwitter.SetActive(false);
-
-        byte[] dataToSave = screenCapture.EncodeToPNG();
-
-        string destination = Path.Combine(Application.persistentDataPath, System.DateTime.Now.ToString("yyyy-MM-dd-HHmmss") + ".png");
-
-        File.WriteAllBytes(destination, dataToSave);
-
-        Twitter.Compose(session, destination, "New Yokai", new string[] { "#GetYokai" },
-            (string tweetId) => { Debug.Log("Tweet Success, tweetId=" + tweetId); },
-            (ApiError error) => { 
-				Debug.Log("Tweet Failed " + error.message); 
-
-			},
-            () => { Debug.Log("Compose cancelled"); }
-        );
-    }
-
-    //void ShareImageInAndroid()
-    //{
-    //    DialogTwitter.SetActive(false);
-
-    //    byte[] dataToSave = screenCapture.EncodeToPNG();
-
-    //    string destination = Path.Combine(Application.persistentDataPath, System.DateTime.Now.ToString("yyyy-MM-dd-HHmmss") + ".png");
-
-    //    File.WriteAllBytes(destination, dataToSave);
-
-    //    AndroidJavaObject fbTwitterSharing = null;
-    //    AndroidJavaObject activityContext = null;
-    //    if (fbTwitterSharing == null)
-    //    {
-    //        using (AndroidJavaClass activityClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
-    //        {
-    //            activityContext = activityClass.GetStatic<AndroidJavaObject>("currentActivity");
-    //        }
-
-    //        using (AndroidJavaClass pluginClass = new AndroidJavaClass("com.tag.fb_twitter.Fb_Twitter"))
-    //        {
-    //            if (pluginClass != null)
-    //            {
-    //                fbTwitterSharing = pluginClass.CallStatic<AndroidJavaObject>("instance");
-    //                fbTwitterSharing.Call("setContext", activityContext);
-
-    //                fbTwitterSharing.Call("PostImageOnTwitter", destination, "");
-    //            }
-    //        }
-    //    }
-    //}
 
     void SaveAndShare()
     {
