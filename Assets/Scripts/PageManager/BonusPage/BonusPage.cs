@@ -44,8 +44,8 @@ public class BonusPage : Page {
 
 		BonusPageText [0].text = ApplicationData.GetLocaleText (LocaleType.ButtonBack);
 		BonusPageText [1].text = ApplicationData.GetLocaleText(LocaleType.TitleBonusPage);
+    
 		BonusPageText [2].text = ApplicationData.GetLocaleText(LocaleType.ButtonPhotoFrame);
-
 		BonusPageText [3].text = ApplicationData.GetLocaleText(LocaleType.ButtonTicket);
 		BonusPageText [4].text = ApplicationData.GetLocaleText(LocaleType.ButtonPrologue);
 		BonusPageText [5].text = ApplicationData.GetLocaleText (LocaleType.ConfirmationDialog1);
@@ -73,13 +73,9 @@ public class BonusPage : Page {
 
 		SetFont (BonusPageText);
 
-		BonusPageText [1].font = ApplicationData.GetFont (3);
 		BonusPageText [1].fontSize = ApplicationData.SetFontSize (LocaleType.TitleBonusPage);
-		BonusPageText [2].font = ApplicationData.GetFont (3);
 		BonusPageText [2].fontSize = ApplicationData.SetFontSize (LocaleType.ButtonPhotoFrame);
-		BonusPageText [3].font = ApplicationData.GetFont (3);
 		BonusPageText [3].fontSize = ApplicationData.SetFontSize (LocaleType.ButtonTicket);
-		BonusPageText [4].font = ApplicationData.GetFont (3);
 		BonusPageText [4].fontSize = ApplicationData.SetFontSize (LocaleType.ButtonPrologue);
     }
     #endregion
