@@ -41,160 +41,235 @@ public class MapPageManager : Page
     GameObject btnGuidePlay;
     [SerializeField]
     GameObject btnClose;
-
+    [SerializeField]
+    GameObject exitAlertBoard;
     //public Text test;
     iBeaconDetect iBeaconDetect;
 
     public static bool _failGetYokai;
-    void Awake ()
+    void Awake()
     {
         instance = this;
-        iBeaconDetect = GetComponent<iBeaconDetect> ();
+        iBeaconDetect = GetComponent<iBeaconDetect>();
     }
 
-    void Start ()
+    void Start()
     {
-        map = GameObject.Find ("Map").transform.Find ("Map_Image").gameObject;
-        _canvas = GameObject.Find ("Canvas");
-        SetMapPage (5, 90, -9, RenderMode.ScreenSpaceOverlay);
+        map = GameObject.Find("Map").transform.Find("Map_Image").gameObject;
+        _canvas = GameObject.Find("Canvas");
+        SetMapPage(5, 90, -9, RenderMode.ScreenSpaceOverlay);
+        ChangeLanguageExitAlert();
     }
 
-    void OnEnable ()
+    void OnEnable()
     {
-        MapManager.SetupIcon ();
-        DOTween.Clear ();
-        GameObject.Find ("TextCanvas").transform.Find ("txtGz").gameObject.SetActive (false);
-        GameObject.Find ("TextCanvas").transform.Find ("txtGzItem").gameObject.SetActive (false);
-        GameObject.Find ("TextCanvas").transform.Find ("notification").gameObject.SetActive (false);
-        GameObject.Find ("TextCanvas").transform.Find ("notification_ending").gameObject.SetActive (false);
-        GameObject.Find ("TextCanvas").transform.Find ("sprEffect").gameObject.SetActive (false);
-        GameObject.Find ("TextCanvas").transform.Find ("sprBall").gameObject.SetActive (false);
+        MapManager.SetupIcon();
+        DOTween.Clear();
+        GameObject.Find("TextCanvas").transform.Find("txtGz").gameObject.SetActive(false);
+        GameObject.Find("TextCanvas").transform.Find("txtGzItem").gameObject.SetActive(false);
+        GameObject.Find("TextCanvas").transform.Find("notification").gameObject.SetActive(false);
+        GameObject.Find("TextCanvas").transform.Find("notification_ending").gameObject.SetActive(false);
+        GameObject.Find("TextCanvas").transform.Find("sprEffect").gameObject.SetActive(false);
+        GameObject.Find("TextCanvas").transform.Find("sprBall").gameObject.SetActive(false);
         itemID.text = "";
         yokaiID.text = "";
 
-        MapManager.SetupIcon ();
+        MapManager.SetupIcon();
 
-        StartCoroutine (_EnableBeacon());
+        StartCoroutine(_EnableBeacon());
 
         btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonYokaiLibrary);
         btnShowRewardList.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBonus);
         btnGuidePlay.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonHowToPlay);
-		btnGuidePlay.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
-		btnGuidePlay.transform.GetChild (0).GetComponent<Text> ().fontSize = ApplicationData.SetFontSize (LocaleType.ButtonHowToPlay);
+        btnGuidePlay.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+        btnGuidePlay.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonHowToPlay);
         btnClose.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonClose);
-		if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
-			btnClose.transform.GetChild (0).GetComponent<Text> ().font = ApplicationData.GetFont (4);
-		} else {
-			btnClose.transform.GetChild (0).GetComponent<Text> ().font = ApplicationData.GetFont (2);
-		}
-    }
-
-    IEnumerator _EnableBeacon ()
-    {
-        yield return new WaitForSeconds (1f);
-        if (!iBeaconDetect.IsBeaconActive) {
-            iBeaconDetect.btn_StartStop ();
+        if (ApplicationData.SelectedLanguage == LanguageType.Thai)
+        {
+            btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(4);
+        }
+        else
+        {
+            btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(2);
         }
     }
 
-    void OnDisable ()
+    IEnumerator _EnableBeacon()
     {
-        if (iBeaconDetect.IsBeaconActive) {
-            iBeaconDetect.btn_StartStop ();
+        yield return new WaitForSeconds(1f);
+        if (!iBeaconDetect.IsBeaconActive)
+        {
+            iBeaconDetect.btn_StartStop();
+        }
+    }
+
+    void OnDisable()
+    {
+        if (iBeaconDetect.IsBeaconActive)
+        {
+            iBeaconDetect.btn_StartStop();
         }
         OffMap_Click();
     }
 
-	void OnApplicationPause(bool isPause){
-		if (isPause) {
-			// iBeaconDetect.btn_StartStop ();
-		} else {
-			// iBeaconDetect.btn_StartStop ();
-		}
-	}
-
-    void Update ()
+    void OnApplicationPause(bool isPause)
     {
-        if (this.gameObject.activeSelf) {
-            SetMapImage (true);
-            SetMapPage (5, 90, -9, RenderMode.ScreenSpaceOverlay);
+        if (isPause)
+        {
+            // iBeaconDetect.btn_StartStop ();
+        }
+        else
+        {
+            // iBeaconDetect.btn_StartStop ();
+        }
+    }
+
+    void Update()
+    {
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ShowExitDialog(true);
+        }
+
+        if (this.gameObject.activeSelf)
+        {
+            SetMapImage(true);
+            SetMapPage(5, 90, -9, RenderMode.ScreenSpaceOverlay);
         }
 
         // if(_backToMappage) {
-        if (true) {
+        if (true)
+        {
             _backToMappage = false;
-            if (ApplicationLogic.IsShowMessageForMiddleEnding ()
-                && !UserData.IsShowedMessageForMiddleEndingBeforeBoss) {
-                DialogEnding.SetActive (true);
-                MiddleEnding.SetActive (true);
-                LastEnding.SetActive (false);
-                MiddleEnding.transform.GetChild (0).GetComponent<Text> ().text = ApplicationData.GetLocaleText (LocaleType.MiddleEnding2);
-				MiddleEnding.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
+            if (ApplicationLogic.IsShowMessageForMiddleEnding()
+                && !UserData.IsShowedMessageForMiddleEndingBeforeBoss)
+            {
+                DialogEnding.SetActive(true);
+                MiddleEnding.SetActive(true);
+                LastEnding.SetActive(false);
+                MiddleEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.MiddleEnding2);
+                MiddleEnding.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
                 UserData.IsShowedMessageForMiddleEndingBeforeBoss = true;
-                MapManager.SetupIcon ();
-            } else if (UserData.IsPassedBossOnce && !UserData.IsShowedMessageForMiddleEnding) {
-                DialogEnding.SetActive (true);
-                MiddleEnding.SetActive (true);
-                LastEnding.SetActive (false);
-                MiddleEnding.transform.GetChild (0).GetComponent<Text> ().text = ApplicationData.GetLocaleText (LocaleType.MiddleEnding1);
+                MapManager.SetupIcon();
+            }
+            else if (UserData.IsPassedBossOnce && !UserData.IsShowedMessageForMiddleEnding)
+            {
+                DialogEnding.SetActive(true);
+                MiddleEnding.SetActive(true);
+                LastEnding.SetActive(false);
+                MiddleEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.MiddleEnding1);
                 UserData.IsShowedMessageForMiddleEnding = true;
-                MapManager.SetupIcon ();
-            } else if (ApplicationLogic.IsShowMessageForLastEnding ()
-                     && !UserData.IsShowedMessageForLastEnding) {
-                DialogEnding.SetActive (true);
-                LastEnding.SetActive (true);
-                MiddleEnding.SetActive (false);
-                LastEnding.transform.GetChild (0).GetComponent<Text> ().text = ApplicationData.GetLocaleText (LocaleType.LastEnding);
-				LastEnding.transform.GetChild (0).GetComponent<Text> ().font = ChangeFont ();
+                MapManager.SetupIcon();
+            }
+            else if (ApplicationLogic.IsShowMessageForLastEnding()
+                   && !UserData.IsShowedMessageForLastEnding)
+            {
+                DialogEnding.SetActive(true);
+                LastEnding.SetActive(true);
+                MiddleEnding.SetActive(false);
+                LastEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.LastEnding);
+                LastEnding.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
                 UserData.IsShowedMessageForLastEnding = true;
-                MapManager.SetupIcon ();
+                MapManager.SetupIcon();
             }
 
         }
 
-        if (_failGetYokai) {
+        if (_failGetYokai)
+        {
             _failGetYokai = false;
-            DisplayFailCase ();
+            DisplayFailCase();
         }
     }
-
-    void DisplayFailCase ()
+    public void ShowExitDialog(bool isShown)
     {
-        DialogEnding.SetActive (true);
-        LastEnding.SetActive (true);
-        MiddleEnding.SetActive (false);
-        LastEnding.transform.GetChild (0).GetComponent<Text> ().text = ApplicationData.GetLocaleText (LocaleType.WaitNextDetect);
+
+        if (exitAlertBoard)
+        {
+            exitAlertBoard.SetActive(isShown);
+        }
+
+    }
+    public void AgreeExit(bool agree)
+    {
+        if (agree)
+            Application.Quit();
+        else
+            ShowExitDialog(false);
+    }
+    void ChangeLanguageExitAlert()
+    {
+        if (!exitAlertBoard)
+            return;
+        string strContent = "DO YOU WANT TO QUIT THIS APPLICATION?";
+        string strCancel = "CANCEL";
+        string strQuit = "QUIT";
+        if (ApplicationData.SelectedLanguage == LanguageType.Japanese)
+        {
+            return;
+        }
+        else if (ApplicationData.SelectedLanguage == LanguageType.Chinese1)
+        {
+            strContent = "你想退出这个应用程序吗？";
+            strCancel = "取消";
+            strQuit = "放弃";
+        }
+        else if (ApplicationData.SelectedLanguage == LanguageType.Chinese2)
+        {
+            strContent = "你想退出這個應用程序嗎？";
+            strCancel = "取消";
+            strQuit = "放棄";
+        }
+        else if (ApplicationData.SelectedLanguage == LanguageType.Thai)
+        {
+            strContent = "คุณต้องการออกจากแอปพลิเคชันนี้หรือไม่?";
+            strCancel = "ยกเลิก";
+            strQuit = "เลิก";
+        }
+
+        exitAlertBoard.transform.Find("txtContent").GetComponent<Text>().text = strContent;
+        exitAlertBoard.transform.Find("btnNo").GetComponent<Text>().text = strCancel;
+        exitAlertBoard.transform.Find("btnYes").GetComponent<Text>().text = strQuit;
+    }
+    void DisplayFailCase()
+    {
+        DialogEnding.SetActive(true);
+        LastEnding.SetActive(true);
+        MiddleEnding.SetActive(false);
+        LastEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.WaitNextDetect);
     }
 
-    public void SetMapPage (int posY, int ros, float posZ, RenderMode renderMode)
+    public void SetMapPage(int posY, int ros, float posZ, RenderMode renderMode)
     {
-        camera = GameObject.Find ("Main Camera");
-        camera.transform.position = new Vector3 (camera.transform.position.x, posY, posZ);
-        camera.transform.rotation = Quaternion.Euler (ros, camera.transform.rotation.y, camera.transform.rotation.z);
-        _canvas.GetComponent<Canvas> ().renderMode = renderMode;
+        camera = GameObject.Find("Main Camera");
+        camera.transform.position = new Vector3(camera.transform.position.x, posY, posZ);
+        camera.transform.rotation = Quaternion.Euler(ros, camera.transform.rotation.y, camera.transform.rotation.z);
+        _canvas.GetComponent<Canvas>().renderMode = renderMode;
     }
 
-    void SetMapImage (bool ac)
+    void SetMapImage(bool ac)
     {
-        map.SetActive (ac);
+        map.SetActive(ac);
     }
 
-    public void OffMap_Click ()
+    public void OffMap_Click()
     {
-        map.SetActive (false);
-        SetMapPage (0, 0, -9, RenderMode.ScreenSpaceCamera);
+        map.SetActive(false);
+        SetMapPage(0, 0, -9, RenderMode.ScreenSpaceCamera);
     }
 
 
-    public void btnClose_Click ()
+    public void btnClose_Click()
     {
-        getYokai.gameObject.SetActive (false);
-        map.GetComponent<lb_drag> ().enabled = true;
+        getYokai.gameObject.SetActive(false);
+        map.GetComponent<lb_drag>().enabled = true;
         map.GetComponent<MeshCollider>().enabled = true;
-        map.GetComponent<PinchZoom> ().enabled = true;
+        map.GetComponent<PinchZoom>().enabled = true;
 
-        if (!CircleController._success) {
-            DisplayFailCase ();
+        if (!CircleController._success)
+        {
+            DisplayFailCase();
         }
         CircleController._success = false;
     }
@@ -222,112 +297,127 @@ public class MapPageManager : Page
         {
             PageManager.Show(PageType.YokaiGetTutorialPage);
         }
-      
+
     }
-    public void btnGetYokai_Click ()
+    public void btnGetYokai_Click()
     {
         //test.text = UserData.IsShowedYokaiTutorial.ToString() + "  " + PageData.yokaiID.ToString();
         _backToMappage = true;
         ChangeYokaiGetPage();
-        getYokai.gameObject.SetActive (false);
-        SetMapPage (0, 0, -6, RenderMode.ScreenSpaceCamera);
+        getYokai.gameObject.SetActive(false);
+        SetMapPage(0, 0, -6, RenderMode.ScreenSpaceCamera);
     }
-    public void btnSuccess_Click ()
+    public void btnSuccess_Click()
     {
         CircleController._success = false;
-        if (PageData.IsYokai) {
-            PageData.ShowYokaiDetail ();
+        if (PageData.IsYokai)
+        {
+            PageData.ShowYokaiDetail();
         }
-        PageManager.Show (PageType.Library);
+        PageManager.Show(PageType.Library);
 
-        getYokai.gameObject.SetActive (false);
+        getYokai.gameObject.SetActive(false);
     }
 
-    public void OnClickYokai ()
+    public void OnClickYokai()
     {
-        if (yokaiID.text != "") {
+        if (yokaiID.text != "")
+        {
             //PlayerPrefs.SetInt("yokaiID", int.Parse(yokaiID.text));
             //PageData.yokaiID = int.Parse(yokaiID.text);
-            PageData.SetYokaiID (int.Parse (yokaiID.text));
+            PageData.SetYokaiID(int.Parse(yokaiID.text));
 
         }
     }
 
-    public void OnClickItem ()
+    public void OnClickItem()
     {
-        if (itemID != null) {
+        if (itemID != null)
+        {
             //PlayerPrefs.SetInt("itemID", int.Parse(itemID.text));
             //PageData.itemID = int.Parse(itemID.text);
-            PageData.SetItemID (int.Parse (itemID.text));
+            PageData.SetItemID(int.Parse(itemID.text));
         }
     }
 
-    public void btnNext_Click (int i)
+    public void btnNext_Click(int i)
     {
         _next++;
-        if (_next < i) {
-            if (_next == 1) {
+        if (_next < i)
+        {
+            if (_next == 1)
+            {
                 // MiddleEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.MiddleEnding2);
             }
-        } else {
+        }
+        else
+        {
             _next = 0;
-            DialogEnding.SetActive (false);
+            DialogEnding.SetActive(false);
         }
     }
 
-    public void DebugGetArea34 ()
+    public void DebugGetArea34()
     {
-        var area3s = ApplicationData.YokaiData.FindAll ((obj) => {
-            var ibeacon = ApplicationData.IBeaconData.Find (
+        var area3s = ApplicationData.YokaiData.FindAll((obj) =>
+        {
+            var ibeacon = ApplicationData.IBeaconData.Find(
                 (beacon) => beacon.iBeaconType == IBeaconType.Yokai
                 && beacon.data_id == obj.id);
             return ibeacon.area == 3;
         });
-        foreach (var y in area3s) {
-            UserData.SuccessGetYokai (y.id, -1);
+        foreach (var y in area3s)
+        {
+            UserData.SuccessGetYokai(y.id, -1);
         }
 
-        var area4s = ApplicationData.YokaiData.FindAll ((obj) => {
-            var ibeacon = ApplicationData.IBeaconData.Find (
+        var area4s = ApplicationData.YokaiData.FindAll((obj) =>
+        {
+            var ibeacon = ApplicationData.IBeaconData.Find(
                 (beacon) => beacon.iBeaconType == IBeaconType.Yokai
                 && beacon.data_id == obj.id);
             return ibeacon.area == 4;
         });
-        foreach (var y in area4s) {
-            UserData.SuccessGetYokai (y.id, -1);
+        foreach (var y in area4s)
+        {
+            UserData.SuccessGetYokai(y.id, -1);
         }
-        MapManager.SetupIcon ();
+        MapManager.SetupIcon();
     }
 
-    public void DebugGetArea12 ()
+    public void DebugGetArea12()
     {
-        var area1s = ApplicationData.YokaiData.FindAll ((obj) => {
-            var ibeacon = ApplicationData.IBeaconData.Find (
+        var area1s = ApplicationData.YokaiData.FindAll((obj) =>
+        {
+            var ibeacon = ApplicationData.IBeaconData.Find(
                 (beacon) => beacon.iBeaconType == IBeaconType.Yokai
                 && beacon.data_id == obj.id);
             return ibeacon.area == 1;
         });
-        foreach (var y in area1s) {
-            UserData.SuccessGetYokai (y.id, -1);
+        foreach (var y in area1s)
+        {
+            UserData.SuccessGetYokai(y.id, -1);
         }
 
-        var area2s = ApplicationData.YokaiData.FindAll ((obj) => {
-            var ibeacon = ApplicationData.IBeaconData.Find (
+        var area2s = ApplicationData.YokaiData.FindAll((obj) =>
+        {
+            var ibeacon = ApplicationData.IBeaconData.Find(
                 (beacon) => beacon.iBeaconType == IBeaconType.Yokai
                 && beacon.data_id == obj.id);
             return ibeacon.area == 2;
         });
-        foreach (var y in area2s) {
-            UserData.SuccessGetYokai (y.id, -1);
+        foreach (var y in area2s)
+        {
+            UserData.SuccessGetYokai(y.id, -1);
         }
-        MapManager.SetupIcon ();
+        MapManager.SetupIcon();
     }
 
     public void btnGuidePlay_Click()
     {
         DialogGuidePlay.SetActive(true);
         DialogGuidePlay.transform.GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.HowToPlay);
-		DialogGuidePlay.transform.GetChild (1).GetComponent<Text> ().font = ChangeFont ();
-		DialogGuidePlay.transform.GetChild (1).GetComponent<Text> ().fontSize = ApplicationData.SetFontSize (LocaleType.HowToPlay);
+        DialogGuidePlay.transform.GetChild(1).GetComponent<Text>().font = ChangeFont();
+        DialogGuidePlay.transform.GetChild(1).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.HowToPlay);
     }
 }
