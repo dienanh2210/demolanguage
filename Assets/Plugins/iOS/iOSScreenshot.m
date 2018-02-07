@@ -1,10 +1,4 @@
-//
-//  iOSScreenshot.m
-//  
-//
-//  Created by Nikunj on 14/09/15.
-//
-//
+
 
 bool saveToGallery( const char * path )
 {
