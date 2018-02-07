@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using TwitterKit.Unity;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -85,7 +84,6 @@ public class TitlePage : Page
     }
     private void Start()
     {
-        Twitter.Init();
         if (!UserData.IsShowedGuideNote)
         {
             PopupRed.SetActive(true);
