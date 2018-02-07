@@ -1916,10 +1916,158 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
+  - key: 48
+    localContents:
+    - languageType: 0
+      text: "\u5996\u602A\u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 1
+      text: "You found a y\u014Dkai."
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 2
+      text: "\u767C\u73FE\u5996\u602A\u3002"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 3
+      text: "\u53D1\u73B0\u5996\u602A"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 4
+      text: "\u0E04\u0E38\u0E13\u0E1E\u0E1A\u0E42\u0E22\u0E44\u0E01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+  - key: 49
+    localContents:
+    - languageType: 0
+      text: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 1
+      text: CANCEL
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 2
+      text: "\u53D6\u6D88"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 3
+      text: "\u53D6\u6D88"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 4
+      text: "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+  - key: 50
+    localContents:
+    - languageType: 0
+      text: "\u7D42\u4E86"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 1
+      text: QUIT
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 2
+      text: "\u653E\u68C4"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 3
+      text: "\u653E\u5F03"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 4
+      text: "\u0E40\u0E25\u0E34\u0E01"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+  - key: 51
+    localContents:
+    - languageType: 0
+      text: "\u30A2\u30D7\u30EA\u3092\u4FEE\u4E86\u3057\u307E\u3059\u304B?"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 1
+      text: DO YOU WANT TO QUIT THIS APPLICATION?
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 2
+      text: "\u4F60\u60F3\u9000\u51FA\u9019\u500B\u61C9\u7528\u7A0B\u5E8F\u55CE\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 3
+      text: "\u4F60\u60F3\u9000\u51FA\u8FD9\u4E2A\u5E94\u7528\u7A0B\u5E8F\u5417\uFF1F"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
+    - languageType: 4
+      text: "\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E2D\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E41\u0E2D\u0E1B\u0E1E\u0E25\u0E34\u0E40\u0E04\u0E0A\u0E31\u0E19\u0E19\u0E35\u0E49\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 0
+      fontSize: 0
   - key: 47
     localContents:
     - languageType: 0
-      text: "Twitter\u3067\u5171\u6709\u3057\u307E\u3059\u304B"
+      text: "\u3067\u5171\u6709\u3057\u307E\u3059\u304B"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
