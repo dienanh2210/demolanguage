@@ -304,8 +304,14 @@ public enum LocaleType
     DetectNotification,
     ButtonCancelQuit,
     ButtonQuit,
-    ExitAlert
-    
+    ExitAlert,
+    how_to_play_1,
+    how_to_play_2,
+    how_to_play_yokai,
+    how_to_play_item,
+    how_to_play_3,
+    how_to_play_message
+
 }
 
 [Serializable]
