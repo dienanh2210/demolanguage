@@ -45,6 +45,8 @@ public class MapPageManager : Page
     GameObject exitAlertBoard;
     //public Text test;
     iBeaconDetect iBeaconDetect;
+    [SerializeField]
+    List<Text> lstText_HowToPlay = new List<Text>();
 
     public static bool _failGetYokai;
     void Awake()
@@ -391,8 +393,24 @@ public class MapPageManager : Page
     public void btnGuidePlay_Click()
     {
         DialogGuidePlay.SetActive(true);
-        DialogGuidePlay.transform.GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.HowToPlay);
-        DialogGuidePlay.transform.GetChild(1).GetComponent<Text>().font = ChangeFont();
-        DialogGuidePlay.transform.GetChild(1).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.HowToPlay);
+
+        lstText_HowToPlay[0].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_1);
+        lstText_HowToPlay[1].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_2);
+        lstText_HowToPlay[2].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_yokai);
+        lstText_HowToPlay[3].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_item);
+        lstText_HowToPlay[4].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_3);
+        lstText_HowToPlay[5].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_message);
+        lstText_HowToPlay[6].text = ApplicationData.GetLocaleText(LocaleType.ButtonPrologue);
+        
+        for(int i = 0; i < lstText_HowToPlay.Count; i++)
+        {
+            lstText_HowToPlay[i].font = ChangeFont();
+        }
+    }
+    public void ChangeTutorialPage()
+    {
+        PageManager.Show(PageType.Tutorial);
+        TutorialManager.count = 0;
+        TutorialManager.Instance.ResetPage();
     }
 }
