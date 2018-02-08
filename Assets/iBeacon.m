@@ -9,6 +9,8 @@
 #import "iBeacon.h"
 #import <NotificationCenter/NotificationCenter.h>
 
+#define DEFAULT_UUID  @"B0FC4601-14A6-43A1-ABCD-CB9CFDDB4013"
+
 @interface iBeacon()<ESTBeaconManagerDelegate, CLLocationManagerDelegate> {
     
 }
@@ -26,9 +28,10 @@
     NSLog(@"load iBeacon lib");
 }
 
-static NSString * KEY_NOTI_TEXT = @"KEY_NOTI_TEXT";
+static NSString * KEY_NOTI_TEXT   = @"KEY_NOTI_TEXT";
 static NSString * KEY_MINOR_ID        = @"Minor_ID";
 static NSString * KEY_MAJOR_ID        = @"Major_ID";
+static NSString * KEY_UUID        = @"UUID";
 static iBeacon * sharedInstance;
 
 + (iBeacon *)shared {
@@ -57,50 +60,42 @@ static iBeacon * sharedInstance;
                                               forKey:KEY_MAJOR_ID];
 }
 
-+ (BOOL)availableMinor:(NSString *)minorID major:(NSString *)majorID {
-    
-    NSString * minors = [[NSUserDefaults standardUserDefaults] objectForKey: KEY_MINOR_ID];
-    NSString * majors = [[NSUserDefaults standardUserDefaults] objectForKey: KEY_MAJOR_ID];
-    
-    if (minors != nil && majors != nil) {
-        NSArray <NSString *> * minorIDs = [minors componentsSeparatedByString:@","];
-        NSArray <NSString *> * majorIDs = [majors componentsSeparatedByString:@","];
-        
-        BOOL isExistMinor = NO;
-        BOOL isExistMajor = NO;
-        
-        for (NSString * minor in minorIDs) {
-            if ([minorID isEqualToString:minor]) {
-                isExistMinor = YES;
-                break;
++ (void)updateUUID:(NSString *) uuids {
+    [[NSUserDefaults standardUserDefaults] setObject: uuids
+                                              forKey: KEY_UUID];
+    [[iBeacon shared] restart];
+}
+
++ (BOOL)checkExit:(NSString *)uid inKey:(NSString*)key {
+    NSString * uidstring = [[NSUserDefaults standardUserDefaults] objectForKey:key];
+    NSArray <NSString *> * uuids = [uidstring componentsSeparatedByString:@","];
+    if (uuids != nil) {
+        for(NSString * uuid in uuids) {
+            if ([uuid isEqualToString:uid] && ![uuid isEqualToString:@""]) {
+                return YES;
             }
         }
-        for (NSString * major in majorIDs) {
-            if ([majorID isEqualToString:major]) {
-                isExistMajor = YES;
-                break;
-            }
-        }
-        
-        return isExistMinor && isExistMajor;
     }
-    
     return NO;
+}
+
++ (BOOL)availableMinor:(NSString *)minorID major:(NSString *)majorID uuid:(NSString *)uuid {
+    return ([iBeacon checkExit:minorID inKey:KEY_MINOR_ID] &&
+            [iBeacon checkExit:majorID inKey:KEY_MAJOR_ID] &&
+            [iBeacon checkExit:uuid inKey:KEY_UUID]);
 }
 
 #pragma mark -
 
 - (void)start {
- 
-    _beaconRegion = [[CLBeaconRegion alloc]
-initWithProximityUUID:[[NSUUID alloc]
-                       initWithUUIDString:@"B0FC4601-14A6-43A1-ABCD-CB9CFDDB4013"]
-identifier:@"monitored region"];
+    _beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:[[NSUUID alloc]
+                                                                   initWithUUIDString:DEFAULT_UUID]
+                                                       identifier:@"monitored region"];
 
     self.beaconManager.delegate = self;
     [self.beaconManager requestAlwaysAuthorization];
-    [self.beaconManager
-     startMonitoringForRegion:_beaconRegion];
+    //[self.beaconManager
+     //startMonitoringForRegion:_beaconRegion];
     
     [[UIApplication sharedApplication]
      registerUserNotificationSettings:
@@ -115,52 +110,83 @@ identifier:@"monitored region"];
     [_pushedID removeAllObjects];
 }
 
-- (void)startRangingItem {
+- (void)restart{
+    NSString * uuidstring = [[NSUserDefaults standardUserDefaults] objectForKey:KEY_UUID];
+    
     [_pushedID removeAllObjects];
-    [self.beaconManager stopRangingBeaconsInAllRegions];
-    [self.beaconManager startRangingBeaconsInRegion:_beaconRegion];
+    if (uuidstring != nil) {
+        NSArray <NSString *> * uuids = [uuidstring componentsSeparatedByString:@","];
+        [self.beaconManager stopMonitoringForAllRegions];
+        for (NSString * uuid in uuids) {
+            if (![uuid isEqualToString:@""]) {
+                _beaconRegion = [[CLBeaconRegion alloc]
+                                 initWithProximityUUID:[[NSUUID alloc]
+                                                        initWithUUIDString:uuid]
+                                 identifier:uuid];
+                [self.beaconManager
+                 startMonitoringForRegion:_beaconRegion];
+            }
+        }
+    }
+}
+
+- (void)startRangingItem:(CLBeaconRegion *)region {
+    [self.beaconManager startRangingBeaconsInRegion:region];
 }
 
 - (void)beaconManager:(id)manager didEnterRegion:(CLBeaconRegion *)region {
     if ([region isKindOfClass:[CLBeaconRegion class]]) {
         [_locationManager startUpdatingLocation];
-        [self startRangingItem];
+        [self startRangingItem: region];
     }
 }
 
 - (void)beaconManager:(id)manager didExitRegion:(CLBeaconRegion *)region {
-    [_locationManager stopUpdatingLocation];
-    [_beaconManager stopRangingBeaconsInRegion:_beaconRegion];
-    [_pushedID removeAllObjects];
+    [_beaconManager stopRangingBeaconsInRegion:region];
+    
+    
+    int indexUUID = -1;
+    for (int i=0; i<_pushedID.count; i++) {
+        NSString * uuid = _pushedID[i];
+        if ([uuid isEqualToString:region.proximityUUID.UUIDString]) {
+            indexUUID = i;
+            break;
+        }
+    }
+    if (indexUUID != -1) {
+        [_pushedID removeObjectAtIndex:indexUUID];
+    }
 }
 
 -(void)beaconManager:(id)manager didRangeBeacons:(NSArray<CLBeacon *> *)beacons inRegion:(CLBeaconRegion *)region {
     NSLog(@"beacon %lu", (unsigned long)beacons.count);
     for (CLBeacon * beacon in beacons) {
-        [self checkMinorAndPushMinor:beacon.minor.stringValue major:beacon.major.stringValue];
+        [self sendNotificationIfDetectBeacon:beacon.minor.stringValue
+                               major:beacon.major.stringValue
+                                uuid:beacon.proximityUUID.UUIDString];
     }
 }
 
-- (void)checkMinorAndPushMinor:(NSString *)minorID major:(NSString *) majorID {
-    if ([iBeacon availableMinor:minorID major:majorID]) {
-        [self pushNotification:minorID];
+- (void)sendNotificationIfDetectBeacon:(NSString *)minorID major:(NSString *) majorID uuid:(NSString *)uuid {
+    if ([iBeacon availableMinor:minorID major:majorID uuid:uuid]) {
+        [self pushNotification: [NSString stringWithFormat:@"%@%@%@",uuid,minorID,majorID]];
     }
 }
 
-- (BOOL)checkPushedId:(NSString *)minorID {
+- (BOOL)checkPushedId:(NSString *)uid {
     for (NSString * pushedID in _pushedID) {
-        if ([pushedID isEqualToString:minorID]) {
+        if ([pushedID isEqualToString:uid]) {
             return YES;
         }
     }
     
-    [_pushedID addObject:minorID];
+    [_pushedID addObject:uid];
     return NO;
 }
 
-- (void)pushNotification: (NSString *)minorID {
+- (void)pushNotification: (NSString *)uid {
     
-    if ([self checkPushedId:minorID]) {
+    if ([self checkPushedId:uid]) {
         return;
     }
     

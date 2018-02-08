@@ -14,17 +14,19 @@ public class ApplicationData : MonoBehaviour
         var listMinor_id = ApplicationData.IBeaconData.Where(s => s.IsShowOnMap()).ToList();
         string minor = "";
         string major = "";
+        string uuid = "";
         foreach (IBeaconData i in listMinor_id)
         {
             minor = minor + "," + i.minor_id;
             major = major + "," + i.major_id;
-            
+            uuid = uuid + "," + i.uuid;
         }
         string notificationText = GetLocaleText(LocaleType.DetectNotification);
 
         Override.SetText(notificationText);
         Override.LoadMinor_id(minor);
         Override.LoadMajor_id(major);
+        Override.LoadUUID(uuid);
 
         return "";
     }
@@ -302,8 +304,14 @@ public enum LocaleType
     DetectNotification,
     ButtonCancelQuit,
     ButtonQuit,
-    ExitAlert
-    
+    ExitAlert,
+    how_to_play_1,
+    how_to_play_2,
+    how_to_play_yokai,
+    how_to_play_item,
+    how_to_play_3,
+    how_to_play_message
+
 }
 
 [Serializable]

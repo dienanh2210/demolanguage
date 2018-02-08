@@ -15,5 +15,6 @@
 + (void)setNotificationText:(NSString *)text;
 + (void)updateAvailableMinorID:(NSString *)minorIDs;
 + (void)updateAvailableMajorID:(NSString *) majorIDs;
++ (void)updateUUID:(NSString *) uuids;
 
 @end
