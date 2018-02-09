@@ -160,7 +160,6 @@ public class GetPageManager : Page
         }
 
         if (ApplicationData.GetYokaiData (PageData.yokaiID).isBoss) {
-//            model.GetComponentsInChildren<MeshRenderer> (true) [0].material = Resources.Load ("Materials/YokaiMaterials/Boss", typeof (Material)) as Material;
             model.GetComponentsInChildren<MeshRenderer> (true) [0].material = lstMaterial.Find (x => x.name == "syuten-douji");
         }
 

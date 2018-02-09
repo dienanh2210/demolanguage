@@ -221,7 +221,6 @@ public class CircleController : MonoBehaviour
             GetPageManager.GetInstance ().model.GetComponentsInChildren<MeshRenderer> (true) [1].gameObject.SetActive (false);
         }
 
-        //if (ApplicationData.GetYokaiData (PlayerPrefs.GetInt ("yokaiID")).IsNeedItem () && !ApplicationData.GetYokaiData (PlayerPrefs.GetInt ("yokaiID")).HasItem ()) {
         if (ApplicationData.GetYokaiData (PageData.yokaiID).IsNeedItem () && !ApplicationData.GetYokaiData (PageData.yokaiID).HasItem ()) {
             this.gameObject.SetActive (true);
             this.transform.localScale = new Vector3 (8.5f, 8.5f, 8.5f);
@@ -283,10 +282,6 @@ public class CircleController : MonoBehaviour
 
             });
 
-            //            if (ApplicationData.YokaiData[(PlayerPrefs.GetInt("yokaiID"))-1].isBoss && UserData.IsPassedBossOnce) {
-            //                       
-            //                
-            //            }
             if (UserData.IsShowedMessageForLastEnding && ApplicationData.GetYokaiData ((PageData.yokaiID)).isBoss) {
                 
 
@@ -323,7 +318,12 @@ public class CircleController : MonoBehaviour
         if (!PageData.IsItem) {
             txtGz = TextController.transform.GetChild (2).gameObject;
             txtGz.SetActive (true);
-            txtGz.GetComponent<Image> ().sprite = ApplicationData.GetSuccessImage (ApplicationData.SelectedLanguage).yokaiText;
+            
+            if (ApplicationData.GetYokaiData (PageData.yokaiID).isBoss) {
+                txtGz.GetComponent<Image> ().sprite = ApplicationData.GetBossText (ApplicationData.SelectedLanguage).txt;
+            } else {
+                txtGz.GetComponent<Image> ().sprite = ApplicationData.GetSuccessImage (ApplicationData.SelectedLanguage).yokaiText;
+            }            
             txtGz.GetComponent<Transform> ().DOScale (new Vector3 (1.6f, 1.6f, 1.6f), .3f).SetEase (Ease.Linear).OnComplete (() => {
                 txtGz.GetComponent<Transform> ().DOScale (new Vector3 (1.4f, 1.4f, 1.4f), .5f).SetEase (Ease.Linear);
             });
