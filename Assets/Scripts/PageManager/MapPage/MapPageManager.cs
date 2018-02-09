@@ -47,6 +47,8 @@ public class MapPageManager : Page
     iBeaconDetect iBeaconDetect;
     [SerializeField]
     List<Text> lstText_HowToPlay = new List<Text>();
+    [SerializeField]
+    Text txtOpenEsashinavi;
 
     public static bool _failGetYokai;
     void Awake()
@@ -94,6 +96,9 @@ public class MapPageManager : Page
         {
             btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(2);
         }
+
+        txtOpenEsashinavi.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
+        txtOpenEsashinavi.font = GetComponent<Text>().font = ChangeFont();
     }
 
     IEnumerator _EnableBeacon()
@@ -412,5 +417,10 @@ public class MapPageManager : Page
         PageManager.Show(PageType.Tutorial);
         TutorialManager.count = 0;
         TutorialManager.Instance.ResetPage();
+    }
+
+    public void OpenEsashinavi()
+    {
+        TitlePage.instance.OpenURL();
     }
 }
