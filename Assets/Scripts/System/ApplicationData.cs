@@ -83,10 +83,14 @@ public class ApplicationData : MonoBehaviour
     }
 
 
+    
+  
     public static SuccessImageData GetSuccessImage(LanguageType languageType)
     {
         return applicationData.successImageData.Find ((obj) => obj.type == languageType);
     }
+    
+    
 
 	public static Logo GetLogoImage(LanguageType languageType)
 	{
@@ -142,8 +146,10 @@ public class ApplicationData : MonoBehaviour
             return applicationData.yokaiGetTutorialData;
         }
     }
-
-
+    
+    public static GetBossSuccessText GetBossText(LanguageType languageType){
+        return applicationData.getBossSuccessText.Find ((obj) => obj.type == languageType);
+    }
 
     public static LanguageType SelectedLanguage {
         get {
@@ -235,7 +241,9 @@ public class ApplicationData : MonoBehaviour
 	[SerializeField]
 	List<Logo> logo = new List<Logo>();
 
-
+    [SerializeField]
+    List<GetBossSuccessText> getBossSuccessText = new List<GetBossSuccessText>();
+    
     void Awake ()
     {
         applicationData = this;
@@ -310,7 +318,8 @@ public enum LocaleType
     how_to_play_yokai,
     how_to_play_item,
     how_to_play_3,
-    how_to_play_message
+    how_to_play_message,
+  
 
 }
 
@@ -328,6 +337,13 @@ public struct SuccessImageData
     public LanguageType type;
     public Sprite yokaiText;
     public Sprite itemText;
+}
+
+[Serializable]
+public struct GetBossSuccessText
+{
+    public LanguageType type;
+    public Sprite txt;
 }
 
 [Serializable]
