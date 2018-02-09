@@ -32,6 +32,7 @@ public class TitlePage : Page
     [DllImport ("__Internal")]
     private static extern void openByScheme (string scheme);
 
+    public static TitlePage instance;
     #endregion
 
     #region Init
@@ -95,7 +96,7 @@ public class TitlePage : Page
         {
             PopupRed.SetActive(false);
         }
-
+        instance = this;
     }
 #endregion
 
