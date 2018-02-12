@@ -42,7 +42,7 @@ public class Photo : Page
 
         File.WriteAllBytes(destination, dataToSave);
 
-        GeneralSharingiOSBridge.ShareTextWithImage(destination, "New Yokai !!! \nThis is post from YokaiGet");
+        GeneralSharingiOSBridge.ShareTextWithImage(destination, "");
 #endif
     }
     #endregion
