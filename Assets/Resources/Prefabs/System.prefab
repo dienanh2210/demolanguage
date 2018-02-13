@@ -2323,6 +2323,43 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
+  - key: 58
+    localContents:
+    - languageType: 0
+      text: "\u90F7\u30CA\u30D3\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 240
+      fontSize: 0
+    - languageType: 1
+      text: "Park Navi\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 240
+      fontSize: 0
+    - languageType: 2
+      text: "\u9109\u56AE\u5C0E\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 240
+      fontSize: 0
+    - languageType: 3
+      text: "\u4E61\u5411\u5BFC\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 240
+      fontSize: 0
+    - languageType: 4
+      text: "\u0E23\u0E30\u0E1A\u0E1A\u0E19\u0E33\u0E17\u0E32\u0E07\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 290
+      fontSize: 0
   fontData:
     titleFont: {fileID: 12800000, guid: b29ceacfe5435004aa21512157fa03f0, type: 3}
     contentFont: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}

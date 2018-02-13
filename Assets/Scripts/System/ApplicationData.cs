@@ -319,7 +319,7 @@ public enum LocaleType
     how_to_play_item,
     how_to_play_3,
     how_to_play_message,
-  
+    ButtonParkNavi
 
 }
 
