@@ -3180,15 +3180,15 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
-    - languageType: 4
-      text: "\u0E42\u0E2D\u0E19\u0E34\u0E1A\u0E32\u0E1A\u0E30"
+    - languageType: 3
+      text: "\u9B3C\u5A46"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
-    - languageType: 0
-      text: "\u9B3C\u5A46"
+    - languageType: 4
+      text: "\u0E42\u0E2D\u0E19\u0E34\u0E1A\u0E32\u0E1A\u0E30"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
