@@ -2323,6 +2323,43 @@ MonoBehaviour:
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
+  - key: 58
+    localContents:
+    - languageType: 0
+      text: "\u90F7\u30CA\u30D3\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 240
+      fontSize: 0
+    - languageType: 1
+      text: "Park Navi\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 240
+      fontSize: 0
+    - languageType: 2
+      text: "\u9109\u56AE\u5C0E\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 240
+      fontSize: 0
+    - languageType: 3
+      text: "\u4E61\u5411\u5BFC\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 240
+      fontSize: 0
+    - languageType: 4
+      text: "\u0E23\u0E30\u0E1A\u0E1A\u0E19\u0E33\u0E17\u0E32\u0E07\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\r"
+      image: {fileID: 0}
+      lineSpacing: 0
+      linePosition: {x: 0, y: 0}
+      lineWidth: 290
+      fontSize: 0
   fontData:
     titleFont: {fileID: 12800000, guid: b29ceacfe5435004aa21512157fa03f0, type: 3}
     contentFont: {fileID: 12800000, guid: 81f9338436586674e8aab397bbfb7658, type: 3}
@@ -4575,14 +4612,14 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 42
     - languageType: 2
-      text: "\"\u300C\u8ACB\u7528\u9019\u500B\n\u91CD\u65B0\u5C01\u5370\n\u5728 -red_fire\u4E4B\u8655\u7684\u5996\u602A\u5011\u3002\u300D\""
+      text: "\"\u300C\u8ACB\u7528\u9019\u500B\n\u91CD\u65B0\u5C01\u5370\n\u5728  -red_fire\u4E4B\u8655\u7684\u5996\u602A\u5011\u3002\u300D\"\r\n"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 42
     - languageType: 3
-      text: "\"\u201C\u628A -red_fire\u4E4B\u5904\u7684\u5996\u602A\u4EEC\n\u91CD\u65B0\u5C01\u5370\u5230\u5C01\u5370\u5E16\u91CC\u3002\n\u5C31\u7528\u8FD9\u4E2A\u54E6\u3002\u201D\""
+      text: "\u201C\u628A -red_fire\u4E4B\u5904\u7684\u5996\u602A\u4EEC\r\n\u91CD\u65B0\u5C01\u5370\u5230\u5C01\u5370\u5E16\u91CC\u3002\r\n\u5C31\u7528\u8FD9\u4E2A\u54E6\u3002\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}

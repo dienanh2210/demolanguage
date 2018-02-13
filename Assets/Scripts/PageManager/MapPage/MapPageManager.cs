@@ -9,7 +9,7 @@ public class MapPageManager : Page
 
     public InputField itemID;
     public InputField yokaiID;
-
+    public GameObject btnParkNavi;
     GameObject touchPad;
 
     [SerializeField]
@@ -97,7 +97,7 @@ public class MapPageManager : Page
             btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(2);
         }
 
-        txtOpenEsashinavi.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
+        txtOpenEsashinavi.text = ApplicationData.GetLocaleText(LocaleType.ButtonParkNavi);
         txtOpenEsashinavi.font = GetComponent<Text>().font = ChangeFont();
     }
 
