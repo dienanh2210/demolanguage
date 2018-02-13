@@ -2111,28 +2111,29 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: "\u2460\u30A2\u30A4\u30B3\u30F3\u306E\u5834\u6240\u306B\u884C\u3063\u3066\u5996\u602A\u305F\u3061\u3092\u63A2\u305D\u3046\u3002"
+      text: "\u2460Go to the locations with icons and look for y\u014Dkai."
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u2460\u30A2\u30A4\u30B3\u30F3\u306E\u5834\u6240\u306B\u884C\u3063\u3066\u5996\u602A\u305F\u3061\u3092\u63A2\u305D\u3046\u3002"
+      text: "\u2460\u524D\u5F80\u56FE\u6807\u7684\u4F4D\u7F6E\u641C\u5BFB\u5996\u602A\u4EEC\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u2460\u30A2\u30A4\u30B3\u30F3\u306E\u5834\u6240\u306B\u884C\u3063\u3066\u5996\u602A\u305F\u3061\u3092\u63A2\u305D\u3046\u3002"
+      text: "\u2460\u8ACB\u5230\u5716\u793A\u7684\u4F4D\u7F6E\u5C0B\u627E\u5996\u602A\u5011\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: "\u2460\u30A2\u30A4\u30B3\u30F3\u306E\u5834\u6240\u306B\u884C\u3063\u3066\u5996\u602A\u305F\u3061\u3092\u63A2\u305D\u3046\u3002"
+      text: "\u2460\u0E44\u0E1B\u0E17\u0E35\u0E48\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E17\u0E35\u0E48\u0E21\u0E35\u0E44\u0E2D\u0E04\u0E2D\u0E19
+        \u0E41\u0E25\u0E30\u0E21\u0E2D\u0E07\u0E2B\u0E32\u0E42\u0E22\u0E44\u0E01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2141,35 +2142,35 @@ MonoBehaviour:
   - key: 53
     localContents:
     - languageType: 0
-      text: " \u2461\u30A2\u30A4\u30B3\u30F3\u8AAC\u660E"
+      text: "\u2461\u30A2\u30A4\u30B3\u30F3\u8AAC\u660E"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: " \u2461\u30A2\u30A4\u30B3\u30F3\u8AAC\u660E"
+      text: "\u2461Icon Information"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: " \u2461\u30A2\u30A4\u30B3\u30F3\u8AAC\u660E"
+      text: "\u2461\u56FE\u6807\u8BF4\u660E"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: " \u2461\u30A2\u30A4\u30B3\u30F3\u8AAC\u660E"
+      text: "\u2461\u5716\u793A\u8AAA\u660E"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: " \u2461\u30A2\u30A4\u30B3\u30F3\u8AAC\u660E"
+      text: "\u2461\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E44\u0E2D\u0E04\u0E2D\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2185,28 +2186,28 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: "\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u30BF\u30C3\u30D7\u3057\u3066\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3088\u3046"
+      text: "Try to tap the y\u014Dkai to capture them."
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u30BF\u30C3\u30D7\u3057\u3066\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3088\u3046"
+      text: "\u6293\u51C6\u65F6\u673A\u70B9\u51FB\u5996\u602A\uFF0C\u5C01\u5370\u5996\u602A\u4EEC\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u30BF\u30C3\u30D7\u3057\u3066\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3088\u3046"
+      text: "\u5728\u6B63\u78BA\u6642\u6A5F\u9EDE\u64CA\u5996\u602A\uFF0C\u5C31\u80FD\u5C01\u5370\u5996\u602A\u5011\u3002\r"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: "\u30BF\u30A4\u30DF\u30F3\u30B0\u3088\u304F\u30BF\u30C3\u30D7\u3057\u3066\u5996\u602A\u305F\u3061\u3092\u5C01\u5370\u3057\u3088\u3046"
+      text: "\u0E1E\u0E22\u0E32\u0E22\u0E32\u0E21\u0E41\u0E15\u0E30\u0E17\u0E35\u0E48\u0E42\u0E22\u0E44\u0E01\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E08\u0E31\u0E1A\u0E21\u0E31\u0E19\u0E43\u0E2B\u0E49\u0E44\u0E14\u0E49"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2222,28 +2223,31 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: "\u5C01\u5370\u5E16\u306B\u30DA\u30FC\u30B8\u304C\u306A\u304F\u5C01\u5370\u3067\u304D\u306A\u3044\u5996\u602A\u3082\u3044\u307E\u3059\u3002\u5148\u306B\u30DA\u30FC\u30B8\u3092\u63A2\u305D\u3046\u3002"
+      text: "There are y\u014Dkai that you can\u2019t capture because they don\u2019t
+        have pages in the album. Find the pages first.\r"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u5C01\u5370\u5E16\u306B\u30DA\u30FC\u30B8\u304C\u306A\u304F\u5C01\u5370\u3067\u304D\u306A\u3044\u5996\u602A\u3082\u3044\u307E\u3059\u3002\u5148\u306B\u30DA\u30FC\u30B8\u3092\u63A2\u305D\u3046\u3002"
+      text: "\u5C01\u5370\u5E16\u4E0A\u6CA1\u6709\u9875\u9762\uFF0C\u6709\u7684\u5996\u602A\u65E0\u6CD5\u5C01\u5370\u3002\u5148\u67E5\u627E\u9875\u9762\u5427\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u5C01\u5370\u5E16\u306B\u30DA\u30FC\u30B8\u304C\u306A\u304F\u5C01\u5370\u3067\u304D\u306A\u3044\u5996\u602A\u3082\u3044\u307E\u3059\u3002\u5148\u306B\u30DA\u30FC\u30B8\u3092\u63A2\u305D\u3046\u3002"
+      text: "\u6709\u7684\u5996\u602A\u6C92\u6709\u5C01\u5370\u5E16\u9801\u9762\u5C31\u7121\u6CD5\u5C01\u5370\u3002\u8ACB\u5148\u5C0B\u627E\u9801\u9762\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: "\u5C01\u5370\u5E16\u306B\u30DA\u30FC\u30B8\u304C\u306A\u304F\u5C01\u5370\u3067\u304D\u306A\u3044\u5996\u602A\u3082\u3044\u307E\u3059\u3002\u5148\u306B\u30DA\u30FC\u30B8\u3092\u63A2\u305D\u3046\u3002"
+      text: "\u0E21\u0E35\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E08\u0E31\u0E1A\u0E44\u0E14\u0E49
+        \u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E21\u0E35\u0E44\u0E21\u0E48\u0E21\u0E35\u0E2B\u0E19\u0E49\u0E32\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21
+        \u0E04\u0E49\u0E19\u0E2B\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E01\u0E48\u0E2D\u0E19\r"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2252,35 +2256,36 @@ MonoBehaviour:
   - key: 56
     localContents:
     - languageType: 0
-      text: "\u2462\u3042\u308B\u671F\u9593\u306E\u307F\u306B\u51FA\u73FE\u3059\u308B\u9650\u5B9A\u5996\u602A\u3082\u3044\u308B\u3088\uFF01"
+      text: "\u2462\u3042\u308B\u671F\u9593\u306E\u307F\u306B\u51FA\u73FE\u3059\u308B\u9650\u5B9A\u5996\u602A\u3082\n\u3044\u308B\u3088\uFF01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: "\u2462\u3042\u308B\u671F\u9593\u306E\u307F\u306B\u51FA\u73FE\u3059\u308B\u9650\u5B9A\u5996\u602A\u3082\u3044\u308B\u3088\uFF01"
+      text: "\u2462There are also special y\u014Dkai that only appear during certain
+        times."
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u2462\u3042\u308B\u671F\u9593\u306E\u307F\u306B\u51FA\u73FE\u3059\u308B\u9650\u5B9A\u5996\u602A\u3082\u3044\u308B\u3088\uFF01"
+      text: "\u2462\u8FD8\u6709\u4E9B\u5996\u602A\u4EC5\u9650\u67D0\u4E9B\u671F\u95F4\u624D\u4F1A\u51FA\u73B0\u54E6\uFF01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u2462\u3042\u308B\u671F\u9593\u306E\u307F\u306B\u51FA\u73FE\u3059\u308B\u9650\u5B9A\u5996\u602A\u3082\u3044\u308B\u3088\uFF01"
+      text: "\u2462\u6709\u7684\u5996\u602A\u53EA\u6709\u5728\u7279\u5B9A\u671F\u9593\u624D\u6703\u51FA\u73FE\u5594\uFF01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: "\u2462\u3042\u308B\u671F\u9593\u306E\u307F\u306B\u51FA\u73FE\u3059\u308B\u9650\u5B9A\u5996\u602A\u3082\u3044\u308B\u3088\uFF01"
+      text: "\u2462\u0E19\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E21\u0E35\u0E42\u0E22\u0E44\u0E01\u0E1E\u0E34\u0E40\u0E28\u0E29\u0E17\u0E35\u0E48\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E23\u0E30\u0E2B\u0E27\u0E48\u0E32\u0E07\u0E1A\u0E32\u0E07\u0E0A\u0E48\u0E27\u0E07\u0E40\u0E27\u0E25\u0E32\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2296,28 +2301,30 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: " \u5996\u602A\u5C01\u5370\u5E16\u3092\u5B8C\u6210\u3055\u305B\u3066\u3001\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u306B\u5E73\u548C\u3092\u53D6\u308A\u623B\u305D\u3046\u3002"
+      text: " Complete the Y\u014Dkai Album and return Esashi-Fujiwara Heritage Park
+        to peace."
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: " \u5996\u602A\u5C01\u5370\u5E16\u3092\u5B8C\u6210\u3055\u305B\u3066\u3001\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u306B\u5E73\u548C\u3092\u53D6\u308A\u623B\u305D\u3046\u3002"
+      text: "\u5B8C\u6210\u5996\u602A\u5C01\u5370\u5E16\uFF0C\u8BA9\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u6062\u590D\u548C\u5E73\u5427\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: " \u5996\u602A\u5C01\u5370\u5E16\u3092\u5B8C\u6210\u3055\u305B\u3066\u3001\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u306B\u5E73\u548C\u3092\u53D6\u308A\u623B\u305D\u3046\u3002"
+      text: " \u8ACB\u5B8C\u6210\u5996\u602A\u5C01\u5370\u5E16\uFF0C\u8B93\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u56DE\u6B78\u5E73\u975C\u5427\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: " \u5996\u602A\u5C01\u5370\u5E16\u3092\u5B8C\u6210\u3055\u305B\u3066\u3001\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\u306B\u5E73\u548C\u3092\u53D6\u308A\u623B\u305D\u3046\u3002"
+      text: " \u0E40\u0E01\u0E47\u0E1A\u0E02\u0E2D\u0E07\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01\u0E43\u0E2B\u0E49\u0E04\u0E23\u0E1A\u0E41\u0E25\u0E30\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
+        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E07\u0E1A"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}

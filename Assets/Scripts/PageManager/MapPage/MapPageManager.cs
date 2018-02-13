@@ -406,6 +406,14 @@ public class MapPageManager : Page
         lstText_HowToPlay[4].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_3);
         lstText_HowToPlay[5].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_message);
         lstText_HowToPlay[6].text = ApplicationData.GetLocaleText(LocaleType.ButtonPrologue);
+
+        foreach (var text in lstText_HowToPlay) {
+            if (ApplicationData.SelectedLanguage == LanguageType.English) {
+                text.lineSpacing = 0.5f;
+            } else {
+                text.lineSpacing = 0.7f;
+            }
+        }
         
         for(int i = 0; i < lstText_HowToPlay.Count; i++)
         {
