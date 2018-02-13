@@ -1956,35 +1956,35 @@ MonoBehaviour:
   - key: 49
     localContents:
     - languageType: 0
-      text: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+      text: "\u3044\u3044\u3048"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: CANCEL
+      text: No
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u53D6\u6D88"
+      text: "\u6C92\u6709"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u53D6\u6D88"
+      text: "\u6CA1\u6709"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: "\u0E22\u0E01\u0E40\u0E25\u0E34\u0E01"
+      text: "\u0E44\u0E21\u0E48"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1993,35 +1993,35 @@ MonoBehaviour:
   - key: 50
     localContents:
     - languageType: 0
-      text: "\u7D42\u4E86"
+      text: "\u306F\u3044"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: QUIT
+      text: Yes
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u653E\u68C4"
+      text: "\u662F\u7684"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u653E\u5F03"
+      text: "\u662F\u7684"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: "\u0E40\u0E25\u0E34\u0E01"
+      text: "\u0E43\u0E0A\u0E48"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
