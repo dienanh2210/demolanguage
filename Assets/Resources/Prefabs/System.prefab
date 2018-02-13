@@ -2030,35 +2030,35 @@ MonoBehaviour:
   - key: 51
     localContents:
     - languageType: 0
-      text: "\u30A2\u30D7\u30EA\u3092\u4FEE\u4E86\u3057\u307E\u3059\u304B?"
+      text: "\u30A2\u30D7\u30EA\u7D42\u4E86\u3057\u307E\u3059\u304B"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: DO YOU WANT TO QUIT THIS APPLICATION?
+      text: Do you want to close the application?
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u4F60\u60F3\u9000\u51FA\u9019\u500B\u61C9\u7528\u7A0B\u5E8F\u55CE\uFF1F"
+      text: "\u4F60\u60F3\u95DC\u9589\u61C9\u7528\u7A0B\u5E8F\u55CE\uFF1F"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u4F60\u60F3\u9000\u51FA\u8FD9\u4E2A\u5E94\u7528\u7A0B\u5E8F\u5417\uFF1F"
+      text: "\u4F60\u60F3\u5173\u95ED\u5E94\u7528\u7A0B\u5E8F\u5417\uFF1F"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: "\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E2D\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E41\u0E2D\u0E1B\u0E1E\u0E25\u0E34\u0E40\u0E04\u0E0A\u0E31\u0E19\u0E19\u0E35\u0E49\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?"
+      text: "\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E1B\u0E34\u0E14\u0E41\u0E2D\u0E1B\u0E1E\u0E25\u0E34\u0E40\u0E04\u0E0A\u0E31\u0E19\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48?"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -4686,14 +4686,4 @@ MonoBehaviour:
     img: {fileID: 21300000, guid: 6b01141853920c5488572424ad8506db, type: 3}
   - type: 4
     img: {fileID: 21300000, guid: 6167dd62869673b4cbb92ba8851f0e0d, type: 3}
-  getBossSuccessText:
-  - type: 0
-    txt: {fileID: 21300000, guid: 3ea3e07af26993047a0b1bd215d10ac1, type: 3}
-  - type: 1
-    txt: {fileID: 21300000, guid: 935b881379e6cfc4fbd5051245748309, type: 3}
-  - type: 2
-    txt: {fileID: 21300000, guid: 09e0f698ff7ef144f87d41ecb7553d86, type: 3}
-  - type: 3
-    txt: {fileID: 21300000, guid: e4b19ca0cfa763d49af0ed4a534f7867, type: 3}
-  - type: 4
-    txt: {fileID: 21300000, guid: f7dccf5e7beb39f4da836366c98f8e35, type: 3}
+  getBossSuccessText: []
