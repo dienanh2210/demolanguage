@@ -42,7 +42,7 @@ public class YokaiDetail : MonoBehaviour
         var yokai = ApplicationData.YokaiData.Where(s => s.id == ButtonYokai.yokaiName).First();
         this.transform.GetChild(0).GetComponent<Image>().sprite = yokai.image;
 
-        if (yokai.kana != "")
+        if (yokai.kana != "" && ApplicationData.SelectedLanguage == LanguageType.Japanese)
         {
 			_name.GetComponent<Text>().text = yokai.localNames[(int)ApplicationData.SelectedLanguage].text.ToString();
             _kana.GetComponent<Text>().text = yokai.kana.ToString();
@@ -50,7 +50,7 @@ public class YokaiDetail : MonoBehaviour
         else
         {
 			_name.GetComponent<Text>().text = yokai.localNames[(int)ApplicationData.SelectedLanguage].text.ToString();
-            _kana.GetComponent<Text>().text = yokai.kana.ToString();
+            _kana.GetComponent<Text>().text = "";
         }
 
         for (int a = 0; a < ApplicationData.YokaiData[a].localContents.Count; a++)
@@ -76,7 +76,7 @@ public class YokaiDetail : MonoBehaviour
             {
                 var d = ApplicationData.YokaiData.Where(s => s.id == UserData.GetUserInfo().yokais.Last().yokai_id).First();
                 _image.GetComponent<Image>().sprite = d.image;
-                if (d.kana != "")
+                if (d.kana != "" && ApplicationData.SelectedLanguage == LanguageType.Japanese)
                 {
 					_name.GetComponent<Text>().text = d.localNames[(int)ApplicationData.SelectedLanguage].text;
                     _kana.GetComponent<Text>().text = d.kana;
@@ -84,7 +84,7 @@ public class YokaiDetail : MonoBehaviour
                 else
                 {
 					_name.GetComponent<Text>().text = d.localNames[(int)ApplicationData.SelectedLanguage].text;
-                    _kana.GetComponent<Text>().text = d.kana;
+                    _kana.GetComponent<Text>().text = "";
                 }
 				_description.GetComponent<Text>().text = d.localContents[(int)ApplicationData.SelectedLanguage].text;
 				if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
