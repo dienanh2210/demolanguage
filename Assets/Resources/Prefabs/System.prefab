@@ -953,7 +953,7 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: "\u5C01\u5370\u5E16"
+      text: Album
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -974,7 +974,7 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: "\u5C01\u5370\u5E16"
+      text: "\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -990,28 +990,28 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 1
-      text: "\u307B\u3046\u3073\u5E16"
+      text: Reward Album
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u307B\u3046\u3073\u5E16"
+      text: "\u8912\u7F8E\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u307B\u3046\u3073\u5E16"
+      text: "\u734E\u52F5\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 4
-      text: "\u307B\u3046\u3073\u5E16"
+      text: "\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1057,35 +1057,35 @@ MonoBehaviour:
   - key: 24
     localContents:
     - languageType: 0
-      text: "\u307B\u3046\u3073 \u5E16"
+      text: "\u307B\u3046\u3073\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 112
     - languageType: 1
-      text: Exchange Ticket
+      text: Reward Album
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 112
     - languageType: 2
-      text: "\u514C\u63DB\u5238"
+      text: "\u8912\u7F8E\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 112
     - languageType: 3
-      text: "\u5151\u6362\u5238"
+      text: "\u734E\u52F5\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 112
     - languageType: 4
-      text: "\u0E41\u0E25\u0E01\u0E15\u0E31\u0E4B\u0E27"
+      text: "\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E23\u0E32\u0E07\u0E27\u0E31\u0E25"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1205,7 +1205,7 @@ MonoBehaviour:
   - key: 28
     localContents:
     - languageType: 0
-      text: "\u5F15 \u63DB \u5238"
+      text: "\u5F15\u63DB\u5238"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
