@@ -132,8 +132,7 @@ MonoBehaviour:
       fontSize: 66
     - languageType: 1
       text: "\u25C7\nLimited Time \nY\u014Dkai Availability\n\u25C7\nFor a limited
-        time, y\u014Dkai will appear at locations on the map marked with -green_fire
-        ."
+        time, y\u014Dkai will appear at locations on the map marked with-green_fire."
       image: {fileID: 0}
       lineSpacing: 0.8
       linePosition: {x: 0, y: 0}
@@ -154,15 +153,15 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 50
     - languageType: 4
-      text: "\u25C7 \u0E42\u0E22\u0E44\u0E01\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E31\u0E27\u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E08\u0E33\u0E01\u0E31\u0E14\u25C7\r\n
+      text: "\u25C7\u0E42\u0E22\u0E44\u0E01\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E31\u0E27\u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E08\u0E33\u0E01\u0E31\u0E14\u25C7\r\n
         \u0E42\u0E22\u0E44\u0E01\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E15\u0E32\u0E21\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E15\u0E48\u0E32\u0E07
-        \u0E46 \u0E1A\u0E19\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2B\u0E21\u0E32\u0E22\r\n-green_fire
+        \u0E46 \u0E1A\u0E19\u0E41\u0E1C\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2B\u0E21\u0E32\u0E22\r-green_fire
         \u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E08\u0E33\u0E01\u0E31\u0E14\n\u0E09\u0E31\u0E19\u0E08\u0E30\u0E21\u0E32\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\r\n\u0E21\u0E32\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E43\u0E19\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E19\u0E35\u0E49"
       image: {fileID: 0}
       lineSpacing: 0.8
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 66
+      fontSize: 60
   - key: 2
     localContents:
     - languageType: 0
@@ -775,7 +774,7 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 25
     - languageType: 2
-      text: "\u8ACB\u9EDE\u64CA\u5C4F\u5E55\u3002"
+      text: "\u8ACB\u9EDE\u64CA\u756B\u9762\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -4604,38 +4603,36 @@ MonoBehaviour:
   - index: 3
     localContents:
     - languageType: 0
-      text: "\u300C-red_fire \u306E\u5834\u6240\u306B\u3044\u308B\u5996\u602A\u9054\u3092\n\r\u5C01\u5370\u5E16\u306B\u5C01\u5370\u3057\u76F4\u3059\u306E\u3067\u3054\u3056\u308B\u3002\r\n\u3053\u308C\u3092\u4F7F\u3046\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
+      text: "\u300C-red_fire\u306E\u5834\u6240\u306B\u3044\u308B\u5996\u602A\u9054\u3092\n\r\u5C01\u5370\u5E16\u306B\u5C01\u5370\u3057\u76F4\u3059\u306E\u3067\u3054\u3056\u308B\u3002\r\n\u3053\u308C\u3092\u4F7F\u3046\u3067\u3054\u3056\u308B\u3088\u3002\u300D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 42
     - languageType: 1
-      text: "Capture the y\u014Dkai at the places marked with -red_fire \nand return
-        them to the album.\nUse this."
+      text: "Capture the y\u014Dkai at the places marked with-red_fireand return them
+        to the album.\nUse this."
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 88}
       lineWidth: 0
       fontSize: 42
     - languageType: 2
-      text: "\"\u300C\u8ACB\u7528\u9019\u500B\n\u91CD\u65B0\u5C01\u5370\n\u5728  -red_fire\u4E4B\u8655\u7684\u5996\u602A\u5011\u3002\u300D\"\r\n"
+      text: "\"\u300C\u8ACB\u7528\u9019\u500B\n\u91CD\u65B0\u5C01\u5370\n\u5728-red_fire\u4E4B\u8655\u7684\u5996\u602A\u5011\u3002\u300D\"\r\n"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 42
     - languageType: 3
-      text: "\u201C\u628A -red_fire\u4E4B\u5904\u7684\u5996\u602A\u4EEC\r\n\u91CD\u65B0\u5C01\u5370\u5230\u5C01\u5370\u5E16\u91CC\u3002\r\n\u5C31\u7528\u8FD9\u4E2A\u54E6\u3002\u201D"
+      text: "\u201C\u628A-red_fire\u4E4B\u5904\u7684\u5996\u602A\u4EEC\r\n\u91CD\u65B0\u5C01\u5370\u5230\u5C01\u5370\u5E16\u91CC\u3002\r\n\u5C31\u7528\u8FD9\u4E2A\u54E6\u3002\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 42
     - languageType: 4
-      text: "\u201C\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19
-        -red_fire\n\u0E41\u0E25\u0E30\u0E2A\u0E48\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E40\u0E02\u0E49\u0E32\u0E44\u0E1B\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\r\n
-        \u0E43\u0E0A\u0E49\u0E19\u0E35\u0E48\u201D"
+      text: "\u201C\u0E08\u0E31\u0E1A\u0E42\u0E22\u0E44\u0E01\u0E17\u0E35\u0E48\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E17\u0E35\u0E48\u0E21\u0E35\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19-red_fire\n\u0E41\u0E25\u0E30\u0E2A\u0E48\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E40\u0E02\u0E49\u0E32\u0E44\u0E1B\u0E43\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\r\n\u0E43\u0E0A\u0E49\u0E19\u0E35\u0E48\u201D"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
