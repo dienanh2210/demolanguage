@@ -140,14 +140,14 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 40
     - languageType: 2
-      text: "\u25C7\u671F\u9593\u9650\u5B9A\u5996\u602A\u51FA\u6C92\u4E2D\u25C7\n\u671F\u9593\u9650\u5B9A\u5996\u602A\u5C07\u6703\u5728\u5730\u5716\u4E0A\u7684\u3000\n\u4F4D\u7F6E\u51FA\u6C92\u3002\n-green_fire\n\n\u6211\u5011\u4F86\u5BC6\u5C01\u9019\u500B\u5834\u5408\u3002"
+      text: "\u25C7\u671F\u9593\u9650\u5B9A\u5996\u602A\u51FA\u6C92\u4E2D\u25C7\n\u671F\u9593\u9650\u5B9A\u5996\u602A\u5C07\u6703\u5728\u5730\u5716\u4E0A\u7684-green_fire\u4F4D\u7F6E\u51FA\u6C92\u3002\n\n\n\u6211\u5011\u4F86\u5BC6\u5C01\u9019\u500B\u5834\u5408\u3002"
       image: {fileID: 0}
       lineSpacing: 0.8
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 50
     - languageType: 3
-      text: "\u25C7\u9650\u65F6\u5996\u602A\u51FA\u6CA1\u4E2D\u25C7\n\u9650\u65F6\u51FA\u6CA1\u7684\u5996\u602A\u5C06\u5728\u5730\u56FE\u4E0A\u7684\u3000\n\u4F4D\u7F6E\u51FA\u6CA1\u3002\n-green_fire\r"
+      text: "\u25C7\u9650\u65F6\u5996\u602A\u51FA\u6CA1\u4E2D\u25C7\n\u9650\u65F6\u51FA\u6CA1\u7684\u5996\u602A\u5C06\u5728\u5730\u56FE\u4E0A\u7684-green_fire\u4F4D\u7F6E\u51FA\u6CA1\u3002\n"
       image: {fileID: 0}
       lineSpacing: 0.8
       linePosition: {x: 0, y: 0}
@@ -775,7 +775,7 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 25
     - languageType: 2
-      text: "\u8ACB\u9EDE\u64CA\u5C4F\u5E55\u3002"
+      text: "\u8ACB\u9EDE\u64CA\u756B\u9762\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1071,14 +1071,14 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 112
     - languageType: 2
-      text: "\u8912\u7F8E\u5E16"
+      text: "\u734E\u52F5\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 112
     - languageType: 3
-      text: "\u734E\u52F5\u5E16"
+      text: "\u8912\u7F8E\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -1407,22 +1407,22 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 40
     - languageType: 2
-      text: "\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u56AE\u5C0E"
+      text: "\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u5C0E\u89BD"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 40
     - languageType: 3
-      text: "\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u5411\u5BFC"
+      text: "\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u5BFC\u89C8"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 40
     - languageType: 4
-      text: "\u0E23\u0E30\u0E1A\u0E1A\u0E19\u0E33\u0E17\u0E32\u0E07\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\n\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
-        \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30"
+      text: "\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34 \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30
+        \u0E19\u0E33\u0E17\u0E32\u0E07"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2118,14 +2118,14 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u2460\u524D\u5F80\u56FE\u6807\u7684\u4F4D\u7F6E\u641C\u5BFB\u5996\u602A\u4EEC\u3002"
+      text: "\u2460\u8ACB\u5230\u5716\u793A\u7684\u4F4D\u7F6E\u5C0B\u627E\u5996\u602A\u5011\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u2460\u8ACB\u5230\u5716\u793A\u7684\u4F4D\u7F6E\u5C0B\u627E\u5996\u602A\u5011\u3002"
+      text: "\u2460\u524D\u5F80\u56FE\u6807\u7684\u4F4D\u7F6E\u641C\u5BFB\u5996\u602A\u4EEC\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2156,14 +2156,14 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u2461\u56FE\u6807\u8BF4\u660E"
+      text: "\u2461\u5716\u793A\u8AAA\u660E"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u2461\u5716\u793A\u8AAA\u660E"
+      text: "\u2461\u56FE\u6807\u8BF4\u660E"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2193,14 +2193,14 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u6293\u51C6\u65F6\u673A\u70B9\u51FB\u5996\u602A\uFF0C\u5C01\u5370\u5996\u602A\u4EEC\u3002"
+      text: "\u5728\u6B63\u78BA\u6642\u6A5F\u9EDE\u64CA\u5996\u602A\uFF0C\u5C31\u80FD\u5C01\u5370\u5996\u602A\u5011\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u5728\u6B63\u78BA\u6642\u6A5F\u9EDE\u64CA\u5996\u602A\uFF0C\u5C31\u80FD\u5C01\u5370\u5996\u602A\u5011\u3002\r"
+      text: "\u6293\u51C6\u65F6\u673A\u70B9\u51FB\u5996\u602A\uFF0C\u5C01\u5370\u5996\u602A\u4EEC\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2231,14 +2231,14 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u5C01\u5370\u5E16\u4E0A\u6CA1\u6709\u9875\u9762\uFF0C\u6709\u7684\u5996\u602A\u65E0\u6CD5\u5C01\u5370\u3002\u5148\u67E5\u627E\u9875\u9762\u5427\u3002"
+      text: "\u6709\u7684\u5996\u602A\u6C92\u6709\u5C01\u5370\u5E16\u9801\u9762\u5C31\u7121\u6CD5\u5C01\u5370\u3002\u8ACB\u5148\u5C0B\u627E\u9801\u9762\u3002\n"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u6709\u7684\u5996\u602A\u6C92\u6709\u5C01\u5370\u5E16\u9801\u9762\u5C31\u7121\u6CD5\u5C01\u5370\u3002\u8ACB\u5148\u5C0B\u627E\u9801\u9762\u3002"
+      text: "\u5C01\u5370\u5E16\u4E0A\u6CA1\u6709\u9875\u9762\uFF0C\u6709\u7684\u5996\u602A\u65E0\u6CD5\u5C01\u5370\u3002\u5148\u67E5\u627E\u9875\u9762\u5427\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2264,21 +2264,21 @@ MonoBehaviour:
       fontSize: 0
     - languageType: 1
       text: "\u2462There are also special y\u014Dkai that only appear during certain
-        times."
+        times.\n"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u2462\u8FD8\u6709\u4E9B\u5996\u602A\u4EC5\u9650\u67D0\u4E9B\u671F\u95F4\u624D\u4F1A\u51FA\u73B0\u54E6\uFF01"
+      text: "\u2462\u6709\u7684\u5996\u602A\u53EA\u6709\u5728\u7279\u5B9A\u671F\u9593\u624D\u6703\u51FA\u73FE\u5594\uFF01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u2462\u6709\u7684\u5996\u602A\u53EA\u6709\u5728\u7279\u5B9A\u671F\u9593\u624D\u6703\u51FA\u73FE\u5594\uFF01"
+      text: "\u2462\u8FD8\u6709\u4E9B\u5996\u602A\u4EC5\u9650\u67D0\u4E9B\u671F\u95F4\u624D\u4F1A\u51FA\u73B0\u54E6\uFF01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -2309,14 +2309,14 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u5B8C\u6210\u5996\u602A\u5C01\u5370\u5E16\uFF0C\u8BA9\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u6062\u590D\u548C\u5E73\u5427\u3002"
+      text: " \u8ACB\u5B8C\u6210\u5996\u602A\u5C01\u5370\u5E16\uFF0C\u8B93\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u56DE\u6B78\u5E73\u975C\u5427\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: " \u8ACB\u5B8C\u6210\u5996\u602A\u5C01\u5370\u5E16\uFF0C\u8B93\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u56DE\u6B78\u5E73\u975C\u5427\u3002"
+      text: "\u5B8C\u6210\u5996\u602A\u5C01\u5370\u5E16\uFF0C\u8BA9\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u6062\u590D\u548C\u5E73\u5427\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -3009,14 +3009,14 @@ MonoBehaviour:
       lineWidth: 0
       fontSize: 0
     - languageType: 2
-      text: "\u96EA\u5973\n\u6703\u5439\u51FA\u51B0\u51B7\u7684\u6C23\u606F\u51CD\u6B7B\u7537\u4EBA\uFF0C\n\u6216\u5438\u98DF\u7537\u4EBA\u7684\u7CBE\u6C23\u4E26\u6BBA\u6B7B\u4ED6\u5011\u7684\u96EA\u4E4B\u5996\u602A\u3002"
+      text: "\u6703\u5439\u51FA\u51B0\u51B7\u7684\u6C23\u606F\u51CD\u6B7B\u7537\u4EBA\uFF0C\n\u6216\u5438\u98DF\u7537\u4EBA\u7684\u7CBE\u6C23\u4E26\u6BBA\u6B7B\u4ED6\u5011\u7684\u96EA\u4E4B\u5996\u602A\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 0
     - languageType: 3
-      text: "\u96EA\u5973\n\u5BF9\u7537\u4EBA\u5439\u51FA\u51B0\u51B7\u7684\u6C14\u606F\u4F7F\u5176\u51BB\u6B7B\uFF0C\n\u6216\u5438\u5149\u7537\u4EBA\u7CBE\u6C14\u540E\u518D\u5C06\u5176\u6740\u5BB3\u7684\u96EA\u4E4B\u5996\u602A\u3002"
+      text: "\u5BF9\u7537\u4EBA\u5439\u51FA\u51B0\u51B7\u7684\u6C14\u606F\u4F7F\u5176\u51BB\u6B7B\uFF0C\n\u6216\u5438\u5149\u7537\u4EBA\u7CBE\u6C14\u540E\u518D\u5C06\u5176\u6740\u5BB3\u7684\u96EA\u4E4B\u5996\u602A\u3002"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
@@ -4723,13 +4723,13 @@ MonoBehaviour:
   - type: 0
     img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   - type: 1
-    img: {fileID: 21300000, guid: 3040af02f03a7c0429e0fb628bd2e1a6, type: 3}
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   - type: 2
-    img: {fileID: 21300000, guid: 413a4fbdabfe5bd46bdadfb403d34a0e, type: 3}
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   - type: 3
-    img: {fileID: 21300000, guid: 6b01141853920c5488572424ad8506db, type: 3}
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   - type: 4
-    img: {fileID: 21300000, guid: 6167dd62869673b4cbb92ba8851f0e0d, type: 3}
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   getBossSuccessText:
   - type: 0
     txt: {fileID: 21300000, guid: f04af91bcb4138249a4ef2ade989c170, type: 3}
