@@ -56,7 +56,7 @@ public class TitlePage : Page
 			break;
 		default:
 			SelectEnglish ();
-			ApplicationData.SelectedLanguage = LanguageType.English;
+			ApplicationData.SelectedLanguage = LanguageType.Thai;
 			break;
 		}
 
