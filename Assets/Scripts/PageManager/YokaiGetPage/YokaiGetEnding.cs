@@ -17,6 +17,12 @@ public class YokaiGetEnding : MonoBehaviour {
 		} else {
 			text.font = ApplicationData.GetFont (2);
 		}
+
+        if (ApplicationData.SelectedLanguage == LanguageType.English) {
+            text.lineSpacing = 0.7f;
+        } else {
+            text.lineSpacing = 0.9f;
+        }
     }
 
     public void Hide ()

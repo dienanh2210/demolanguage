@@ -91,10 +91,16 @@ public class MapPageManager : Page
         if (ApplicationData.SelectedLanguage == LanguageType.Thai)
         {
             btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(4);
+            foreach(var t in lstText_HowToPlay) {
+                t.font = ApplicationData.GetFont(4);
+            }
         }
         else
         {
             btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(2);
+            foreach(var t in lstText_HowToPlay) {
+                t.font = ApplicationData.GetFont(2);
+            }
         }
 
         txtOpenEsashinavi.text = ApplicationData.GetLocaleText(LocaleType.ButtonParkNavi);
