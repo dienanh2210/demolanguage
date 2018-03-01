@@ -342,8 +342,10 @@ public class MapPageManager : Page
         {
             _next = 0;
             DialogEnding.SetActive(false);
+#if UNITY_ANDROID
             GameObject mainCamera = GameObject.Find("Main Camera");
             mainCamera.GetComponent<PluginAndroid>().UpdateIbeaconInfo();
+#endif
         }
        
     }
