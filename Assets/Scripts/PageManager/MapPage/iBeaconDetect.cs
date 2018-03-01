@@ -85,7 +85,12 @@ internal class iBeaconDetect : MonoBehaviour
     private void OnEnable()
     {
         if (PluginAndroid.OnGetBeacon == null)
+        {
             PluginAndroid.OnGetBeacon += DisplayOnBeaconFound;
+            GameObject mainCamera = GameObject.Find("Main Camera");
+            mainCamera.GetComponent<PluginAndroid>().UpdateIbeaconInfo();
+        }
+           
     }
     private void OnDisable()
     {

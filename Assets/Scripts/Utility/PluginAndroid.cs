@@ -5,8 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PluginAndroid : MonoBehaviour
 {
-   
-     
+
+
 #if UNITY_ANDROID
     public static System.Action<string> OnGetBeacon;
 
@@ -57,22 +57,27 @@ public class PluginAndroid : MonoBehaviour
         string finalJSON = "{\"iBeacons\":" + str + "}";
         return finalJSON;
     }
+   
 
     void OnApplicationPause(bool pauseStatus)
     {
-        if (pauseStatus && !onFocus && onForeground)
+        if (pauseStatus && onForeground)
         {
             pluginObject.Call("changeJsonValue", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification));
             pluginObject.Call("isRunningBackground");
             onForeground = false;
         }
-        else if (!pauseStatus && onFocus && !onForeground)
+        else if (!pauseStatus && !onForeground)
         {
             pluginObject.Call("isNotRunningBackground");
+          
             onForeground = true;
         }
     }
-
+    public void UpdateIbeaconInfo()
+    {
+        pluginObject.Call("changeJsonValue", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification));
+    }
 
     void OnApplicationFocus(bool hasFocus)
     {
