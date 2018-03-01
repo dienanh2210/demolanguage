@@ -13,7 +13,7 @@ public class PluginAndroid : MonoBehaviour
     private AndroidJavaObject activityContext = null;
     private AndroidJavaObject pluginObject = null;
     private bool onFocus = false;
-    private bool onForeground = true;
+
 
     void Start()
     {
@@ -61,17 +61,15 @@ public class PluginAndroid : MonoBehaviour
 
     void OnApplicationPause(bool pauseStatus)
     {
-        if (pauseStatus && onForeground)
+        if (pauseStatus)
         {
             pluginObject.Call("changeJsonValue", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification));
             pluginObject.Call("isRunningBackground");
-            onForeground = false;
+           
         }
-        else if (!pauseStatus && !onForeground)
+        else if (!pauseStatus)
         {
             pluginObject.Call("isNotRunningBackground");
-          
-            onForeground = true;
         }
     }
     public void UpdateIbeaconInfo()
