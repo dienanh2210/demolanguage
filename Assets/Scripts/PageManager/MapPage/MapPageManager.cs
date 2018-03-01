@@ -342,7 +342,10 @@ public class MapPageManager : Page
         {
             _next = 0;
             DialogEnding.SetActive(false);
+            GameObject mainCamera = GameObject.Find("Main Camera");
+            mainCamera.GetComponent<PluginAndroid>().UpdateIbeaconInfo();
         }
+       
     }
 
     public void DebugGetArea34()
