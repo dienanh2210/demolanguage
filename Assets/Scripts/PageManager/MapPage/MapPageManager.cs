@@ -104,7 +104,7 @@ public class MapPageManager : Page
         }
 
         txtOpenEsashinavi.text = ApplicationData.GetLocaleText(LocaleType.ButtonParkNavi);
-        txtOpenEsashinavi.font = GetComponent<Text>().font = ChangeFont();
+        txtOpenEsashinavi.font =  ChangeFont();
     }
 
     IEnumerator _EnableBeacon()
@@ -423,7 +423,7 @@ public class MapPageManager : Page
         
         for(int i = 0; i < lstText_HowToPlay.Count; i++)
         {
-            lstText_HowToPlay[i].font = ChangeFont();
+            lstText_HowToPlay[i].font = ApplicationData.GetFont(2);
         }
     }
     public void ChangeTutorialPage()
