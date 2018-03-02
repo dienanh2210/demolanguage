@@ -5,15 +5,15 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PluginAndroid : MonoBehaviour
 {
-   
-     
+
+
 #if UNITY_ANDROID
     public static System.Action<string> OnGetBeacon;
 
     private AndroidJavaObject activityContext = null;
     private AndroidJavaObject pluginObject = null;
     private bool onFocus = false;
-    private bool onForeground = true;
+
 
     void Start()
     {
@@ -57,22 +57,25 @@ public class PluginAndroid : MonoBehaviour
         string finalJSON = "{\"iBeacons\":" + str + "}";
         return finalJSON;
     }
+   
 
     void OnApplicationPause(bool pauseStatus)
     {
-        if (pauseStatus && !onFocus && onForeground)
+        if (pauseStatus)
         {
             pluginObject.Call("changeJsonValue", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification));
             pluginObject.Call("isRunningBackground");
-            onForeground = false;
+           
         }
-        else if (!pauseStatus && onFocus && !onForeground)
+        else if (!pauseStatus)
         {
             pluginObject.Call("isNotRunningBackground");
-            onForeground = true;
         }
     }
-
+    public void UpdateIbeaconInfo()
+    {
+        pluginObject.Call("changeJsonValue", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification));
+    }
 
     void OnApplicationFocus(bool hasFocus)
     {
