@@ -112,6 +112,7 @@ public class Photo : Page
         screenCapture.Apply();
 
         NativeGallery.SaveToGallery(screenCapture, "Yokai", "my img {0}.jpeg");
+        
 
 
 #endif
@@ -156,38 +157,34 @@ public class Photo : Page
     {
         if (screenCapture != null)
         {
-            DialogTwitter.SetActive(false);
-            byte[] dataToSave = screenCapture.EncodeToPNG();
+            try
+            {
+                DialogTwitter.SetActive(false);
+                byte[] dataToSave = screenCapture.EncodeToPNG();
+                string destination = Path.Combine(Application.persistentDataPath, System.DateTime.Now.ToString("yyyy-MM-dd-HHmmss") + ".png");
+                File.WriteAllBytes(destination, dataToSave);
 
-            string destination = Path.Combine(Application.persistentDataPath, System.DateTime.Now.ToString("yyyy-MM-dd-HHmmss") + ".png");
+                AndroidJavaClass intentClass = new AndroidJavaClass("android.content.Intent");
+                AndroidJavaObject intentObject = new AndroidJavaObject("android.content.Intent");
+                intentObject.Call<AndroidJavaObject>("setAction", intentClass.GetStatic<string>("ACTION_SEND"));
 
-            File.WriteAllBytes(destination, dataToSave);
+                AndroidJavaClass uriClass = new AndroidJavaClass("android.net.Uri");
+                AndroidJavaObject uriObject = uriClass.CallStatic<AndroidJavaObject>("parse", "file://" + destination);
 
-            AndroidJavaClass intentClass = new AndroidJavaClass("android.content.Intent");
-            AndroidJavaObject intentObject = new AndroidJavaObject("android.content.Intent");
-
-            intentObject.Call<AndroidJavaObject>("setAction", intentClass.GetStatic<string>("ACTION_SEND"));
-            intentObject.Call<AndroidJavaObject>("setType", "image/*");
-            intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_SUBJECT"), "YokaiGet");
-            intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_TITLE"), "YokaiGet");
-            intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_TEXT"), "#YokaiGet");
-
-            AndroidJavaClass uriClass = new AndroidJavaClass("android.net.Uri");
-            AndroidJavaClass fileClass = new AndroidJavaClass("java.io.File");
-
-            AndroidJavaObject fileObject = new AndroidJavaObject("java.io.File", destination);// Set Image Path Here
-
-            AndroidJavaObject uriObject = uriClass.CallStatic<AndroidJavaObject>("fromFile", fileObject);
-
-            //			string uriPath =  uriObject.Call<string>("getPath");
-            bool fileExist = fileObject.Call<bool>("exists");
-            Debug.Log("File exist : " + fileExist);
-            if (fileExist)
                 intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_STREAM"), uriObject);
+                intentObject.Call<AndroidJavaObject>("setType", "image/png");
+                intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_TEXT"), "#YokaiGet");
+                AndroidJavaClass unity = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+                AndroidJavaObject currentActivity = unity.GetStatic<AndroidJavaObject>("currentActivity");
+                AndroidJavaObject jChooser = intentClass.CallStatic<AndroidJavaObject>("createChooser", intentObject, "#YokaiGet");
+                currentActivity.Call("startActivity", jChooser);
 
-            AndroidJavaClass unity = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-            AndroidJavaObject currentActivity = unity.GetStatic<AndroidJavaObject>("currentActivity");
-            currentActivity.Call("startActivity", intentObject);
+            }
+            catch (Exception e)
+            {
+                DebugConsole.Log(e.Message);
+            }
+           
         }
         else
         {
@@ -198,3 +195,6 @@ public class Photo : Page
 
     #endregion
 }
+
+
+
