@@ -173,10 +173,10 @@ public class Photo : Page
 
                 intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_STREAM"), uriObject);
                 intentObject.Call<AndroidJavaObject>("setType", "image/png");
-                intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_TEXT"), "#YokaiGet");
+                intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_TEXT"), "");
                 AndroidJavaClass unity = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
                 AndroidJavaObject currentActivity = unity.GetStatic<AndroidJavaObject>("currentActivity");
-                AndroidJavaObject jChooser = intentClass.CallStatic<AndroidJavaObject>("createChooser", intentObject, "#YokaiGet");
+                AndroidJavaObject jChooser = intentClass.CallStatic<AndroidJavaObject>("createChooser", intentObject, "");
                 currentActivity.Call("startActivity", jChooser);
 
             }
