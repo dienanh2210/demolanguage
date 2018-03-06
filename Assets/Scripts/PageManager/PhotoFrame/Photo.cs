@@ -25,12 +25,7 @@ public class Photo : Page
 
     #endregion
 
-    //#region UNITY_DEFAULT_CALLBACKS
-    //void OnDisable()
-    //{
-    //    ScreenshotHandler.ScreenshotFinishedSaving -= ScreenshotSaved;
-    //}
-    //#endregion
+   
 
     #region DELEGATE_EVENT_LISTENER
     void ScreenshotSaved()
@@ -52,8 +47,6 @@ public class Photo : Page
 
     private void OnEnable()
     {
-        //ScreenshotHandler.ScreenshotFinishedSaving += ScreenshotSaved;
-
         txtBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
         txtSwitch.text = ApplicationData.GetLocaleText(LocaleType.ButtonSwitchCamera);
         txtShareTwitterTitle.text = ApplicationData.GetLocaleText(LocaleType.ShareTwitterTitle);
@@ -63,7 +56,8 @@ public class Photo : Page
         txtShareTwitterTitle.font = ChangeFont();
         txtYes.font = ChangeFont();
         txtNo.font = ChangeFont();
-
+        txtBack.font = ChangeFont();
+        txtSwitch.font = ChangeFont();
     }
 
     public void ChangeBonusPage()

@@ -160,7 +160,7 @@ MonoBehaviour:
       lineSpacing: 0.8
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 52
+      fontSize: 45
   - key: 2
     localContents:
     - languageType: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 50
+      fontSize: 45
   - key: 8
     localContents:
     - languageType: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 50
+      fontSize: 45
   - key: 16
     localContents:
     - languageType: 0
@@ -792,7 +792,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 40
+      fontSize: 35
   - key: 17
     localContents:
     - languageType: 0
@@ -940,7 +940,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 55
+      fontSize: 50
   - key: 21
     localContents:
     - languageType: 0
@@ -1088,7 +1088,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 170
+      fontSize: 160
   - key: 25
     localContents:
     - languageType: 0
@@ -1125,7 +1125,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 80
+      fontSize: 75
   - key: 26
     localContents:
     - languageType: 0
@@ -1162,7 +1162,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 80
+      fontSize: 75
   - key: 27
     localContents:
     - languageType: 0
@@ -1199,7 +1199,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 80
+      fontSize: 75
   - key: 28
     localContents:
     - languageType: 0
@@ -1236,7 +1236,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 100
+      fontSize: 95
   - key: 29
     localContents:
     - languageType: 0
@@ -1275,7 +1275,7 @@ MonoBehaviour:
       lineSpacing: 1.1
       linePosition: {x: -14, y: -68}
       lineWidth: 838.8
-      fontSize: 70
+      fontSize: 65
   - key: 30
     localContents:
     - languageType: 0
@@ -1387,7 +1387,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 50
+      fontSize: 45
   - key: 33
     localContents:
     - languageType: 0
@@ -1425,7 +1425,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 50
+      fontSize: 45
   - key: 34
     localContents:
     - languageType: 0
@@ -1462,7 +1462,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 50
+      fontSize: 45
   - key: 35
     localContents:
     - languageType: 0
@@ -1684,7 +1684,7 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 60
+      fontSize: 55
   - key: 41
     localContents:
     - languageType: 0

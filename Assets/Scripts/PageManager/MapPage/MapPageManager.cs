@@ -91,14 +91,23 @@ public class MapPageManager : Page
         if (ApplicationData.SelectedLanguage == LanguageType.Thai)
         {
             btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(4);
-            foreach(var t in lstText_HowToPlay) {
-                t.font = ApplicationData.GetFont(4);
-            }
+            btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+            btnShowRewardList.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+            
+                foreach (var t in lstText_HowToPlay)
+                {
+                    t.font = ApplicationData.GetFont(4);
+                    Debug.Log(t.font);
+                }
+           
+           
         }
         else
         {
             btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(2);
-            foreach(var t in lstText_HowToPlay) {
+            btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+            btnShowRewardList.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+            foreach (var t in lstText_HowToPlay) {
                 t.font = ApplicationData.GetFont(2);
             }
         }
@@ -425,11 +434,22 @@ public class MapPageManager : Page
                 text.lineSpacing = 0.7f;
             }
         }
-        
-        for(int i = 0; i < lstText_HowToPlay.Count; i++)
+
+        if (ApplicationData.SelectedLanguage == LanguageType.Thai)
         {
-            lstText_HowToPlay[i].font = ApplicationData.GetFont(2);
+            for (int i = 0; i < lstText_HowToPlay.Count; i++)
+            {
+                lstText_HowToPlay[i].font = ApplicationData.GetFont(4);
+            }
         }
+        else
+        {
+            for (int i = 0; i < lstText_HowToPlay.Count; i++)
+            {
+                lstText_HowToPlay[i].font = ApplicationData.GetFont(2);
+            }
+        }
+       
     }
     public void ChangeTutorialPage()
     {
