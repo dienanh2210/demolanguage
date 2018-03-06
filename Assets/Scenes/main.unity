@@ -580,7 +580,7 @@ MonoBehaviour:
   - {fileID: 852297078}
   greenFireIcon: {fileID: 21300000, guid: d1d9d5beebde0124093c9bbe9e8b4acb, type: 3}
   redFireIcon: {fileID: 21300000, guid: ac0f75f9d62b1c642bd7f63e8a1a9125, type: 3}
-  pageIcon: {fileID: 21300000, guid: f2523f94d3561a144a56f1879462bfa0, type: 3}
+  pageIcon: {fileID: 21300000, guid: 9e5a6c9fc51bb12408b4ad3c6784894b, type: 3}
   mapImage:
   - {fileID: 2800000, guid: b90c8c091fc54d54088c27d6f5acf50a, type: 3}
   - {fileID: 2800000, guid: d0167638f25b8cc4abecffcf616ff4dc, type: 3}
@@ -1345,7 +1345,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 858359823}
   m_LocalRotation: {x: -0, y: -0, z: 0.0052482784, w: 0.9999863}
-  m_LocalPosition: {x: 536.75, y: -287.69995, z: 0}
+  m_LocalPosition: {x: 536.75, y: -263.7, z: 0}
   m_LocalScale: {x: 0.99998957, y: 0.99998957, z: 1}
   m_Children: []
   m_Father: {fileID: 10058416}
@@ -1353,7 +1353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.399}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 9, y: -58.99994}
+  m_AnchoredPosition: {x: 9, y: -35}
   m_SizeDelta: {x: 154.1637, y: 186.12442}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &858359825
@@ -1429,7 +1429,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300004, guid: bf9eff9dfea33524b9bb087d2128e212, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
