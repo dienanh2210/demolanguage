@@ -40,23 +40,18 @@ public class TitlePage : Page
         switch (Application.systemLanguage.ToString()) {
 		case "Japanese":
 			SelectJapanese ();
-			ApplicationData.SelectedLanguage = LanguageType.Japanese;
 			break;
 		case "ChineseTraditional":
 			SelectChinese1 ();
-			ApplicationData.SelectedLanguage = LanguageType.Chinese1;
 			break;
 		case "ChineseSimplified":
 			SelectChinese2 ();
-			ApplicationData.SelectedLanguage = LanguageType.Chinese2;
 			break;
 		case "Thai":
 			SelectThai ();
-			ApplicationData.SelectedLanguage = LanguageType.Thai;
 			break;
 		default:
 			SelectEnglish ();
-			ApplicationData.SelectedLanguage = LanguageType.English;
 			break;
 		}
 
@@ -147,6 +142,8 @@ public class TitlePage : Page
 
     #region Language
     void DisalbeButton(string name)
+    {
+        try
         {
             List<Button> lstTemp = lstButton.FindAll(x => x.name != name);
             Button bt = lstButton.Find(x => x.name == name);
@@ -157,28 +154,38 @@ public class TitlePage : Page
             {
                 item.interactable = true;
             }
-			
-		imgLogo.sprite = ApplicationData.GetLogoImage (ApplicationData.SelectedLanguage).img;
 
-		txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
-		txtSelectLanguage.fontSize = ApplicationData.SetFontSize (LocaleType.SelectLanguage);
-		txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
-		txtShowApp.fontSize = ApplicationData.SetFontSize (LocaleType.SelectLanguage);
-		txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
-		txtCaution.fontSize = ApplicationData.SetFontSize (LocaleType.SelectLanguage);
+            imgLogo.sprite = ApplicationData.GetLogoImage(ApplicationData.SelectedLanguage).img;
 
-		GetText = Text.FindObjectsOfType<Text> ();
-		if(ApplicationData.SelectedLanguage == LanguageType.Thai){
-			txtSelectLanguage.font = ApplicationData.GetFont (4);
-			txtShowApp.font = ApplicationData.GetFont (4);
-			txtCaution.font = ApplicationData.GetFont (4);
-		}else{
-			txtSelectLanguage.font = ApplicationData.GetFont (2);
-			txtShowApp.font = ApplicationData.GetFont (2);
-			txtCaution.font = ApplicationData.GetFont (2);
-		}
+            txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
+            txtSelectLanguage.fontSize = ApplicationData.SetFontSize(LocaleType.SelectLanguage);
+            txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
+            txtShowApp.fontSize = ApplicationData.SetFontSize(LocaleType.SelectLanguage);
+            txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
+            txtCaution.fontSize = ApplicationData.SetFontSize(LocaleType.SelectLanguage);
 
+            GetText = Text.FindObjectsOfType<Text>();
+            if (ApplicationData.SelectedLanguage == LanguageType.Thai)
+            {
+                txtSelectLanguage.font = ApplicationData.GetFont(4);
+                txtShowApp.font = ApplicationData.GetFont(4);
+                txtCaution.font = ApplicationData.GetFont(4);
+            }
+            else
+            {
+                txtSelectLanguage.font = ApplicationData.GetFont(2);
+                txtShowApp.font = ApplicationData.GetFont(2);
+                txtCaution.font = ApplicationData.GetFont(2);
+            }
         }
+        catch (System.Exception e)
+        {
+
+            Debug.Log(e.Message);
+        }
+           
+
+    }
 
     public void SelectEnglish()
     {
@@ -233,6 +240,9 @@ public class TitlePage : Page
     {
         PopupRed.SetActive(true);
         txtRed.text = ApplicationData.GetLocaleText(LocaleType.Guide);
+        txtRed.font = ChangeFont();
+        txtRed.lineSpacing = ApplicationData.SetLineSpacing(LocaleType.Guide);
+
     }
     #endregion
 }
