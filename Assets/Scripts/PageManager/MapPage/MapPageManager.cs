@@ -430,6 +430,8 @@ public class MapPageManager : Page
         foreach (var text in lstText_HowToPlay) {
             if (ApplicationData.SelectedLanguage == LanguageType.English) {
                 text.lineSpacing = 0.5f;
+            } else if(ApplicationData.SelectedLanguage == LanguageType.Thai) {
+                text.lineSpacing = 1f;
             } else {
                 text.lineSpacing = 0.7f;
             }

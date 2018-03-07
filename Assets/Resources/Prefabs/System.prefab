@@ -1393,28 +1393,28 @@ MonoBehaviour:
     - languageType: 0
       text: "\u3048\u3055\u3057\u85E4\u539F\u306E\u90F7\n\u30CA\u30D3"
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 0.7
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 40
     - languageType: 1
       text: Esashi-Fujiwara Heritage Park Navigator
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 0.5
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 40
     - languageType: 2
       text: "\u6C5F\u523A\u85E4\u539F\u4E4B\u9109\u5C0E\u89BD"
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 0.7
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 40
     - languageType: 3
       text: "\u6C5F\u523A\u85E4\u539F\u4E4B\u4E61\u5BFC\u89C8"
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 0.7
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 40
@@ -1422,10 +1422,10 @@ MonoBehaviour:
       text: "\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34 \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30
         \u0E19\u0E33\u0E17\u0E32\u0E07"
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 1
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 45
+      fontSize: 42
   - key: 34
     localContents:
     - languageType: 0
@@ -1459,10 +1459,10 @@ MonoBehaviour:
     - languageType: 4
       text: "\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E2B\u0E15\u0E38\u0E01\n\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19"
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 1
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 45
+      fontSize: 42
   - key: 35
     localContents:
     - languageType: 0
@@ -4382,7 +4382,7 @@ MonoBehaviour:
         \u0E08\u0E32\u0E01\u0E28\u0E32\u0E25\u0E40\u0E08\u0E49\u0E32 \u0E1B\u0E35\u0E28\u0E32\u0E08\u0E1F\u0E37\u0E49\u0E19\u0E04\u0E37\u0E19\u0E0A\u0E35\u0E1E\u0E42\u0E1C\u0E25\u0E48\u0E02\u0E36\u0E49\u0E19\u0E21\u0E32:
         \u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34 "
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 1
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 55
@@ -4426,7 +4426,7 @@ MonoBehaviour:
         \u0E17\u0E32\u0E07\u0E40\u0E02\u0E49\u0E32\u0E40\u0E1B\u0E34\u0E14\u0E43\u0E19\u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
         \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30\""
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 1
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 55
@@ -4470,7 +4470,7 @@ MonoBehaviour:
         \u0E0A\u0E39\u0E40\u0E17\u0E47\u0E19-\u0E42\u0E14\u0E08\u0E34\u0E40\u0E1B\u0E34\u0E14\u0E1C\u0E19\u0E36\u0E01\u0E28\u0E31\u0E01\u0E14\u0E34\u0E4C\u0E2A\u0E34\u0E17\u0E18\u0E34\u0E4C\u0E1A\u0E19\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21\u0E42\u0E22\u0E44\u0E01
         \u0E41\u0E25\u0E30\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E42\u0E22\u0E44\u0E01\u0E40\u0E02\u0E49\u0E32\u0E21\u0E32\u0E2A\u0E39\u0E48\u0E42\u0E25\u0E01\""
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 1
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 55
@@ -4480,7 +4480,7 @@ MonoBehaviour:
     - languageType: 0
       text: "\u5C01\u5370\u3092\u89E3\uFF08\u3068\uFF09\u304B\u308C\u305F\u5996\u602A\u9054\u306F\u3001\n\u85E4\u539F\u306E\u90F7\u306E\u5404\u3005\u306E\u5834\u6240\u306B\u98DB\u3073\u6563\u3063\u3066\n\u884C\u3063\u305F\u3002"
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 1
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 44
@@ -4512,7 +4512,7 @@ MonoBehaviour:
         \u0E46 \u0E2D\u0E38\u0E17\u0E22\u0E32\u0E19\u0E21\u0E23\u0E14\u0E01\u0E40\u0E2D\u0E0B\u0E32\u0E0A\u0E34
         \u0E1F\u0E39\u0E08\u0E34\u0E27\u0E32\u0E23\u0E30"
       image: {fileID: 0}
-      lineSpacing: 0
+      lineSpacing: 1
       linePosition: {x: 0, y: 0}
       lineWidth: 0
       fontSize: 55

@@ -147,7 +147,6 @@ public class TitlePage : Page
         {
             List<Button> lstTemp = lstButton.FindAll(x => x.name != name);
             Button bt = lstButton.Find(x => x.name == name);
-            Color myGray = new Color();
             bt.GetComponentInChildren<Text>().color = Color.black;
             bt.image.sprite = lstSprite[1];
             foreach (var item in lstTemp)
@@ -159,10 +158,14 @@ public class TitlePage : Page
 
             txtSelectLanguage.text = ApplicationData.GetLocaleText(LocaleType.SelectLanguage);
             txtSelectLanguage.fontSize = ApplicationData.SetFontSize(LocaleType.SelectLanguage);
+
             txtShowApp.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenEsashiApp);
-            txtShowApp.fontSize = ApplicationData.SetFontSize(LocaleType.SelectLanguage);
+            txtShowApp.fontSize = ApplicationData.SetFontSize(LocaleType.ButtonOpenEsashiApp);
+            txtShowApp.lineSpacing = ApplicationData.SetLineSpacing(LocaleType.ButtonOpenEsashiApp);
+
             txtCaution.text = ApplicationData.GetLocaleText(LocaleType.ButtonOpenCautionDialog);
-            txtCaution.fontSize = ApplicationData.SetFontSize(LocaleType.SelectLanguage);
+            txtCaution.fontSize = ApplicationData.SetFontSize(LocaleType.ButtonOpenCautionDialog);
+            txtCaution.lineSpacing = ApplicationData.SetLineSpacing(LocaleType.ButtonOpenCautionDialog);
 
             GetText = Text.FindObjectsOfType<Text>();
             if (ApplicationData.SelectedLanguage == LanguageType.Thai)
