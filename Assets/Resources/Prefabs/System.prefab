@@ -1471,35 +1471,35 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 1
       text: Close
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 2
       text: "\u95DC\u9589"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 3
       text: "\u5173\u95ED"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 4
       text: "\u0E1B\u0E34\u0E14"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 80
   - key: 36
     localContents:
     - languageType: 0
@@ -1508,35 +1508,35 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 1
       text: View album
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 2
       text: "\u67E5\u770B\u5C01\u5370\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 3
       text: "\u67E5\u770B\u5C01\u5370\u5E16"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 4
       text: "\u0E14\u0E39\u0E2D\u0E31\u0E25\u0E1A\u0E31\u0E49\u0E21"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 80
   - key: 37
     localContents:
     - languageType: 0
@@ -1545,35 +1545,35 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 1
       text: Capture
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 2
       text: "\u5C01\u5370"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 3
       text: "\u5C01\u5370"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 60
     - languageType: 4
       text: "\u0E08\u0E31\u0E1A"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 80
   - key: 38
     localContents:
     - languageType: 0

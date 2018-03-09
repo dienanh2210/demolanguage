@@ -88,6 +88,8 @@ public class MapPageManager : Page
         btnGuidePlay.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
        
         btnClose.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonClose);
+        btnClose.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonClose);
+
         if (ApplicationData.SelectedLanguage == LanguageType.Thai)
         {
             btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(4);
@@ -451,7 +453,7 @@ public class MapPageManager : Page
                 text.lineSpacing = 0.7f;
             }
         }
-        lstText_HowToPlay[6].fontSize = 35;
+       
 
 
         if (ApplicationData.SelectedLanguage == LanguageType.Thai)
@@ -460,6 +462,7 @@ public class MapPageManager : Page
             {
                 lstText_HowToPlay[i].font = ApplicationData.GetFont(4);
             }
+            lstText_HowToPlay[6].fontSize = 42;
         }
         else
         {

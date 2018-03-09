@@ -132,8 +132,11 @@ internal class iBeaconDetect : MonoBehaviour
         posCamera = new Vector3 (0, 0, -9);
         MapImage = GameObject.Find ("Map").transform.Find ("Map_Image").gameObject;
         btnGetYokai.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonToSeal);
+        btnGetYokai.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonToSeal);
         btnSuccess.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonGetSuccessful);
-		if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
+        btnSuccess.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonGetSuccessful);
+
+        if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
 			btnGetYokai.transform.GetChild (0).GetComponent<Text> ().font = ApplicationData.GetFont (4);
 			btnSuccess.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont (4);
 		} else {
