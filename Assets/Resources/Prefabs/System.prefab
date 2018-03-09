@@ -4719,13 +4719,13 @@ MonoBehaviour:
   - type: 0
     img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   - type: 1
-    img: {fileID: 21300000, guid: 3040af02f03a7c0429e0fb628bd2e1a6, type: 3}
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   - type: 2
-    img: {fileID: 21300000, guid: 413a4fbdabfe5bd46bdadfb403d34a0e, type: 3}
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   - type: 3
-    img: {fileID: 21300000, guid: 6b01141853920c5488572424ad8506db, type: 3}
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   - type: 4
-    img: {fileID: 21300000, guid: 6167dd62869673b4cbb92ba8851f0e0d, type: 3}
+    img: {fileID: 21300000, guid: e797a82187c770c4b9b090d6f44037c9, type: 3}
   getBossSuccessText:
   - type: 0
     txt: {fileID: 21300000, guid: f04af91bcb4138249a4ef2ade989c170, type: 3}
