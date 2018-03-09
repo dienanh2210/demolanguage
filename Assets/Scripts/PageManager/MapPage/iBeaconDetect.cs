@@ -159,8 +159,26 @@ internal class iBeaconDetect : MonoBehaviour
             GetYokai.SetActive (true);
             if (PageData.yokaiID == -1) {
                 titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageGetItem);
+                if (ApplicationData.SelectedLanguage == LanguageType.Thai)
+                {
+                    titleDialog.font = ApplicationData.GetFont(4);
+                }
+                else
+                {
+                    titleDialog.font = ApplicationData.GetFont(2);
+                }
+                titleDialog.fontSize = ApplicationData.SetFontSize(LocaleType.MessageGetItem);
             } else {
                 titleDialog.text = ApplicationData.GetLocaleText(LocaleType.MessageGetYokai);
+                if (ApplicationData.SelectedLanguage == LanguageType.Thai)
+                {
+                    titleDialog.font = ApplicationData.GetFont(4);
+                }
+                else
+                {
+                    titleDialog.font = ApplicationData.GetFont(2);
+                }
+                titleDialog.fontSize = ApplicationData.SetFontSize(LocaleType.MessageGetYokai);
             }
             btnSuccess.SetActive (true);
             btnGetYokai.SetActive (false);

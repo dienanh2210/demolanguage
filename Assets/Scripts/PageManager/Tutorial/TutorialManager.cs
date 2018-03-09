@@ -23,25 +23,51 @@ public class TutorialManager : Page
 			string name = i.name.Remove(0, 5);
 			TutorialData obj = ApplicationData.TutorialData.SingleOrDefault(s => s.index.ToString() == name.Trim());
 
-			if (!obj.Equals(new TutorialData()))
-			{
-				i.transform.GetChild(0).GetComponent<Image>().sprite = obj.image;
+            if (ApplicationData.SelectedLanguage == LanguageType.Thai)
+            {
+                if (!obj.Equals(new TutorialData()))
+                {
+                    i.transform.GetChild(0).GetComponent<Image>().sprite = obj.image;
 
-				for (int a = 0; a < obj.localContents.Count; a++)
-				{
-					if (obj.localContents[a].languageType == ApplicationData.SelectedLanguage)
-					{
-						i.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = obj.localContents[a].text.ToString();
-						i.transform.GetChild (1).GetChild (0).GetComponent<Text> ().font = ChangeFont ();					
-						i.transform.GetChild (1).GetChild (0).GetComponent<Text> ().fontSize = obj.localContents [a].fontSize;
-                        i.transform.GetChild(1).GetChild(0).GetComponent<Text>().lineSpacing = obj.localContents[a].lineSpacing;
+                    for (int a = 0; a < obj.localContents.Count; a++)
+                    {
+                        if (obj.localContents[a].languageType == ApplicationData.SelectedLanguage)
+                        {
+                            
+                            i.transform.GetChild(1).GetChild(0).GetComponent<Text>().font = ChangeFont();
+                            i.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = ThaiFontAdjuster.Adjust(obj.localContents[a].text.ToString());
+                            i.transform.GetChild(1).GetChild(0).GetComponent<Text>().fontSize = obj.localContents[a].fontSize;
+                            i.transform.GetChild(1).GetChild(0).GetComponent<Text>().lineSpacing = obj.localContents[a].lineSpacing;
 
+                        }
+                        i.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.TapOnPrologue);
+                        i.transform.GetChild(1).GetChild(1).GetComponent<Text>().font = ChangeFont();
+                        i.transform.GetChild(1).GetChild(1).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.TapOnPrologue);
                     }
-					i.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.TapOnPrologue);
-					i.transform.GetChild (1).GetChild (1).GetComponent<Text> ().font = ChangeFont ();
-					i.transform.GetChild (1).GetChild (1).GetComponent<Text> ().fontSize = ApplicationData.SetFontSize (LocaleType.TapOnPrologue);
-				}
-			}
+                }
+            }
+            else
+            {
+                if (!obj.Equals(new TutorialData()))
+                {
+                    i.transform.GetChild(0).GetComponent<Image>().sprite = obj.image;
+
+                    for (int a = 0; a < obj.localContents.Count; a++)
+                    {
+                        if (obj.localContents[a].languageType == ApplicationData.SelectedLanguage)
+                        {
+                            i.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = obj.localContents[a].text.ToString();
+                            i.transform.GetChild(1).GetChild(0).GetComponent<Text>().font = ChangeFont();
+
+                        }
+                        i.transform.GetChild(1).GetChild(1).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.TapOnPrologue);
+                        i.transform.GetChild(1).GetChild(1).GetComponent<Text>().font = ChangeFont();
+                        i.transform.GetChild(1).GetChild(1).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.TapOnPrologue);
+                    }
+                }
+            }
+
+			
 		}
     }
 

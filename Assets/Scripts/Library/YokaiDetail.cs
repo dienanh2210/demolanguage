@@ -58,9 +58,12 @@ public class YokaiDetail : MonoBehaviour
 			_description.GetComponent<Text>().text = yokai.localContents[(int)ApplicationData.SelectedLanguage].text.ToString();
 			if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
 				_description.GetComponent<Text> ().font = ApplicationData.GetFont (4);
-			} else {
+                _description.GetComponent<Text>().fontSize = 62;
+
+            } else {
 				_description.GetComponent<Text> ().font = ApplicationData.GetFont (2);
-			}
+                _description.GetComponent<Text>().fontSize = 42;
+            }
         }
     }
 
@@ -87,11 +90,17 @@ public class YokaiDetail : MonoBehaviour
                     _kana.GetComponent<Text>().text = "";
                 }
 				_description.GetComponent<Text>().text = d.localContents[(int)ApplicationData.SelectedLanguage].text;
-				if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
-					_description.GetComponent<Text> ().font = ApplicationData.GetFont (4);
-				} else {
-					_description.GetComponent<Text> ().font = ApplicationData.GetFont (2);
-				}
+                if (ApplicationData.SelectedLanguage == LanguageType.Thai)
+                {
+                    _description.GetComponent<Text>().font = ApplicationData.GetFont(4);
+                    _description.GetComponent<Text>().fontSize = 62;
+
+                }
+                else
+                {
+                    _description.GetComponent<Text>().font = ApplicationData.GetFont(2);
+                    _description.GetComponent<Text>().fontSize = 42;
+                }
             }
         }
         PageData.Initialize();

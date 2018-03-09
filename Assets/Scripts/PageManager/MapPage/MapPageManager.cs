@@ -86,34 +86,43 @@ public class MapPageManager : Page
         btnShowRewardList.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonBonus);
         btnGuidePlay.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonHowToPlay);
         btnGuidePlay.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
-        btnGuidePlay.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonHowToPlay);
+       
         btnClose.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.ButtonClose);
         if (ApplicationData.SelectedLanguage == LanguageType.Thai)
         {
             btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(4);
             btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
             btnShowRewardList.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
-            
-                foreach (var t in lstText_HowToPlay)
+            btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonYokaiLibrary);
+            btnShowRewardList.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonBonus);
+            btnGuidePlay.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonHowToPlay);
+            foreach (var t in lstText_HowToPlay)
                 {
                     t.font = ApplicationData.GetFont(4);
-                    Debug.Log(t.font);
                 }
-           
-           
+
+            txtOpenEsashinavi.text = ApplicationData.GetLocaleText(LocaleType.ButtonParkNavi);
+            txtOpenEsashinavi.fontSize = ApplicationData.SetFontSize(LocaleType.ButtonParkNavi);
+            txtOpenEsashinavi.font = ChangeFont();
         }
         else
         {
             btnClose.transform.GetChild(0).GetComponent<Text>().font = ApplicationData.GetFont(2);
             btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
             btnShowRewardList.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+            btnShowYokaiLibrary.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonYokaiLibrary);
+            btnShowRewardList.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonBonus);
+            btnGuidePlay.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.ButtonHowToPlay);
             foreach (var t in lstText_HowToPlay) {
                 t.font = ApplicationData.GetFont(2);
             }
+
+            txtOpenEsashinavi.text = ApplicationData.GetLocaleText(LocaleType.ButtonParkNavi);
+            txtOpenEsashinavi.fontSize = ApplicationData.SetFontSize(LocaleType.ButtonParkNavi);
+            txtOpenEsashinavi.font = ChangeFont();
         }
 
-        txtOpenEsashinavi.text = ApplicationData.GetLocaleText(LocaleType.ButtonParkNavi);
-        txtOpenEsashinavi.font =  ChangeFont();
+        
     }
 
     IEnumerator _EnableBeacon()
@@ -172,6 +181,7 @@ public class MapPageManager : Page
                 LastEnding.SetActive(false);
                 MiddleEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.MiddleEnding2);
                 MiddleEnding.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+                MiddleEnding.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.MiddleEnding2);
                 UserData.IsShowedMessageForMiddleEndingBeforeBoss = true;
                 MapManager.SetupIcon();
             }
@@ -181,6 +191,8 @@ public class MapPageManager : Page
                 MiddleEnding.SetActive(true);
                 LastEnding.SetActive(false);
                 MiddleEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.MiddleEnding1);
+                MiddleEnding.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+                MiddleEnding.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.MiddleEnding1);
                 UserData.IsShowedMessageForMiddleEnding = true;
                 MapManager.SetupIcon();
             }
@@ -192,6 +204,7 @@ public class MapPageManager : Page
                 MiddleEnding.SetActive(false);
                 LastEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.LastEnding);
                 LastEnding.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+                LastEnding.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.LastEnding);
                 UserData.IsShowedMessageForLastEnding = true;
                 MapManager.SetupIcon();
             }
@@ -419,23 +432,27 @@ public class MapPageManager : Page
     {
         DialogGuidePlay.SetActive(true);
 
-        lstText_HowToPlay[0].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_1);
-        lstText_HowToPlay[1].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_2);
-        lstText_HowToPlay[2].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_yokai);
-        lstText_HowToPlay[3].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_item);
-        lstText_HowToPlay[4].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_3);
-        lstText_HowToPlay[5].text = ApplicationData.GetLocaleText(LocaleType.how_to_play_message);
-        lstText_HowToPlay[6].text = ApplicationData.GetLocaleText(LocaleType.ButtonPrologue);
+        lstText_HowToPlay[0].text = (ApplicationData.GetLocaleText(LocaleType.how_to_play_1));
+        lstText_HowToPlay[1].text = (ApplicationData.GetLocaleText(LocaleType.how_to_play_2));
+        lstText_HowToPlay[2].text = (ApplicationData.GetLocaleText(LocaleType.how_to_play_yokai));
+        lstText_HowToPlay[3].text = (ApplicationData.GetLocaleText(LocaleType.how_to_play_item));
+        lstText_HowToPlay[4].text = (ApplicationData.GetLocaleText(LocaleType.how_to_play_3));
+        lstText_HowToPlay[5].text = (ApplicationData.GetLocaleText(LocaleType.how_to_play_message));
+        lstText_HowToPlay[6].text = (ApplicationData.GetLocaleText(LocaleType.ButtonPrologue));
 
         foreach (var text in lstText_HowToPlay) {
             if (ApplicationData.SelectedLanguage == LanguageType.English) {
                 text.lineSpacing = 0.5f;
             } else if(ApplicationData.SelectedLanguage == LanguageType.Thai) {
                 text.lineSpacing = 1f;
+                text.fontSize = 55;
+               
             } else {
                 text.lineSpacing = 0.7f;
             }
         }
+        lstText_HowToPlay[6].fontSize = 35;
+
 
         if (ApplicationData.SelectedLanguage == LanguageType.Thai)
         {

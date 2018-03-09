@@ -168,6 +168,7 @@ public class TitlePage : Page
             txtCaution.lineSpacing = ApplicationData.SetLineSpacing(LocaleType.ButtonOpenCautionDialog);
 
             GetText = Text.FindObjectsOfType<Text>();
+
             if (ApplicationData.SelectedLanguage == LanguageType.Thai)
             {
                 txtSelectLanguage.font = ApplicationData.GetFont(4);
@@ -242,10 +243,11 @@ public class TitlePage : Page
     public void OpenPopupGuide()
     {
         PopupRed.SetActive(true);
+        //ApplicationData.GetLocaleText(LocaleType.Guide, txtRed);
         txtRed.text = ApplicationData.GetLocaleText(LocaleType.Guide);
         txtRed.font = ChangeFont();
         txtRed.lineSpacing = ApplicationData.SetLineSpacing(LocaleType.Guide);
-
+        txtRed.fontSize = ApplicationData.SetFontSize(LocaleType.Guide);
     }
     #endregion
 }
