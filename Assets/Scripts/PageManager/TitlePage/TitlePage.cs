@@ -82,8 +82,7 @@ public class TitlePage : Page
     {
         if (!UserData.IsShowedGuideNote)
         {
-            PopupRed.SetActive(true);
-            txtRed.text = ApplicationData.GetLocaleText(LocaleType.Guide);
+            OpenPopupGuide();
             UserData.IsShowedGuideNote = true;
 
         }
@@ -243,7 +242,6 @@ public class TitlePage : Page
     public void OpenPopupGuide()
     {
         PopupRed.SetActive(true);
-        //ApplicationData.GetLocaleText(LocaleType.Guide, txtRed);
         txtRed.text = ApplicationData.GetLocaleText(LocaleType.Guide);
         txtRed.font = ChangeFont();
         txtRed.lineSpacing = ApplicationData.SetLineSpacing(LocaleType.Guide);
