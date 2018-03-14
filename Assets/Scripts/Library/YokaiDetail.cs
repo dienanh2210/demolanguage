@@ -49,16 +49,28 @@ public class YokaiDetail : MonoBehaviour
         }
         else
         {
-			_name.GetComponent<Text>().text = yokai.localNames[(int)ApplicationData.SelectedLanguage].text.ToString();
-            _kana.GetComponent<Text>().text = "";
+            if (ThaiFontAdjuster.IsThaiString(yokai.localNames[(int)ApplicationData.SelectedLanguage].text.ToString()))
+            {
+                _name.GetComponent<Text>().text = ThaiFontAdjuster.Adjust(yokai.localNames[(int)ApplicationData.SelectedLanguage].text.ToString());
+                _kana.GetComponent<Text>().text = "";
+            }
+            else
+            {
+                _name.GetComponent<Text>().text = yokai.localNames[(int)ApplicationData.SelectedLanguage].text.ToString();
+                _kana.GetComponent<Text>().text = "";
+            }
+			
         }
 
         for (int a = 0; a < ApplicationData.YokaiData[a].localContents.Count; a++)
         {
-			_description.GetComponent<Text>().text = yokai.localContents[(int)ApplicationData.SelectedLanguage].text.ToString();
+            
+             _description.GetComponent<Text>().text = yokai.localContents[(int)ApplicationData.SelectedLanguage].text.ToString();
+
 			if (ApplicationData.SelectedLanguage == LanguageType.Thai) {
 				_description.GetComponent<Text> ().font = ApplicationData.GetFont (4);
                 _description.GetComponent<Text>().fontSize = 62;
+                _description.GetComponent<Text>().text = ThaiFontAdjuster.Adjust(yokai.localContents[(int)ApplicationData.SelectedLanguage].text.ToString());
 
             } else {
 				_description.GetComponent<Text> ().font = ApplicationData.GetFont (2);
@@ -86,15 +98,26 @@ public class YokaiDetail : MonoBehaviour
                 }
                 else
                 {
-					_name.GetComponent<Text>().text = d.localNames[(int)ApplicationData.SelectedLanguage].text;
-                    _kana.GetComponent<Text>().text = "";
+                    if (ThaiFontAdjuster.IsThaiString(d.localNames[(int)ApplicationData.SelectedLanguage].text.ToString()))
+                    {
+                        _name.GetComponent<Text>().text = ThaiFontAdjuster.Adjust(d.localNames[(int)ApplicationData.SelectedLanguage].text.ToString());
+                        _kana.GetComponent<Text>().text = "";
+                    }
+                    else
+                    {
+                        _name.GetComponent<Text>().text = d.localNames[(int)ApplicationData.SelectedLanguage].text;
+                        _kana.GetComponent<Text>().text = "";
+                    }
+
+                    
                 }
+
 				_description.GetComponent<Text>().text = d.localContents[(int)ApplicationData.SelectedLanguage].text;
                 if (ApplicationData.SelectedLanguage == LanguageType.Thai)
                 {
                     _description.GetComponent<Text>().font = ApplicationData.GetFont(4);
                     _description.GetComponent<Text>().fontSize = 62;
-
+                    _description.GetComponent<Text>().text = ThaiFontAdjuster.Adjust(d.localContents[(int)ApplicationData.SelectedLanguage].text);
                 }
                 else
                 {
