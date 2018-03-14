@@ -2305,8 +2305,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u5C01 \u5370 \u5E16 \u3092 \u898B \u308B"
 --- !u!114 &114188403378114548
@@ -3017,8 +3017,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 
 --- !u!114 &114414296020981120
@@ -3530,8 +3530,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u9589 \u3058 \u308B"
 --- !u!114 &114528276018893718
@@ -4818,8 +4818,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u5C01 \u5370 \u3059 \u308B"
 --- !u!114 &114808305678637180
@@ -6062,7 +6062,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1949489268475098}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89, y: 76.67981, z: 0}
+  m_LocalPosition: {x: -89, y: 76.67969, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224166952146062084}
@@ -6072,7 +6072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -89, y: 76.67981}
+  m_AnchoredPosition: {x: -89, y: 76.67969}
   m_SizeDelta: {x: 300, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224062879531655504

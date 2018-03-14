@@ -87,6 +87,10 @@ public class GetPageManager : Page
                 neededItemNoti.SetActive (true);
                 neededItemNoti.GetComponentInChildren<Text> ().text = ApplicationData.GetLocaleText (LocaleType.NoItemMessage1);
 				neededItemNoti.GetComponentInChildren<Text> ().font = ChangeFont ();
+                if (ApplicationData.SelectedLanguage == LanguageType.Thai)
+                {
+                    neededItemNoti.GetComponentInChildren<Text>().fontSize = 62;
+                }
                 count = 1;
             }
 

@@ -42,23 +42,45 @@ public class BonusPage : Page {
             else
                 buttonTicket.SetActive(false);
 
+
+     
+
 		BonusPageText [0].text = ApplicationData.GetLocaleText (LocaleType.ButtonBack);
-		BonusPageText [1].text = ApplicationData.GetLocaleText(LocaleType.TitleBonusPage);
+        BonusPageText[0].fontSize = ApplicationData.SetFontSize(LocaleType.ButtonBack);
+        BonusPageText [1].text = ApplicationData.GetLocaleText(LocaleType.TitleBonusPage);
     
 		BonusPageText [2].text = ApplicationData.GetLocaleText(LocaleType.ButtonPhotoFrame);
+
 		BonusPageText [3].text = ApplicationData.GetLocaleText(LocaleType.ButtonTicket);
+
 		BonusPageText [4].text = ApplicationData.GetLocaleText(LocaleType.ButtonPrologue);
+
 		BonusPageText [5].text = ApplicationData.GetLocaleText (LocaleType.ConfirmationDialog1);
 		BonusPageText [5].lineSpacing = ApplicationData.SetLineSpacing (LocaleType.ConfirmationDialog1);
-		BonusPageText [6].text = ApplicationData.GetLocaleText (LocaleType.ConfirmationDialog2);
-		BonusPageText [7].text = ApplicationData.GetLocaleText (LocaleType.ButtonYes);
-		BonusPageText [8].text = ApplicationData.GetLocaleText (LocaleType.ButtonNo);
-		BonusPageText [9].text = ApplicationData.GetLocaleText (LocaleType.ButtonYes);
-		BonusPageText [10].text = ApplicationData.GetLocaleText (LocaleType.ButtonNo);
-		BonusPageText [11].text = ApplicationData.GetLocaleText (LocaleType.ButtonExchangeTicket);
-		BonusPageText [12].text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
-		BonusPageText [13].text = ApplicationData.GetLocaleText(LocaleType.TitleTicketPage);
+        BonusPageText [5].fontSize = ApplicationData.SetFontSize(LocaleType.ConfirmationDialog1);
+
+        BonusPageText [6].text = ApplicationData.GetLocaleText (LocaleType.ConfirmationDialog2);
+        BonusPageText [6].fontSize = ApplicationData.SetFontSize(LocaleType.ConfirmationDialog2);
+
+        BonusPageText [7].text = ApplicationData.GetLocaleText (LocaleType.ButtonYes);
+        BonusPageText[7].fontSize = ApplicationData.SetFontSize(LocaleType.ButtonYes);
+        BonusPageText [8].text = ApplicationData.GetLocaleText (LocaleType.ButtonNo);
+        BonusPageText[8].fontSize = ApplicationData.SetFontSize(LocaleType.ButtonNo);
+        BonusPageText [9].text = ApplicationData.GetLocaleText (LocaleType.ButtonYes);
+        BonusPageText[9].fontSize = ApplicationData.SetFontSize(LocaleType.ButtonYes);
+        BonusPageText [10].text = ApplicationData.GetLocaleText (LocaleType.ButtonNo);
+        BonusPageText[10].fontSize = ApplicationData.SetFontSize(LocaleType.ButtonNo);
+
+        BonusPageText [11].text = ApplicationData.GetLocaleText (LocaleType.ButtonExchangeTicket);
+        BonusPageText [11].fontSize = ApplicationData.SetFontSize(LocaleType.ButtonExchangeTicket);
+
+        BonusPageText [12].text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
+
+        BonusPageText[12].fontSize = ApplicationData.SetFontSize(LocaleType.ButtonBack);
+
+        BonusPageText [13].text = ApplicationData.GetLocaleText(LocaleType.TitleTicketPage);
 		BonusPageText [13].fontSize = ApplicationData.SetFontSize (LocaleType.TitleTicketPage);
+
 		BonusPageText [14].text = ApplicationData.GetLocaleText(LocaleType.TicketNoticeForStaff);
 		BonusPageText [14].rectTransform.localPosition = ApplicationData.SetLinePosition (LocaleType.TicketNoticeForStaff);
 		BonusPageText [14].rectTransform.sizeDelta = new Vector2 (ApplicationData.SetLineWidth (LocaleType.TicketNoticeForStaff), 327);
@@ -68,10 +90,12 @@ public class BonusPage : Page {
 		BonusPageText [15].text = ApplicationData.GetLocaleText(LocaleType.TicketNoticeDontTap);
 		BonusPageText [15].rectTransform.localPosition = ApplicationData.SetLinePosition (LocaleType.TicketNoticeDontTap);
 		BonusPageText [15].rectTransform.sizeDelta = new Vector2 (ApplicationData.SetLineWidth (LocaleType.TicketNoticeDontTap), 327);
+        BonusPageText [15].fontSize = ApplicationData.SetFontSize(LocaleType.TicketNoticeDontTap);
 
-		BonusPageText [16].text = ApplicationData.GetLocaleText(LocaleType.ButtonTicketStaff);
+        BonusPageText [16].text = ApplicationData.GetLocaleText(LocaleType.ButtonTicketStaff);
+        BonusPageText [16].fontSize = ApplicationData.SetFontSize(LocaleType.ButtonTicketStaff);
 
-		SetFont (BonusPageText);
+        SetFont (BonusPageText);
 
 		BonusPageText [1].fontSize = ApplicationData.SetFontSize (LocaleType.TitleBonusPage);
 		BonusPageText [2].fontSize = ApplicationData.SetFontSize (LocaleType.ButtonPhotoFrame);

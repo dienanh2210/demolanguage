@@ -25,12 +25,7 @@ public class Photo : Page
 
     #endregion
 
-    //#region UNITY_DEFAULT_CALLBACKS
-    //void OnDisable()
-    //{
-    //    ScreenshotHandler.ScreenshotFinishedSaving -= ScreenshotSaved;
-    //}
-    //#endregion
+   
 
     #region DELEGATE_EVENT_LISTENER
     void ScreenshotSaved()
@@ -52,8 +47,6 @@ public class Photo : Page
 
     private void OnEnable()
     {
-        //ScreenshotHandler.ScreenshotFinishedSaving += ScreenshotSaved;
-
         txtBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
         txtSwitch.text = ApplicationData.GetLocaleText(LocaleType.ButtonSwitchCamera);
         txtShareTwitterTitle.text = ApplicationData.GetLocaleText(LocaleType.ShareTwitterTitle);
@@ -63,6 +56,22 @@ public class Photo : Page
         txtShareTwitterTitle.font = ChangeFont();
         txtYes.font = ChangeFont();
         txtNo.font = ChangeFont();
+        txtBack.font = ChangeFont();
+        txtSwitch.font = ChangeFont();
+
+        txtBack.text = ApplicationData.GetLocaleText(LocaleType.ButtonBack);
+        txtBack.fontSize = ApplicationData.SetFontSize(LocaleType.ButtonBack);
+
+        txtSwitch.text = ApplicationData.GetLocaleText(LocaleType.ButtonSwitchCamera);
+        txtSwitch.fontSize = ApplicationData.SetFontSize(LocaleType.ButtonSwitchCamera);
+
+        txtShareTwitterTitle.text = ApplicationData.GetLocaleText(LocaleType.ShareTwitterTitle);
+        txtShareTwitterTitle.fontSize = ApplicationData.SetFontSize(LocaleType.ShareTwitterTitle);
+
+        txtYes.text = ApplicationData.GetLocaleText(LocaleType.ButtonYes);
+        txtYes.fontSize = ApplicationData.SetFontSize(LocaleType.ButtonYes);
+        txtNo.text = ApplicationData.GetLocaleText(LocaleType.ButtonNo);
+        txtNo.fontSize = ApplicationData.SetFontSize(LocaleType.ButtonNo);
 
     }
 
