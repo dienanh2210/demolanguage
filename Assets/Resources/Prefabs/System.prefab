@@ -1582,35 +1582,35 @@ MonoBehaviour:
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
     - languageType: 1
       text: You got an item!
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
     - languageType: 2
       text: "\u5DF2\u7372\u5F97\u9053\u5177\uFF01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
     - languageType: 3
       text: "\u5DF2\u83B7\u5F97\u9053\u5177\uFF01"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 50
     - languageType: 4
       text: "\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49\u0E44\u0E2D\u0E40\u0E17\u0E47\u0E21!"
       image: {fileID: 0}
       lineSpacing: 0
       linePosition: {x: 0, y: 0}
       lineWidth: 0
-      fontSize: 0
+      fontSize: 70
   - key: 39
     localContents:
     - languageType: 0
