@@ -181,8 +181,8 @@ public class MapPageManager : Page
                 DialogEnding.SetActive(true);
                 MiddleEnding.SetActive(true);
                 LastEnding.SetActive(false);
-                MiddleEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.MiddleEnding2);
                 MiddleEnding.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+                MiddleEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.MiddleEnding2);
                 MiddleEnding.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.MiddleEnding2);
                 UserData.IsShowedMessageForMiddleEndingBeforeBoss = true;
                 MapManager.SetupIcon();
@@ -192,8 +192,8 @@ public class MapPageManager : Page
                 DialogEnding.SetActive(true);
                 MiddleEnding.SetActive(true);
                 LastEnding.SetActive(false);
-                MiddleEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.MiddleEnding1);
                 MiddleEnding.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+                MiddleEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.MiddleEnding1);
                 MiddleEnding.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.MiddleEnding1);
                 UserData.IsShowedMessageForMiddleEnding = true;
                 MapManager.SetupIcon();
@@ -204,8 +204,8 @@ public class MapPageManager : Page
                 DialogEnding.SetActive(true);
                 LastEnding.SetActive(true);
                 MiddleEnding.SetActive(false);
-                LastEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.LastEnding);
                 LastEnding.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+                LastEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.LastEnding);
                 LastEnding.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.LastEnding);
                 UserData.IsShowedMessageForLastEnding = true;
                 MapManager.SetupIcon();
@@ -249,6 +249,8 @@ public class MapPageManager : Page
         DialogEnding.SetActive(true);
         LastEnding.SetActive(true);
         MiddleEnding.SetActive(false);
+        LastEnding.transform.GetChild(0).GetComponent<Text>().font = ChangeFont();
+        LastEnding.transform.GetChild(0).GetComponent<Text>().fontSize = ApplicationData.SetFontSize(LocaleType.WaitNextDetect);
         LastEnding.transform.GetChild(0).GetComponent<Text>().text = ApplicationData.GetLocaleText(LocaleType.WaitNextDetect);
     }
 
