@@ -5,8 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PluginAndroid : MonoBehaviour
 {
-   
-     
+
+
 #if UNITY_ANDROID
     public static System.Action<string> OnGetBeacon;
 
@@ -14,7 +14,7 @@ public class PluginAndroid : MonoBehaviour
     private AndroidJavaObject pluginObject = null;
     private bool onFocus = false;
     private bool onForeground = true;
-
+    public Text textDebug;
     void Start()
     {
         using (AndroidJavaClass activityClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
@@ -25,15 +25,27 @@ public class PluginAndroid : MonoBehaviour
         {
             if (pluginClass != null)
             {
+                pluginClass.CallStatic("SetInstance");
                 pluginObject = pluginClass.CallStatic<AndroidJavaObject>("instance");
                 pluginObject.Call("setContext", activityContext);
             }
         }
-        pluginObject.Call("isNotRunningBackground");
+        Scan();
 
-        pluginObject.Call("turnOnService", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification), "");
     }
-
+    void Scan()
+    {
+        try
+        {
+            pluginObject.Call("isNotRunningBackground");
+            pluginObject.Call("turnOnService", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification), "");
+           
+        }
+        catch (Exception e)
+        {
+            textDebug.text = e.Message;
+        }
+    }
     string DataToJSON()
     {
         List<IBeaconData> list = ApplicationData.IBeaconData;
@@ -84,8 +96,15 @@ public class PluginAndroid : MonoBehaviour
         if (OnGetBeacon != null)
             OnGetBeacon(ibeacon);
     }
-
-    private void OnApplicationQuit()
+    public void ReceiveMessage2(string ibeacon)
+    {
+        textDebug.text = ibeacon;
+    }
+    public void OnApplicationQuit()
+    {
+        pluginObject.Call("turnOffService");
+    }
+    public void OnDestroy()
     {
         pluginObject.Call("turnOffService");
     }

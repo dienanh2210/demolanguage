@@ -38,15 +38,15 @@ import java.util.Date;
 import java.util.List;
 
 
-public class IBeaconService extends Service implements BootstrapNotifier {
-    @Nullable
-    @Override
+public class IBeaconService extends Service implements BootstrapNotifier, BeaconConsumer {
 
+    @Override
     public IBinder onBind(Intent intent) {
         return null;
     }
 
-    private BeaconManager beaconManager;
+
+    public  BeaconManager beaconManager;
     private Region region;
     private String beaconName;
     private RegionBootstrap regionBootstrap;
@@ -58,9 +58,10 @@ public class IBeaconService extends Service implements BootstrapNotifier {
 
     private Context context;
 
-    public void onCreate() {
-        super.onCreate();
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
         try {
+            super.onStartCommand(intent, flags, startId);
 
             context = IBeaconPlugin.instance().getContext();
 
@@ -75,22 +76,86 @@ public class IBeaconService extends Service implements BootstrapNotifier {
                     .setContentIntent(pendingIntent)
                     .setAutoCancel(true);
             notification = notificationBuilder.build();
-
-            beaconManager = BeaconManager.getInstanceForApplication(getApplicationContext());
-            beaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24"));
-            beaconManager.setBackgroundBetweenScanPeriod(2000);
-            beaconManager.setBackgroundScanPeriod(2000);
-            beaconManager.setForegroundBetweenScanPeriod(2000);
-            beaconManager.setForegroundScanPeriod(2000);
-
-            beaconName = "Yokai_get_ibeacon";
+            Bind();
+            beaconName = "Yokai_get_ibeacon" + new Date().getTime();
             region = new Region(beaconName, null, null, null);
             regionBootstrap = new RegionBootstrap(this, region);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return START_STICKY;
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        beaconManager = BeaconManager.getInstanceForApplication(getApplicationContext());
+        beaconManager.getBeaconParsers().add(new BeaconParser().setBeaconLayout("m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24"));
+        beaconManager.setBackgroundBetweenScanPeriod(2000);
+        beaconManager.setBackgroundScanPeriod(2000);
+        beaconManager.setForegroundBetweenScanPeriod(2000);
+        beaconManager.setForegroundScanPeriod(2000);
+    }
+
+    public void Bind() {
+        if (beaconManager != null)
+            beaconManager.bind(this);
+
+    }
+
+    public void UnBind() {
+
+        if (beaconManager != null) {
+            beaconManager.unbind(this);
+            beaconManager.removeAllRangeNotifiers();
+            beaconManager.removeAllMonitorNotifiers();
+            regionBootstrap.disable();
+        }
+
+    }
+
+
+    @Override
+    public void onDestroy() {
+        UnBind();
+
+        super.onDestroy();
+
+    }
+
+
+    @Override
+    public void didEnterRegion(Region region) {
+        try {
+            beaconManager.startRangingBeaconsInRegion(region);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void didExitRegion(Region region) {
+        try {
+            beaconManager.stopRangingBeaconsInRegion(region);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void didDetermineStateForRegion(int i, Region region) {
+
+    }
+
+    @Override
+    public void onBeaconServiceConnect() {
+        try {
             beaconManager.addRangeNotifier(new RangeNotifier() {
                 @Override
                 public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
                     if (beacons.size() > 0) {
-                        for (Beacon b :beacons ) {
+                        for (Beacon b : beacons) {
                             for (IbeaconStruct myStruct : IBeaconPlugin.listIbeacon) {
                                 if (myStruct.minor_id.equals(b.getId3().toString())
                                         && myStruct.uuid.equals(b.getId1().toString().toUpperCase())
@@ -123,41 +188,6 @@ public class IBeaconService extends Service implements BootstrapNotifier {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-    }
-
-    @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
-        return START_NOT_STICKY;
-    }
-
-
-    @Override
-    public void didEnterRegion(Region region) {
-        try {
-            beaconManager.startRangingBeaconsInRegion(region);
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Override
-    public void didExitRegion(Region region) {
-        try {
-            beaconManager.stopRangingBeaconsInRegion(region);
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Override
-    public void didDetermineStateForRegion(int i, Region region) {
-
     }
 }
 
