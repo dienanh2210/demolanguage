@@ -73,10 +73,18 @@ public class YokaiGetTutorialManager : Page{
         }
 
         FireEffect (true);
-
         for (int i = 0; i < ApplicationData.YokaiGetTutorialData.Count; i++) {
-			yokai [i].GetComponentsInChildren<Text> (true) [0].text = ApplicationData.YokaiGetTutorialData [i].localContents [(int)ApplicationData.SelectedLanguage].text.ToString ();
-			yokai [i].GetComponentsInChildren<Text> (true) [0].font = ChangeFont ();
+            if (ThaiFontAdjuster.IsThaiString(ApplicationData.YokaiGetTutorialData[i].localContents[(int)ApplicationData.SelectedLanguage].text.ToString()))
+            {
+                yokai[i].GetComponentsInChildren<Text>(true)[0].text = ThaiFontAdjuster.Adjust(ApplicationData.YokaiGetTutorialData[i].localContents[(int)ApplicationData.SelectedLanguage].text.ToString());
+                yokai[i].GetComponentsInChildren<Text>(true)[0].fontSize += 20;
+            }
+            else
+            {
+                yokai[i].GetComponentsInChildren<Text>(true)[0].text = ApplicationData.YokaiGetTutorialData[i].localContents[(int)ApplicationData.SelectedLanguage].text.ToString();
+                yokai[i].GetComponentsInChildren<Text>(true)[0].fontSize = 42;
+            }
+            yokai [i].GetComponentsInChildren<Text> (true) [0].font = ChangeFont ();
 			yokai [i].GetComponentsInChildren<Text> (true) [0].fontSize = ApplicationData.YokaiGetTutorialData [i].localContents [(int)ApplicationData.SelectedLanguage].fontSize;
         }
 

@@ -32,18 +32,38 @@ public class ApplicationData : MonoBehaviour
     }
 
 
-    public static string GetLocaleText (LocaleType key)
+    public static string GetLocaleText(LocaleType key)
     {
-        var locale = applicationData.localeData.Find ((obj) => obj.key == key);
-        if (locale.key != LocaleType.None) {
-            return locale.localContents.Find ((obj) => obj.languageType == SelectedLanguage).text;
-        } else {
-            Debug.LogError ("cant find locale");
+        var locale = applicationData.localeData.Find((obj) => obj.key == key);
+        if (locale.key != LocaleType.None)
+        {
+            if (ApplicationData.SelectedLanguage == LanguageType.Thai)
+            {
+                try
+                {
+                    return ThaiFontAdjuster.Adjust(locale.localContents.Find((obj) => obj.languageType == SelectedLanguage).text);
+                }
+                catch (Exception e)
+                {
+                    Debug.Log(e.Message);
+                    return "error !";
+                }
+               
+            }
+            else
+            {
+                return locale.localContents.Find((obj) => obj.languageType == SelectedLanguage).text;
+            }
+
+        }
+        else
+        {
+            Debug.LogError("cant find locale");
             return "";
         }
     }
 
-	public static Font GetFont(int index){
+    public static Font GetFont(int index){
 		switch (index) {
 		case 1:
 			return applicationData.fontData.titleFont;
@@ -262,64 +282,64 @@ public enum LanguageType
 public enum LocaleType
 {
     None,
-    TermLimitedYokai,
-    MiddleEnding1,
-    MiddleEnding2,
-    LastEnding,
-    NoItemMessage1,
-    NoItemMessage2,
-    ItemGetTutorial,
-    MiddleBossCrawMessage1,
-    MiddleBossCrawMessage2,
-    MiddleBossCrawMessage3,
-    MiddleEndingAfterBoss,
-    LastEndingAfterBoss,
-    WaitNextDetect,
-    Guide,
-    HowToPlay,
-    TapOnPrologue,
-    ButtonBack,
-    TitleYokaiLibrary,
-    IconLimitedYokai,
-    ButtonHowToPlay,
-    ButtonYokaiLibrary,
-    ButtonBonus,
-    ButtonSwitchCamera,
-    TitleBonusPage,
-    ButtonPhotoFrame,
-    ButtonTicket,
-    ButtonPrologue,
-    TitleTicketPage,
-    TicketNoticeForStaff,
-    TicketNoticeDontTap,
-    ButtonTicketStaff,
-    SelectLanguage,
-    ButtonOpenEsashiApp,
-    ButtonOpenCautionDialog,
-    ButtonClose,
-    ButtonGetSuccessful,
-    ButtonToSeal,
-    MessageGetItem,
-    MessageGetYokai,
-    MessageFindYokai,
-    MessageFindItem,
-	ConfirmationDialog1,
-	ConfirmationDialog2,
-	ButtonYes,
-    ButtonNo,
-	ButtonExchangeTicket,
-    ShareTwitterTitle,
-    DetectNotification,
-    ButtonCancelQuit,
-    ButtonQuit,
-    ExitAlert,
-    how_to_play_1,
-    how_to_play_2,
-    how_to_play_yokai,
-    how_to_play_item,
-    how_to_play_3,
-    how_to_play_message,
-    ButtonParkNavi
+    TermLimitedYokai,//1
+    MiddleEnding1,//2
+    MiddleEnding2,//3
+    LastEnding,//4
+    NoItemMessage1,//5
+    NoItemMessage2,//6
+    ItemGetTutorial,//7
+    MiddleBossCrawMessage1,//8
+    MiddleBossCrawMessage2,//9
+    MiddleBossCrawMessage3,//10
+    MiddleEndingAfterBoss,//11
+    LastEndingAfterBoss,//12
+    WaitNextDetect,//13
+    Guide,//14
+    HowToPlay,//15
+    TapOnPrologue,//16
+    ButtonBack,//17
+    TitleYokaiLibrary,//18
+    IconLimitedYokai,//19
+    ButtonHowToPlay,//20
+    ButtonYokaiLibrary,//21
+    ButtonBonus,//22
+    ButtonSwitchCamera,//23
+    TitleBonusPage,//24
+    ButtonPhotoFrame,//25
+    ButtonTicket,//26
+    ButtonPrologue,//27
+    TitleTicketPage,//28
+    TicketNoticeForStaff,//29
+    TicketNoticeDontTap,//30
+    ButtonTicketStaff,//31
+    SelectLanguage,//32
+    ButtonOpenEsashiApp,//33
+    ButtonOpenCautionDialog,//34
+    ButtonClose,//35
+    ButtonGetSuccessful,//36
+    ButtonToSeal,//37
+    MessageGetItem,//38
+    MessageGetYokai,//39
+    MessageFindYokai,//40
+    MessageFindItem,//41
+	ConfirmationDialog1,//42
+	ConfirmationDialog2,//43
+	ButtonYes,//44
+    ButtonNo,//45
+	ButtonExchangeTicket,//46
+    ShareTwitterTitle,//50
+    DetectNotification,//48
+    ButtonCancelQuit,//49
+    ButtonQuit,//47
+    ExitAlert,//51
+    how_to_play_1,//52
+    how_to_play_2,//53
+    how_to_play_yokai,//54
+    how_to_play_item,//55
+    how_to_play_3,//56
+    how_to_play_message,//57
+    ButtonParkNavi //58
 
 }
 
