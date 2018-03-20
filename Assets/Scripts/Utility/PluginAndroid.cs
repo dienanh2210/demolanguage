@@ -1,3 +1,4 @@
+﻿
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
@@ -5,8 +6,6 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PluginAndroid : MonoBehaviour
 {
-
-
 #if UNITY_ANDROID
     public static System.Action<string> OnGetBeacon;
 
@@ -39,7 +38,7 @@ public class PluginAndroid : MonoBehaviour
         {
             pluginObject.Call("isNotRunningBackground");
             pluginObject.Call("turnOnService", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification), "");
-           
+
         }
         catch (Exception e)
         {
@@ -72,44 +71,39 @@ public class PluginAndroid : MonoBehaviour
 
     void OnApplicationPause(bool pauseStatus)
     {
-        if (pauseStatus && !onFocus && onForeground)
+        if (pauseStatus)
         {
             pluginObject.Call("changeJsonValue", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification));
             pluginObject.Call("isRunningBackground");
-            onForeground = false;
+
         }
-        else if (!pauseStatus && onFocus && !onForeground)
+        else if (!pauseStatus)
         {
             pluginObject.Call("isNotRunningBackground");
-            onForeground = true;
         }
     }
-
-
+    public void UpdateIbeaconInfo()
+    {
+        pluginObject.Call("changeJsonValue", DataToJSON(), ApplicationData.GetLocaleText(LocaleType.DetectNotification));
+    }
     void OnApplicationFocus(bool hasFocus)
     {
         onFocus = hasFocus;
     }
-
     public void ReceiveMessage(string ibeacon)
     {
         if (OnGetBeacon != null)
             OnGetBeacon(ibeacon);
     }
-    public void ReceiveMessage2(string ibeacon)
-    {
-        textDebug.text = ibeacon;
-    }
-    public void OnApplicationQuit()
+    private void OnApplicationQuit()
     {
         pluginObject.Call("turnOffService");
     }
-    public void OnDestroy()
+    private void OnDestroy()
     {
         pluginObject.Call("turnOffService");
     }
 #endif
-
 }
 public struct IbeaconCanShown
 {
@@ -117,5 +111,4 @@ public struct IbeaconCanShown
     public string majorId;
     public string minorId;
     public string timeLastShown;
-
 }
