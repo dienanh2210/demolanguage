@@ -89,4 +89,5 @@ public class IBeaconPlugin {
     public static void sendMessageToUnity(String ibeacon) {
         UnityPlayer.UnitySendMessage("Main Camera", "ReceiveMessage", ibeacon);
     }
+
 }
