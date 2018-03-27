@@ -46,7 +46,7 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
     }
 
 
-    public  BeaconManager beaconManager;
+    public BeaconManager beaconManager;
     private Region region;
     private String beaconName;
     private RegionBootstrap regionBootstrap;
@@ -77,10 +77,6 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
                     .setAutoCancel(true);
             notification = notificationBuilder.build();
             Bind();
-        //    beaconName = "Yokai_get_ibeacon" + new Date().getTime();
-      //      region = new Region(beaconName, null, null, null);
-      //      regionBootstrap = new RegionBootstrap(this, region);
-
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -110,9 +106,7 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
             beaconManager.unbind(this);
             beaconManager.removeAllRangeNotifiers();
             beaconManager.removeAllMonitorNotifiers();
-        //    regionBootstrap.disable();
         }
-
     }
 
 
@@ -145,7 +139,6 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
 
     @Override
     public void didDetermineStateForRegion(int i, Region region) {
-
     }
 
     @Override
