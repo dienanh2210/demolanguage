@@ -46,7 +46,7 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
     }
 
 
-    public  BeaconManager beaconManager;
+    public BeaconManager beaconManager;
     private Region region;
     private String beaconName;
     private RegionBootstrap regionBootstrap;
@@ -77,14 +77,10 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
                     .setAutoCancel(true);
             notification = notificationBuilder.build();
             Bind();
-            beaconName = "Yokai_get_ibeacon" + new Date().getTime();
-            region = new Region(beaconName, null, null, null);
-            regionBootstrap = new RegionBootstrap(this, region);
-
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return START_STICKY;
+        return START_NOT_STICKY;
     }
 
     @Override
@@ -110,9 +106,7 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
             beaconManager.unbind(this);
             beaconManager.removeAllRangeNotifiers();
             beaconManager.removeAllMonitorNotifiers();
-            regionBootstrap.disable();
         }
-
     }
 
 
@@ -145,16 +139,17 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
 
     @Override
     public void didDetermineStateForRegion(int i, Region region) {
-
     }
 
     @Override
     public void onBeaconServiceConnect() {
         try {
+
             beaconManager.addRangeNotifier(new RangeNotifier() {
                 @Override
                 public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
                     if (beacons.size() > 0) {
+
                         for (Beacon b : beacons) {
                             for (IbeaconStruct myStruct : IBeaconPlugin.listIbeacon) {
                                 if (myStruct.minor_id.equals(b.getId3().toString())
@@ -186,6 +181,13 @@ public class IBeaconService extends Service implements BootstrapNotifier, Beacon
                 }
             });
         } catch (Exception e) {
+            e.printStackTrace();
+        }
+        try {
+            beaconName = "Yokai_get_ibeacon" + new Date().getTime();
+            region = new Region(beaconName, null, null, null);
+            beaconManager.startRangingBeaconsInRegion(region);
+        } catch (RemoteException e) {
             e.printStackTrace();
         }
     }
