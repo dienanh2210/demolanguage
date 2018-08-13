@@ -176,7 +176,7 @@ public class ApplicationData : MonoBehaviour
             return applicationData.selectedLanguage;
         }
         set {
-            applicationData.selectedLanguage = value;
+         //   applicationData.selectedLanguage = value;
         }
     }
 

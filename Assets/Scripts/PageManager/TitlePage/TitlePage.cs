@@ -193,6 +193,7 @@ public class TitlePage : Page
     public void SelectEnglish()
     {
         ApplicationData.SelectedLanguage = LanguageType.English;
+      
         DisalbeButton("btEnglish");
        
     }
