@@ -59,8 +59,6 @@ public class Appli : MonoBehaviour
         appli = this;
     }
 }
-
-
 public enum LanguageTyp
 {
     Japanese,
