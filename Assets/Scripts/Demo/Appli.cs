@@ -24,13 +24,12 @@ public class Appli : MonoBehaviour
                     Debug.Log(e.Message);
                     return "error !";
                 }
-
             }
             else
             {
                 return localee.localContents.Find((obj) => obj.languageTyp == SelectedLanguage).text;
             }
-
+      
         }
         else
         {
